@@ -1,0 +1,34 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Brain as a network}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Topological organisation of the brain}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{The role of brain network hubs}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Genetic markers of brain connectivity}{chapter.1}% 5
+\BOOKMARK [2][-]{subsection.1.4.1}{Heritability}{section.1.4}% 6
+\BOOKMARK [2][-]{subsection.1.4.2}{Structural DNA variation}{section.1.4}% 7
+\BOOKMARK [2][-]{subsection.1.4.3}{Gene expression}{section.1.4}% 8
+\BOOKMARK [1][-]{section.1.5}{Interim summary}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.6}{Aims and overview of the thesis}{chapter.1}% 10
+\BOOKMARK [0][-]{chapter.2}{Hub connectivity and gene expression in C.elegans}{}% 11
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.2}{Materials and methods}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Results}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.3.1}{Spatial dependency}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.2}{Hub connectivity}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.3}{Correlated gene expression and connectivity}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.4}{Potential drivers of elevated correlated gene expression between hubs}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.5}{Genes driving correlated gene expression patterns}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Discussion}{chapter.2}% 20
+\BOOKMARK [0][-]{chapter.3}{Transcriptional signatures of hub connectivity in neural networks}{}% 21
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{Characterizing gene expression across the entire brain}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.3}{Hubs in brain networks}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.4}{The molecular correlates of hub connectivity}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.5}{Conclusions and further directions}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{Linking brain-wide gene expression and neuroimaging data}{}% 27
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 28
+\BOOKMARK [0][-]{chapter.5}{Concluding remarks and future directions}{}% 29
+\BOOKMARK [0][-]{appendix.A}{An Appendix}{}% 30
+\BOOKMARK [1][-]{section.A.1}{Expression annotations at WormBase}{appendix.A}% 31
+\BOOKMARK [1][-]{section.A.2}{Sensitivity of correlated gene expression measures}{appendix.A}% 32
+\BOOKMARK [1][-]{section.A.3}{Correlated gene expression matching index}{appendix.A}% 33
+\BOOKMARK [0][-]{appendix.B}{Linking brain-wide gene expression and neuroimaging data}{}% 34

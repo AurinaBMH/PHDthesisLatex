@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+A level-1 auxiliary file: Chapter1/Chapter1.aux
+A level-1 auxiliary file: Chapter2/Chapter2.aux
+A level-1 auxiliary file: Chapter3/Chapter3.aux
+A level-1 auxiliary file: Chapter4/Chapter4.aux
+The style file: complex_vancouver.bst
+Reallocated field_info (elt_size=4) to 13880 items from 5000.
+Database file #1: library.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Warning--I didn't find a database entry for "Fornito2018"
+Warning--I didn't find a database entry for "Hackstadt2009"
+Warning--I didn't find a database entry for "Shin2018"
+Warning--I didn't find a database entry for "Barbas2016"
+Warning--I didn't find a database entry for "Rhee2008"
+`journal' is a missing field, not a string, for entry WormAtlas
+while executing---line 1546 of file complex_vancouver.bst
+Warning--missing publisher in Barabasi2016
+`journal' is a missing field, not a string, for entry Oldham
+while executing---line 1546 of file complex_vancouver.bst
+`journal' is a missing field, not a string, for entry Rittman2017
+while executing---line 1546 of file complex_vancouver.bst
+You've used 365 entries,
+            2994 wiz_defined-function locations,
+            2831 strings with 149665 characters,
+and the built_in function-call counts, 1310570 in all, are:
+= -- 147895
+> -- 43502
+< -- 80
++ -- 16275
+- -- 15901
+* -- 101712
+:= -- 139453
+add.period$ -- 1096
+call.type$ -- 365
+change.case$ -- 6761
+chr.to.int$ -- 378
+cite$ -- 366
+duplicate$ -- 143035
+empty$ -- 84774
+format.name$ -- 17070
+if$ -- 266313
+int.to.chr$ -- 11
+int.to.str$ -- 1
+missing$ -- 7466
+newline$ -- 1829
+num.names$ -- 1462
+pop$ -- 75189
+preamble$ -- 1
+purify$ -- 6759
+quote$ -- 0
+skip$ -- 9528
+stack$ -- 0
+substring$ -- 192581
+swap$ -- 15391
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 3267
+warning$ -- 1
+while$ -- 7373
+width$ -- 0
+write$ -- 4734
+(There were 3 error messages)
