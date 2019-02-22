@@ -1,4 +1,4 @@
-\begin{thebibliography}{365}
+\begin{thebibliography}{369}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Acevedo-Triana et~al.(2017)Acevedo-Triana, Le{\'{o}}n, Cardenas, and
@@ -199,6 +199,12 @@ Baran R, Aronoff R, Garriga G.
 \newblock {The C. elegans homeodomain gene unc-42 regulates chemosensory and
   glutamate receptor expression.}
 \newblock {\JournalTitle{Development}} 1999; \hspace{0pt}126:2241--51.
+
+\bibitem[{Barbas(2015)}]{Barbas2015}
+Barbas H.
+\newblock {General Cortical and Special Prefrontal Connections: Principles from
+  Structure to Function}.
+\newblock {\JournalTitle{Annu Rev Neurosci}} 2015; \hspace{0pt}38:269--289.
 
 \bibitem[{Baruch et~al.(2008)Baruch, Itzkovitz, Golan-Mashiach, Shapiro, and
   Segal}]{Baruch2008}
@@ -1182,6 +1188,11 @@ Gămănuţ R, Kennedy H, Toroczkai Z, Ercsey-Ravasz M, {Van Essen} DC,
 \newblock {The Mouse Cortical Connectome, Characterized by an Ultra-Dense
   Cortical Graph, Maintains Specificity by Distinct Connectivity Profiles}.
 \newblock {\JournalTitle{Neuron}} 2018; \hspace{0pt}97:698--715.e10.
+
+\bibitem[{Hackstadt and Hess(2009)}]{Hackstadt2009}
+Hackstadt AJ, Hess AM.
+\newblock {Filtering for increased power for microarray data analysis}.
+\newblock {\JournalTitle{BMC Bioinformatics}} 2009; \hspace{0pt}10:11.
 
 \bibitem[{Hagmann et~al.(2008)Hagmann, Cammoun, Gigandet, Meuli, Honey, Wedeen,
   and Sporns}]{Hagmann2008}
@@ -2239,6 +2250,12 @@ Reus LM, Shen X, Gibson J, Wigmore E, Ligthart L, Adams MJ, Davies G, Cox SR,
   subcortical volumes and white matter integrity in UK Biobank}.
 \newblock {\JournalTitle{Sci Rep}} 2017; \hspace{0pt}7:42140.
 
+\bibitem[{{Rhee Y} et~al.(2008){Rhee Y}, Wood, Dolinski, and
+  Draghici}]{Rhee2008}
+{Rhee Y} S, Wood V, Dolinski K, Draghici S.
+\newblock {Use and misuse of the gene ontology annotations}.
+\newblock {\JournalTitle{Nat Rev Genet}} 2008; \hspace{0pt}9:509--515.
+
 \bibitem[{Richiardi et~al.(2017)Richiardi, Altmann, and
   Greicius}]{Richiardi2017}
 Richiardi J, Altmann A, Greicius M.
@@ -2589,6 +2606,14 @@ Shih CT, Sporns O, Yuan SL, Su TS, Lin YJ, Chuang CC, Wang TY, Lo CC, Greenspan
 \newblock {Connectomics-Based Analysis of Information Flow in the Drosophila
   Brain}.
 \newblock {\JournalTitle{Curr Biol}} 2015; \hspace{0pt}25:1249--1258.
+
+\bibitem[{Shin et~al.(2017)Shin, French, Xu, Leonard, Perron, Pike, Richer,
+  Veillette, Pausova, and Paus}]{Shin2017}
+Shin J, French L, Xu T, Leonard G, Perron M, Pike GB, Richer L, Veillette S,
+  Pausova Z, Paus T.
+\newblock {Cell-Specific Gene-Expression Profiles and Cortical Thickness in the
+  Human Brain}.
+\newblock {\JournalTitle{Cereb Cortex}} 2017; \hspace{0pt}1--11.
 
 \bibitem[{Sim{\'{o}}n-S{\'{a}}nchez et~al.(2009)Sim{\'{o}}n-S{\'{a}}nchez,
   Schulte, Bras, Sharma, Gibbs, Berg, Paisan-Ruiz, Lichtner, Scholz, Hernandez,

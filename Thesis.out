@@ -26,9 +26,25 @@
 \BOOKMARK [1][-]{section.3.5}{Conclusions and further directions}{chapter.3}% 26
 \BOOKMARK [0][-]{chapter.4}{Linking brain-wide gene expression and neuroimaging data}{}% 27
 \BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 28
-\BOOKMARK [0][-]{chapter.5}{Concluding remarks and future directions}{}% 29
-\BOOKMARK [0][-]{appendix.A}{An Appendix}{}% 30
-\BOOKMARK [1][-]{section.A.1}{Expression annotations at WormBase}{appendix.A}% 31
-\BOOKMARK [1][-]{section.A.2}{Sensitivity of correlated gene expression measures}{appendix.A}% 32
-\BOOKMARK [1][-]{section.A.3}{Correlated gene expression matching index}{appendix.A}% 33
-\BOOKMARK [0][-]{appendix.B}{Linking brain-wide gene expression and neuroimaging data}{}% 34
+\BOOKMARK [1][-]{section.4.2}{Measuring gene expression}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{A general workflow for processing brain-wide transcriptomic data}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.3.1}{Step 1. Probe-to-gene re-annotation}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.2}{Step 2. Data filtering}{section.4.3}% 32
+\BOOKMARK [2][-]{subsection.4.3.3}{Step 3. Probe selection}{section.4.3}% 33
+\BOOKMARK [2][-]{subsection.4.3.4}{Step 4. Assigning samples to brain regions}{section.4.3}% 34
+\BOOKMARK [2][-]{subsection.4.3.5}{Step 6. Gene filtering}{section.4.3}% 35
+\BOOKMARK [2][-]{subsection.4.3.6}{Step 7. Accounting for spatial effects}{section.4.3}% 36
+\BOOKMARK [1][-]{section.4.4}{Conclusions}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter.5}{Concluding remarks and future directions}{}% 38
+\BOOKMARK [0][-]{appendix.A}{Hub connectivity and gene expression in C.elegans}{}% 39
+\BOOKMARK [1][-]{section.A.1}{Expression annotations at WormBase}{appendix.A}% 40
+\BOOKMARK [1][-]{section.A.2}{Sensitivity of correlated gene expression measures}{appendix.A}% 41
+\BOOKMARK [1][-]{section.A.3}{Correlated gene expression matching index}{appendix.A}% 42
+\BOOKMARK [0][-]{appendix.B}{Linking brain-wide gene expression and neuroimaging data}{}% 43
+\BOOKMARK [1][-]{section.B.1}{Details on AHBA}{appendix.B}% 44
+\BOOKMARK [1][-]{section.B.2}{Intensity-based filtering and RNA-seq}{appendix.B}% 45
+\BOOKMARK [1][-]{section.B.3}{Differences between probe selection methods}{appendix.B}% 46
+\BOOKMARK [1][-]{section.B.4}{Sample assignment}{appendix.B}% 47
+\BOOKMARK [1][-]{section.B.5}{Evaluating distances between samples}{appendix.B}% 48
+\BOOKMARK [1][-]{section.B.6}{Spatial relationship between CGE and distance}{appendix.B}% 49
+\BOOKMARK [1][-]{section.B.7}{API: probe sequences}{appendix.B}% 50

@@ -34,11 +34,27 @@
 \contentsline {section}{\numberline {3.3}Hubs in brain networks}{49}{section.3.3}
 \contentsline {section}{\numberline {3.4}The molecular correlates of hub connectivity}{52}{section.3.4}
 \contentsline {section}{\numberline {3.5}Conclusions and further directions}{57}{section.3.5}
-\contentsline {chapter}{\numberline {4}Linking brain-wide gene expression and neuroimaging data}{59}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{60}{section.4.1}
-\contentsline {chapter}{\numberline {5}Concluding remarks and future directions}{85}{chapter.5}
-\contentsline {chapter}{\numberline {A}An Appendix}{86}{appendix.A}
-\contentsline {section}{\numberline {A.1}Expression annotations at WormBase}{86}{section.A.1}
-\contentsline {section}{\numberline {A.2}Sensitivity of correlated gene expression measures}{86}{section.A.2}
-\contentsline {section}{\numberline {A.3}Correlated gene expression matching index}{87}{section.A.3}
-\contentsline {chapter}{\numberline {B}Linking brain-wide gene expression and neuroimaging data}{97}{appendix.B}
+\contentsline {chapter}{\numberline {4}Linking brain-wide gene expression and neuroimaging data}{60}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{61}{section.4.1}
+\contentsline {section}{\numberline {4.2}Measuring gene expression}{63}{section.4.2}
+\contentsline {section}{\numberline {4.3}A general workflow for processing brain-wide transcriptomic data}{64}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Step 1. Probe-to-gene re-annotation}{67}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Step 2. Data filtering}{68}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Step 3. Probe selection}{70}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Step 4. Assigning samples to brain regions}{73}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Step 6. Gene filtering}{80}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Step 7. Accounting for spatial effects}{80}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}Conclusions}{84}{section.4.4}
+\contentsline {chapter}{\numberline {5}Concluding remarks and future directions}{86}{chapter.5}
+\contentsline {chapter}{\numberline {A}Hub connectivity and gene expression in C.elegans}{87}{appendix.A}
+\contentsline {section}{\numberline {A.1}Expression annotations at WormBase}{87}{section.A.1}
+\contentsline {section}{\numberline {A.2}Sensitivity of correlated gene expression measures}{88}{section.A.2}
+\contentsline {section}{\numberline {A.3}Correlated gene expression matching index}{88}{section.A.3}
+\contentsline {chapter}{\numberline {B}Linking brain-wide gene expression and neuroimaging data}{98}{appendix.B}
+\contentsline {section}{\numberline {B.1}Details on AHBA}{98}{section.B.1}
+\contentsline {section}{\numberline {B.2}Intensity-based filtering and RNA-seq}{99}{section.B.2}
+\contentsline {section}{\numberline {B.3}Differences between probe selection methods}{102}{section.B.3}
+\contentsline {section}{\numberline {B.4}Sample assignment}{103}{section.B.4}
+\contentsline {section}{\numberline {B.5}Evaluating distances between samples}{103}{section.B.5}
+\contentsline {section}{\numberline {B.6}Spatial relationship between CGE and distance}{104}{section.B.6}
+\contentsline {section}{\numberline {B.7}API: probe sequences}{105}{section.B.7}
