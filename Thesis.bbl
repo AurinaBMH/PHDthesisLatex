@@ -1,4 +1,4 @@
-\begin{thebibliography}{404}
+\begin{thebibliography}{411}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Acevedo-Triana et~al.(2017)Acevedo-Triana, Le{\'{o}}n, Cardenas, and
@@ -134,6 +134,12 @@ Ashburner M, Ball CA, Blake JA, Botstein D, Butler H, Cherry JM, Davis AP,
   Sherlock G, Consortium GO.
 \newblock {Gene Ontology: Tool for The Unification of Biology}.
 \newblock {\JournalTitle{Nat Genet}} 2000; \hspace{0pt}25:25--29.
+
+\bibitem[{Avena-Koenigsberger et~al.(2017)Avena-Koenigsberger, Misic, and
+  Sporns}]{Avena-Koenigsberger2017}
+Avena-Koenigsberger A, Misic B, Sporns O.
+\newblock {Communication dynamics in complex brain networks}.
+\newblock {\JournalTitle{Nat Rev Neurosci}} 2017; \hspace{0pt}19:17--33.
 
 \bibitem[{Ayoub et~al.(2011)Ayoub, Oh, Xie, Leng, Cotney, Dominguez, Noonan,
   and Rakic}]{Ayoub2011}
@@ -1469,6 +1475,15 @@ Jansen AG, Mous SE, White T, Posthuma D, Polderman TJC.
   Development, Morphology, and Function: A Review}.
 \newblock {\JournalTitle{Neuropsychol Rev}} 2015; \hspace{0pt}25:27--46.
 
+\bibitem[{Jansen et~al.(2018)Jansen, Muetzel, Polderman, Jaddoe, Verhulst,
+  van~der Lugt, Tiemeier, Posthuma, and White}]{Jansen2018}
+Jansen PR, Muetzel RL, Polderman TJC, Jaddoe VW, Verhulst FC, van~der Lugt A,
+  Tiemeier H, Posthuma D, White T.
+\newblock {Polygenic Scores for Neuropsychiatric Traits and White Matter
+  Microstructure in the Pediatric Population.}
+\newblock {\JournalTitle{Biol psychiatry Cogn Neurosci neuroimaging}} 2018;
+  \hspace{0pt}0.
+
 \bibitem[{Jbabdi and Johansen-Berg(2011)}]{Jbabdi2011}
 Jbabdi S, Johansen-Berg H.
 \newblock {Tractography: Where Do We Go from Here?}
@@ -2185,6 +2200,13 @@ Pelvig D, Pakkenberg H, Stark A, Pakkenberg B.
 \newblock {Neocortical glial cell numbers in human brains}.
 \newblock {\JournalTitle{Neurobiol Aging}} 2008; \hspace{0pt}29:1754--1762.
 
+\bibitem[{Peper et~al.(2007)Peper, Brouwer, Boomsma, Kahn, and {Hulshoff
+  Pol}}]{Peper2007}
+Peper JS, Brouwer RM, Boomsma DI, Kahn RS, {Hulshoff Pol} HE.
+\newblock {Genetic influences on human brain structure: a review of brain
+  imaging studies in twins.}
+\newblock {\JournalTitle{Hum Brain Mapp}} 2007; \hspace{0pt}28:464--73.
+
 \bibitem[{Pereira et~al.(2015)Pereira, Kratsios, Serrano-Saiz, Sheftel, Mayo,
   Hall, White, LeBoeuf, Garcia, Alon, Hobert, Albertson, Thomson, Alfonso,
   Grundahl, Duerr, Han, Rand, Alqadah, Hsieh, Vidal, Chang, Hobert, Chuang,
@@ -2610,6 +2632,16 @@ Romme IAC, de~Reus MA, Ophoff RA, Kahn RS, van~den Heuvel MP.
 \newblock {Connectome Disconnectivity and Cortical Gene Expression in Patients
   With Schizophrenia.}
 \newblock {\JournalTitle{Biol Psychiatry}} 2017; \hspace{0pt}81:495--502.
+
+\bibitem[{Roshchupkin et~al.(2016)Roshchupkin, Gutman, Vernooij, Jahanshad,
+  Martin, Hofman, McMahon, van~der Lee, van Duijn, de~Zubicaray, Uitterlinden,
+  Wright, Niessen, Thompson, Ikram, and Adams}]{Roshchupkin2016}
+Roshchupkin GV, Gutman BA, Vernooij MW, Jahanshad N, Martin NG, Hofman A,
+  McMahon KL, van~der Lee SJ, van Duijn CM, de~Zubicaray GI, Uitterlinden AG,
+  Wright MJ, Niessen WJ, Thompson PM, Ikram MA, Adams HHH.
+\newblock {Heritability of the shape of subcortical brain structures in the
+  general population}.
+\newblock {\JournalTitle{Nat Commun}} 2016; \hspace{0pt}7:13738.
 
 \bibitem[{Royce et~al.(2007)Royce, Rozowsky, and Gerstein}]{Royce2007}
 Royce TE, Rozowsky JS, Gerstein MB.
@@ -3164,6 +3196,15 @@ Tasic B, Menon V, Nguyen TN, Kim TK, Jarsky T, Yao Z, Levi B, Gray LT, Sorensen
   transcriptomics}.
 \newblock {\JournalTitle{Nat Neurosci}} 2016; \hspace{0pt}19:335--346.
 
+\bibitem[{{The Autism Spectrum Disorders Working Group of The Psychiatric
+  Genomics Consortium}(2017)}]{AutismConsortium2017}
+{The Autism Spectrum Disorders Working Group of The Psychiatric Genomics
+  Consortium}.
+\newblock {Meta-analysis of GWAS of over 16,000 individuals with autism
+  spectrum disorder highlights a novel locus at 10q24.32 and a significant
+  overlap with schizophrenia}.
+\newblock {\JournalTitle{Mol Autism}} 2017; \hspace{0pt}8:21.
+
 \bibitem[{Thomas et~al.(2014)Thomas, Ye, Irfanoglu, Modi, Saleem, Leopold, and
   Pierpaoli}]{Thomas2014}
 Thomas C, Ye FQ, Irfanoglu MO, Modi P, Saleem KS, Leopold DA, Pierpaoli C.
@@ -3171,6 +3212,11 @@ Thomas C, Ye FQ, Irfanoglu MO, Modi P, Saleem KS, Leopold DA, Pierpaoli C.
   tractography is inherently limited}.
 \newblock {\JournalTitle{Proc Natl Acad Sci}} 2014;
   \hspace{0pt}111:16574--16579.
+
+\bibitem[{Thompson(2001)}]{Thompson2001}
+Thompson PM.
+\newblock {Genetic influences on brain structure}.
+\newblock {\JournalTitle{Nat Neurosci}} 2001; \hspace{0pt}4:1253--1258.
 
 \bibitem[{Thompson et~al.(2013)Thompson, Ge, Glahn, Jahanshad, and
   Nichols}]{Thompson2013}
@@ -3631,6 +3677,14 @@ Westlye ET, Lundervold A, Rootwelt H, Lundervold AJ, Westlye LT.
   middle-aged and elderly APOE $\epsilon$4 carriers: relationships with memory
   performance.}
 \newblock {\JournalTitle{J Neurosci}} 2011; \hspace{0pt}31:7775--83.
+
+\bibitem[{Whalley et~al.(2013)Whalley, Sprooten, Hackett, Hall, Blackwood,
+  Glahn, Bastin, Hall, Lawrie, Sussmann, and McIntosh}]{Whalley2013}
+Whalley HC, Sprooten E, Hackett S, Hall L, Blackwood DH, Glahn DC, Bastin M,
+  Hall J, Lawrie SM, Sussmann JE, McIntosh AM.
+\newblock {Polygenic risk and white matter integrity in individuals at high
+  risk of mood disorder.}
+\newblock {\JournalTitle{Biol Psychiatry}} 2013; \hspace{0pt}74:280--6.
 
 \bibitem[{Whitaker et~al.(2016)Whitaker, V{\'{e}}rtes, Romero-Garcia,
   V{\'{a}}{\v{s}}a, Moutoussis, Prabhu, Weiskopf, Callaghan, Wagstyl, Rittman,

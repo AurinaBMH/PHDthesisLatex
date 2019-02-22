@@ -7,11 +7,10 @@ A level-1 auxiliary file: Chapter3/Chapter3.aux
 A level-1 auxiliary file: Chapter4/Chapter4.aux
 A level-1 auxiliary file: Chapter5/Chapter5.aux
 The style file: complex_vancouver.bst
-Reallocated field_info (elt_size=4) to 14720 items from 5000.
+Reallocated field_info (elt_size=4) to 14864 items from 5000.
 Database file #1: library.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
-Warning--I didn't find a database entry for "AutismConsortium2017"
 Name 2 in "Tournier, J-D. and {, F. Calamante}, and a. Connelly" has a comma at the end for entry Tournier2010
 while executing---line 1466 of file complex_vancouver.bst
 Warning--empty booktitle in Akaike1998
@@ -27,45 +26,45 @@ Name 2 in "Tournier, J-D. and {, F. Calamante}, and a. Connelly" has a comma at 
 while executing---line 1546 of file complex_vancouver.bst
 Name 2 in "Tournier, J-D. and {, F. Calamante}, and a. Connelly" has a comma at the end for entry Tournier2010
 while executing---line 1546 of file complex_vancouver.bst
-You've used 404 entries,
+You've used 411 entries,
             2994 wiz_defined-function locations,
-            3038 strings with 177597 characters,
-and the built_in function-call counts, 1553343 in all, are:
-= -- 175119
-> -- 52296
-< -- 90
-+ -- 19569
-- -- 19156
-* -- 120867
-:= -- 164729
-add.period$ -- 1213
-call.type$ -- 404
-change.case$ -- 8002
-chr.to.int$ -- 417
-cite$ -- 407
-duplicate$ -- 169725
-empty$ -- 100059
-format.name$ -- 20450
-if$ -- 315543
+            3071 strings with 179528 characters,
+and the built_in function-call counts, 1570150 in all, are:
+= -- 177118
+> -- 52683
+< -- 92
++ -- 19714
+- -- 19294
+* -- 122106
+:= -- 166483
+add.period$ -- 1234
+call.type$ -- 411
+change.case$ -- 8076
+chr.to.int$ -- 424
+cite$ -- 414
+duplicate$ -- 171649
+empty$ -- 101208
+format.name$ -- 20605
+if$ -- 319000
 int.to.chr$ -- 11
 int.to.str$ -- 1
-missing$ -- 8779
-newline$ -- 2023
-num.names$ -- 1618
-pop$ -- 89432
+missing$ -- 8866
+newline$ -- 2058
+num.names$ -- 1646
+pop$ -- 90409
 preamble$ -- 1
-purify$ -- 8000
+purify$ -- 8074
 quote$ -- 0
-skip$ -- 11096
+skip$ -- 11221
 stack$ -- 0
-substring$ -- 228713
-swap$ -- 18079
+substring$ -- 231314
+swap$ -- 18256
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 3618
+type$ -- 3681
 warning$ -- 3
-while$ -- 8684
+while$ -- 8768
 width$ -- 0
-write$ -- 5238
+write$ -- 5329
 (There were 6 error messages)

@@ -67,4 +67,6 @@
 \BOOKMARK [1][-]{section.B.6}{Spatial relationship between CGE and distance}{appendix.B}% 67
 \BOOKMARK [1][-]{section.B.7}{API: probe sequences}{appendix.B}% 68
 \BOOKMARK [0][-]{appendix.C}{Genetic markers of hub connectivity in the human brain}{}% 69
-\BOOKMARK [1][-]{section.C.1}{BLABLA}{appendix.C}% 70
+\BOOKMARK [1][-]{section.C.1}{Processing gene expression data}{appendix.C}% 70
+\BOOKMARK [1][-]{section.C.2}{Robustness to data processing decisions}{appendix.C}% 71
+\BOOKMARK [1][-]{section.C.3}{Gene enrichment results and rich-club organisation}{appendix.C}% 72
