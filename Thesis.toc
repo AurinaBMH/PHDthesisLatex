@@ -56,18 +56,25 @@
 \contentsline {subsection}{\numberline {5.2.6}Gene expression}{99}{subsection.5.2.6}
 \contentsline {subsection}{\numberline {5.2.7}Transcriptional coupling}{99}{subsection.5.2.7}
 \contentsline {subsection}{\numberline {5.2.8}Enrichment analysis}{101}{subsection.5.2.8}
-\contentsline {chapter}{\numberline {6}Concluding remarks and future directions}{102}{chapter.6}
-\contentsline {chapter}{\numberline {A}Hub connectivity and gene expression in C.elegans}{103}{appendix.A}
-\contentsline {section}{\numberline {A.1}Expression annotations at WormBase}{103}{section.A.1}
-\contentsline {section}{\numberline {A.2}Sensitivity of correlated gene expression measures}{104}{section.A.2}
-\contentsline {section}{\numberline {A.3}Correlated gene expression matching index}{104}{section.A.3}
-\contentsline {chapter}{\numberline {B}Linking brain-wide gene expression and neuroimaging data}{114}{appendix.B}
-\contentsline {section}{\numberline {B.1}Details on AHBA}{114}{section.B.1}
-\contentsline {section}{\numberline {B.2}Intensity-based filtering and RNA-seq}{115}{section.B.2}
-\contentsline {section}{\numberline {B.3}Differences between probe selection methods}{118}{section.B.3}
-\contentsline {section}{\numberline {B.4}Sample assignment}{119}{section.B.4}
-\contentsline {section}{\numberline {B.5}Evaluating distances between samples}{119}{section.B.5}
-\contentsline {section}{\numberline {B.6}Spatial relationship between CGE and distance}{120}{section.B.6}
-\contentsline {section}{\numberline {B.7}API: probe sequences}{121}{section.B.7}
-\contentsline {chapter}{\numberline {C}Genetic markers of hub connectivity in the human brain}{129}{appendix.C}
-\contentsline {section}{\numberline {C.1}BLABLA}{129}{section.C.1}
+\contentsline {section}{\numberline {5.3}Results}{101}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Rich club organisation of the human brain}{102}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Heritability}{103}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Polygenic variation}{105}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Transcriptional coupling}{107}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Discussion}{108}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusions}{111}{section.5.5}
+\contentsline {chapter}{\numberline {6}Concluding remarks and future directions}{112}{chapter.6}
+\contentsline {chapter}{\numberline {A}Hub connectivity and gene expression in C.elegans}{113}{appendix.A}
+\contentsline {section}{\numberline {A.1}Expression annotations at WormBase}{113}{section.A.1}
+\contentsline {section}{\numberline {A.2}Sensitivity of correlated gene expression measures}{114}{section.A.2}
+\contentsline {section}{\numberline {A.3}Correlated gene expression matching index}{114}{section.A.3}
+\contentsline {chapter}{\numberline {B}Linking brain-wide gene expression and neuroimaging data}{124}{appendix.B}
+\contentsline {section}{\numberline {B.1}Details on AHBA}{124}{section.B.1}
+\contentsline {section}{\numberline {B.2}Intensity-based filtering and RNA-seq}{125}{section.B.2}
+\contentsline {section}{\numberline {B.3}Differences between probe selection methods}{128}{section.B.3}
+\contentsline {section}{\numberline {B.4}Sample assignment}{129}{section.B.4}
+\contentsline {section}{\numberline {B.5}Evaluating distances between samples}{129}{section.B.5}
+\contentsline {section}{\numberline {B.6}Spatial relationship between CGE and distance}{130}{section.B.6}
+\contentsline {section}{\numberline {B.7}API: probe sequences}{131}{section.B.7}
+\contentsline {chapter}{\numberline {C}Genetic markers of hub connectivity in the human brain}{139}{appendix.C}
+\contentsline {section}{\numberline {C.1}BLABLA}{139}{section.C.1}

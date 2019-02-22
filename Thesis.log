@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  22 FEB 2019 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  22 FEB 2019 18:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1388,7 +1388,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./cover/Title.tex <logoMonash.jpg, id=260, 2370.8575pt x 469.755pt>
+(./cover/Title.tex <logoMonash.jpg, id=284, 2370.8575pt x 469.755pt>
 File: logoMonash.jpg Graphic file (type jpg)
 
 <use logoMonash.jpg>
@@ -1434,7 +1434,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 
 ] (./cover/Declarations.tex
-<Electron.pdf, id=289, 796.9775pt x 542.025pt>
+<Electron.pdf, id=313, 796.9775pt x 542.025pt>
 File: Electron.pdf Graphic file (type pdf)
  <use Electron.pdf>
 Package pdftex.def Info: Electron.pdf used on input line 15.
@@ -1525,7 +1525,7 @@ Chapter 2.
 
 
 ] [14] [15] [16] [17] [18] [19] [20]
-<Chapter2/Ch2Fig1.pdf, id=1356, 541.88048pt x 273.46968pt>
+<Chapter2/Ch2Fig1.pdf, id=1386, 541.88048pt x 273.46968pt>
 File: Chapter2/Ch2Fig1.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2Fig1.pdf>
@@ -1536,7 +1536,7 @@ Package pdftex.def Info: Chapter2/Ch2Fig1.pdf used on input line 177.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [21] [22 <./Chapter2/Ch2Fig1.pdf>] [23] [24]
-<Chapter2/Ch2Fig2.pdf, id=1463, 526.36653pt x 218.37585pt>
+<Chapter2/Ch2Fig2.pdf, id=1493, 526.36653pt x 218.37585pt>
 File: Chapter2/Ch2Fig2.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2Fig2.pdf>
@@ -1546,7 +1546,7 @@ Package pdftex.def Info: Chapter2/Ch2Fig2.pdf used on input line 265.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25] <Chapter2/Ch2Fig3.pdf, id=1494, 526.36653pt x 191.2746pt>
+[25] <Chapter2/Ch2Fig3.pdf, id=1525, 526.36653pt x 191.2746pt>
 File: Chapter2/Ch2Fig3.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2Fig3.pdf>
@@ -1556,7 +1556,7 @@ Package pdftex.def Info: Chapter2/Ch2Fig3.pdf used on input line 286.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Chapter2/Ch2Fig4.pdf, id=1502, 512.1534pt x 156.82591pt>
+<Chapter2/Ch2Fig4.pdf, id=1533, 512.1534pt x 156.82591pt>
 File: Chapter2/Ch2Fig4.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2Fig4.pdf>
@@ -1567,7 +1567,7 @@ Package pdftex.def Info: Chapter2/Ch2Fig4.pdf used on input line 306.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [26 <./Chapter2/Ch2Fig2.pdf>]
-<Chapter2/Ch2Fig5.pdf, id=1535, 527.93237pt x 336.5373pt>
+<Chapter2/Ch2Fig5.pdf, id=1565, 527.93237pt x 336.5373pt>
 File: Chapter2/Ch2Fig5.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2Fig5.pdf>
@@ -1578,7 +1578,7 @@ Package pdftex.def Info: Chapter2/Ch2Fig5.pdf used on input line 325.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [27 <./Chapter2/Ch2Fig3.pdf>] [28 <./Chapter2/Ch2Fig4.pdf>] [29 <./Chapter2/Ch2
-Fig5.pdf>] <Chapter2/Ch2Fig6.pdf, id=1614, 536.2434pt x 535.88205pt>
+Fig5.pdf>] <Chapter2/Ch2Fig6.pdf, id=1644, 536.2434pt x 535.88205pt>
 File: Chapter2/Ch2Fig6.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2Fig6.pdf>
@@ -1588,14 +1588,14 @@ Package pdftex.def Info: Chapter2/Ch2Fig6.pdf used on input line 394.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30] <Chapter2/Ch2Fig7.pdf, id=1625, 536.2434pt x 190.311pt>
+[30] <Chapter2/Ch2Fig7.pdf, id=1656, 536.2434pt x 190.311pt>
 File: Chapter2/Ch2Fig7.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2Fig7.pdf>
 Package pdftex.def Info: Chapter2/Ch2Fig7.pdf used on input line 429.
 (pdftex.def)             Requested size: 471.03539pt x 167.17508pt.
  [31 <./Chapter2/Ch2Fig6.pdf>] [32 <./Chapter2/Ch2Fig7.pdf>] <Chapter2/Ch2Fig8.
-pdf, id=1690, 536.2434pt x 313.8927pt>
+pdf, id=1720, 536.2434pt x 313.8927pt>
 File: Chapter2/Ch2Fig8.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2Fig8.pdf>
@@ -1650,14 +1650,14 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<Chapter3/Ch3Fig1.pdf, id=2387, 654.445pt x 341.275pt>
+<Chapter3/Ch3Fig1.pdf, id=2417, 654.445pt x 341.275pt>
 File: Chapter3/Ch3Fig1.pdf Graphic file (type pdf)
 
 <use Chapter3/Ch3Fig1.pdf>
 Package pdftex.def Info: Chapter3/Ch3Fig1.pdf used on input line 89.
 (pdftex.def)             Requested size: 471.03539pt x 245.62927pt.
  [50 <./Chapter3/Ch3Fig1.pdf>]
-<Chapter3/Ch3Fig2.pdf, id=2443, 938.57138pt x 313.2482pt>
+<Chapter3/Ch3Fig2.pdf, id=2473, 938.57138pt x 313.2482pt>
 File: Chapter3/Ch3Fig2.pdf Graphic file (type pdf)
 
 <use Chapter3/Ch3Fig2.pdf>
@@ -1681,7 +1681,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<Chapter3/Ch3Fig3.pdf, id=2555, 682.55pt x 455.7025pt>
+<Chapter3/Ch3Fig3.pdf, id=2585, 682.55pt x 455.7025pt>
 File: Chapter3/Ch3Fig3.pdf Graphic file (type pdf)
 
 <use Chapter3/Ch3Fig3.pdf>
@@ -1701,7 +1701,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
 [54] [55 <./Chapter3/Ch3Fig3.pdf>]
-<Chapter3/Ch3Fig4.pdf, id=2655, 916.42375pt x 370.38374pt>
+<Chapter3/Ch3Fig4.pdf, id=2685, 916.42375pt x 370.38374pt>
 File: Chapter3/Ch3Fig4.pdf Graphic file (type pdf)
 
 <use Chapter3/Ch3Fig4.pdf>
@@ -1724,7 +1724,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
  [62] [63] [64]
-<Chapter4/Ch4Fig1.pdf, id=2969, 735.74875pt x 711.65875pt>
+<Chapter4/Ch4Fig1.pdf, id=3000, 735.74875pt x 711.65875pt>
 File: Chapter4/Ch4Fig1.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig1.pdf>
@@ -1735,7 +1735,7 @@ Package pdftex.def Info: Chapter4/Ch4Fig1.pdf used on input line 67.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [65] [66 <./Chapter4/Ch4Fig1.pdf>]
-<Chapter4/Ch4Fig2.pdf, id=3076, 569.05505pt x 227.76433pt>
+<Chapter4/Ch4Fig2.pdf, id=3106, 569.05505pt x 227.76433pt>
 File: Chapter4/Ch4Fig2.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig2.pdf>
@@ -1759,7 +1759,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [69]
-<Chapter4/Ch4Fig3.pdf, id=3164, 569.12625pt x 156.585pt>
+<Chapter4/Ch4Fig3.pdf, id=3194, 569.12625pt x 156.585pt>
 File: Chapter4/Ch4Fig3.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig3.pdf>
@@ -1797,7 +1797,7 @@ Missing character: There is no ò in font cmr9!
 Missing character: There is no ‚ in font cmr9!
 Missing character: There is no Ä in font cmr9!
 Missing character: There is no ô in font cmr9!
- [70 <./Chapter4/Ch4Fig3.pdf>] [71] <Chapter4/Ch4Fig4.pdf, id=3259, 569.12625pt
+ [70 <./Chapter4/Ch4Fig3.pdf>] [71] <Chapter4/Ch4Fig4.pdf, id=3289, 569.12625pt
  x 170.6375pt>
 File: Chapter4/Ch4Fig4.pdf Graphic file (type pdf)
 
@@ -1842,7 +1842,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [73]
-<Chapter4/Ch4Fig5.pdf, id=3406, 569.12625pt x 170.6375pt>
+<Chapter4/Ch4Fig5.pdf, id=3436, 569.12625pt x 170.6375pt>
 File: Chapter4/Ch4Fig5.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig5.pdf>
@@ -1866,7 +1866,7 @@ Missing character: There is no ô in font cmr10!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[76] <Chapter4/Ch4Fig6.pdf, id=3511, 569.12625pt x 255.95625pt>
+[76] <Chapter4/Ch4Fig6.pdf, id=3542, 569.12625pt x 255.95625pt>
 File: Chapter4/Ch4Fig6.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig6.pdf>
@@ -1886,7 +1886,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 [77] [78 <./Chapter4/Ch4Fig6.pdf>] [79] [80]
-<Chapter4/Ch4Fig7.pdf, id=3715, 569.12625pt x 341.275pt>
+<Chapter4/Ch4Fig7.pdf, id=3745, 569.12625pt x 341.275pt>
 File: Chapter4/Ch4Fig7.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig7.pdf>
@@ -1896,7 +1896,7 @@ Package pdftex.def Info: Chapter4/Ch4Fig7.pdf used on input line 313.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[81] <Chapter4/Ch4Fig8.pdf, id=3746, 569.12625pt x 227.85126pt>
+[81] <Chapter4/Ch4Fig8.pdf, id=3777, 569.12625pt x 227.85126pt>
 File: Chapter4/Ch4Fig8.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig8.pdf>
@@ -1907,7 +1907,7 @@ Package pdftex.def Info: Chapter4/Ch4Fig8.pdf used on input line 327.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [82 <./Chapter4/Ch4Fig7.pdf>]
-<Chapter4/Ch4Fig9.pdf, id=3808, 569.12625pt x 511.9125pt>
+<Chapter4/Ch4Fig9.pdf, id=3838, 569.12625pt x 511.9125pt>
 File: Chapter4/Ch4Fig9.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig9.pdf>
@@ -1944,7 +1944,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
  [89] [90]
-<Chapter5/Ch5Fig1.pdf, id=4148, 796.9775pt x 542.025pt>
+<Chapter5/Ch5Fig1.pdf, id=4178, 796.9775pt x 542.025pt>
 File: Chapter5/Ch5Fig1.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig1.pdf>
@@ -1984,11 +1984,11 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
  [93] [94] [95]
 
-Package caption Warning: \label without proper \caption on input line 111.
+Package caption Warning: \label without proper \caption on input line 113.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `Ch5Table1' on page 96 undefined on input line 108.
+LaTeX Warning: Reference `Ch5Table1' on page 96 undefined on input line 110.
 
 [96]
 Missing character: There is no ‚ in font cmr10!
@@ -2005,13 +2005,13 @@ Missing character: There is no ì in font cmr10!
 
 
 Package natbib Warning: Citation `AutismConsortium2017' on page 97 undefined on
- input line 136.
+ input line 138.
 
-[97] [98] [99] <Chapter5/Ch5Fig2.pdf, id=4352, 796.9775pt x 341.275pt>
+[97] [98] [99] <Chapter5/Ch5Fig2.pdf, id=4382, 796.9775pt x 341.275pt>
 File: Chapter5/Ch5Fig2.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig2.pdf>
-Package pdftex.def Info: Chapter5/Ch5Fig2.pdf used on input line 154.
+Package pdftex.def Info: Chapter5/Ch5Fig2.pdf used on input line 157.
 (pdftex.def)             Requested size: 471.03539pt x 201.69939pt.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
@@ -2025,10 +2025,119 @@ Missing character: There is no ì in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [100 <./Chapter5/Ch5Fig2.pdf>]) [101]
-(./Conclusions.tex
+ [100 <./Chapter5/Ch5Fig2.pdf>] [101]
+<Chapter5/Ch5Fig3.pdf, id=4428, 825.0825pt x 455.7025pt>
+File: Chapter5/Ch5Fig3.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig3.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig3.pdf used on input line 192.
+(pdftex.def)             Requested size: 471.03539pt x 260.16336pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Avena-Koenigsberger2017' on page 102 undefine
+d on input line 203.
+
+[102] [103 <./Chapter5/Ch5Fig3.pdf>]
+<Chapter5/Ch5Fig4.pdf, id=4490, 963.6pt x 426.59375pt>
+File: Chapter5/Ch5Fig4.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig4.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig4.pdf used on input line 211.
+(pdftex.def)             Requested size: 471.03539pt x 208.53154pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [104 <./Chapter5/Ch5Fig4.pdf>]
+<Chapter5/Ch5Fig5.pdf, id=4525, 711.65875pt x 541.02126pt>
+File: Chapter5/Ch5Fig5.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig5.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig5.pdf used on input line 229.
+(pdftex.def)             Requested size: 471.03539pt x 358.09053pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[105] [106 <./Chapter5/Ch5Fig5.pdf>]
+<Chapter5/Ch5Fig6.pdf, id=4574, 963.6pt x 426.59375pt>
+File: Chapter5/Ch5Fig6.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig6.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig6.pdf used on input line 248.
+(pdftex.def)             Requested size: 471.03539pt x 208.53154pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [107 <./Chapter5/Ch5Fig6.pdf>]
+
+Package natbib Warning: Citation `Peper2007' on page 108 undefined on input lin
+e 262.
+
+
+Package natbib Warning: Citation `Roshchupkin2016' on page 108 undefined on inp
+ut line 262.
+
+
+Package natbib Warning: Citation `Thompson2001' on page 108 undefined on input 
+line 262.
+
+[108]
+
+Package natbib Warning: Citation `Whalley2013' on page 109 undefined on input l
+ine 264.
+
+
+Package natbib Warning: Citation `Jansen2018' on page 109 undefined on input li
+ne 264.
+
+[109] [110]) [111] (./Conclusions.tex
 Chapter 6.
-) [102
+) [112
 
 
 
@@ -2103,7 +2212,7 @@ Missing character: There is no à in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no à in font cmr10!
-[103
+[113
 
 
 ]
@@ -2125,7 +2234,7 @@ Missing character: There is no ò in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [104] <Chapter2/Ch2S1fig.pdf, id=4414, 516.4896pt x 623.2083pt>
+ [114] <Chapter2/Ch2S1fig.pdf, id=4791, 516.4896pt x 623.2083pt>
 File: Chapter2/Ch2S1fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S1fig.pdf>
@@ -2135,7 +2244,7 @@ Package pdftex.def Info: Chapter2/Ch2S1fig.pdf used on input line 72.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S2fig.pdf, id=4415, 526.48697pt x 438.49821pt>
+<Chapter2/Ch2S2fig.pdf, id=4792, 526.48697pt x 438.49821pt>
 File: Chapter2/Ch2S2fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S2fig.pdf>
@@ -2145,7 +2254,7 @@ Package pdftex.def Info: Chapter2/Ch2S2fig.pdf used on input line 91.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S3fig.pdf, id=4418, 526.48697pt x 313.53134pt>
+<Chapter2/Ch2S3fig.pdf, id=4795, 526.48697pt x 313.53134pt>
 File: Chapter2/Ch2S3fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S3fig.pdf>
@@ -2155,7 +2264,7 @@ Package pdftex.def Info: Chapter2/Ch2S3fig.pdf used on input line 106.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S4fig.pdf, id=4423, 463.85295pt x 213.79875pt>
+<Chapter2/Ch2S4fig.pdf, id=4800, 463.85295pt x 213.79875pt>
 File: Chapter2/Ch2S4fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S4fig.pdf>
@@ -2165,7 +2274,7 @@ Package pdftex.def Info: Chapter2/Ch2S4fig.pdf used on input line 121.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S5fig.pdf, id=4426, 502.7583pt x 336.65775pt>
+<Chapter2/Ch2S5fig.pdf, id=4803, 502.7583pt x 336.65775pt>
 File: Chapter2/Ch2S5fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S5fig.pdf>
@@ -2175,7 +2284,7 @@ Package pdftex.def Info: Chapter2/Ch2S5fig.pdf used on input line 134.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S6fig.pdf, id=4435, 424.82713pt x 253.78815pt>
+<Chapter2/Ch2S6fig.pdf, id=4812, 424.82713pt x 253.78815pt>
 File: Chapter2/Ch2S6fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S6fig.pdf>
@@ -2185,7 +2294,7 @@ Package pdftex.def Info: Chapter2/Ch2S6fig.pdf used on input line 152.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S1Tab.pdf, id=4436, 569.12625pt x 341.275pt>
+<Chapter2/Ch2S1Tab.pdf, id=4813, 569.12625pt x 341.275pt>
 File: Chapter2/Ch2S1Tab.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S1Tab.pdf>
@@ -2195,7 +2304,7 @@ Package pdftex.def Info: Chapter2/Ch2S1Tab.pdf used on input line 161.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S2Tab.pdf, id=4439, 569.12625pt x 255.95625pt>
+<Chapter2/Ch2S2Tab.pdf, id=4816, 569.12625pt x 255.95625pt>
 File: Chapter2/Ch2S2Tab.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S2Tab.pdf>
@@ -2205,7 +2314,7 @@ Package pdftex.def Info: Chapter2/Ch2S2Tab.pdf used on input line 168.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S3Tab.pdf, id=4440, 569.12625pt x 213.79875pt>
+<Chapter2/Ch2S3Tab.pdf, id=4817, 569.12625pt x 213.79875pt>
 File: Chapter2/Ch2S3Tab.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S3Tab.pdf>
@@ -2215,16 +2324,16 @@ Package pdftex.def Info: Chapter2/Ch2S3Tab.pdf used on input line 175.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./appendix/appendixCh4.tex [105] [106 <./Chapter2/Ch2S1fig.pdf>] [107 <./Cha
-pter2/Ch2S2fig.pdf>] [108 <./Chapter2/Ch2S3fig.pdf>] [109 <./Chapter2/Ch2S4fig.
-pdf>] [110 <./Chapter2/Ch2S5fig.pdf>] [111 <./Chapter2/Ch2S6fig.pdf>] [112 <./C
-hapter2/Ch2S1Tab.pdf> <./Chapter2/Ch2S2Tab.pdf>] [113 <./Chapter2/Ch2S3Tab.pdf>
+) (./appendix/appendixCh4.tex [115] [116 <./Chapter2/Ch2S1fig.pdf>] [117 <./Cha
+pter2/Ch2S2fig.pdf>] [118 <./Chapter2/Ch2S3fig.pdf>] [119 <./Chapter2/Ch2S4fig.
+pdf>] [120 <./Chapter2/Ch2S5fig.pdf>] [121 <./Chapter2/Ch2S6fig.pdf>] [122 <./C
+hapter2/Ch2S1Tab.pdf> <./Chapter2/Ch2S2Tab.pdf>] [123 <./Chapter2/Ch2S3Tab.pdf>
 ]
 Appendix B.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[114
+[124
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 20--26
@@ -2236,7 +2345,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-[115]
+[125]
 Missing character: There is no ‚ in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no ì in font cmbx10!
@@ -2245,7 +2354,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-[116]
+[126]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
@@ -2255,21 +2364,21 @@ Missing character: There is no î in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [117] [118]
+ [127] [128]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- <Chapter4/TableS4.pdf, id=4646, 569.12625pt x 142.5325pt>
+ <Chapter4/TableS4.pdf, id=5022, 569.12625pt x 142.5325pt>
 File: Chapter4/TableS4.pdf Graphic file (type pdf)
 
 <use Chapter4/TableS4.pdf>
 Package pdftex.def Info: Chapter4/TableS4.pdf used on input line 60.
 (pdftex.def)             Requested size: 471.03539pt x 117.97134pt.
- [119 <./Chapter4/TableS4.pdf>]
+ [129 <./Chapter4/TableS4.pdf>]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [120]
+ [130]
 Overfull \hbox (4.73135pt too wide) in paragraph at lines 85--87
 []$\OT1/cmtt/m/n/10.95 http : / / api . brain-[]map . org / api / v2 / data / q
 uery . xml ? criteria = model :: Probe ,[] rma :: criteria ,[]
@@ -2293,14 +2402,14 @@ Overfull \hbox (30.10045pt too wide) in paragraph at lines 85--87
 ta % 27 ] ,[][num _ rows$eq10000 ] [start _ row$eq0]$[] 
  []
 
-[121] <Chapter4/FigureS1.pdf, id=4705, 569.12625pt x 170.6375pt>
+[131] <Chapter4/FigureS1.pdf, id=5083, 569.12625pt x 170.6375pt>
 File: Chapter4/FigureS1.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS1.pdf>
 Package pdftex.def Info: Chapter4/FigureS1.pdf used on input line 92.
 (pdftex.def)             Requested size: 471.03539pt x 141.2333pt.
 
-<Chapter4/FigureS2.pdf, id=4708, 569.12625pt x 241.90375pt>
+<Chapter4/FigureS2.pdf, id=5086, 569.12625pt x 241.90375pt>
 File: Chapter4/FigureS2.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS2.pdf>
@@ -2319,7 +2428,7 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-<Chapter4/FigureS3.pdf, id=4711, 569.12625pt x 233.87375pt>
+<Chapter4/FigureS3.pdf, id=5089, 569.12625pt x 233.87375pt>
 File: Chapter4/FigureS3.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS3.pdf>
@@ -2329,7 +2438,7 @@ Package pdftex.def Info: Chapter4/FigureS3.pdf used on input line 108.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS4.pdf, id=4714, 569.12625pt x 227.85126pt>
+<Chapter4/FigureS4.pdf, id=5092, 569.12625pt x 227.85126pt>
 File: Chapter4/FigureS4.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS4.pdf>
@@ -2339,7 +2448,7 @@ Package pdftex.def Info: Chapter4/FigureS4.pdf used on input line 116.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS5.pdf, id=4715, 569.12625pt x 255.95625pt>
+<Chapter4/FigureS5.pdf, id=5093, 569.12625pt x 255.95625pt>
 File: Chapter4/FigureS5.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS5.pdf>
@@ -2349,7 +2458,7 @@ Package pdftex.def Info: Chapter4/FigureS5.pdf used on input line 124.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS6.pdf, id=4716, 569.12625pt x 341.275pt>
+<Chapter4/FigureS6.pdf, id=5094, 569.12625pt x 341.275pt>
 File: Chapter4/FigureS6.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS6.pdf>
@@ -2359,7 +2468,7 @@ Package pdftex.def Info: Chapter4/FigureS6.pdf used on input line 132.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS7.pdf, id=4717, 569.12625pt x 313.17pt>
+<Chapter4/FigureS7.pdf, id=5095, 569.12625pt x 313.17pt>
 File: Chapter4/FigureS7.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS7.pdf>
@@ -2369,7 +2478,7 @@ Package pdftex.def Info: Chapter4/FigureS7.pdf used on input line 139.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS8.pdf, id=4718, 569.12625pt x 497.86pt>
+<Chapter4/FigureS8.pdf, id=5096, 569.12625pt x 497.86pt>
 File: Chapter4/FigureS8.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS8.pdf>
@@ -2379,7 +2488,7 @@ Package pdftex.def Info: Chapter4/FigureS8.pdf used on input line 147.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS9.pdf, id=4719, 569.12625pt x 370.38374pt>
+<Chapter4/FigureS9.pdf, id=5097, 569.12625pt x 370.38374pt>
 File: Chapter4/FigureS9.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS9.pdf>
@@ -2389,7 +2498,7 @@ Package pdftex.def Info: Chapter4/FigureS9.pdf used on input line 157.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS10.pdf, id=4720, 569.12625pt x 412.54124pt>
+<Chapter4/FigureS10.pdf, id=5098, 569.12625pt x 412.54124pt>
 File: Chapter4/FigureS10.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS10.pdf>
@@ -2403,15 +2512,15 @@ Overfull \hbox (47.1064pt too wide) in paragraph at lines 165--167
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./appendix/appendixCh5.tex [122 <./Chapter4/FigureS1.pdf> <./Chapter4/Figure
-S2.pdf>] [123 <./Chapter4/FigureS3.pdf> <./Chapter4/FigureS4.pdf>] [124 <./Chap
-ter4/FigureS5.pdf> <./Chapter4/FigureS6.pdf>] [125 <./Chapter4/FigureS7.pdf>]
-[126 <./Chapter4/FigureS8.pdf>] [127 <./Chapter4/FigureS9.pdf>] [128 <./Chapter
+) (./appendix/appendixCh5.tex [132 <./Chapter4/FigureS1.pdf> <./Chapter4/Figure
+S2.pdf>] [133 <./Chapter4/FigureS3.pdf> <./Chapter4/FigureS4.pdf>] [134 <./Chap
+ter4/FigureS5.pdf> <./Chapter4/FigureS6.pdf>] [135 <./Chapter4/FigureS7.pdf>]
+[136 <./Chapter4/FigureS8.pdf>] [137 <./Chapter4/FigureS9.pdf>] [138 <./Chapter
 4/FigureS10.pdf>]
 Appendix C.
-) [129
+) [139
 
-] (./Thesis.bbl [130
+] (./Thesis.bbl [140
 
 
 ]
@@ -2435,34 +2544,34 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[131] [132] [133] [134] [135]
+[141] [142] [143] [144] [145]
 Missing character: There is no ≈ in font cmr10!
 Missing character: There is no ü in font cmr10!
- [136] [137] [138] [139]
+ [146] [147] [148] [149]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no † in font cmr10!
- [140]
+ [150]
 Missing character: There is no … in font cmr10!
 Missing character: There is no õ in font cmr10!
- [141]
+ [151]
 Missing character: There is no ≈ in font cmr10!
 Missing character: There is no ´ in font cmr10!
 Missing character: There is no ƒ in font cmr10!
 Missing character: There is no ó in font cmr10!
- [142]
+ [152]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Å in font cmr10!
 
-[143]
+[153]
 Missing character: There is no ƒ in font cmr10!
 Missing character: There is no É in font cmr10!
 Missing character: There is no ƒ in font cmr10!
 Missing character: There is no É in font cmr10!
 Missing character: There is no ≈ in font cmr10!
 Missing character: There is no £ in font cmr10!
- [144] [145]
+ [154] [155]
 Missing character: There is no ƒ in font cmr10!
 Missing character: There is no É in font cmr10!
 Missing character: There is no ƒ in font cmr10!
@@ -2475,13 +2584,13 @@ Missing character: There is no ƒ in font cmr10!
 Missing character: There is no É in font cmr10!
 Missing character: There is no » in font cmr10!
 Missing character: There is no õ in font cmr10!
- [146] [147] [148] [149] [150] [151]
+ [156] [157] [158] [159] [160] [161]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ò in font cmr10!
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no † in font cmr10!
- [152] [153] [154]
+ [162] [163] [164]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no Ü in font cmr10!
 Missing character: There is no ≈ in font cmr10!
@@ -2512,7 +2621,7 @@ deleted material, e.g., by typing `I$}'.
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
-[155] [156] [157] [158] [159]
+[165] [166] [167] [168] [169]
 ! Extra }, or forgotten \endgroup.
 <recently read> }
                  
@@ -2533,47 +2642,50 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[160]
+[170]
 Missing character: There is no ¬ in font cmr10!
 Missing character: There is no † in font cmr10!
- [161] [162] [163] [164]
+ [171] [172] [173] [174]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no î in font cmr10!
- [165]
+ [175]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
- [166] [167] [168] [169]
+ [176] [177] [178] [179]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ì in font cmr10!
- [170] [171]
-[172] [173] [174] [175])
+ [180] [181]
+[182] [183] [184] [185])
 
 Package natbib Warning: There were undefined citations.
 
-[176]
+[186]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (./Thesis.aux (./Chapter1/Chapter1.aux) (./Chapter2/Chapter2.aux)
 (./Chapter3/Chapter3.aux) (./Chapter4/Chapter4.aux) (./Chapter5/Chapter5.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
-Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 853F853E63A75ED1D49F8EAFADCDC2E0;4912.
 
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: 0D8863AC334A9413835DA8B81A78F093;5335
+(rerunfilecheck)             After:  2722AD2C96F4B7237E433E9A51910737;5393.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  )
@@ -2582,11 +2694,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
 ### simple group (level 1) entered at line 422 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41574 strings out of 493089
- 862900 string characters out of 6134843
- 963529 words of memory out of 5000000
- 43422 multiletter control sequences out of 15000+600000
- 31233 words of font info for 218 fonts, out of 8000000 for 9000
+ 41639 strings out of 493089
+ 863913 string characters out of 6134843
+ 968177 words of memory out of 5000000
+ 43458 multiletter control sequences out of 15000+600000
+ 31449 words of font info for 220 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,111p,10390b,1743s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced bu
@@ -2619,10 +2731,10 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (186 pages, 101072617 bytes).
+Output written on Thesis.pdf (196 pages, 115542625 bytes).
 PDF statistics:
- 5787 PDF objects out of 6186 (max. 8388607)
- 4983 compressed objects within 50 object streams
- 751 named destinations out of 1000 (max. 500000)
- 36070 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 6169 PDF objects out of 6186 (max. 8388607)
+ 5316 compressed objects within 54 object streams
+ 772 named destinations out of 1000 (max. 500000)
+ 36138 words of extra memory for PDF output out of 42996 (max. 10000000)
 
