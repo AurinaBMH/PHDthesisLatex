@@ -1,4 +1,4 @@
-\begin{thebibliography}{411}
+\begin{thebibliography}{423}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Acevedo-Triana et~al.(2017)Acevedo-Triana, Le{\'{o}}n, Cardenas, and
@@ -201,6 +201,14 @@ Bakken TE, Miller JA, Ding SL, Sunkin SM, Smith KA, Ng L, Szafer A, Dalley RA,
 \newblock {A comprehensive transcriptional map of primate brain development}.
 \newblock {\JournalTitle{Nature}} 2016; \hspace{0pt}535:367--375.
 
+\bibitem[{Ball et~al.(2014)Ball, Aljabar, Zebari, Tusor, Arichi, Merchant,
+  Robinson, Ogundipe, Rueckert, Edwards, and Counsell}]{Ball2014}
+Ball G, Aljabar P, Zebari S, Tusor N, Arichi T, Merchant N, Robinson EC,
+  Ogundipe E, Rueckert D, Edwards AD, Counsell SJ.
+\newblock {Rich-club organization of the newborn human brain.}
+\newblock {\JournalTitle{Proc Natl Acad Sci U S A}} 2014;
+  \hspace{0pt}111:7456--61.
+
 \bibitem[{Barab\'{a}si and P\'{o}sfai(2016)}]{Barabasi2016}
 Barab\'{a}si AL, P\'{o}sfai M.
 \newblock {Network science}.
@@ -217,6 +225,12 @@ Barbas H.
 \newblock {General Cortical and Special Prefrontal Connections: Principles from
   Structure to Function}.
 \newblock {\JournalTitle{Annu Rev Neurosci}} 2015; \hspace{0pt}38:269--289.
+
+\bibitem[{Barbas and Rempel-Clower(1997)}]{Barbas}
+Barbas H, Rempel-Clower N.
+\newblock {Cortical structure predicts the pattern of corticocortical
+  connections.}
+\newblock {\JournalTitle{Cereb Cortex}} 1997; \hspace{0pt}7:635--46.
 
 \bibitem[{Baruch et~al.(2008)Baruch, Itzkovitz, Golan-Mashiach, Shapiro, and
   Segal}]{Baruch2008}
@@ -247,6 +261,14 @@ Bassett DS, Greenfield DL, Meyer-Lindenberg A, Weinberger DR, Moore SW,
 \newblock {Efficient Physical Embedding of Topologically Complex Information
   Processing Networks in Brains and Computer Circuits}.
 \newblock {\JournalTitle{PLoS Comput Biol}} 2010; \hspace{0pt}6:e1000748.
+
+\bibitem[{Batalle et~al.(2017)Batalle, Hughes, Zhang, Tournier, Tusor, Aljabar,
+  Wali, Alexander, Hajnal, Nosarti, Edwards, and Counsell}]{Batalle2017}
+Batalle D, Hughes EJ, Zhang H, Tournier JD, Tusor N, Aljabar P, Wali L,
+  Alexander DC, Hajnal JV, Nosarti C, Edwards AD, Counsell SJ.
+\newblock {Early development of structural networks and the impact of
+  prematurity on brain connectivity}.
+\newblock {\JournalTitle{Neuroimage}} 2017; \hspace{0pt}149:379--392.
 
 \bibitem[{Belgard et~al.(2011)Belgard, Marques, Oliver, Abaan, Sirey,
   Hoerder-Suabedissen, Garc{\'{i}}a-Moreno, Moln{\'{a}}r, Margulies, and
@@ -294,6 +316,11 @@ Betzel RF, Bassett DS.
 \newblock {\JournalTitle{Proc Natl Acad Sci U S A}} 2018;
   \hspace{0pt}115:E4880--E4889.
 
+\bibitem[{Beul et~al.(2017)Beul, Barbas, and Hilgetag}]{Beul2017}
+Beul SF, Barbas H, Hilgetag CC.
+\newblock {A Predictive Structural Model of the Primate Connectome}.
+\newblock {\JournalTitle{Sci Rep}} 2017; \hspace{0pt}7:43176.
+
 \bibitem[{Birdsill et~al.(2011)Birdsill, Walker, Lue, Sue, and
   Beach}]{Birdsill2011}
 Birdsill AC, Walker DG, Lue L, Sue LI, Beach TG.
@@ -330,6 +357,12 @@ Bota M, Sporns O, Swanson LW.
   underlying cognition}.
 \newblock {\JournalTitle{Proc Natl Acad Sci}} 2015;
   \hspace{0pt}112:E2093--E2101.
+
+\bibitem[{Bouhrara and Spencer(2016)}]{Bouhrara2016}
+Bouhrara M, Spencer RG.
+\newblock {Improved determination of the myelin water fraction in human brain
+  using magnetic resonance imaging through Bayesian analysis of mcDESPOT}.
+\newblock {\JournalTitle{Neuroimage}} 2016; \hspace{0pt}127:456--471.
 
 \bibitem[{Braskie et~al.(2012)Braskie, Jahanshad, Stein, Barysheva, Johnson,
   McMahon, de~Zubicaray, Martin, Wright, Ringman, Toga, and
@@ -524,6 +557,14 @@ Buzs{\'{a}}ki G, Geisler C, Henze DA, Wang XJ.
 \newblock {Interneuron Diversity series: Circuit complexity and axon wiring
   economy of cortical interneurons}.
 \newblock {\JournalTitle{Trends Neurosci}} 2004; \hspace{0pt}27:186--193.
+
+\bibitem[{Cao et~al.(2017)Cao, Packer, Ramani, Cusanovich, Huynh, Daza, Qiu,
+  Lee, Furlan, Steemers, Adey, Waterston, Trapnell, and Shendure}]{Cao2017}
+Cao J, Packer JS, Ramani V, Cusanovich DA, Huynh C, Daza R, Qiu X, Lee C,
+  Furlan SN, Steemers FJ, Adey A, Waterston RH, Trapnell C, Shendure J.
+\newblock {Comprehensive single-cell transcriptional profiling of a
+  multicellular organism.}
+\newblock {\JournalTitle{Science}} 2017; \hspace{0pt}357:661--667.
 
 \bibitem[{Cao et~al.(2016)Cao, Huang, Peng, Dong, and He}]{Cao2016}
 Cao M, Huang H, Peng Y, Dong Q, He Y.
@@ -1495,6 +1536,13 @@ Jenkinson M, Beckmann CF, Behrens TE, Woolrich MW, Smith SM.
 \newblock {FSL}.
 \newblock {\JournalTitle{Neuroimage}} 2012; \hspace{0pt}62:782--790.
 
+\bibitem[{Jeurissen et~al.(2001)Jeurissen, Leemans, Tournier, Jones, and
+  Sijbers}]{Jeurissen2001}
+Jeurissen B, Leemans A, Tournier JD, Jones DK, Sijbers J.
+\newblock {Estimating the number of fiber orientations in diffusion MRI voxels:
+  a constrained spherical deconvolution study}.
+\newblock Tech. Rep.~5, 2001.
+
 \bibitem[{Ji et~al.(2014)Ji, Fakhry, and Deng}]{Ji2014}
 Ji S, Fakhry A, Deng H.
 \newblock {Integrative analysis of the connectivity and gene expression atlases
@@ -2111,6 +2159,11 @@ Okoniewski MJ, Miller CJ.
 \newblock {Hybridization interactions between probesets in short oligo
   microarrays lead to spurious correlations.}
 \newblock {\JournalTitle{BMC Bioinformatics}} 2006; \hspace{0pt}7:276.
+
+\bibitem[{Oldham and Fornito(2018)}]{Oldham2018}
+Oldham S, Fornito A.
+\newblock {The development of brain network hubs}.
+\newblock {\JournalTitle{Dev Cogn Neurosci}} 2018; \hspace{0pt}.
 
 \bibitem[{Oldham et~al.(2018)Oldham, Fulcher, Parkes, {Arnatkevic̆ Iūtė},
   Suo, and Fornito}]{Oldham}
@@ -2914,6 +2967,13 @@ Schmid C, Schwarz V, Hutter H.
   and pharynx development in C. elegans}.
 \newblock {\JournalTitle{Dev Biol}} 2006; \hspace{0pt}293:403--413.
 
+\bibitem[{Scholtens et~al.(2014)Scholtens, Schmidt, de~Reus, and van~den
+  Heuvel}]{Scholtens2014}
+Scholtens LH, Schmidt R, de~Reus MA, van~den Heuvel MP.
+\newblock {Linking macroscale graph analytical organization to microscale
+  neuroarchitectonics in the macaque connectome.}
+\newblock {\JournalTitle{J Neurosci}} 2014; \hspace{0pt}34:12192--205.
+
 \bibitem[{Schr{\"{o}}ter et~al.(2017)Schr{\"{o}}ter, Paulsen, and
   Bullmore}]{Schroter2017}
 Schr{\"{o}}ter M, Paulsen O, Bullmore ET.
@@ -3166,6 +3226,15 @@ Sulston JE, Schierenberg E, White JG, Thomson JN.
 Szyma{\'{n}}ski M, Barciszewski J.
 \newblock {Beyond the proteome: non-coding regulatory RNAs.}
 \newblock {\JournalTitle{Genome Biol}} 2002; \hspace{0pt}3:reviews0005.
+
+\bibitem[{Takahashi et~al.(2002)Takahashi, Hackney, Zhang, Wehrli, Wright,
+  O'Brien, Uematsu, Wehrli, and Selzer}]{Takahashi2002}
+Takahashi M, Hackney DB, Zhang G, Wehrli SL, Wright AC, O'Brien WT, Uematsu H,
+  Wehrli FW, Selzer ME.
+\newblock {Magnetic resonance microimaging of intraaxonal water diffusion in
+  live excised lamprey spinal cord.}
+\newblock {\JournalTitle{Proc Natl Acad Sci U S A}} 2002;
+  \hspace{0pt}99:16192--6.
 
 \bibitem[{Tan et~al.(2013)Tan, French, and Pavlidis}]{Tan2013}
 Tan PPC, French L, Pavlidis P.
@@ -3848,6 +3917,12 @@ Zalesky A, Fornito A, Bullmore E.
 \newblock {On the use of correlation as a measure of network connectivity}.
 \newblock {\JournalTitle{Neuroimage}} 2012; \hspace{0pt}60:2096--2106.
 
+\bibitem[{Zalesky et~al.(2016)Zalesky, Fornito, Cocchi, Gollo, van~den Heuvel,
+  and Breakspear}]{Zalesky2016}
+Zalesky A, Fornito A, Cocchi L, Gollo LL, van~den Heuvel MP, Breakspear M.
+\newblock {Connectome sensitivity or specificity: which is more important?}
+\newblock {\JournalTitle{Neuroimage}} 2016; \hspace{0pt}142:407--420.
+
 \bibitem[{Zalesky et~al.(2011)Zalesky, Fornito, Seal, Cocchi, Westin, Bullmore,
   Egan, and Pantelis}]{Zalesky2011}
 Zalesky A, Fornito A, Seal ML, Cocchi L, Westin CF, Bullmore ET, Egan GF,
@@ -3875,6 +3950,13 @@ Zhan L, Jahanshad N, Faskowitz J, Zhu D, Prasad G, Martin NG, de~Zubicaray GI,
 \newblock {HERITABILITY OF BRAIN NETWORK TOPOLOGY IN 853 TWINS AND SIBLINGS.}
 \newblock {\JournalTitle{Proc / IEEE Int Symp Biomed Imaging from nano to
   macro}} 2015; \hspace{0pt}449.
+
+\bibitem[{Zhang et~al.(2012)Zhang, Schneider, Wheeler-Kingshott, and
+  Alexander}]{Zhang2012}
+Zhang H, Schneider T, Wheeler-Kingshott CA, Alexander DC.
+\newblock {NODDI: Practical in vivo neurite orientation dispersion and density
+  imaging of the human brain}.
+\newblock {\JournalTitle{Neuroimage}} 2012; \hspace{0pt}61:1000--1016.
 
 \bibitem[{Zheng et~al.(1999)Zheng, Brockie, Mellem, Madsen, and
   Maricq}]{Zheng1999}
