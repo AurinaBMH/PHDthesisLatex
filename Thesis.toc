@@ -11,21 +11,21 @@
 \contentsline {chapter}{\numberline {2}Hub connectivity and gene expression in \textit {C.elegans}}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{15}{section.2.1}
 \contentsline {section}{\numberline {2.2}Materials and methods}{17}{section.2.2}
-\contentsline {paragraph}{Degree.}{19}{section*.8}
-\contentsline {paragraph}{Rich-club organization.}{20}{section*.9}
-\contentsline {paragraph}{Modularity.}{20}{section*.10}
+\contentsline {paragraph}{Degree.}{19}{section*.9}
+\contentsline {paragraph}{Rich-club organization.}{20}{section*.10}
+\contentsline {paragraph}{Modularity.}{20}{section*.11}
 \contentsline {section}{\numberline {2.3}Results}{24}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Spatial dependency}{25}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Hub connectivity}{26}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Correlated gene expression and connectivity}{28}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Potential drivers of elevated correlated gene expression between hubs}{30}{subsection.2.3.4}
-\contentsline {paragraph}{Interneurons.}{30}{section*.20}
-\contentsline {paragraph}{Modular organization.}{32}{section*.22}
-\contentsline {paragraph}{Lineage distance.}{33}{section*.23}
-\contentsline {paragraph}{Birth time.}{34}{section*.25}
-\contentsline {paragraph}{Neurochemistry.}{35}{section*.26}
-\contentsline {paragraph}{Anatomical location.}{35}{section*.27}
-\contentsline {paragraph}{Functional class.}{35}{section*.28}
+\contentsline {paragraph}{Interneurons.}{30}{section*.21}
+\contentsline {paragraph}{Modular organization.}{32}{section*.23}
+\contentsline {paragraph}{Lineage distance.}{33}{section*.24}
+\contentsline {paragraph}{Birth time.}{34}{section*.26}
+\contentsline {paragraph}{Neurochemistry.}{35}{section*.27}
+\contentsline {paragraph}{Anatomical location.}{35}{section*.28}
+\contentsline {paragraph}{Functional class.}{35}{section*.29}
 \contentsline {subsection}{\numberline {2.3.5}Genes driving correlated gene expression patterns}{36}{subsection.2.3.5}
 \contentsline {section}{\numberline {2.4}Discussion}{38}{section.2.4}
 \contentsline {chapter}{\numberline {3}Transcriptional signatures of hub connectivity in neural networks}{43}{chapter.3}
