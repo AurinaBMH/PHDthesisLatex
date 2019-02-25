@@ -33,7 +33,16 @@
 \usepackage{makecell}
 \usepackage{etoolbox}
 \appto\TPTnoteSettings{\footnotesize}
+\usepackage{sectsty}
+\chapternumberfont{\Huge} 
+\chaptertitlefont{\Huge}
 
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\titleformat{\chapter}[display]
+  {\normalfont\Huge\bfseries\color[RGB]{0, 77, 153}}
+  {\filleft\thechapter}{1em}{}
 
 % FOR ACTUAL THESIS
 
@@ -57,7 +66,6 @@
 \textheight=25cm 
 \headsep=1.0cm
 \headheight=14pt
-
 
 \usepackage{caption,setspace}
 \captionsetup{aboveskip=1pt,font={small,singlespacing},labelsep=period,justification=justified}
@@ -156,9 +164,7 @@
   \include{Chapter5/Chapter5}  
   \clearpage
   \include{Chapter6/Chapter6}  
-  \clearpage
 
-  \input{Conclusions} 
   \clearpage
   
   \appendix
