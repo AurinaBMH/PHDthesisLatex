@@ -1,4 +1,4 @@
-HackstadtHackstadt%!TEX root = ../Thesis.tex
+%!TEX root = ../Thesis.tex
 \chapter{Linking brain-wide gene expression and neuroimaging data}
 \label{ch:Chapter4}
 \fancyhead[R]{\textit{Chapter.} \textit{\thechapter: }\textit{Linking brain-wide gene expression and neuroimaging data}}
@@ -9,10 +9,10 @@ HackstadtHackstadt%!TEX root = ../Thesis.tex
 \textbf{Aurina Arnatkevi\u{c}i\={u}t\.{e}},
 Ben D. Fulcher,
 Alex Fornito (2019).
-A practical guide to linking brain-wide gene expression and neuroimaging data. Published in \textit{
-NeuroImage}.\\
+A practical guide to linking brain-wide gene expression and neuroimaging data. Published in \textit{NeuroImage}.\\
 DOI: \url{https://doi.org/10.1016/j.neuroimage.2019.01.011} % Please use "sentence case" for title and headings (capitalize only the first word in a title (or heading), the first word in a subtitle (or subheading), and any proper nouns).
-Supplementary materials can be found in Appendix B.
+\\
+Supplementary materials can be found in Appendix \ref{appendixB}.
 
 
 \section*{Preamble}
@@ -83,7 +83,7 @@ Beyond the processing steps applied by the Allen Institute, a number of other pr
 The first six processing steps produce the region $\times$ gene matrix that can be used for the regional analyses.
 The final step of accounting for the autocorrelation in the gene expression measures depends on the particular research question.
 The potential need to account for spatial effects arises because gene expression is more strongly correlated between samples that are separated by short distances compared to those that are far apart, a pattern that has been described in humans
-\citep{Richiardi2015,Krienen2016,Vertes2016b,Pantazatos2017}, mouse \citep{Fulcher2016} and \textit{C. elegans} \citep{Arnatkeviciute2018}.
+\citep{Richiardi2015,Krienen2016,Vertes2016b,Pantazatos2017}, mouse \citep{Fulcher2016} and \textit{C.elegans} \citep{Arnatkeviciute2018}.
 Although this spatial autocorrelation is, in itself, an important neurobiological feature of the brain transcriptome \citep{Gryglewski2018, Fornito2019},
 it is critical for any analysis claiming a specific association between spatial variations in gene expression and a given IDP to show that the association is not attributable to lower-order spatial gradients of gene expression.
 
@@ -302,7 +302,7 @@ The selection of disease-specific genes is traditionally based on previous GWAS 
 
 \subsection{Step 7. Accounting for spatial effects}
 
-The application of steps 1 to 6 results in a processed region $\times$ gene matrix of transcription level values, which can be used for further analyses. Typically, the data are linked to IDPs at either the regional level, or at the level of pairs of regions [i.e., patterns of correlated gene expression (CGE) between pairs of brain regions are related to pair-wise measures of structural or functional connectivity between those regions \citep{Fornito2019}]. In both cases, we seek to understand how spatial variations in gene expression or CGE relate to spatial variations in the IDP. One complicating factor is that cortical regions that are located in close proximity are more likely to share similar gene expression patterns \citep{Richiardi2015,Krienen2016,Vertes2016b,Pantazatos2017,Richiardi2017}. A similar spatial autocorrelation of gene expression has been reported in the mouse brain \citep{Fulcher2016} and in the head of the nematode \textit{C. elegans} \citep{Arnatkeviciute2018}.
+The application of steps 1 to 6 results in a processed region $\times$ gene matrix of transcription level values, which can be used for further analyses. Typically, the data are linked to IDPs at either the regional level, or at the level of pairs of regions [i.e., patterns of correlated gene expression (CGE) between pairs of brain regions are related to pair-wise measures of structural or functional connectivity between those regions \citep{Fornito2019}]. In both cases, we seek to understand how spatial variations in gene expression or CGE relate to spatial variations in the IDP. One complicating factor is that cortical regions that are located in close proximity are more likely to share similar gene expression patterns \citep{Richiardi2015,Krienen2016,Vertes2016b,Pantazatos2017,Richiardi2017}. A similar spatial autocorrelation of gene expression has been reported in the mouse brain \citep{Fulcher2016} and in the head of the nematode \textit{C.elegans} \citep{Arnatkeviciute2018}.
 
 In some respects, this distance-dependence of gene expression is an interesting and physiologically meaningful trend that warrants further investigation [for a review, see \citep{Fornito2019}]. However, if an IDP varies across the brain in a manner that reproduces a spatial gradient in gene expression, any apparent association between the IDP and gene expression measures may be driven by low-order spatial effects. Depending on the research question, especially when a direct relationship between an IDP and gene expression is evaluated, it is important to confirm that the identified association is stronger than what would be expected based on the spatial autocorrelation properties of gene expression (if such an effect is claimed). For example, a researcher may wish to show that CGE is higher between nodes belonging to the same brain functional network. As spatially adjacent regions are more likely belong to the same functional system, such an effect may simply be driven by their separation distance rather than their functional identity. If one wishes to conclude that elevated CGE is related specifically to functional network affiliation, then the influence of spatial separation on CGE must be addressed. Indeed, this has been a topic of some debate in the literature \citep{Richiardi2015,Pantazatos2017,Richiardi2017}.
 

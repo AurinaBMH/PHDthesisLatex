@@ -1,5 +1,6 @@
 %!TEX root = ../Thesis.tex
 \chapter{Hub connectivity and gene expression in C.elegans}
+\label{appendixA}
 
 \fancyhead[R]{\textit{Appendix A:~Hub connectivity and gene expression in \textit{C.elegans}}}
 
@@ -65,18 +66,18 @@ for two binary expression vectors, $x_{i}$, $y_{i}$, of length N containing $n_{
 \end{eqnarray}
 
 for m positive matches.
-	We verified that this index yields qualitatively similar results to the mean square contingency coefficient, $r_\phi$, (Fig \ref{fig:Ch2S3_Fig}), validating our related positive match method for scoring individual genes [as an approximately single-gene contribution to the probability score computed in Eq. \ref{eq:CBinomialProbability}]. 
+	We verified that this index yields qualitatively similar results to the mean square contingency coefficient, $r_\phi$, (Fig \ref{fig:Ch2S3_Fig}), validating our related positive match method for scoring individual genes [as an approximately single-gene contribution to the probability score computed in Eq. \ref{eq:CBinomialProbability}].
 Given the qualitative similarity of this measure to $r_\phi$, we chose to focus on $r_\phi$ throughout this work due to its ease of interpretability as a correlation coefficient ranging from -1 to 1.
 
 \begin{figure}[h!]
   \centering{\includegraphics[width=0.6\textwidth]{Chapter2/Ch2S1fig.pdf}}
  \caption{{\bf Rich club organisation and correlated gene expression in synaptic connectivity matrix.}
-(A) Rich-club organization of the synaptic \textit{C. elegans} connectome.
+(A) Rich-club organization of the synaptic \textit{C.elegans} connectome.
 Top: Degree distribution of neurons, labelled to four categories: (i) interneuron (85 neurons, orange), (ii) motor (108 neurons, green), (iii) sensory (68 neurons, blue), or (iv) multiple assignments (18 neurons, yellow).
 The distribution features an extended tail of high-degree neurons. Bottom: Normalized rich club coefficient, $\Phi_\mathrm{norm}$ (red), as a function of the degree, $k$, at which hubs are defined (as neurons with degree $>k$).
 Also shown is the mean Euclidean separation distance, d (purple) between connected hub regions (across degree thresholds, k). $\Phi_\mathrm{norm} > 1$ indicates that hubs are more densely interconnected among each other than expected by chance, with red circles indicating values of $\Phi_\mathrm{norm}$ that are significantly higher than an ensemble of 1 000 degree-matched null networks ($p < 0.05$).
 Purple circles indicate where the Euclidean distance between connected pairs of hubs is significantly greater than the Euclidean distance for all other pairs of connected regions (right-tailed Welch's t-test, $p < 0.05$).
-(B) Top: Degree distribution, $k$, of the synaptic \textit{C. elegans}  connectome.
+(B) Top: Degree distribution, $k$, of the synaptic \textit{C.elegans}  connectome.
 Middle: proportion of connections that are: `rich' (hub $\rightarrow$ hub, red), `feed-in' (nonhub $\rightarrow$ hub, yellow), `feed-out' (hub $\rightarrow$ nonhub, orange), or `peripheral' (nonhub $\rightarrow$ nonhub, blue) as a function of the degree threshold, $k$, used to define hubs.
 Note that at high $k$ most neurons are labeled as nonhubs and hence the vast majority of connections are labeled `peripheral'.
 Bottom: Median CGE, $\tilde{r}_\phi$, for each connection type as a function of $k$.
@@ -104,7 +105,7 @@ By contrast, $r_\phi$, which is used through this work, and our probability-base
 %% FIGURE S3
 \begin{figure}[h!]
   \centering{\includegraphics[width=1\textwidth]{Chapter2/Ch2S3fig.pdf}}
- \caption{{\bf Correlated gene expression measured using the positive matching probability index.} The matching probability index, $p_\mathrm{match}$, as introduced in \ref{app:AppendixCh2_3}. 
+ \caption{{\bf Correlated gene expression measured using the positive matching probability index.} The matching probability index, $p_\mathrm{match}$, as introduced in \ref{app:AppendixCh2_3}.
 \emph{Top}: Degree distribution.
 \emph{Middle}: Proportion of connections that are `rich' (hub$\rightarrow$hub, red), `feed-in' (nonhub$\rightarrow$hub, yellow), `feed-out' (hub$\rightarrow$nonhub, orange), and `peripheral' (nonhub$\rightarrow$nonhub, blue) as a function of the degree threshold, $k$, used to define hubs.
 Note that at high $k$, most neurons are labeled as nonhubs, and hence the vast majority of connections are `peripheral'.
@@ -133,7 +134,7 @@ For example, neuron pairs with $r_\phi > 0.8$, are all between the following cla
 \begin{figure}[h!]
   \centering{\includegraphics[width=1\textwidth]{Chapter2/Ch2S5fig.pdf}}
  \caption{{\bf Weighted and unweighted rich-club analyses yield similar results.}
-   (A) Degree distribution of the \emph{C. elegans} connectome.
+   (A) Degree distribution of the \emph{C.elegans} connectome.
     Neurons are labeled to four types as in the legend.
     (B)
     Normalized weighted rich-club coefficient, $\Phi_\mathrm{norm}^\mathrm{weighted}$ (i.e., topology fixed and weights randomized in the null model, shown orange), and
@@ -150,7 +151,7 @@ For example, neuron pairs with $r_\phi > 0.8$, are all between the following cla
 
 \begin{figure}[h!]
   \centering{\includegraphics[width=1\textwidth]{Chapter2/Ch2S6fig.pdf}}
- \caption{{\bf Rich and non-rich connections in the \emph{C. elegans} connectome, categorized by the  anatomical location of the source and target neurons.}
+ \caption{{\bf Rich and non-rich connections in the \emph{C.elegans} connectome, categorized by the  anatomical location of the source and target neurons.}
    Hub-hub connections (`rich') are shown red, and all other connections (`non-rich', i.e., feeder and peripheral) are shown gray, where hubs are defined as neurons with degree, $k > 44$.
 Anatomical locations are labeled as `head', `body', and `tail', and each connection is labeled according to its source and target neurons, listed on the vertical axis in the form `Source-Target'.
 The plot shows that the increased separation distance between connected hubs relative to other types of connected neurons is driven by a relative increase in long-range connections between the head and tail.}
@@ -159,7 +160,7 @@ The plot shows that the increased separation distance between connected hubs rel
 
 \begin{figure}[h!]
   \centering{\includegraphics[width=1\textwidth]{Chapter2/Ch2S1Tab.pdf}}
-   \caption{{\bf Hub neurons of the \textit{C. elegans} connectome.} Hubs are defined as neurons with degree $k > 44$. For each hub, we list (i) the neuron name, (ii) its degree, $k$, (iii) location (`head', `body', or `tail'), and function based on information presented in the wormatlas website \url{http://www.wormatlas.org/}.
+   \caption{{\bf Hub neurons of the \textit{C.elegans} connectome.} Hubs are defined as neurons with degree $k > 44$. For each hub, we list (i) the neuron name, (ii) its degree, $k$, (iii) location (`head', `body', or `tail'), and function based on information presented in the wormatlas website \url{http://www.wormatlas.org/}.
 Neurons are sorted (descending) by degree.}
 \label{tab:HubList}
 \end{figure}
@@ -181,12 +182,4 @@ Categories are sorted by $p$-value (ascending).}
 \paragraph*{S1 File.}
 \label{file:geneList}
 {\bf Genes controbuting towards increased CGE.}
-A list of genes that contributed towards the (i) increased CGE in connected compared to unconnected pairs of neurons, and (ii) increased CGE in rich and feeder compared to peripheral connections. 
-
-
-
-
-
-
-
-
+A list of genes that contributed towards the (i) increased CGE in connected compared to unconnected pairs of neurons, and (ii) increased CGE in rich and feeder compared to peripheral connections.

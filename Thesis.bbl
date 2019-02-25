@@ -3326,7 +3326,7 @@ Thompson PM, Ge T, Glahn DC, Jahanshad N, Nichols TE.
   Schork, Schulz, Sch{\"{u}}r, Seidman, Shen, Shoemaker, Simmons, Sisodiya,
   Smith, Smoller, Soares, Sponheim, Sprooten, Starr, Steen, Strakowski, Strike,
   Sussmann, S{\"{a}}mann, Teumer, Toga, Tordesillas-Gutierrez, Trabzuni, Trost,
-  Turner, {Van den Heuvel}, van~der Wee, van Eijk, van Erp, van Haren, {van 't
+  Turner, {van den Heuvel}, van~der Wee, van Eijk, van Erp, van Haren, {van 't
   Ent}, van Tol, {Vald{\'{e}}s Hern{\'{a}}ndez}, Veltman, Versace,
   V{\"{o}}lzke, Walker, Walter, Wang, Wardlaw, Weale, Weiner, Wen, Westlye,
   Whalley, Whelan, White, Winkler, Wittfeld, Woldehawariat, Wolf, Zilles,
@@ -3374,7 +3374,7 @@ Thompson PM, Stein JL, Medland SE, Hibar DP, Vasquez AA, Renteria ME, Toro R,
   Sch{\"{u}}r R, Seidman L, Shen L, Shoemaker JM, Simmons A, Sisodiya SM, Smith
   C, Smoller JW, Soares JC, Sponheim SR, Sprooten E, Starr JM, Steen VM,
   Strakowski S, Strike L, Sussmann J, S{\"{a}}mann PG, Teumer A, Toga AW,
-  Tordesillas-Gutierrez D, Trabzuni D, Trost S, Turner J, {Van den Heuvel} M,
+  Tordesillas-Gutierrez D, Trabzuni D, Trost S, Turner J, {van den Heuvel} M,
   van~der Wee NJ, van Eijk K, van Erp TGM, van Haren NEM, {van 't Ent} D, van
   Tol MJ, {Vald{\'{e}}s Hern{\'{a}}ndez} MC, Veltman DJ, Versace A,
   V{\"{o}}lzke H, Walker R, Walter H, Wang L, Wardlaw JM, Weale ME, Weiner MW,
@@ -3588,9 +3588,9 @@ van~den Heuvel MP, Sporns O.
 \newblock {\JournalTitle{Trends Cogn Sci}} 2013{\natexlab{b}};
   \hspace{0pt}17:683--696.
 
-\bibitem[{{Van Den Heuvel} et~al.(2013){Van Den Heuvel}, Sporns, Collin,
+\bibitem[{{van den Heuvel} et~al.(2013){van den Heuvel}, Sporns, Collin,
   Scheewe, Mandl, Cahn, Goni, Pol, and Kahn}]{VanDenHeuvel2013}
-{Van Den Heuvel} MP, Sporns O, Collin G, Scheewe T, Mandl RC, Cahn W, Goni J,
+{van den Heuvel} MP, Sporns O, Collin G, Scheewe T, Mandl RC, Cahn W, Goni J,
   Pol HE, Kahn RS.
 \newblock {Abnormal rich club organization and functional brain dynamics in
   schizophrenia}.
