@@ -66,7 +66,7 @@
 \contentsline {chapter}{\numberline {6}General discussion and concluding remarks}{112}{chapter.6}
 \contentsline {section}{\numberline {6.1}General discussion}{112}{section.6.1}
 \contentsline {section}{\numberline {6.2}Limitations and future directions}{115}{section.6.2}
-\contentsline {section}{\numberline {6.3}Conclusions}{116}{section.6.3}
+\contentsline {section}{\numberline {6.3}Conclusions}{117}{section.6.3}
 \contentsline {chapter}{\numberline {A}Hub connectivity and gene expression in C.elegans}{118}{appendix.A}
 \contentsline {section}{\numberline {A.1}Expression annotations at WormBase}{118}{section.A.1}
 \contentsline {section}{\numberline {A.2}Sensitivity of correlated gene expression measures}{119}{section.A.2}
