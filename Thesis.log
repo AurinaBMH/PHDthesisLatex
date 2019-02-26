@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  25 FEB 2019 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  26 FEB 2019 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1247,20 +1247,20 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (./Chapter6/Chapter6.aux))
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1306,7 +1306,7 @@ Dictionary: translator-basic-dictionary, Language: English
 (/usr/local/texlive/2015/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2015/01/21 v2.6e siunitx: Abbreviated units
 )
-Package hyperref Info: Link coloring OFF on input line 136.
+Package hyperref Info: Link coloring OFF on input line 137.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1315,15 +1315,15 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count302
 )
-LaTeX Info: Redefining \ref on input line 136.
-LaTeX Info: Redefining \pageref on input line 136.
-LaTeX Info: Redefining \nameref on input line 136.
+LaTeX Info: Redefining \ref on input line 137.
+LaTeX Info: Redefining \pageref on input line 137.
+LaTeX Info: Redefining \nameref on input line 137.
 
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write4
 \openout4 = `Thesis.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 136.
+LaTeX Info: Redefining \microtypecontext on input line 137.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1341,7 +1341,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `default' on line 136.
+. Activating mapping `default' on line 137.
 .................................................
 
 ABD: EveryShipout initializing macros
@@ -1380,14 +1380,14 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c__siunitx_mathsf_int=\count303
-LaTeX Font Info:    Try loading font information for U+msa on input line 136.
+LaTeX Font Info:    Try loading font information for U+msa on input line 137.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 136.
+LaTeX Font Info:    Try loading font information for U+msb on input line 137.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1740,11 +1740,7 @@ Overfull \hbox (2.12529pt too wide) in paragraph at lines 2--2
 
 
 
-] [61]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
- [62] [63] [64]
+] [61] [62] [63] [64]
 <Chapter4/Ch4Fig1.pdf, id=3024, 735.74875pt x 711.65875pt>
 File: Chapter4/Ch4Fig1.pdf Graphic file (type pdf)
 
@@ -1772,11 +1768,7 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
- [68]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [69]
+ [68] [69]
 <Chapter4/Ch4Fig3.pdf, id=3216, 569.12625pt x 156.585pt>
 File: Chapter4/Ch4Fig3.pdf Graphic file (type pdf)
 
@@ -1825,13 +1817,6 @@ Package pdftex.def Info: Chapter4/Ch4Fig4.pdf used on input line 181.
 (pdftex.def)             Requested size: 471.03539pt x 141.2333pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [72 <./Chapter4/Ch4Fig4.pdf>]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
 Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -1854,42 +1839,31 @@ Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [73] [74]
-<Chapter4/Ch4Fig5.pdf, id=3469, 569.12625pt x 170.6375pt>
+ [72 <./Chapter4/Ch4Fig4.pdf>] [73]
+<Chapter4/Ch4Fig5.pdf, id=3456, 569.12625pt x 170.6375pt>
 File: Chapter4/Ch4Fig5.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig5.pdf>
 Package pdftex.def Info: Chapter4/Ch4Fig5.pdf used on input line 211.
 (pdftex.def)             Requested size: 471.03539pt x 141.2333pt.
-Missing character: There is no â in font cmbx10!
-Missing character: There is no € in font cmbx10!
-Missing character: There is no “ in font cmbx10!
-Missing character: There is no â in font cmbx10!
-Missing character: There is no € in font cmbx10!
-Missing character: There is no “ in font cmbx10!
- [75 <./Chapter4/Ch4Fig5.pdf>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[74] [75 <./Chapter4/Ch4Fig5.pdf>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [76]
-<Chapter4/Ch4Fig6.pdf, id=3560, 569.12625pt x 255.95625pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[76] <Chapter4/Ch4Fig6.pdf, id=3560, 569.12625pt x 255.95625pt>
 File: Chapter4/Ch4Fig6.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig6.pdf>
 Package pdftex.def Info: Chapter4/Ch4Fig6.pdf used on input line 261.
 (pdftex.def)             Requested size: 471.03539pt x 211.84998pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no “ in font cmr10!
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1897,26 +1871,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[77] [78 <./Chapter4/Ch4Fig6.pdf>] [79] [80] [81]
-<Chapter4/Ch4Fig7.pdf, id=3772, 569.12625pt x 341.275pt>
+[77] [78 <./Chapter4/Ch4Fig6.pdf>] [79] [80]
+<Chapter4/Ch4Fig7.pdf, id=3764, 569.12625pt x 341.275pt>
 File: Chapter4/Ch4Fig7.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig7.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig7.pdf used on input line 313.
+Package pdftex.def Info: Chapter4/Ch4Fig7.pdf used on input line 315.
 (pdftex.def)             Requested size: 471.03539pt x 282.46663pt.
- [82 <./Chapter4/Ch4Fig7.pdf>]
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[81] [82 <./Chapter4/Ch4Fig7.pdf>]
 <Chapter4/Ch4Fig8.pdf, id=3844, 569.12625pt x 227.85126pt>
 File: Chapter4/Ch4Fig8.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig8.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig8.pdf used on input line 327.
+Package pdftex.def Info: Chapter4/Ch4Fig8.pdf used on input line 329.
 (pdftex.def)             Requested size: 471.03539pt x 188.58803pt.
  [83 <./Chapter4/Ch4Fig8.pdf>]
 <Chapter4/Ch4Fig9.pdf, id=3901, 569.12625pt x 511.9125pt>
 File: Chapter4/Ch4Fig9.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig9.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig9.pdf used on input line 339.
+Package pdftex.def Info: Chapter4/Ch4Fig9.pdf used on input line 341.
 (pdftex.def)             Requested size: 471.03539pt x 423.69998pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -2827,13 +2805,13 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
  [199] [200]
 [201] [202] [203] [204] [205]) [206]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 181.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 181.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  (./Thesis.aux (./Chapter1/Chapter1.aux)
 (./Chapter2/Chapter2.aux) (./Chapter3/Chapter3.aux) (./Chapter4/Chapter4.aux)
 (./Chapter5/Chapter5.aux) (./Chapter6/Chapter6.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 181.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 181.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 6E6D439CCFA163D807ADE23B2D97F573;5807.
 
@@ -2844,17 +2822,20 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 181.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 426 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 42242 strings out of 493089
- 873494 string characters out of 6134843
- 989582 words of memory out of 5000000
- 43986 multiletter control sequences out of 15000+600000
+ 42244 strings out of 493089
+ 873540 string characters out of 6134843
+ 989595 words of memory out of 5000000
+ 43988 multiletter control sequences out of 15000+600000
  31773 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,111p,10390b,1911s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2888,7 +2869,7 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (216 pages, 160041184 bytes).
+Output written on Thesis.pdf (216 pages, 160041138 bytes).
 PDF statistics:
  6885 PDF objects out of 7423 (max. 8388607)
  5870 compressed objects within 59 object streams

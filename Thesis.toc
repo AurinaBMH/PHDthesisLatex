@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {4.3.3}Step 3. Probe selection}{70}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Step 4. Assigning samples to brain regions}{73}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}Step 6. Gene filtering}{80}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Step 7. Accounting for spatial effects}{81}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.6}Step 7. Accounting for spatial effects}{80}{subsection.4.3.6}
 \contentsline {section}{\numberline {4.4}Conclusions}{84}{section.4.4}
 \contentsline {chapter}{\numberline {5}Genetic markers of hub connectivity in the human brain}{86}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{87}{section.5.1}
