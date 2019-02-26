@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  26 FEB 2019 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  26 FEB 2019 13:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2321,9 +2321,6 @@ Missing character: There is no ” in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ” in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
  [132] [133]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -2373,26 +2370,14 @@ Package pdftex.def Info: Chapter4/FigureS1.pdf used on input line 93.
 File: Chapter4/FigureS2.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS2.pdf>
-Package pdftex.def Info: Chapter4/FigureS2.pdf used on input line 101.
+Package pdftex.def Info: Chapter4/FigureS2.pdf used on input line 103.
 (pdftex.def)             Requested size: 471.03539pt x 200.219pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 
 <Chapter4/FigureS3.pdf, id=5260, 569.12625pt x 233.87375pt>
 File: Chapter4/FigureS3.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS3.pdf>
-Package pdftex.def Info: Chapter4/FigureS3.pdf used on input line 109.
+Package pdftex.def Info: Chapter4/FigureS3.pdf used on input line 113.
 (pdftex.def)             Requested size: 471.03539pt x 193.57271pt.
 
 
@@ -2402,7 +2387,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Chapter4/FigureS4.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS4.pdf>
-Package pdftex.def Info: Chapter4/FigureS4.pdf used on input line 117.
+Package pdftex.def Info: Chapter4/FigureS4.pdf used on input line 121.
 (pdftex.def)             Requested size: 471.03539pt x 188.58803pt.
 
 
@@ -2412,7 +2397,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Chapter4/FigureS5.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS5.pdf>
-Package pdftex.def Info: Chapter4/FigureS5.pdf used on input line 125.
+Package pdftex.def Info: Chapter4/FigureS5.pdf used on input line 129.
 (pdftex.def)             Requested size: 471.03539pt x 211.84998pt.
 
 
@@ -2422,7 +2407,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Chapter4/FigureS6.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS6.pdf>
-Package pdftex.def Info: Chapter4/FigureS6.pdf used on input line 133.
+Package pdftex.def Info: Chapter4/FigureS6.pdf used on input line 137.
 (pdftex.def)             Requested size: 471.03539pt x 282.46663pt.
 
 
@@ -2432,7 +2417,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Chapter4/FigureS7.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS7.pdf>
-Package pdftex.def Info: Chapter4/FigureS7.pdf used on input line 140.
+Package pdftex.def Info: Chapter4/FigureS7.pdf used on input line 144.
 (pdftex.def)             Requested size: 471.03539pt x 259.20467pt.
 
 
@@ -2442,7 +2427,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Chapter4/FigureS8.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS8.pdf>
-Package pdftex.def Info: Chapter4/FigureS8.pdf used on input line 148.
+Package pdftex.def Info: Chapter4/FigureS8.pdf used on input line 152.
 (pdftex.def)             Requested size: 471.03539pt x 412.06898pt.
 
 
@@ -2452,7 +2437,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Chapter4/FigureS9.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS9.pdf>
-Package pdftex.def Info: Chapter4/FigureS9.pdf used on input line 158.
+Package pdftex.def Info: Chapter4/FigureS9.pdf used on input line 162.
 (pdftex.def)             Requested size: 471.03539pt x 306.55937pt.
 
 
@@ -2462,7 +2447,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Chapter4/FigureS10.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS10.pdf>
-Package pdftex.def Info: Chapter4/FigureS10.pdf used on input line 166.
+Package pdftex.def Info: Chapter4/FigureS10.pdf used on input line 170.
 (pdftex.def)             Requested size: 471.03539pt x 341.45233pt.
 
 
@@ -2822,9 +2807,6 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  )
 (\end occurred inside a group at level 1)
@@ -2834,7 +2816,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
 Here is how much of TeX's memory you used:
  42244 strings out of 493089
  873540 string characters out of 6134843
- 989595 words of memory out of 5000000
+ 989610 words of memory out of 5000000
  43988 multiletter control sequences out of 15000+600000
  31773 words of font info for 223 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2869,7 +2851,7 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (216 pages, 160041138 bytes).
+Output written on Thesis.pdf (216 pages, 160041147 bytes).
 PDF statistics:
  6885 PDF objects out of 7423 (max. 8388607)
  5870 compressed objects within 59 object streams
