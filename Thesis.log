@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  26 FEB 2019 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  26 FEB 2019 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1905,6 +1905,11 @@ Missing character: There is no ” in font cmr10!
 
 (./Chapter5/Chapter5.tex
 Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+
+ []
+
 [86
 
 
@@ -1923,7 +1928,7 @@ Missing character: There is no ™ in font cmr10!
 File: Chapter5/Ch5Fig1.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig1.pdf>
-Package pdftex.def Info: Chapter5/Ch5Fig1.pdf used on input line 43.
+Package pdftex.def Info: Chapter5/Ch5Fig1.pdf used on input line 49.
 (pdftex.def)             Requested size: 471.03539pt x 320.3461pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -1960,7 +1965,7 @@ Missing character: There is no ™ in font cmr10!
 
 
 Package natbib Warning: Citation `Consortium2010' on page 97 undefined on input
- line 134.
+ line 140.
 
 Missing character: There is no Â in font cmr10!
 Missing character: There is no ± in font cmr10!
@@ -1974,17 +1979,17 @@ Missing character: There is no “ in font cmr10!
 File: Chapter5/Ch5Fig2.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig2.pdf>
-Package pdftex.def Info: Chapter5/Ch5Fig2.pdf used on input line 158.
+Package pdftex.def Info: Chapter5/Ch5Fig2.pdf used on input line 164.
 (pdftex.def)             Requested size: 471.03539pt x 201.69939pt.
  [100 <./Chapter5/Ch5Fig2.pdf>]
 
-Package hyperref Warning: Suppressing empty link on input line 188.
+Package hyperref Warning: Suppressing empty link on input line 194.
 
 [101] <Chapter5/Ch5Fig3.pdf, id=4450, 825.0825pt x 455.7025pt>
 File: Chapter5/Ch5Fig3.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig3.pdf>
-Package pdftex.def Info: Chapter5/Ch5Fig3.pdf used on input line 194.
+Package pdftex.def Info: Chapter5/Ch5Fig3.pdf used on input line 200.
 (pdftex.def)             Requested size: 471.03539pt x 260.16336pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -2001,7 +2006,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Chapter5/Ch5Fig4.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig4.pdf>
-Package pdftex.def Info: Chapter5/Ch5Fig4.pdf used on input line 215.
+Package pdftex.def Info: Chapter5/Ch5Fig4.pdf used on input line 221.
 (pdftex.def)             Requested size: 471.03539pt x 208.53154pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
@@ -2014,13 +2019,13 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [104 <./Chapter5/Ch5Fig4.pdf>]
 
-Package hyperref Warning: Suppressing empty link on input line 228.
+Package hyperref Warning: Suppressing empty link on input line 234.
 
 <Chapter5/Ch5Fig5.pdf, id=4550, 711.65875pt x 541.02126pt>
 File: Chapter5/Ch5Fig5.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig5.pdf>
-Package pdftex.def Info: Chapter5/Ch5Fig5.pdf used on input line 234.
+Package pdftex.def Info: Chapter5/Ch5Fig5.pdf used on input line 240.
 (pdftex.def)             Requested size: 471.03539pt x 358.09053pt.
 
 
@@ -2031,7 +2036,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: Chapter5/Ch5Fig6.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig6.pdf>
-Package pdftex.def Info: Chapter5/Ch5Fig6.pdf used on input line 253.
+Package pdftex.def Info: Chapter5/Ch5Fig6.pdf used on input line 259.
 (pdftex.def)             Requested size: 471.03539pt x 208.53154pt.
 
 
@@ -2729,7 +2734,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
 Here is how much of TeX's memory you used:
  42257 strings out of 493089
  873672 string characters out of 6134843
- 989834 words of memory out of 5000000
+ 989831 words of memory out of 5000000
  43991 multiletter control sequences out of 15000+600000
  32313 words of font info for 228 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2764,7 +2769,7 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (216 pages, 160036479 bytes).
+Output written on Thesis.pdf (216 pages, 160036796 bytes).
 PDF statistics:
  6882 PDF objects out of 7423 (max. 8388607)
  5868 compressed objects within 59 object streams
