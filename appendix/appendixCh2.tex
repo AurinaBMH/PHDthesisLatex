@@ -38,11 +38,11 @@ To evaluate bias in each CGE measure to the proportion of annotations in each ex
 generated random binary vectors of length 948 containing different proportions of 1s seen in our data, ranging
 from the minimum, 1, to the maximum, 150. For all pairwise combinations of proportions, we computed the CGE
 measure, taking an average across $1 000$ permutations, and then recorded the resulting mean correlation value,
-as plotted in Fig. \ref{fig:Ch2S2_Fig}. Because all vectors are independent random binary strings, any systematic dependence of
-mean CGE with annotation proportion indicates bias. The mean square contingency coefficient, (Fig. \ref{fig:Ch2S2_Fig}A) and
+as plotted in Figure \ref{fig:Ch2S2_Fig}. Because all vectors are independent random binary strings, any systematic dependence of
+mean CGE with annotation proportion indicates bias. The mean square contingency coefficient, (Figure \ref{fig:Ch2S2_Fig}A) and
 our own novel CGE matching index, $p_{match}$ show no systematic dependence on the proportion of ones in
 each vector (varying randomly within ≈ $10^{-3}$ and ≈ $0.5$ respectively). However, Yule's Q shows a negative bias for
-small annotation proportions (Fig. \ref{fig:Ch2S2_Fig}B) and the Jaccard index shows a strong positive bias across the full range (Fig. \ref{fig:Ch2S2_Fig}C). Based on these numerical experiments, we selected mean square contingency coefficient, $r_\phi$, here, to
+small annotation proportions (Figure \ref{fig:Ch2S2_Fig}B) and the Jaccard index shows a strong positive bias across the full range (Figure \ref{fig:Ch2S2_Fig}C). Based on these numerical experiments, we selected mean square contingency coefficient, $r_\phi$, here, to
 ensure that changes in CGE were due to matching expression patterns and not simply driven by differences in the
 number of gene annotations between neurons.
 
@@ -66,7 +66,7 @@ for two binary expression vectors, $x_{i}$, $y_{i}$, of length N containing $n_{
 \end{eqnarray}
 
 for m positive matches.
-	We verified that this index yields qualitatively similar results to the mean square contingency coefficient, $r_\phi$, (Fig \ref{fig:Ch2S3_Fig}), validating our related positive match method for scoring individual genes [as an approximately single-gene contribution to the probability score computed in Eq. \ref{eq:CBinomialProbability}].
+	We verified that this index yields qualitatively similar results to the mean square contingency coefficient, $r_\phi$, (Figure \ref{fig:Ch2S3_Fig}), validating our related positive match method for scoring individual genes [as an approximately single-gene contribution to the probability score computed in Eq. \ref{eq:CBinomialProbability}].
 Given the qualitative similarity of this measure to $r_\phi$, we chose to focus on $r_\phi$ throughout this work due to its ease of interpretability as a correlation coefficient ranging from -1 to 1.
 
 \begin{figure}[h!]
@@ -75,7 +75,7 @@ Given the qualitative similarity of this measure to $r_\phi$, we chose to focus 
 (A) Rich-club organization of the synaptic \textit{C.elegans} connectome.
 Top: Degree distribution of neurons, labelled to four categories: (i) interneuron (85 neurons, orange), (ii) motor (108 neurons, green), (iii) sensory (68 neurons, blue), or (iv) multiple assignments (18 neurons, yellow).
 The distribution features an extended tail of high-degree neurons. Bottom: Normalized rich club coefficient, $\Phi_\mathrm{norm}$ (red), as a function of the degree, $k$, at which hubs are defined (as neurons with degree $>k$).
-Also shown is the mean Euclidean separation distance, d (purple) between connected hub regions (across degree thresholds, k). $\Phi_\mathrm{norm} > 1$ indicates that hubs are more densely interconnected among each other than expected by chance, with red circles indicating values of $\Phi_\mathrm{norm}$ that are significantly higher than an ensemble of 1 000 degree-matched null networks ($p < 0.05$).
+Also shown is the mean Euclidean separation distance, d (purple) between connected hub regions (across degree thresholds, k). $\Phi_\mathrm{norm} > 1$ indicates that hubs are more densely interconnected among each other than expected by chance, with red circles indicating values of $\Phi_\mathrm{norm}$ that are significantly higher than an ensemble of 1000 degree-matched null networks ($p < 0.05$).
 Purple circles indicate where the Euclidean distance between connected pairs of hubs is significantly greater than the Euclidean distance for all other pairs of connected regions (right-tailed Welch's t-test, $p < 0.05$).
 (B) Top: Degree distribution, $k$, of the synaptic \textit{C.elegans}  connectome.
 Middle: proportion of connections that are: `rich' (hub $\rightarrow$ hub, red), `feed-in' (nonhub $\rightarrow$ hub, yellow), `feed-out' (hub $\rightarrow$ nonhub, orange), or `peripheral' (nonhub $\rightarrow$ nonhub, blue) as a function of the degree threshold, $k$, used to define hubs.
@@ -110,7 +110,7 @@ By contrast, $r_\phi$, which is used through this work, and our probability-base
 \emph{Middle}: Proportion of connections that are `rich' (hub$\rightarrow$hub, red), `feed-in' (nonhub$\rightarrow$hub, yellow), `feed-out' (hub$\rightarrow$nonhub, orange), and `peripheral' (nonhub$\rightarrow$nonhub, blue) as a function of the degree threshold, $k$, used to define hubs.
 Note that at high $k$, most neurons are labeled as nonhubs, and hence the vast majority of connections are `peripheral'.
 \emph{Bottom}: Mean CGE calculated using similarity index from only positive matches, $p_{match}$, for each connection type as a function of $k$.
-The mean CGE across all network links shown as a dotted black line; the topological rich-club regime (determined from the network topology, cf. Fig.~\ref{fig:Ch2Fig5}) is shaded gray.
+The mean CGE across all network links shown as a dotted black line; the topological rich-club regime (determined from the network topology, Figure \ref{fig:Ch2Fig5}) is shaded gray.
 Circles indicate a statistically significant increase in CGE in a given link type relative to the rest of the network (one-sided Welch's $t$ test; $p < 0.05$).}
 \label{fig:Ch2S3_Fig}
 \end{figure}
@@ -121,7 +121,7 @@ Circles indicate a statistically significant increase in CGE in a given link typ
 \begin{figure}[h!]
   \centering{\includegraphics[width=1\textwidth]{Chapter2/Ch2S4fig.pdf}}
  \caption{{\bf Correcting for spatial effects in CGE data using a bulk exponential trend.}
-  Here we consider correlated gene expression in the head, where the strongest spatial relationship exists (cf. Fig.~\ref{fig:Ch2Fig4}. (A) CGE values, $r_\phi$, plotted as a function of Euclidean separation distance for all pairs of neurons within the head (gray dots), with a fitted exponential trend shown in black, $f(x) = A\exp(-\lambda x) + B$.
+  Here we consider correlated gene expression in the head, where the strongest spatial relationship exists (Figure \ref{fig:Ch2Fig4}. (A) CGE values, $r_\phi$, plotted as a function of Euclidean separation distance for all pairs of neurons within the head (gray dots), with a fitted exponential trend shown in black, $f(x) = A\exp(-\lambda x) + B$.
 (B) Taking residuals from this trend does not adequately correct the spatial trend.
     Note the artifactual negative correlations indicated with an arrow.
     This indicates that the trend is not a bulk, isotropic effect, but may instead be driven primarily by a small number of neuron pairs with high $r_\phi$ at short distances ($\lessapprox 50\mu$m), indicated with a circle in (A).
