@@ -1,4 +1,4 @@
-\begin{thebibliography}{423}
+\begin{thebibliography}{424}
 \providecommand{\natexlab}[1]{#1}
 
 \bibitem[{Acevedo-Triana et~al.(2017)Acevedo-Triana, Le{\'{o}}n, Cardenas, and
@@ -730,6 +730,12 @@ Collin G, Sporns O, Mandl RCW, van~den Heuvel MP.
 \newblock {Structural and functional aspects relating to cost and benefit of
   rich club organization in the human cerebral cortex.}
 \newblock {\JournalTitle{Cereb Cortex}} 2014; \hspace{0pt}24:2258--67.
+
+\bibitem[{Consortium(2010)}]{Consortium2010}
+Consortium TIH.
+\newblock {Integrating common and rare genetic variation in diverse human
+  populations}.
+\newblock {\JournalTitle{Nature}} 2010; \hspace{0pt}467:52--58.
 
 \bibitem[{Corsello and Piro(2010)}]{Corsello2010}
 Corsello G, Piro E.
