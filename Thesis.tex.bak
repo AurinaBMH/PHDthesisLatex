@@ -1,0 +1,182 @@
+\documentclass[11pt,a4paper,oneside]{book}   %%%
+\def\baselinestretch{1.5}  % Expand manuscript text for editing (try 2.0)
+
+\usepackage[authoryear, comma, sort]{natbib}  %Enable named citations
+\usepackage[]{graphicx} % use 'demo' to skip missing figures
+\usepackage[font=singlespacing]{caption}
+\usepackage[subrefformat=parens,labelformat=parens]{subfig}
+%\usepackage{graphics}
+\usepackage{url}
+\usepackage{booktabs} % Nicer tables
+\usepackage{multirow} % Table cells spanning multiple rows
+%\usepackage{enumitem}
+\usepackage{lineno}
+\usepackage{float}
+\usepackage{pdfpages}
+\usepackage{epsfig}
+\usepackage{fancyhdr}
+\usepackage{rotating}
+\usepackage{amsmath,amssymb}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{siunitx}
+\usepackage{soul}
+\usepackage{placeins}
+\usepackage{hyperref}
+\usepackage{microtype} % Better line alignment
+\usepackage[version=3]{mhchem}
+\usepackage[textwidth=5cm]{todonotes}
+\usepackage[noperiod]{jabbrv}
+\usepackage{threeparttable,booktabs}
+\usepackage{threeparttable,booktabs}
+\usepackage{etoolbox}
+\usepackage{makecell}
+\usepackage{etoolbox}
+\appto\TPTnoteSettings{\footnotesize}
+\usepackage{sectsty}
+\chapternumberfont{\Huge} 
+\chaptertitlefont{\Huge}
+
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\titleformat{\chapter}[display]
+  {\normalfont\Huge\bfseries\color[RGB]{0, 77, 153}}
+  {\filleft\thechapter}{1em}{}
+
+% FOR ACTUAL THESIS
+
+\usepackage[top=0.75in,left=1in,footskip=0.75in,right=0.75in]{geometry}
+
+
+%\textwidth=16.1cm
+%\oddsidemargin=1cm
+%\evensidemargin=1cm 
+%\marginparwidth=0.0cm
+%\marginparsep=0.0cm
+
+% FOR TODO NOTES!
+% \textwidth=14.1cm
+% \oddsidemargin=-1cm
+% %\evensidemargin=0.22cm
+% \evensidemargin=3cm 
+% \marginparwidth=5cm
+% \marginparsep=0.2cm
+
+\textheight=25cm 
+\headsep=1.0cm
+\headheight=14pt
+
+\usepackage{caption,setspace}
+\captionsetup{aboveskip=1pt,font={small,singlespacing},labelsep=period,justification=justified}
+\newcounter{myenumi}
+\DeclareCaptionFont{tiny}{\tiny}
+\renewcommand{\themyenumi}{(\roman{myenumi})\hspace{5pt}}
+\newenvironment{myenumerate}{%
+% stuff for beginning of environment goes here
+%\setlength{\parindent}{0pt}% don't indent paragraphs
+\setcounter{myenumi}{0}% restart numbering
+\bigskip% skip a line
+\renewcommand{\item}{% new definition of item
+\par% start a new line
+\bigskip
+\refstepcounter{myenumi}% advance counter
+\themyenumi
+%\makebox[2em][l]{\themyenumi}% print counter to width of 3em, aligned to left
+}% end of definition of item
+}{% at end of environment
+\par% start new paragraph
+\bigskip% skip a line
+%\noindent% don't indent new paragraph
+\ignorespacesafterend% ignore spaces after environment
+}
+
+\newcommand{\inline}[1]{\todo[inline]{#1}}
+\newcommand{\qmax}[0]{Q_{\textrm{max}}}
+\newcommand{\nuab}[0]{$\nu_{ab}$}
+\newcommand{\nuee}[0]{$\nu_{ee}$}
+\newcommand{\nuei}[0]{$\nu_{ei}$}
+\newcommand{\nues}[0]{$\nu_{es}$}
+\newcommand{\nuse}[0]{$\nu_{se}$}
+\newcommand{\nusr}[0]{$\nu_{sr}$}
+\newcommand{\nusn}[0]{$\nu_{sn}$}
+\newcommand{\nure}[0]{$\nu_{re}$}
+\newcommand{\nurs}[0]{$\nu_{rs}$}
+\newcommand{\gab}[0]{$G_{ab}$}
+\newcommand{\gabcd}[0]{$G_{abcd}$}
+\newcommand{\gese}[0]{$G_{ese}$}
+\newcommand{\gesre}[0]{$G_{esre}$}
+\newcommand{\gsrs}[0]{$G_{srs}$}
+\newcommand{\xyz}[0]{$XY\!Z$}
+\newcommand{\gee}[0]{$G_{ee}$}
+\newcommand{\gei}[0]{$G_{ei}$}
+\newcommand{\ges}[0]{$G_{es}$}
+\newcommand{\gse}[0]{$G_{se}$}
+\newcommand{\gsr}[0]{$G_{sr}$}
+\newcommand{\gsn}[0]{$G_{sn}$}
+\newcommand{\gre}[0]{$G_{re}$}
+\newcommand{\grs}[0]{$G_{rs}$}
+\newcommand{\e}[1]{\times 10^{#1}}
+\newcommand{\phia}[0]{$\phi_a$}
+\newcommand{\phie}[0]{$\phi_e$}
+\newcommand{\phii}[0]{$\phi_i$}
+\newcommand{\phir}[0]{$\phi_r$} 
+\newcommand{\phis}[0]{$\phi_s$}
+\newcommand{\phin}[0]{$\phi_n$}
+
+\newcommand{\placeholder}[1]{\todo[inline]{#1}}
+
+% Robinson commands
+\newcommand{\D}{\ensuremath{\partial}}
+\newcommand{\E}{\ensuremath{e}}
+\newcommand{\rt}{\ensuremath{\mathbf{r},t}}
+\newcommand{\ko}{\ensuremath{\mathbf{k},\omega}}
+
+\DeclareMathOperator*{\sgn}{sgn}
+
+\begin{document} 
+  
+  \pagestyle{plain} 
+
+  % COVER PAGES
+  \input{cover/Title} 
+  \frontmatter 
+  \input{cover/Copyright}  \clearpage \thispagestyle{empty} \cleardoublepage
+  \input{cover/Abstract}  \clearpage \thispagestyle{empty} \cleardoublepage 
+  \input{cover/Acknowledgements}  \clearpage \thispagestyle{empty} \cleardoublepage  
+  \input{cover/Publications} \clearpage \thispagestyle{empty} \cleardoublepage 
+  \input{cover/Declarations} \clearpage \thispagestyle{empty} \cleardoublepage 
+
+  \tableofcontents% \clearpage \thispagestyle{empty} 
+
+  \mainmatter
+
+  \fancyhead{}
+  \pagestyle{fancy} % headings
+
+  \include{Chapter1/Chapter1} 
+  \clearpage
+  \include{Chapter2/Chapter2}  
+  \clearpage
+  \include{Chapter3/Chapter3}  
+  \clearpage
+  \include{Chapter4/Chapter4}  
+  \clearpage
+  \include{Chapter5/Chapter5}  
+  \clearpage
+  \include{Chapter6/Chapter6}  
+
+  \clearpage
+  
+  \appendix
+  \input{appendix/appendixCh2}
+  \input{appendix/appendixCh4}
+  \input{appendix/appendixCh5}
+  \clearpage
+
+  \fancyhead[R]{}
+
+  \bibliographystyle{complex_vancouver}
+  \bibliography{library}
+
+\end{document} 
