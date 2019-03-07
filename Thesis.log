@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  7 MAR 2019 12:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  7 MAR 2019 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1242,9 +1242,7 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 )
 \c@myenumi=\count295
 
-(./Thesis.aux (./Chapter1/Chapter1.aux) (./Chapter2/Chapter2.aux)
-(./Chapter3/Chapter3.aux) (./Chapter4/Chapter4.aux) (./Chapter5/Chapter5.aux)
-(./Chapter6/Chapter6.aux))
+(./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
@@ -1405,7 +1403,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-(./cover/Title.tex <logoMonash.jpg, id=316, 2370.8575pt x 469.755pt>
+(./cover/Title.tex <logoMonash.jpg, id=7, 2370.8575pt x 469.755pt>
 File: logoMonash.jpg Graphic file (type jpg)
 
 <use logoMonash.jpg>
@@ -1459,7 +1457,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
 
 ] (./cover/Declarations.tex
-<declarationTable.pdf, id=360, 597.23125pt x 370.38374pt>
+<declarationTable.pdf, id=51, 597.23125pt x 370.38374pt>
 File: declarationTable.pdf Graphic file (type pdf)
 
 <use declarationTable.pdf>
@@ -1473,7 +1471,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-<AAsignature.png, id=398, 322.806pt x 243.7908pt>
+<AAsignature.png, id=88, 322.806pt x 243.7908pt>
 File: AAsignature.png Graphic file (type png)
  <use AAsignature.png>
 Package pdftex.def Info: AAsignature.png used on input line 18.
@@ -1488,7 +1486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<AFsignature.pdf, id=400, 711.65875pt x 327.2225pt>
+<AFsignature.pdf, id=90, 711.65875pt x 327.2225pt>
 File: AFsignature.pdf Graphic file (type pdf)
  <use AFsignature.pdf>
 Package pdftex.def Info: AFsignature.pdf used on input line 27.
@@ -1498,395 +1496,646 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-) [7 <./AAsignature.png> <./AFsignature.pdf>] (./Thesis.toc [8
+) [7 <./AAsignature.png> <./AFsignature.pdf>]
 
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
 
-
-] [9])
 \tf@toc=\write5
 \openout5 = `Thesis.toc'.
 
- [10]
-\openout2 = `Chapter1/Chapter1.aux'.
-
-
-(./Chapter1/Chapter1.tex
-Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.11 
-      [1
-
-
-
-] [2] [3] [4] [5]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [6] [7] [8]
-
-Package natbib Warning: Citation `Papiol2014' on page 9 undefined on input line
- 70.
-
-[9] [10] [11]) [12]
-\openout2 = `Chapter2/Chapter2.aux'.
-
- (./Chapter2/Chapter2.tex
-Chapter 2.
-[13
-
-
-
-
-] [14] [15] [16] [17] [18] [19] [20]
-<Chapter2/Ch2Fig1.pdf, id=1455, 541.88048pt x 273.46968pt>
-File: Chapter2/Ch2Fig1.pdf Graphic file (type pdf)
-
-<use Chapter2/Ch2Fig1.pdf>
-Package pdftex.def Info: Chapter2/Ch2Fig1.pdf used on input line 180.
-(pdftex.def)             Requested size: 471.03539pt x 237.71638pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[21] [22 <./Chapter2/Ch2Fig1.pdf>] [23] [24]
-<Chapter2/Ch2Fig2.pdf, id=1558, 526.36653pt x 218.37585pt>
-File: Chapter2/Ch2Fig2.pdf Graphic file (type pdf)
-
-<use Chapter2/Ch2Fig2.pdf>
-Package pdftex.def Info: Chapter2/Ch2Fig2.pdf used on input line 268.
-(pdftex.def)             Requested size: 471.03539pt x 195.42683pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[25] <Chapter2/Ch2Fig3.pdf, id=1588, 526.36653pt x 191.2746pt>
-File: Chapter2/Ch2Fig3.pdf Graphic file (type pdf)
-
-<use Chapter2/Ch2Fig3.pdf>
-Package pdftex.def Info: Chapter2/Ch2Fig3.pdf used on input line 289.
-(pdftex.def)             Requested size: 471.03539pt x 171.17363pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[26 <./Chapter2/Ch2Fig2.pdf>]
-<Chapter2/Ch2Fig4.pdf, id=1615, 512.1534pt x 156.82591pt>
-File: Chapter2/Ch2Fig4.pdf Graphic file (type pdf)
-
-<use Chapter2/Ch2Fig4.pdf>
-Package pdftex.def Info: Chapter2/Ch2Fig4.pdf used on input line 309.
-(pdftex.def)             Requested size: 471.03539pt x 144.24089pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Chapter2/Ch2Fig5.pdf, id=1630, 527.93237pt x 336.5373pt>
-File: Chapter2/Ch2Fig5.pdf Graphic file (type pdf)
-
-<use Chapter2/Ch2Fig5.pdf>
-Package pdftex.def Info: Chapter2/Ch2Fig5.pdf used on input line 328.
-(pdftex.def)             Requested size: 471.03539pt x 300.27724pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[27 <./Chapter2/Ch2Fig3.pdf>] [28 <./Chapter2/Ch2Fig4.pdf>] [29 <./Chapter2/Ch2
-Fig5.pdf>] <Chapter2/Ch2Fig6.pdf, id=1711, 536.2434pt x 535.88205pt>
-File: Chapter2/Ch2Fig6.pdf Graphic file (type pdf)
-
-<use Chapter2/Ch2Fig6.pdf>
-Package pdftex.def Info: Chapter2/Ch2Fig6.pdf used on input line 398.
-(pdftex.def)             Requested size: 400.38295pt x 400.12798pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[30] [31 <./Chapter2/Ch2Fig6.pdf>]
-<Chapter2/Ch2Fig7.pdf, id=1736, 536.2434pt x 190.311pt>
-File: Chapter2/Ch2Fig7.pdf Graphic file (type pdf)
-
-<use Chapter2/Ch2Fig7.pdf>
-Package pdftex.def Info: Chapter2/Ch2Fig7.pdf used on input line 433.
-(pdftex.def)             Requested size: 471.03539pt x 167.17508pt.
- [32 <./Chapter2/Ch2Fig7.pdf>]
-<Chapter2/Ch2Fig8.pdf, id=1785, 536.2434pt x 313.8927pt>
-File: Chapter2/Ch2Fig8.pdf Graphic file (type pdf)
-
-<use Chapter2/Ch2Fig8.pdf>
-Package pdftex.def Info: Chapter2/Ch2Fig8.pdf used on input line 472.
-(pdftex.def)             Requested size: 471.03539pt x 275.7331pt.
- [33] [34 <./Chapter2/Ch2Fig8.pdf>] [35] [36]
-[37] [38] [39] [40] [41]) [42] [43]
-\openout2 = `Chapter3/Chapter3.aux'.
-
- (./Chapter3/Chapter3.tex
-Chapter 3.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 2.
-
-[44
-
+[8
 
 
 
 ]
-Missing character: There is no ƒ in font cmr10!
-Missing character: There is no É in font cmr10!
-Missing character: There is no ƒ in font cmr10!
-Missing character: There is no É in font cmr10!
-Missing character: There is no ≈ in font cmr10!
-Missing character: There is no £ in font cmr10!
- [45]
+\openout2 = `Chapter1/Chapter1.aux'.
+
+ (./Chapter1/Chapter1.tex
+Chapter 1.
+
+Package natbib Warning: Citation `RamonyCajal1995' on page 1 undefined on input
+ line 6.
+
+
+Package natbib Warning: Citation `VandenHeuvel2010b' on page 1 undefined on inp
+ut line 6.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 1 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `Fornito2015' on page 1 undefined on input lin
+e 6.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013b' on page 1 undefined on inp
+ut line 10.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 1 undefined on inpu
+t line 10.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013a' on page 1 undefined on inp
+ut line 10.
+
+
+Package natbib Warning: Citation `Crossley2014' on page 1 undefined on input li
+ne 10.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013b' on page 1 undefined on inp
+ut line 10.
+
+
+Package natbib Warning: Citation `Fornito2015' on page 1 undefined on input lin
+e 10.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 \section{The brain as a network}
+                                      [1
+
+
+
+]
+
+Package natbib Warning: Citation `Williams1988' on page 2 undefined on input li
+ne 14.
+
+
+Package natbib Warning: Citation `Andersen1992' on page 2 undefined on input li
+ne 14.
+
+
+Package natbib Warning: Citation `Pelvig2008' on page 2 undefined on input line
+ 14.
+
+
+Package natbib Warning: Citation `RamonyCajal1995' on page 2 undefined on input
+ line 14.
+
+
+Package natbib Warning: Citation `DeRobertis1955' on page 2 undefined on input 
+line 14.
+
+
+Package natbib Warning: Citation `Cherniak1999' on page 2 undefined on input li
+ne 26.
+
+
+Package natbib Warning: Citation `Chklovskii2002' on page 2 undefined on input 
+line 26.
+
+
+Package natbib Warning: Citation `Cherniak2004' on page 2 undefined on input li
+ne 26.
+
+
+Package natbib Warning: Citation `Bota2015' on page 2 undefined on input line 2
+8.
+
+
+Package natbib Warning: Citation `Chiang2011a' on page 2 undefined on input lin
+e 28.
+
+
+Package natbib Warning: Citation `Oh2014' on page 2 undefined on input line 28.
+
+
+
+Package natbib Warning: Citation `Scannell1999' on page 2 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Shanahan2013' on page 2 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Stephan2001' on page 2 undefined on input lin
+e 28.
+
+
+Package natbib Warning: Citation `VanEssen2013' on page 2 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `White1986' on page 2 undefined on input line 
+28.
+
+
+Package natbib Warning: Citation `White1986' on page 2 undefined on input line 
+28.
+
+
+Package natbib Warning: Citation `Varshney2011' on page 2 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Chiang2011a' on page 2 undefined on input lin
+e 28.
+
+[2]
+
+Package natbib Warning: Citation `Ohyama2015' on page 3 undefined on input line
+ 30.
+
+
+Package natbib Warning: Citation `Zheng2018' on page 3 undefined on input line 
+30.
+
+
+Package natbib Warning: Citation `Shanahan2013' on page 3 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Oh2014' on page 3 undefined on input line 30.
+
+
+
+Package natbib Warning: Citation `Scannell1995' on page 3 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 3 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Jbabdi2011' on page 3 undefined on input line
+ 30.
+
+
+Package natbib Warning: Citation `Jones2010' on page 3 undefined on input line 
+30.
+
+
+Package natbib Warning: Citation `Jones2013' on page 3 undefined on input line 
+30.
+
+
+Package natbib Warning: Citation `Thomas2014' on page 3 undefined on input line
+ 30.
+
+
+Package natbib Warning: Citation `Sporns2005' on page 3 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `Barabasi2016' on page 3 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Bassett2006' on page 3 undefined on input lin
+e 38.
+
+
+Package natbib Warning: Citation `Gygi1999' on page 3 undefined on input line 3
+8.
+
+
+Package natbib Warning: Citation `Hilgetag2004' on page 3 undefined on input li
+ne 38.
+
+
+Package natbib Warning: Citation `Sporns2004' on page 3 undefined on input line
+ 38.
+
+
+Package natbib Warning: Citation `Watts1998' on page 3 undefined on input line 
+38.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 3 undefined on input li
+ne 38.
+
+
+Package natbib Warning: Citation `Sporns2004' on page 3 undefined on input line
+ 38.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 3 undefined on inpu
+t line 38.
+
+
+Package natbib Warning: Citation `Betzel2018' on page 3 undefined on input line
+ 38.
+
+
+Package natbib Warning: Citation `Bullmore1997' on page 3 undefined on input li
+ne 38.
+
+
+Package natbib Warning: Citation `Meunier2010a' on page 3 undefined on input li
+ne 38.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 3 undefined on input lin
+e 38.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 3 undefined on input lin
+e 38.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 3 undefined on inpu
+t line 38.
+
+[3]
+
+Package natbib Warning: Citation `RamonyCajal1995' on page 4 undefined on input
+ line 40.
+
+
+Package natbib Warning: Citation `Ercsey-Ravasz2013' on page 4 undefined on inp
+ut line 40.
+
+
+Package natbib Warning: Citation `Henderson2014' on page 4 undefined on input l
+ine 40.
+
+
+Package natbib Warning: Citation `Betzel2016' on page 4 undefined on input line
+ 40.
+
+
+Package natbib Warning: Citation `Vertes2012' on page 4 undefined on input line
+ 40.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 4 undefined on input li
+ne 40.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 4 undefined on input lin
+e 44.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 4 undefined on input li
+ne 44.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 4 undefined on input lin
+e 44.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 4 undefined on inpu
+t line 44.
+
+
+Package natbib Warning: Citation `Zamora-Lopez2010' on page 4 undefined on inpu
+t line 44.
+
+
+Package natbib Warning: Citation `VandenHeuvel2012' on page 4 undefined on inpu
+t line 44.
+
+
+Package natbib Warning: Citation `Misic2014' on page 4 undefined on input line 
+44.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 4 undefined on input lin
+e 44.
+
+
+Package natbib Warning: Citation `Oh2014' on page 4 undefined on input line 44.
+
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 4 undefined on input lin
+e 44.
+
+
+Package natbib Warning: Citation `DeReus2013b' on page 4 undefined on input lin
+e 44.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 4 undefined on input li
+ne 44.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 4 undefined on inpu
+t line 44.
+
+[4]
+
+Package natbib Warning: Citation `Fulcher2016' on page 5 undefined on input lin
+e 46.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 5 undefined on input lin
+e 46.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 5 undefined on inpu
+t line 46.
+
+
+Package natbib Warning: Citation `DeReus2014' on page 5 undefined on input line
+ 46.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 5 undefined on input lin
+e 46.
+
+
+Package natbib Warning: Citation `Gong2009' on page 5 undefined on input line 4
+6.
+
+
+Package natbib Warning: Citation `VandenHeuvel2012' on page 5 undefined on inpu
+t line 46.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013a' on page 5 undefined on inp
+ut line 46.
+
+
+Package natbib Warning: Citation `Buckner2009' on page 5 undefined on input lin
+e 46.
+
+
+Package natbib Warning: Citation `Mesulam1998' on page 5 undefined on input lin
+e 46.
+
+
+Package natbib Warning: Citation `Li2009' on page 5 undefined on input line 46.
+
+
+
+Package natbib Warning: Citation `VandenHeuvel2009' on page 5 undefined on inpu
+t line 46.
+
+
+Package natbib Warning: Citation `Cole2012' on page 5 undefined on input line 4
+6.
+
+
+Package natbib Warning: Citation `Adelstein2011' on page 5 undefined on input l
+ine 46.
+
+
+Package natbib Warning: Citation `Collin2014' on page 5 undefined on input line
+ 46.
+
+
+Package natbib Warning: Citation `Collin2014' on page 5 undefined on input line
+ 46.
+
+
+Package natbib Warning: Citation `Buckner2009' on page 5 undefined on input lin
+e 46.
+
+
+Package natbib Warning: Citation `Cole2012' on page 5 undefined on input line 4
+6.
+
+
+Package natbib Warning: Citation `Mesulam1998' on page 5 undefined on input lin
+e 46.
+
+
+Package natbib Warning: Citation `Collin2014' on page 5 undefined on input line
+ 46.
+
+
+Package natbib Warning: Citation `Vaishnavi2010' on page 5 undefined on input l
+ine 46.
+
+
+Package natbib Warning: Citation `Varkuti2011' on page 5 undefined on input lin
+e 46.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 5 undefined on input li
+ne 48.
+
+
+Package natbib Warning: Citation `DeReus2014' on page 5 undefined on input line
+ 48.
+
+
+Package natbib Warning: Citation `Bassett2009a' on page 5 undefined on input li
+ne 48.
+
+
+Package natbib Warning: Citation `Crossley2014' on page 5 undefined on input li
+ne 48.
+
+
+Package natbib Warning: Citation `Fornito2015' on page 5 undefined on input lin
+e 48.
+
+
+Package natbib Warning: Citation `Zhou2012' on page 5 undefined on input line 4
+8.
+
+
+Package natbib Warning: Citation `VandenHeuvel2012' on page 5 undefined on inpu
+t line 48.
+
+
+Package natbib Warning: Citation `Fornito2012a' on page 5 undefined on input li
+ne 48.
+
+
+Package natbib Warning: Citation `VandenHeuvel2010' on page 5 undefined on inpu
+t line 48.
+
+
+Package natbib Warning: Citation `Zalesky2011' on page 5 undefined on input lin
+e 48.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013c' on page 5 undefined on inp
+ut line 48.
+
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [46] [47] [48]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [49] [50]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
 
-<Chapter3/Ch3Fig1.pdf, id=2483, 654.445pt x 341.275pt>
-File: Chapter3/Ch3Fig1.pdf Graphic file (type pdf)
-
-<use Chapter3/Ch3Fig1.pdf>
-Package pdftex.def Info: Chapter3/Ch3Fig1.pdf used on input line 88.
-(pdftex.def)             Requested size: 471.03539pt x 245.62927pt.
- [51 <./Chapter3/Ch3Fig1.pdf>]
-<Chapter3/Ch3Fig2.pdf, id=2540, 938.57138pt x 313.2482pt>
-File: Chapter3/Ch3Fig2.pdf Graphic file (type pdf)
-
-<use Chapter3/Ch3Fig2.pdf>
-Package pdftex.def Info: Chapter3/Ch3Fig2.pdf used on input line 99.
-(pdftex.def)             Requested size: 471.03539pt x 157.20685pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+Package natbib Warning: Citation `DeHaan2012' on page 5 undefined on input line
+ 48.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-[52] [53 <./Chapter3/Ch3Fig2.pdf>] [54]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-
-<Chapter3/Ch3Fig3.pdf, id=2651, 682.55pt x 455.7025pt>
-File: Chapter3/Ch3Fig3.pdf Graphic file (type pdf)
-
-<use Chapter3/Ch3Fig3.pdf>
-Package pdftex.def Info: Chapter3/Ch3Fig3.pdf used on input line 142.
-(pdftex.def)             Requested size: 471.03539pt x 314.49068pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no § in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no § in font cmr10!
+Package natbib Warning: Citation `Stam2009' on page 5 undefined on input line 4
+8.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-[55] [56 <./Chapter3/Ch3Fig3.pdf>]
-<Chapter3/Ch3Fig4.pdf, id=2752, 916.42375pt x 370.38374pt>
-File: Chapter3/Ch3Fig4.pdf Graphic file (type pdf)
-
-<use Chapter3/Ch3Fig4.pdf>
-Package pdftex.def Info: Chapter3/Ch3Fig4.pdf used on input line 167.
-(pdftex.def)             Requested size: 471.03539pt x 190.37392pt.
- [57] [58 <./Chapter3/Ch3Fig4.pdf>]) [59]
-\openout2 = `Chapter4/Chapter4.aux'.
+Package natbib Warning: Citation `Agosta2013' on page 5 undefined on input line
+ 48.
 
 
-(./Chapter4/Chapter4.tex
-Chapter 4.
+Package natbib Warning: Citation `Achard2012' on page 5 undefined on input line
+ 48.
 
-Overfull \hbox (2.12529pt too wide) in paragraph at lines 2--2
-|\OT1/cmr/bx/n/24.88 Linking brain-wide gene ex-pres-sion and
- []
 
-[60
+Package natbib Warning: Citation `Laureys2004' on page 5 undefined on input lin
+e 48.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 5 undefined on input li
+ne 50.
+
+[5]
+
+Package natbib Warning: Citation `Baare2001' on page 6 undefined on input line 
+60.
+
+
+Package natbib Warning: Citation `Bohlken2014' on page 6 undefined on input lin
+e 60.
+
+
+Package natbib Warning: Citation `Wright2002' on page 6 undefined on input line
+ 60.
+
+
+Package natbib Warning: Citation `Bohlken2014' on page 6 undefined on input lin
+e 60.
+
+
+Package natbib Warning: Citation `Shen2014' on page 6 undefined on input line 6
+0.
+
+
+Package natbib Warning: Citation `Sudre2017' on page 6 undefined on input line 
+60.
+
+
+Package natbib Warning: Citation `Colclough2017' on page 6 undefined on input l
+ine 60.
+
+
+Package natbib Warning: Citation `Fu2015' on page 6 undefined on input line 60.
 
 
 
-
-] [61] [62] [63] [64]
-<Chapter4/Ch4Fig1.pdf, id=3058, 735.74875pt x 711.65875pt>
-File: Chapter4/Ch4Fig1.pdf Graphic file (type pdf)
-
-<use Chapter4/Ch4Fig1.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig1.pdf used on input line 65.
-(pdftex.def)             Requested size: 471.03539pt x 455.62292pt.
+Package natbib Warning: Citation `Glahn2010' on page 6 undefined on input line 
+60.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[65] [66 <./Chapter4/Ch4Fig1.pdf>]
-<Chapter4/Ch4Fig2.pdf, id=3162, 569.05505pt x 227.76433pt>
-File: Chapter4/Ch4Fig2.pdf Graphic file (type pdf)
-
-<use Chapter4/Ch4Fig2.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig2.pdf used on input line 92.
-(pdftex.def)             Requested size: 471.03539pt x 188.53693pt.
- [67 <./Chapter4/Ch4Fig2.pdf>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
- [68] [69]
-<Chapter4/Ch4Fig3.pdf, id=3250, 569.12625pt x 156.585pt>
-File: Chapter4/Ch4Fig3.pdf Graphic file (type pdf)
-
-<use Chapter4/Ch4Fig3.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig3.pdf used on input line 133.
-(pdftex.def)             Requested size: 471.03539pt x 129.60233pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ì in font cmr10!
- [70 <./Chapter4/Ch4Fig3.pdf>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 166.
+Package natbib Warning: Citation `Sudre2017' on page 6 undefined on input line 
+60.
 
 
-(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 166.
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ò in font cmr9!
-Missing character: There is no ‚ in font cmr9!
-Missing character: There is no Ä in font cmr9!
-Missing character: There is no ô in font cmr9!
- [71]
-<Chapter4/Ch4Fig4.pdf, id=3347, 569.12625pt x 170.6375pt>
-File: Chapter4/Ch4Fig4.pdf Graphic file (type pdf)
-
-<use Chapter4/Ch4Fig4.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig4.pdf used on input line 179.
-(pdftex.def)             Requested size: 471.03539pt x 141.2333pt.
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [72 <./Chapter4/Ch4Fig4.pdf>] [73]
-<Chapter4/Ch4Fig5.pdf, id=3490, 569.12625pt x 170.6375pt>
-File: Chapter4/Ch4Fig5.pdf Graphic file (type pdf)
-
-<use Chapter4/Ch4Fig5.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig5.pdf used on input line 209.
-(pdftex.def)             Requested size: 471.03539pt x 141.2333pt.
+Package natbib Warning: Citation `Bohlken2014' on page 6 undefined on input lin
+e 60.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[74] [75 <./Chapter4/Ch4Fig5.pdf>]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
+Package natbib Warning: Citation `Fornito2011' on page 6 undefined on input lin
+e 60.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[76] <Chapter4/Ch4Fig6.pdf, id=3594, 569.12625pt x 255.95625pt>
-File: Chapter4/Ch4Fig6.pdf Graphic file (type pdf)
-
-<use Chapter4/Ch4Fig6.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig6.pdf used on input line 259.
-(pdftex.def)             Requested size: 471.03539pt x 211.84998pt.
+Package natbib Warning: Citation `Sinclair2015' on page 6 undefined on input li
+ne 60.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-[77] [78 <./Chapter4/Ch4Fig6.pdf>] [79] [80]
-<Chapter4/Ch4Fig7.pdf, id=3800, 569.12625pt x 341.275pt>
-File: Chapter4/Ch4Fig7.pdf Graphic file (type pdf)
-
-<use Chapter4/Ch4Fig7.pdf>
-Package pdftex.def Info: Chapter4/Ch4Fig7.pdf used on input line 313.
-(pdftex.def)             Requested size: 471.03539pt x 282.46663pt.
+Package natbib Warning: Citation `Sinclair2015' on page 6 undefined on input li
+ne 60.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Package natbib Warning: Citation `Bohlken2014' on page 6 undefined on input lin
+e 60.
 
-[81] [82 <./Chapter4/Ch4Fig7.pdf>]
+
+Package natbib Warning: Citation `Fornito2011' on page 6 undefined on input lin
+e 60.
+
+[6]
+
+Package natbib Warning: Citation `Charney2017' on page 7 undefined on input lin
+e 62.
+
+
+Package natbib Warning: Citation `Joseph2002' on page 7 undefined on input line
+ 62.
+
+
+Package natbib Warning: Citation `Corsello2010' on page 7 undefined on input li
+ne 62.
+
+
+Package natbib Warning: Citation `Joseph2002' on page 7 undefined on input line
+ 62.
+
+
+Package natbib Warning: Citation `Bruder2008' on page 7 undefined on input line
+ 62.
+
+
+Package natbib Warning: Citation `Charney2017' on page 7 undefined on input lin
+e 62.
+
+
+Package natbib Warning: Citation `Joseph2002' on page 7 undefined on input line
+ 62.
+
+
+Package natbib Warning: Citation `Thompson2013' on page 7 undefined on input li
+ne 66.
+
+
+Package natbib Warning: Citation `Thompson2013' on page 7 undefined on input li
+ne 68.
+
+
+Package natbib Warning: Citation `Braskie2012' on page 7 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `Chiang2011' on page 7 undefined on input line
+ 68.
+
+
+Package natbib Warning: Citation `Jahanshad2012b' on page 7 undefined on input 
+line 68.
+
+
+Package natbib Warning: Citation `Dennis2011' on page 7 undefined on input line
+ 68.
+
+
+Package natbib Warning: Citation `Filippini2009' on page 7 undefined on input l
+ine 68.
+
+
+Package natbib Warning: Citation `Trachtenberg2012' on page 7 undefined on inpu
+t line 68.
+
+
+Package natbib Warning: Citation `Westlye2011' on page 7 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `Sullivan2007' on page 7 undefined on input li
+ne 68.
+
+
+Package natbib Warning: Citation `Hutchison2004' on page 7 undefined on input l
+ine 68.
+
+
+Package natbib Warning: Citation `Chiang2009' on page 7 undefined on input line
+ 68.
+
+
+Package natbib Warning: Citation `Jahanshad2013' on page 7 undefined on input l
+ine 68.
+
+
+Package natbib Warning: Citation `Jahanshad2012a' on page 7 undefined on input 
+line 68.
+
+
+Package natbib Warning: Citation `Elliott2018' on page 7 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `Th2 <./Chapter4/Ch4Fig7.pdf>]
 <Chapter4/Ch4Fig8.pdf, id=3878, 569.12625pt x 227.85126pt>
 File: Chapter4/Ch4Fig8.pdf Graphic file (type pdf)
 
@@ -2692,6 +2941,18 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  (./Thesis.aux (./Chapter1/Chapter1.aux) (./Chapter2/Chapter2.aux)
 (./Chapter3/Chapter3.aux) (./Chapter4/Chapter4.aux) (./Chapter5/Chapter5.aux)
+Runaway argument?
+{{5.5}{100}{\textbf {Rich links show distinct correlation patterns in\ETC.
+! File ended while scanning use of \@newl@bel.
+<inserted text> 
+                \par 
+l.25 \@input{Chapter5/Chapter5.aux}
+                                   
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 (./Chapter6/Chapter6.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
@@ -2717,7 +2978,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
 Here is how much of TeX's memory you used:
  42265 strings out of 493089
  873811 string characters out of 6134843
- 990157 words of memory out of 5000000
+ 990181 words of memory out of 5000000
  43998 multiletter control sequences out of 15000+600000
  32205 words of font info for 227 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2758,4 +3019,4928 @@ PDF statistics:
  5906 compressed objects within 60 object streams
  814 named destinations out of 1000 (max. 500000)
  36282 words of extra memory for PDF output out of 42996 (max. 10000000)
+
+n input lin
+e 593.
+
+[37]
+
+Package natbib Warning: Citation `Fulcher2016' on page 38 undefined on input li
+ne 595.
+
+
+Package natbib Warning: Citation `Kim2016' on page 38 undefined on input line 6
+08.
+
+
+Package natbib Warning: Citation `VandenHeuvel2016' on page 38 undefined on inp
+ut line 609.
+
+
+Package natbib Warning: Citation `Mesulam1998' on page 38 undefined on input li
+ne 610.
+
+[38]
+
+Package natbib Warning: Citation `Futcher1999' on page 39 undefined on input li
+ne 618.
+
+
+Package natbib Warning: Citation `Greenbaum2003' on page 39 undefined on input 
+line 618.
+
+
+Package natbib Warning: Citation `Gygi1999' on page 39 undefined on input line 
+618.
+
+
+Package natbib Warning: Citation `Lein2007a' on page 39 undefined on input line
+ 622.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 39 undefined on input 
+line 622.
+
+
+Package natbib Warning: Citation `Shen2012' on page 39 undefined on input line 
+622.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 39 undefined on input li
+ne 622.
+
+
+Package natbib Warning: Citation `Ji2014' on page 39 undefined on input line 62
+2.
+
+
+Package natbib Warning: Citation `Fakhry2015a' on page 39 undefined on input li
+ne 622.
+
+
+Package natbib Warning: Citation `French2011' on page 39 undefined on input lin
+e 622.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 39 undefined on input li
+ne 622.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 39 undefined on input lin
+e 622.
+
+
+LaTeX Warning: Reference `app:AppendixCh2_1' on page 39 undefined on input line
+ 623.
+
+[39]) [40]
+\openout2 = `Chapter3/Chapter3.aux'.
+
+ (./Chapter3/Chapter3.tex
+Chapter 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 2.
+
+[41
+
+
+
+
+]
+
+Package natbib Warning: Citation `Buzsaki2004' on page 42 undefined on input li
+ne 26.
+
+
+Package natbib Warning: Citation `Lichtman2011' on page 42 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Fornito2016' on page 42 undefined on input li
+ne 26.
+
+
+Package natbib Warning: Citation `Bullmore2009' on page 42 undefined on input l
+ine 27.
+
+
+Package natbib Warning: Citation `Fornito2016' on page 42 undefined on input li
+ne 27.
+
+
+Package natbib Warning: Citation `White1986' on page 42 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `Varshney2011' on page 42 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `Oh2014' on page 42 undefined on input line 28
+.
+
+
+Package natbib Warning: Citation `Gamanut2018' on page 42 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Stephan2001' on page 42 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Markov2014' on page 42 undefined on input lin
+e 28.
+
+
+Package natbib Warning: Citation `Bassett2009a' on page 42 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `Bullmore2009' on page 42 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `Fornito2013' on page 42 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Bullmore2009' on page 42 undefined on input l
+ine 30.
+
+
+Package natbib Warning: Citation `Sporns2011' on page 42 undefined on input lin
+e 30.
+
+
+Package natbib Warning: Citation `Fornito2016' on page 42 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `VandenHeuvel2016' on page 42 undefined on inp
+ut line 30.
+
+
+Package natbib Warning: Citation `Schroter2017' on page 42 undefined on input l
+ine 30.
+
+
+Package natbib Warning: Citation `Watts1998' on page 42 undefined on input line
+ 30.
+
+
+Package natbib Warning: Citation `Bassett2017' on page 42 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Betzel2017' on page 42 undefined on input lin
+e 30.
+
+
+Package natbib Warning: Citation `Meunier2009' on page 42 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Bassett2010' on page 42 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 42 undefined on inp
+ut line 30.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 42 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `VandenHeuvel2016' on page 42 undefined on inp
+ut line 30.
+
+
+Package natbib Warning: Citation `Zamora-Lopez2010' on page 42 undefined on inp
+ut line 30.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 42 undefined on inp
+ut line 30.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 42 undefined on input l
+ine 30.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 42 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Smit2008' on page 42 undefined on input line 
+32.
+
+
+Package natbib Warning: Citation `Fornito2011' on page 42 undefined on input li
+ne 32.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013e' on page 42 undefined on in
+put line 32.
+
+
+Package natbib Warning: Citation `Bohlken2014' on page 42 undefined on input li
+ne 32.
+
+
+Package natbib Warning: Citation `Sinclair2015' on page 42 undefined on input l
+ine 32.
+
+
+Package natbib Warning: Citation `Zhan2015' on page 42 undefined on input line 
+32.
+
+
+Package natbib Warning: Citation `Colclough2017' on page 42 undefined on input 
+line 32.
+
+
+Package natbib Warning: Citation `Liu2010' on page 42 undefined on input line 3
+2.
+
+
+Package natbib Warning: Citation `Brown2011' on page 42 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `Dennis2011' on page 42 undefined on input lin
+e 32.
+
+
+Package natbib Warning: Citation `Markett2017' on page 42 undefined on input li
+ne 32.
+
+
+Package natbib Warning: Citation `Jahanshad2013' on page 42 undefined on input 
+line 32.
+
+[42]
+
+Package natbib Warning: Citation `Lein2007a' on page 43 undefined on input line
+ 35.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 43 undefined on input 
+line 35.
+
+
+Package natbib Warning: Citation `Varadan2006' on page 43 undefined on input li
+ne 35.
+
+
+Package natbib Warning: Citation `Kaufman2006' on page 43 undefined on input li
+ne 35.
+
+
+Package natbib Warning: Citation `Baruch2008' on page 43 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `Wolf2011' on page 43 undefined on input line 
+35.
+
+
+Package natbib Warning: Citation `French2011' on page 43 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `Ji2014' on page 43 undefined on input line 35
+.
+
+
+Package natbib Warning: Citation `Fakhry2015a' on page 43 undefined on input li
+ne 35.
+
+
+Package natbib Warning: Citation `Goel2014' on page 43 undefined on input line 
+35.
+
+
+Package natbib Warning: Citation `Forest2017' on page 43 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 43 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 43 undefined on in
+put line 35.
+
+
+Package natbib Warning: Citation `Cioli2014b' on page 43 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 43 undefined on input 
+line 35.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 43 undefined on input 
+line 35.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 43 undefined on input li
+ne 35.
+
+
+Package natbib Warning: Citation `Anderson2018' on page 43 undefined on input l
+ine 35.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `McColgan2018' on page 43 undefined on input l
+ine 35.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Rittman2016' on page 43 undefined on input li
+ne 35.
+
+
+Package natbib Warning: Citation `Romme2017' on page 43 undefined on input line
+ 35.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 43 undefined on inp
+ut line 37.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 43 undefined on input li
+ne 37.
+
+
+Package natbib Warning: Citation `Power2011' on page 43 undefined on input line
+ 37.
+
+
+Package natbib Warning: Citation `Oldham' on page 43 undefined on input line 37
+.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 43 undefined on inp
+ut line 38.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 43 undefined on input li
+ne 38.
+
+
+Package natbib Warning: Citation `DeReus2014' on page 43 undefined on input lin
+e 38.
+
+
+Package natbib Warning: Citation `VandenHeuvel2016' on page 43 undefined on inp
+ut line 38.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 43 undefined on input l
+ine 39.
+
+
+Package natbib Warning: Citation `VandenHeuvel2012' on page 43 undefined on inp
+ut line 39.
+
+
+Package natbib Warning: Citation `Crossley2014' on page 43 undefined on input l
+ine 39.
+
+
+Package natbib Warning: Citation `Fornito2015' on page 43 undefined on input li
+ne 39.
+
+[43]
+
+Package natbib Warning: Citation `Schulze2001' on page 44 undefined on input li
+ne 47.
+
+
+Package natbib Warning: Citation `Mortazavi2008' on page 44 undefined on input 
+line 47.
+
+
+Package natbib Warning: Citation `Wang2009' on page 44 undefined on input line 
+47.
+
+
+Package natbib Warning: Citation `Unger2010' on page 44 undefined on input line
+ 47.
+
+
+Package natbib Warning: Citation `Tang2009' on page 44 undefined on input line 
+47.
+
+
+Package natbib Warning: Citation `Darmanis2015' on page 44 undefined on input l
+ine 48.
+
+
+Package natbib Warning: Citation `Tasic2016' on page 44 undefined on input line
+ 48.
+
+
+Package natbib Warning: Citation `Poulin2016' on page 44 undefined on input lin
+e 48.
+
+
+Package natbib Warning: Citation `Mancarci2017' on page 44 undefined on input l
+ine 48.
+
+
+Package natbib Warning: Citation `Yu2016' on page 44 undefined on input line 48
+.
+
+
+Package natbib Warning: Citation `Unger2010' on page 44 undefined on input line
+ 50.
+
+
+Package natbib Warning: Citation `Lein2007a' on page 44 undefined on input line
+ 51.
+
+
+Package natbib Warning: Citation `Okoniewski2006' on page 44 undefined on input
+ line 53.
+
+
+Package natbib Warning: Citation `Royce2007' on page 44 undefined on input line
+ 53.
+
+
+Package natbib Warning: Citation `Kang2011' on page 44 undefined on input line 
+53.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 44 undefined on input 
+line 53.
+
+
+Package natbib Warning: Citation `Miller2014' on page 44 undefined on input lin
+e 53.
+
+
+Package natbib Warning: Citation `Keil2018' on page 44 undefined on input line 
+55.
+
+
+Package natbib Warning: Citation `Lein2007a' on page 44 undefined on input line
+ 56.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 44 undefined on input 
+line 56.
+
+
+Package natbib Warning: Citation `Johnson2010' on page 44 undefined on input li
+ne 58.
+
+
+Package natbib Warning: Citation `Furth2018' on page 44 undefined on input line
+ 58.
+
+[44]
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 45 undefined on input 
+line 60.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 45 undefined on input 
+line 60.
+
+
+Package natbib Warning: Citation `Furth2018' on page 45 undefined on input line
+ 61.
+
+
+Package natbib Warning: Citation `Fertuzinhos2014' on page 45 undefined on inpu
+t line 62.
+
+
+Package natbib Warning: Citation `Ayoub2011' on page 45 undefined on input line
+ 62.
+
+
+Package natbib Warning: Citation `Belgard2011' on page 45 undefined on input li
+ne 62.
+
+
+Package natbib Warning: Citation `Colantuoni2011' on page 45 undefined on input
+ line 62.
+
+
+Package natbib Warning: Citation `Miller2014' on page 45 undefined on input lin
+e 62.
+
+
+Package natbib Warning: Citation `Bakken2016' on page 45 undefined on input lin
+e 62.
+
+
+Package natbib Warning: Citation `Harris2010' on page 45 undefined on input lin
+e 62.
+
+
+Package natbib Warning: Citation `Fraser2005' on page 45 undefined on input lin
+e 65.
+
+
+Package natbib Warning: Citation `Berchtold2008' on page 45 undefined on input 
+line 65.
+
+
+Package natbib Warning: Citation `Kumar2013' on page 45 undefined on input line
+ 65.
+
+
+Package natbib Warning: Citation `Trabzuni2013' on page 45 undefined on input l
+ine 65.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 45 undefined on i
+nput line 66.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 45 undefined on input li
+ne 67.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 45 undefined on input 
+line 67.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 45 undefined on input li
+ne 67.
+
+
+Package natbib Warning: Citation `Pantazatos2017' on page 45 undefined on input
+ line 67.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 45 undefined on input li
+ne 67.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 45 undefined on i
+nput line 67.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 45 undefined on i
+nput line 67.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 45 undefined on input li
+ne 68.
+
+
+Package natbib Warning: Citation `French2011' on page 45 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `Ji2014' on page 45 undefined on input line 68
+.
+
+
+Package natbib Warning: Citation `Fakhry2015' on page 45 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 45 undefined on input li
+ne 68.
+
+
+Package natbib Warning: Citation `Burt2017' on page 45 undefined on input line 
+68.
+
+
+Package natbib Warning: Citation `Seidlitz2018' on page 45 undefined on input l
+ine 68.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 45 undefined on i
+nput line 68.
+
+
+Package natbib Warning: Citation `Myers2007' on page 45 undefined on input line
+ 70.
+
+
+Package natbib Warning: Citation `Rittman2016' on page 45 undefined on input li
+ne 70.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 45 undefined on input li
+ne 70.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 45 undefined on input lin
+e 70.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 45 undefined on input 
+line 70.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 45 undefined on input li
+ne 70.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 45 undefined on i
+nput line 70.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 45 undefined on in
+put line 70.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Eising2016' on page 45 undefined on input lin
+e 70.
+
+
+Package natbib Warning: Citation `Keo2017' on page 45 undefined on input line 7
+0.
+
+
+Package natbib Warning: Citation `Negi2017' on page 45 undefined on input line 
+70.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+[45]
+
+Package natbib Warning: Citation `Subramanian2005' on page 46 undefined on inpu
+t line 72.
+
+
+Package natbib Warning: Citation `Irizarry2009' on page 46 undefined on input l
+ine 72.
+
+
+Package natbib Warning: Citation `Ashburner2000' on page 46 undefined on input 
+line 73.
+
+
+Package natbib Warning: Citation `Kanehisa2000' on page 46 undefined on input l
+ine 73.
+
+
+Package natbib Warning: Citation `Felleman' on page 46 undefined on input line 
+77.
+
+
+Package natbib Warning: Citation `Mesulam1998' on page 46 undefined on input li
+ne 77.
+
+
+Package natbib Warning: Citation `Meyer2009a' on page 46 undefined on input lin
+e 77.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 46 undefined on inp
+ut line 78.
+
+
+Package natbib Warning: Citation `Albert2000' on page 46 undefined on input lin
+e 79.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 46 undefined on inp
+ut line 79.
+
+
+Package natbib Warning: Citation `Fornito2016' on page 46 undefined on input li
+ne 81.
+
+
+Package natbib Warning: Citation `Oldham' on page 46 undefined on input line 82
+.
+
+[46]
+
+Package natbib Warning: Citation `Blondel2008' on page 47 undefined on input li
+ne 84.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+LaTeX Warning: Reference `fig:Ch3Fig1' on page 47 undefined on input line 84.
+
+
+Package natbib Warning: Citation `Guimera2005' on page 47 undefined on input li
+ne 84.
+
+<Chapter3/Ch3Fig1.pdf, id=460, 654.445pt x 341.275pt>
+File: Chapter3/Ch3Fig1.pdf Graphic file (type pdf)
+
+<use Chapter3/Ch3Fig1.pdf>
+Package pdftex.def Info: Chapter3/Ch3Fig1.pdf used on input line 88.
+(pdftex.def)             Requested size: 471.03539pt x 245.62927pt.
+
+
+Package natbib Warning: Citation `Friston1994' on page 47 undefined on input li
+ne 93.
+
+
+Package natbib Warning: Citation `Power2011' on page 47 undefined on input line
+ 93.
+
+
+Package natbib Warning: Citation `Zalesky2012' on page 47 undefined on input li
+ne 93.
+
+
+Package natbib Warning: Citation `Goni2014' on page 47 undefined on input line 
+93.
+
+
+Package natbib Warning: Citation `Misic2015a' on page 47 undefined on input lin
+e 93.
+
+
+Package natbib Warning: Citation `Seguin2018' on page 47 undefined on input lin
+e 93.
+
+[47 <./Chapter3/Ch3Fig1.pdf>]
+
+Package natbib Warning: Citation `Colizza2006' on page 48 undefined on input li
+ne 95.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 48 undefined on inp
+ut line 95.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 48 undefined on input li
+ne 95.
+
+
+Package natbib Warning: Citation `VandenHeuvel2016b' on page 48 undefined on in
+put line 95.
+
+
+Package natbib Warning: Citation `DeReus2013b' on page 48 undefined on input li
+ne 95.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 48 undefined on input l
+ine 95.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 48 undefined on input li
+ne 95.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig2' on page 48 undefined on input line 95.
+
+<Chapter3/Ch3Fig2.pdf, id=487, 938.57138pt x 313.2482pt>
+File: Chapter3/Ch3Fig2.pdf Graphic file (type pdf)
+
+<use Chapter3/Ch3Fig2.pdf>
+Package pdftex.def Info: Chapter3/Ch3Fig2.pdf used on input line 99.
+(pdftex.def)             Requested size: 471.03539pt x 157.20685pt.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 48 undefined on i
+nput line 110.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 48 undefined on input li
+ne 110.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 48 undefined on i
+nput line 110.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 48 undefined on input li
+ne 110.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `DeReus2013b' on page 48 undefined on input li
+ne 114.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013a' on page 48 undefined on in
+put line 114.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 48 undefined on input li
+ne 114.
+
+
+Package natbib Warning: Citation `VandenHeuvel2012' on page 48 undefined on inp
+ut line 114.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Senden2014' on page 48 undefined on input lin
+e 114.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 48 undefined on inp
+ut line 115.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 48 undefined on input l
+ine 115.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 48 undefined on input li
+ne 115.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 48 undefined on i
+nput line 115.
+
+
+Package natbib Warning: Citation `Vaishnavi2010' on page 48 undefined on input 
+line 116.
+
+
+Package natbib Warning: Citation `Tomasi2013' on page 48 undefined on input lin
+e 116.
+
+
+Package natbib Warning: Citation `Liang2013a' on page 48 undefined on input lin
+e 116.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 48 undefined on input l
+ine 117.
+
+
+Package natbib Warning: Citation `Crossley2014' on page 48 undefined on input l
+ine 117.
+
+
+Package natbib Warning: Citation `Fornito2015' on page 48 undefined on input li
+ne 117.
+
+
+Package natbib Warning: Citation `Henderson2014' on page 48 undefined on input 
+line 119.
+
+
+Package natbib Warning: Citation `Roberts2016' on page 48 undefined on input li
+ne 119.
+
+
+Package natbib Warning: Citation `Betzel2017' on page 48 undefined on input lin
+e 119.
+
+
+Package natbib Warning: Citation `Rubinov2015c' on page 48 undefined on input l
+ine 123.
+
+
+Package natbib Warning: Citation `Lein2007a' on page 48 undefined on input line
+ 123.
+
+
+Package natbib Warning: Citation `Oh2014' on page 48 undefined on input line 12
+3.
+
+
+Package natbib Warning: Citation `Herve2010' on page 48 undefined on input line
+ 126.
+
+[48]
+
+Package natbib Warning: Citation `Lein2007a' on page 49 undefined on input line
+ 128.
+
+
+Package natbib Warning: Citation `VandenHeuvel2012' on page 49 undefined on inp
+ut line 129.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig3' on page 49 undefined on input line 130.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig3' on page 49 undefined on input line 131.
+
+[49 <./Chapter3/Ch3Fig2.pdf>]
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 50 undefined on i
+nput line 134.
+
+
+Package natbib Warning: Citation `Varshney2011' on page 50 undefined on input l
+ine 135.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig3' on page 50 undefined on input line 135.
+
+
+Package natbib Warning: Citation `Harris2010' on page 50 undefined on input lin
+e 135.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig3' on page 50 undefined on input line 135.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 50 undefined on input li
+ne 136.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 50 undefined on i
+nput line 136.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Achard2006' on page 50 undefined on input lin
+e 137.
+
+
+Package natbib Warning: Citation `Sporns2007' on page 50 undefined on input lin
+e 137.
+
+[50] <Chapter3/Ch3Fig3.pdf, id=512, 682.55pt x 455.7025pt>
+File: Chapter3/Ch3Fig3.pdf Graphic file (type pdf)
+
+<use Chapter3/Ch3Fig3.pdf>
+Package pdftex.def Info: Chapter3/Ch3Fig3.pdf used on input line 142.
+(pdftex.def)             Requested size: 471.03539pt x 314.49068pt.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig2' on page 51 undefined on input line 149.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 51 undefined on input li
+ne 149.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no § in font cmr10!
+
+LaTeX Warning: Reference `fig:Ch3Fig2' on page 51 undefined on input line 149.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 51 undefined on i
+nput line 149.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig2' on page 51 undefined on input line 149.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 51 undefined on input li
+ne 149.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no § in font cmr10!
+
+LaTeX Warning: Reference `fig:Ch3Fig2' on page 51 undefined on input line 149.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 51 undefined on i
+nput line 149.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Rubinov2015c' on page 51 undefined on input l
+ine 153.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 51 undefined on input li
+ne 153.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 51 undefined on i
+nput line 153.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 51 undefined on input li
+ne 153.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 51 undefined on input 
+line 153.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig4' on page 51 undefined on input line 155.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 51 undefined on input li
+ne 156.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 51 undefined on input li
+ne 157.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+Package natbib Warning: Citation `Krienen2016' on page 51 undefined on input li
+ne 157.
+
+[51] [52 <./Chapter3/Ch3Fig3.pdf>]
+
+Package natbib Warning: Citation `Paus2008' on page 53 undefined on input line 
+160.
+
+
+Package natbib Warning: Citation `Dennis2013' on page 53 undefined on input lin
+e 160.
+
+
+Package natbib Warning: Citation `Hwang2013' on page 53 undefined on input line
+ 160.
+
+
+Package natbib Warning: Citation `Baker2015a' on page 53 undefined on input lin
+e 160.
+
+
+Package natbib Warning: Citation `Cao2016' on page 53 undefined on input line 1
+60.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 53 undefined on input 
+line 161.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig4' on page 53 undefined on input line 161.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig4' on page 53 undefined on input line 162.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 53 undefined on input 
+line 163.
+
+
+Package natbib Warning: Citation `VanDenHeuvel2013' on page 53 undefined on inp
+ut line 163.
+
+
+Package natbib Warning: Citation `Crossley2014' on page 53 undefined on input l
+ine 163.
+
+
+Package natbib Warning: Citation `Klauser2016' on page 53 undefined on input li
+ne 163.
+
+
+Package natbib Warning: Citation `Romme2017' on page 53 undefined on input line
+ 163.
+
+<Chapter3/Ch3Fig4.pdf, id=557, 916.42375pt x 370.38374pt>
+File: Chapter3/Ch3Fig4.pdf Graphic file (type pdf)
+
+<use Chapter3/Ch3Fig4.pdf>
+Package pdftex.def Info: Chapter3/Ch3Fig4.pdf used on input line 167.
+(pdftex.def)             Requested size: 471.03539pt x 190.37392pt.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 53 undefined on input li
+ne 173.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 53 undefined on input li
+ne 173.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 53 undefined on input 
+line 173.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 53 undefined on input 
+line 173.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 53 undefined on input li
+ne 173.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 53 undefined on input li
+ne 173.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 53 undefined on input 
+line 173.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 53 undefined on input 
+line 173.
+
+[53]
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 54 undefined on i
+nput line 180.
+
+
+Package natbib Warning: Citation `Bullmore2009' on page 54 undefined on input l
+ine 180.
+
+[54 <./Chapter3/Ch3Fig4.pdf>]
+
+Package natbib Warning: Citation `Johnson2015a' on page 55 undefined on input l
+ine 182.
+
+
+Package natbib Warning: Citation `Hu2017' on page 55 undefined on input line 18
+2.
+
+
+Package natbib Warning: Citation `Picardi2017' on page 55 undefined on input li
+ne 182.
+
+
+Package natbib Warning: Citation `Zhong2018' on page 55 undefined on input line
+ 182.
+
+
+LaTeX Warning: Reference `fig:Ch3Fig2' on page 55 undefined on input line 188.
+
+) [55]
+\openout2 = `Chapter4/Chapter4.aux'.
+
+ (./Chapter4/Chapter4.tex
+Chapter 4.
+
+Overfull \hbox (2.12529pt too wide) in paragraph at lines 2--2
+|\OT1/cmr/bx/n/24.88 Linking brain-wide gene ex-pres-sion and
+ []
+
+
+LaTeX Warning: Reference `appendixB' on page 56 undefined on input line 17.
+
+[56
+
+
+
+
+]
+
+Package natbib Warning: Citation `Meyer-Lindenberg2006a' on page 57 undefined o
+n input line 26.
+
+
+Package natbib Warning: Citation `Munoz2009' on page 57 undefined on input line
+ 26.
+
+
+Package natbib Warning: Citation `Arslan2015' on page 57 undefined on input lin
+e 26.
+
+
+Package natbib Warning: Citation `Hashimoto2015' on page 57 undefined on input 
+line 26.
+
+
+Package natbib Warning: Citation `Thompson2014' on page 57 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Fraser2005' on page 57 undefined on input lin
+e 26.
+
+
+Package natbib Warning: Citation `Choi2007' on page 57 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `Cole2009' on page 57 undefined on input line 
+26.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 57 undefined on input 
+line 26.
+
+
+Package natbib Warning: Citation `Keil2018' on page 57 undefined on input line 
+28.
+
+
+LaTeX Warning: Reference `app:AppendixCh4_1' on page 57 undefined on input line
+ 28.
+
+[57]
+
+Package natbib Warning: Citation `Fornito2019' on page 58 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 58 undefined on input 
+line 30.
+
+
+Package natbib Warning: Citation `Forest2017' on page 58 undefined on input lin
+e 30.
+
+
+Package natbib Warning: Citation `Goel2014' on page 58 undefined on input line 
+31.
+
+
+Package natbib Warning: Citation `Cioli2014b' on page 58 undefined on input lin
+e 32.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 58 undefined on input li
+ne 32.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 58 undefined on input li
+ne 33.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 58 undefined on input lin
+e 33.
+
+
+Package natbib Warning: Citation `Anderson2018' on page 58 undefined on input l
+ine 33.
+
+
+Package natbib Warning: Citation `Kirsch2016a' on page 58 undefined on input li
+ne 34.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 58 undefined on input 
+line 34.
+
+
+Package natbib Warning: Citation `Rittman2016' on page 58 undefined on input li
+ne 35.
+
+
+Package natbib Warning: Citation `Romme2017' on page 58 undefined on input line
+ 35.
+
+
+Package natbib Warning: Citation `McColgan2018' on page 58 undefined on input l
+ine 35.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018a' on page 58 undefined on i
+nput line 35.
+
+
+Package natbib Warning: Citation `French2015' on page 58 undefined on input lin
+e 35.
+
+
+Package natbib Warning: Citation `Gorgolewski2015' on page 58 undefined on inpu
+t line 35.
+
+
+Package natbib Warning: Citation `Rizzo2016' on page 58 undefined on input line
+ 35.
+
+
+Package natbib Warning: Citation `Rittman2017' on page 58 undefined on input li
+ne 35.
+
+
+Package natbib Warning: Citation `Fornito2019' on page 58 undefined on input li
+ne 37.
+
+
+Package natbib Warning: Citation `Power2015a' on page 58 undefined on input lin
+e 39.
+
+
+Package natbib Warning: Citation `Power2017' on page 58 undefined on input line
+ 39.
+
+
+Package natbib Warning: Citation `Ciric2017' on page 58 undefined on input line
+ 39.
+
+
+Package natbib Warning: Citation `Parkes2018' on page 58 undefined on input lin
+e 39.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 58 undefined on input 
+line 41.
+
+[58]
+
+Package natbib Warning: Citation `Szymanski2002' on page 59 undefined on input 
+line 48.
+
+
+Package natbib Warning: Citation `Krebs2014' on page 59 undefined on input line
+ 48.
+
+
+Package natbib Warning: Citation `Futcher1999' on page 59 undefined on input li
+ne 48.
+
+
+Package natbib Warning: Citation `Gygi1999' on page 59 undefined on input line 
+48.
+
+
+Package natbib Warning: Citation `Greenbaum2003' on page 59 undefined on input 
+line 48.
+
+
+Package natbib Warning: Citation `Margineantu2007' on page 59 undefined on inpu
+t line 48.
+
+
+Package natbib Warning: Citation `Schwanhausser2011' on page 59 undefined on in
+put line 48.
+
+
+Package natbib Warning: Citation `Tarca2006' on page 59 undefined on input line
+ 50.
+
+
+Package natbib Warning: Citation `Steger2011' on page 59 undefined on input lin
+e 50.
+
+[59]
+
+Package natbib Warning: Citation `Glass2013' on page 60 undefined on input line
+ 52.
+
+
+Package natbib Warning: Citation `Berchtold2008' on page 60 undefined on input 
+line 52.
+
+
+Package natbib Warning: Citation `Trabzuni2013' on page 60 undefined on input l
+ine 52.
+
+
+Package natbib Warning: Citation `Spielman2007' on page 60 undefined on input l
+ine 52.
+
+
+Package natbib Warning: Citation `Mexal2006' on page 60 undefined on input line
+ 52.
+
+
+Package natbib Warning: Citation `Zhu2017' on page 60 undefined on input line 5
+2.
+
+
+Package natbib Warning: Citation `Jaksik2015' on page 60 undefined on input lin
+e 52.
+
+
+Package natbib Warning: Citation `Fare2003' on page 60 undefined on input line 
+52.
+
+
+Package natbib Warning: Citation `Scherer2009' on page 60 undefined on input li
+ne 52.
+
+
+Package natbib Warning: Citation `AHBAdoc' on page 60 undefined on input line 5
+2.
+
+
+Package natbib Warning: Citation `Fraser2005' on page 60 undefined on input lin
+e 54.
+
+
+Package natbib Warning: Citation `Choi2007' on page 60 undefined on input line 
+54.
+
+
+Package natbib Warning: Citation `Berchtold2008' on page 60 undefined on input 
+line 54.
+
+
+Package natbib Warning: Citation `Cole2009' on page 60 undefined on input line 
+54.
+
+
+Package natbib Warning: Citation `Birdsill2011' on page 60 undefined on input l
+ine 54.
+
+
+Package natbib Warning: Citation `Naumova2012' on page 60 undefined on input li
+ne 54.
+
+
+Package natbib Warning: Citation `Kumar2013' on page 60 undefined on input line
+ 54.
+
+
+Package natbib Warning: Citation `Johnson2009' on page 60 undefined on input li
+ne 55.
+
+
+Package natbib Warning: Citation `Colantuoni2011' on page 60 undefined on input
+ line 55.
+
+
+Package natbib Warning: Citation `Kang2011' on page 60 undefined on input line 
+55.
+
+
+Package natbib Warning: Citation `Fertuzinhos2014' on page 60 undefined on inpu
+t line 55.
+
+
+Package natbib Warning: Citation `Bakken2016' on page 60 undefined on input lin
+e 55.
+
+
+LaTeX Warning: Reference `app:AppendixCh4_1' on page 60 undefined on input line
+ 59.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig1' on page 60 undefined on input line 59.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig1' on page 60 undefined on input line 61.
+
+[60] <Chapter4/Ch4Fig1.pdf, id=650, 735.74875pt x 711.65875pt>
+File: Chapter4/Ch4Fig1.pdf Graphic file (type pdf)
+
+<use Chapter4/Ch4Fig1.pdf>
+Package pdftex.def Info: Chapter4/Ch4Fig1.pdf used on input line 65.
+(pdftex.def)             Requested size: 471.03539pt x 455.62292pt.
+
+
+Package natbib Warning: Citation `AHBAdoc' on page 61 undefined on input line 7
+0.
+
+[61 <./Chapter4/Ch4Fig1.pdf>]
+
+LaTeX Warning: Reference `fig:Ch4Fig2' on page 62 undefined on input line 72.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 62 undefined on input 
+line 84.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 62 undefined on input li
+ne 84.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 62 undefined on input li
+ne 84.
+
+
+Package natbib Warning: Citation `Pantazatos2017' on page 62 undefined on input
+ line 84.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 62 undefined on input li
+ne 84.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 62 undefined on i
+nput line 84.
+
+
+Package natbib Warning: Citation `Gryglewski2018' on page 62 undefined on input
+ line 85.
+
+
+Package natbib Warning: Citation `Fornito2019' on page 62 undefined on input li
+ne 85.
+
+<Chapter4/Ch4Fig2.pdf, id=730, 569.05505pt x 227.76433pt>
+File: Chapter4/Ch4Fig2.pdf Graphic file (type pdf)
+
+<use Chapter4/Ch4Fig2.pdf>
+Package pdftex.def Info: Chapter4/Ch4Fig2.pdf used on input line 92.
+(pdftex.def)             Requested size: 471.03539pt x 188.53693pt.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 62 undefined on input 
+line 93.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 62 undefined on input 
+line 93.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `OLeary2016' on page 62 undefined on input lin
+e 100.
+
+
+LaTeX Warning: Reference `Table1' on page 62 undefined on input line 100.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 62 undefined on input 
+line 100.
+
+
+Package natbib Warning: Citation `Eising2016' on page 62 undefined on input lin
+e 100.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 62 undefined on in
+put line 100.
+
+[62]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+
+
+LaTeX Warning: Reference `app:AppendixCh4_7' on page 63 undefined on input line
+ 114.
+
+
+Package natbib Warning: Citation `Arloth2015' on page 63 undefined on input lin
+e 118.
+
+
+LaTeX Warning: Reference `Table1' on page 63 undefined on input line 118.
+
+[63 <./Chapter4/Ch4Fig2.pdf>]
+
+Package natbib Warning: Citation `Quackenbush2002a' on page 64 undefined on inp
+ut line 122.
+
+
+Package natbib Warning: Citation `Quackenbush2002a' on page 64 undefined on inp
+ut line 122.
+
+
+Package natbib Warning: Citation `AHBAdoc' on page 64 undefined on input line 1
+22.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig1' on page 64 undefined on input line 122.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 64 undefined on input 
+line 122.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 64 undefined on input 
+line 122.
+
+
+Package natbib Warning: Citation `Burt2018' on page 64 undefined on input line 
+122.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig3' on page 64 undefined on input line 122.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig3' on page 64 undefined on input line 124.
+
+[64]
+
+LaTeX Warning: Reference `fig:Ch4Fig3' on page 65 undefined on input line 127.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig1' on page 65 undefined on input line 127.
+
+
+
+Package natbib Warning: Citation `Wang2009' on page 65 undefined on input line 
+127.
+
+
+Package natbib Warning: Citation `Kukurba2015' on page 65 undefined on input li
+ne 127.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig2' on page 65 undefined on input line 127.
+
+
+
+LaTeX Warning: Reference `Table2' on page 65 undefined on input line 127.
+
+
+Package natbib Warning: Citation `Gillis2010' on page 65 undefined on input lin
+e 129.
+
+
+LaTeX Warning: Reference `app:AppendixCh4_2' on page 65 undefined on input line
+ 129.
+
+
+Package natbib Warning: Citation `Hackstadt2009' on page 65 undefined on input 
+line 129.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig3' on page 65 undefined on input line 129.
+
+
+<Chapter4/Ch4Fig3.pdf, id=766, 569.12625pt x 156.585pt>
+File: Chapter4/Ch4Fig3.pdf Graphic file (type pdf)
+
+<use Chapter4/Ch4Fig3.pdf>
+Package pdftex.def Info: Chapter4/Ch4Fig3.pdf used on input line 133.
+(pdftex.def)             Requested size: 471.03539pt x 129.60233pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Liu2010' on page 65 undefined on input line 1
+43.
+
+
+Package natbib Warning: Citation `Jaksik2015' on page 65 undefined on input lin
+e 143.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig3' on page 65 undefined on input line 143.
+
+
+LaTeX Warning: Reference `Table2' on page 65 undefined on input line 143.
+
+[65]
+
+Package natbib Warning: Citation `Tan2013' on page 66 undefined on input line 1
+66.
+
+
+Package natbib Warning: Citation `French2015' on page 66 undefined on input lin
+e 166.
+
+
+Package natbib Warning: Citation `Eising2016' on page 66 undefined on input lin
+e 166.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 66 undefined on input li
+ne 166.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 66 undefined on input li
+ne 166.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 66 undefined on input 
+line 166.
+
+
+Package natbib Warning: Citation `Negi2017' on page 66 undefined on input line 
+166.
+
+
+Package natbib Warning: Citation `McColgan2018' on page 66 undefined on input l
+ine 166.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 66 undefined on in
+put line 166.
+
+
+Package natbib Warning: Citation `Negi2017' on page 66 undefined on input line 
+166.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 66 undefined on input lin
+e 166.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 66 undefined on input 
+line 166.
+
+
+Package natbib Warning: Citation `Kirsch2016a' on page 66 undefined on input li
+ne 166.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 166.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 166.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 66 undefined on input 
+line 166.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 66 undefined on input 
+line 166.
+
+
+Package natbib Warning: Citation `Myers2015a' on page 66 undefined on input lin
+e 166.
+
+
+Package natbib Warning: Citation `Burt2018' on page 66 undefined on input line 
+166.
+
+
+Package natbib Warning: Citation `Forest2017' on page 66 undefined on input lin
+e 166.
+
+
+Package natbib Warning: Citation `Anderson2018' on page 66 undefined on input l
+ine 166.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 66 undefined on input 
+line 166.
+
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ò in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ô in font cmr9!
+
+Package natbib Warning: Citation `Miller2011' on page 66 undefined on input lin
+e 168.
+
+
+LaTeX Warning: Reference `Table2' on page 66 undefined on input line 173.
+
+[66 <./Chapter4/Ch4Fig3.pdf>]
+
+LaTeX Warning: Reference `fig:Ch4Fig4' on page 67 undefined on input line 175.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig1' on page 67 undefined on input line 175.
+
+
+
+Package natbib Warning: Citation `Parkes2017' on page 67 undefined on input lin
+e 175.
+
+
+LaTeX Warning: Reference `app:AppendixCh4_3' on page 67 undefined on input line
+ 175.
+
+<Chapter4/Ch4Fig4.pdf, id=804, 569.12625pt x 170.6375pt>
+File: Chapter4/Ch4Fig4.pdf Graphic file (type pdf)
+
+<use Chapter4/Ch4Fig4.pdf>
+Package pdftex.def Info: Chapter4/Ch4Fig4.pdf used on input line 179.
+(pdftex.def)             Requested size: 471.03539pt x 141.2333pt.
+
+
+LaTeX Warning: Reference `Table2' on page 67 undefined on input line 183.
+
+
+LaTeX Warning: Reference `Table2' on page 67 undefined on input line 183.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Miller2014a' on page 67 undefined on input li
+ne 187.
+
+
+Package natbib Warning: Citation `Gillis2010' on page 67 undefined on input lin
+e 189.
+
+
+LaTeX Warning: Reference `app:AppendixCh4_2' on page 67 undefined on input line
+ 189.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig4' on page 67 undefined on input line 191.
+
+
+Package natbib Warning: Citation `Gillis2010' on page 67 undefined on input lin
+e 191.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+LaTeX Warning: Reference `app:AppendixCh4_2' on page 67 undefined on input line
+ 191.
+
+[67]
+
+LaTeX Warning: Reference `fig:Ch4Fig4' on page 68 undefined on input line 193.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig4' on page 68 undefined on input line 193.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig1' on page 68 undefined on input line 197.
+
+[68 <./Chapter4/Ch4Fig4.pdf>]
+
+Package natbib Warning: Citation `AHBAdoc' on page 69 undefined on input line 2
+00.
+
+
+Package natbib Warning: Citation `Tan2013' on page 69 undefined on input line 2
+00.
+
+
+Package natbib Warning: Citation `Myers2015a' on page 69 undefined on input lin
+e 200.
+
+
+Package natbib Warning: Citation `Chen2016' on page 69 undefined on input line 
+200.
+
+
+Package natbib Warning: Citation `Kirsch2016a' on page 69 undefined on input li
+ne 200.
+
+
+Package natbib Warning: Citation `Hecker2017' on page 69 undefined on input lin
+e 200.
+
+
+Package natbib Warning: Citation `Lee2017a' on page 69 undefined on input line 
+200.
+
+
+Package natbib Warning: Citation `Negi2017' on page 69 undefined on input line 
+200.
+
+
+Package natbib Warning: Citation `Goyal2014' on page 69 undefined on input line
+ 200.
+
+
+Package natbib Warning: Citation `Cioli2014b' on page 69 undefined on input lin
+e 200.
+
+
+Package natbib Warning: Citation `French2015' on page 69 undefined on input lin
+e 200.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 69 undefined on input 
+line 200.
+
+
+Package natbib Warning: Citation `Komorowski2016' on page 69 undefined on input
+ line 200.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 69 undefined on input li
+ne 200.
+
+
+Package natbib Warning: Citation `Rizzo2016' on page 69 undefined on input line
+ 200.
+
+
+Package natbib Warning: Citation `Burt2018' on page 69 undefined on input line 
+200.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 69 undefined on input lin
+e 200.
+
+
+Package natbib Warning: Citation `Romme2017' on page 69 undefined on input line
+ 200.
+
+
+Package natbib Warning: Citation `Shin2017' on page 69 undefined on input line 
+200.
+
+
+Package natbib Warning: Citation `Anderson2018' on page 69 undefined on input l
+ine 200.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 69 undefined on in
+put line 200.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 69 undefined on input li
+ne 201.
+
+
+Package natbib Warning: Citation `Keo2017' on page 69 undefined on input line 2
+01.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 69 undefined on input lin
+e 201.
+
+
+Package natbib Warning: Citation `Romme2017' on page 69 undefined on input line
+ 201.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 69 undefined on in
+put line 201.
+
+
+Package natbib Warning: Citation `AHBAdoc' on page 69 undefined on input line 2
+01.
+
+
+Package natbib Warning: Citation `Desikan2006' on page 69 undefined on input li
+ne 203.
+
+
+Package natbib Warning: Citation `Glasser2016' on page 69 undefined on input li
+ne 203.
+
+[69]
+
+Package natbib Warning: Citation `Vertes2016b' on page 70 undefined on input li
+ne 205.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 70 undefined on input 
+line 205.
+
+
+Package natbib Warning: Citation `McColgan2018' on page 70 undefined on input l
+ine 205.
+
+
+Package natbib Warning: Citation `French2015' on page 70 undefined on input lin
+e 205.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 70 undefined on input lin
+e 205.
+
+
+Package natbib Warning: Citation `Romme2017' on page 70 undefined on input line
+ 205.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig5' on page 70 undefined on input line 205.
+
+<Chapter4/Ch4Fig5.pdf, id=862, 569.12625pt x 170.6375pt>
+File: Chapter4/Ch4Fig5.pdf Graphic file (type pdf)
+
+<use Chapter4/Ch4Fig5.pdf>
+Package pdftex.def Info: Chapter4/Ch4Fig5.pdf used on input line 209.
+(pdftex.def)             Requested size: 471.03539pt x 141.2333pt.
+
+
+Package natbib Warning: Citation `Desikan2006' on page 70 undefined on input li
+ne 219.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig5' on page 70 undefined on input line 219.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig5' on page 70 undefined on input line 219.
+
+[70 <./Chapter4/Ch4Fig5.pdf>]
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 71 undefined on in
+put line 221.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig5' on page 71 undefined on input line 221.
+
+
+Package natbib Warning: Citation `Desikan2006' on page 71 undefined on input li
+ne 221.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 71 undefined on in
+put line 221.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig5' on page 71 undefined on input line 221.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+LaTeX Warning: Reference `app:AppendixCh4_4' on page 71 undefined on input line
+ 223.
+
+
+Package natbib Warning: Citation `Gryglewski2018' on page 71 undefined on input
+ line 223.
+
+
+LaTeX Warning: Reference `Table3' on page 71 undefined on input line 227.
+
+
+Package natbib Warning: Citation `Fraser2005' on page 71 undefined on input lin
+e 227.
+
+
+Package natbib Warning: Citation `Berchtold2008' on page 71 undefined on input 
+line 227.
+
+
+Package natbib Warning: Citation `Kumar2013' on page 71 undefined on input line
+ 227.
+
+
+Package natbib Warning: Citation `Trabzuni2013' on page 71 undefined on input l
+ine 227.
+
+[71]
+
+LaTeX Warning: Reference `fig:Ch4Fig6' on page 72 undefined on input line 255.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 72 undefined on input 
+line 255.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 72 undefined on input 
+line 255.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 72 undefined on input li
+ne 255.
+
+
+Package natbib Warning: Citation `Negi2017' on page 72 undefined on input line 
+255.
+
+
+Package natbib Warning: Citation `Liu2017' on page 72 undefined on input line 2
+55.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 72 undefined on in
+put line 255.
+
+
+Package natbib Warning: Citation `Burt2018' on page 72 undefined on input line 
+255.
+
+
+Package natbib Warning: Citation `McColgan2018' on page 72 undefined on input l
+ine 255.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 72 undefined on input lin
+e 255.
+
+
+Package natbib Warning: Citation `Veronese2016' on page 72 undefined on input l
+ine 255.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig6' on page 72 undefined on input line 255.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig5' on page 72 undefined on input line 255.
+
+
+[72] <Chapter4/Ch4Fig6.pdf, id=908, 569.12625pt x 255.95625pt>
+File: Chapter4/Ch4Fig6.pdf Graphic file (type pdf)
+
+<use Chapter4/Ch4Fig6.pdf>
+Package pdftex.def Info: Chapter4/Ch4Fig6.pdf used on input line 259.
+(pdftex.def)             Requested size: 471.03539pt x 211.84998pt.
+
+
+Package natbib Warning: Citation `Ritchie2015' on page 73 undefined on input li
+ne 267.
+
+
+Package natbib Warning: Citation `Ritchie2015' on page 73 undefined on input li
+ne 267.
+
+
+Package natbib Warning: Citation `Parkes2017' on page 73 undefined on input lin
+e 271.
+
+
+Package natbib Warning: Citation `McColgan2018' on page 73 undefined on input l
+ine 271.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 73 undefined on input 
+line 271.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 73 undefined on input 
+line 271.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 73 undefined on input li
+ne 271.
+
+
+Package natbib Warning: Citation `Rizzo2016' on page 73 undefined on input line
+ 271.
+
+
+Package natbib Warning: Citation `Liu2017' on page 73 undefined on input line 2
+71.
+
+
+Package natbib Warning: Citation `Negi2017' on page 73 undefined on input line 
+271.
+
+
+Package natbib Warning: Citation `Burt2018' on page 73 undefined on input line 
+271.
+
+
+Package natbib Warning: Citation `McColgan2018' on page 73 undefined on input l
+ine 271.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018a' on page 73 undefined on i
+nput line 271.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+LaTeX Warning: Reference `fig:Ch4Fig6' on page 73 undefined on input line 271.
+
+
+Package natbib Warning: Citation `Rizzo2016' on page 73 undefined on input line
+ 271.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 73 undefined on input 
+line 271.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 73 undefined on input li
+ne 271.
+
+
+Package natbib Warning: Citation `Negi2017' on page 73 undefined on input line 
+271.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018a' on page 73 undefined on i
+nput line 271.
+
+[73 <./Chapter4/Ch4Fig6.pdf>]
+
+LaTeX Warning: Reference `fig:Ch4Fig6' on page 74 undefined on input line 277.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 74 undefined on input li
+ne 278.
+
+
+Package natbib Warning: Citation `Fulcher2013' on page 74 undefined on input li
+ne 278.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig6' on page 74 undefined on input line 291.
+
+
+Package natbib Warning: Citation `Ritchie2015' on page 74 undefined on input li
+ne 291.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig6' on page 74 undefined on input line 291.
+
+
+Package natbib Warning: Citation `Burt2018' on page 74 undefined on input line 
+293.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig6' on page 74 undefined on input line 293.
+
+
+[74]
+
+LaTeX Warning: Reference `fig:Ch4Fig1' on page 75 undefined on input line 295.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig7' on page 75 undefined on input line 295.
+
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig7' on page 75 undefined on input line 295.
+
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig7' on page 75 undefined on input line 295.
+
+
+
+Package natbib Warning: Citation `Rittman2016' on page 75 undefined on input li
+ne 299.
+
+
+Package natbib Warning: Citation `Romme2017' on page 75 undefined on input line
+ 299.
+
+
+Package natbib Warning: Citation `Yokoyama2017a' on page 75 undefined on input 
+line 299.
+
+
+Package natbib Warning: Citation `Goyal2014' on page 75 undefined on input line
+ 299.
+
+
+Package natbib Warning: Citation `Komorowski2016' on page 75 undefined on input
+ line 299.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 75 undefined on input li
+ne 299.
+
+
+Package natbib Warning: Citation `Acevedo-Triana2017' on page 75 undefined on i
+nput line 299.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 75 undefined on input 
+line 299.
+
+
+Package natbib Warning: Citation `Shin2017' on page 75 undefined on input line 
+299.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 75 undefined on input 
+line 299.
+
+
+Package natbib Warning: Citation `Satake2009' on page 75 undefined on input lin
+e 301.
+
+
+Package natbib Warning: Citation `Simon-Sanchez2009' on page 75 undefined on in
+put line 301.
+
+
+Package natbib Warning: Citation `Hoglinger2011' on page 75 undefined on input 
+line 301.
+
+
+Package natbib Warning: Citation `Ferrari2014' on page 75 undefined on input li
+ne 301.
+
+
+Package natbib Warning: Citation `Ripke2014a' on page 75 undefined on input lin
+e 301.
+
+
+Package natbib Warning: Citation `Kouri2015' on page 75 undefined on input line
+ 301.
+
+
+Package natbib Warning: Citation `Komorowski2016' on page 75 undefined on input
+ line 301.
+
+
+Package natbib Warning: Citation `Acevedo-Triana2017' on page 75 undefined on i
+nput line 301.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 75 undefined on input li
+ne 301.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 75 undefined on input li
+ne 301.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 75 undefined on in
+put line 301.
+
+
+Package natbib Warning: Citation `Fornito2019' on page 75 undefined on input li
+ne 305.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 75 undefined on input 
+line 305.
+
+
+Package natbib Warning: Citation `Krienen2016' on page 75 undefined on input li
+ne 305.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 75 undefined on input li
+ne 305.
+
+
+Package natbib Warning: Citation `Pantazatos2017' on page 75 undefined on input
+ line 305.
+
+
+Package natbib Warning: Citation `Richiardi2017' on page 75 undefined on input 
+line 305.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 75 undefined on input li
+ne 305.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 75 undefined on i
+nput line 305.
+
+[75]
+
+Package natbib Warning: Citation `Fornito2019' on page 76 undefined on input li
+ne 307.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 76 undefined on input 
+line 307.
+
+
+Package natbib Warning: Citation `Pantazatos2017' on page 76 undefined on input
+ line 307.
+
+
+Package natbib Warning: Citation `Richiardi2017' on page 76 undefined on input 
+line 307.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig7' on page 76 undefined on input line 309.
+
+
+LaTeX Warning: Reference `app:AppendixCh4_5' on page 76 undefined on input line
+ 309.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig7' on page 76 undefined on input line 309.
+
+<Chapter4/Ch4Fig7.pdf, id=965, 569.12625pt x 341.275pt>
+File: Chapter4/Ch4Fig7.pdf Graphic file (type pdf)
+
+<use Chapter4/Ch4Fig7.pdf>
+Package pdftex.def Info: Chapter4/Ch4Fig7.pdf used on input line 313.
+(pdftex.def)             Requested size: 471.03539pt x 282.46663pt.
+
+
+Package natbib Warning: Citation `Dijkstra1959' on page 76 undefined on input l
+ine 319.
+
+
+Package natbib Warning: Citation `Dijkstra1959' on page 76 undefined on input l
+ine 319.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 76 undefined on input 
+line 323.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 76 undefined on input li
+ne 323.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 76 undefined on i
+nput line 323.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig8' on page 76 undefined on input line 323.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig8' on page 76 undefined on input line 323.
+
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 76 undefined on input li
+ne 323.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 76 undefined on i
+nput line 323.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig8' on page 76 undefined on input line 323.
+
+
+LaTeX Warning: Reference `fig:Ch4Fig8' on page 76 undefined on input line 323.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 76 undefined on input 
+line 323.
+
+
+LaTeX Warning: Reference `app:AppendixCh4_6' on page 76 undefined on input line
+ 323.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig9' on page 76 undefined on input line 323.
+
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig10' on page 76 undefined on input line 323
+.
+
+[76] [77 <./Chapter4/Ch4Fig7.pdf>]
+<Chapter4/Ch4Fig8.pdf, id=1017, 569.12625pt x 227.85126pt>
+File: Chapter4/Ch4Fig8.pdf Graphic file (type pdf)
+
+<use Chapter4/Ch4Fig8.pdf>
+Package pdftex.def Info: Chapter4/Ch4Fig8.pdf used on input line 327.
+(pdftex.def)             Requested size: 471.03539pt x 188.58803pt.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 78 undefined on input li
+ne 334.
+
+
+Package natbib Warning: Citation `Vasa2018' on page 78 undefined on input line 
+334.
+
+
+Package natbib Warning: Citation `Burt2018' on page 78 undefined on input line 
+334.
+
+
+Package natbib Warning: Citation `Barbas2015' on page 78 undefined on input lin
+e 334.
+
+
+Package natbib Warning: Citation `Burt2018' on page 78 undefined on input line 
+334.
+
+<Chapter4/Ch4Fig9.pdf, id=1018, 569.12625pt x 511.9125pt>
+File: Chapter4/Ch4Fig9.pdf Graphic file (type pdf)
+
+<use Chapter4/Ch4Fig9.pdf>
+Package pdftex.def Info: Chapter4/Ch4Fig9.pdf used on input line 339.
+(pdftex.def)             Requested size: 471.03539pt x 423.69998pt.
+ [78 <./Chapter4/Ch4Fig8.pdf>]
+
+Package natbib Warning: Citation `Fornito2019' on page 79 undefined on input li
+ne 345.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+
+LaTeX Warning: Reference `fig:Ch4Fig9' on page 79 undefined on input line 345.
+
+[79 <./Chapter4/Ch4Fig9.pdf>]
+
+Package natbib Warning: Citation `Lein2007a' on page 80 undefined on input line
+ 347.
+
+
+Package natbib Warning: Citation `Harris2010' on page 80 undefined on input lin
+e 347.
+
+
+Package natbib Warning: Citation `Miller2014' on page 80 undefined on input lin
+e 347.
+
+
+Package natbib Warning: Citation `Rhee2008' on page 80 undefined on input line 
+347.
+
+) [80]
+\openout2 = `Chapter5/Chapter5.aux'.
+
+ (./Chapter5/Chapter5.tex
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--12
+
+ []
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 81 undefined on input li
+ne 14.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 81 undefined on i
+nput line 14.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 81 undefined on input li
+ne 14.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 81 undefined on input li
+ne 14.
+
+
+LaTeX Warning: Reference `appendixC' on page 81 undefined on input line 15.
+
+[81
+
+
+
+
+]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 82 undefined on input li
+ne 20.
+
+
+Package natbib Warning: Citation `RamonyCajal1995' on page 82 undefined on inpu
+t line 24.
+
+
+Package natbib Warning: Citation `Cherniak1994' on page 82 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Chklovskii2002' on page 82 undefined on input
+ line 26.
+
+
+Package natbib Warning: Citation `Klyachko2003' on page 82 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Rivera-Alba2011' on page 82 undefined on inpu
+t line 26.
+
+
+Package natbib Warning: Citation `Wen2005' on page 82 undefined on input line 2
+6.
+
+
+Package natbib Warning: Citation `Cherniak1999' on page 82 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Cherniak2004' on page 82 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Bassett2006' on page 82 undefined on input li
+ne 26.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 82 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Kaiser2006' on page 82 undefined on input lin
+e 26.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 82 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `Buzsaki2004a' on page 82 undefined on input l
+ine 26.
+
+
+Package natbib Warning: Citation `VandenHeuvel2012' on page 82 undefined on inp
+ut line 26.
+
+
+Package natbib Warning: Citation `Betzel2018' on page 82 undefined on input lin
+e 26.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 82 undefined on input l
+ine 26.
+
+[82]
+
+Package natbib Warning: Citation `Harriger2012' on page 83 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 83 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 83 undefined on inp
+ut line 28.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013b' on page 83 undefined on in
+put line 28.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 83 undefined on i
+nput line 28.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 83 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 83 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 83 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 83 undefined on inp
+ut line 28.
+
+
+Package natbib Warning: Citation `Misic2016' on page 83 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 83 undefined on inp
+ut line 28.
+
+
+Package natbib Warning: Citation `Gratton2012' on page 83 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Markov2013a' on page 83 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `VandenHeuvel2018' on page 83 undefined on inp
+ut line 28.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013a' on page 83 undefined on in
+put line 28.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 83 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 83 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Liang2017' on page 83 undefined on input line
+ 28.
+
+
+Package natbib Warning: Citation `DeReus2013b' on page 83 undefined on input li
+ne 28.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 83 undefined on input l
+ine 28.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 83 undefined on inp
+ut line 28.
+
+
+Package natbib Warning: Citation `Lein2017' on page 83 undefined on input line 
+30.
+
+
+Package natbib Warning: Citation `Luo2018' on page 83 undefined on input line 3
+0.
+
+
+Package natbib Warning: Citation `Jansen2015' on page 83 undefined on input lin
+e 30.
+
+
+Package natbib Warning: Citation `Thompson2013' on page 83 undefined on input l
+ine 30.
+
+
+Package natbib Warning: Citation `Fornito2019' on page 83 undefined on input li
+ne 30.
+
+
+Package natbib Warning: Citation `Bohlken2014' on page 83 undefined on input li
+ne 32.
+
+
+Package natbib Warning: Citation `Colclough2017' on page 83 undefined on input 
+line 32.
+
+
+Package natbib Warning: Citation `Fu2015' on page 83 undefined on input line 32
+.
+
+
+Package natbib Warning: Citation `Shen2014' on page 83 undefined on input line 
+32.
+
+
+Package natbib Warning: Citation `Sudre2017' on page 83 undefined on input line
+ 32.
+
+
+Package natbib Warning: Citation `Fornito2011' on page 83 undefined on input li
+ne 32.
+
+[83]
+
+Package natbib Warning: Citation `Hutchison2004' on page 84 undefined on input 
+line 34.
+
+
+Package natbib Warning: Citation `Sullivan2007' on page 84 undefined on input l
+ine 34.
+
+
+Package natbib Warning: Citation `Bush2012' on page 84 undefined on input line 
+34.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Torkamani2018' on page 84 undefined on input 
+line 34.
+
+
+Package natbib Warning: Citation `Braskie2012' on page 84 undefined on input li
+ne 34.
+
+
+Package natbib Warning: Citation `Chiang2011' on page 84 undefined on input lin
+e 34.
+
+
+Package natbib Warning: Citation `Jahanshad2012b' on page 84 undefined on input
+ line 34.
+
+
+Package natbib Warning: Citation `Dennis2011' on page 84 undefined on input lin
+e 34.
+
+
+Package natbib Warning: Citation `Filippini2009' on page 84 undefined on input 
+line 34.
+
+
+Package natbib Warning: Citation `Trachtenberg2012' on page 84 undefined on inp
+ut line 34.
+
+
+Package natbib Warning: Citation `Westlye2011' on page 84 undefined on input li
+ne 34.
+
+
+Package natbib Warning: Citation `Chiang2009' on page 84 undefined on input lin
+e 34.
+
+
+Package natbib Warning: Citation `Jahanshad2012a' on page 84 undefined on input
+ line 34.
+
+
+Package natbib Warning: Citation `Jahanshad2013' on page 84 undefined on input 
+line 34.
+
+
+Package natbib Warning: Citation `Elliott2018' on page 84 undefined on input li
+ne 34.
+
+
+Package natbib Warning: Citation `Liu2016a' on page 84 undefined on input line 
+34.
+
+
+Package natbib Warning: Citation `Dezhina2018' on page 84 undefined on input li
+ne 34.
+
+
+Package natbib Warning: Citation `Sadeh2018' on page 84 undefined on input line
+ 34.
+
+
+Package natbib Warning: Citation `Wang2017' on page 84 undefined on input line 
+34.
+
+
+Package natbib Warning: Citation `Alloza2018' on page 84 undefined on input lin
+e 34.
+
+
+Package natbib Warning: Citation `Wang2010' on page 84 undefined on input line 
+34.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 84 undefined on input 
+line 36.
+
+
+Package natbib Warning: Citation `Keil2018' on page 84 undefined on input line 
+36.
+
+
+Package natbib Warning: Citation `Fornito2019' on page 84 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Futcher1999' on page 84 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Greenbaum2003' on page 84 undefined on input 
+line 36.
+
+
+Package natbib Warning: Citation `Gygi1999' on page 84 undefined on input line 
+36.
+
+
+Package natbib Warning: Citation `Fornito2019' on page 84 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 84 undefined on i
+nput line 36.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 84 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Rubinov2015c' on page 84 undefined on input l
+ine 36.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 84 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 84 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 84 undefined on i
+nput line 36.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 84 undefined on input li
+ne 36.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 84 undefined on input 
+line 36.
+
+
+Package natbib Warning: Citation `Rittman2016' on page 84 undefined on input li
+ne 36.
+
+[84]
+
+Package natbib Warning: Citation `Crossley2016a' on page 85 undefined on input 
+line 38.
+
+
+Package natbib Warning: Citation `Fornito2015' on page 85 undefined on input li
+ne 38.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 85 undefined on input li
+ne 38.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 85 undefined on i
+nput line 38.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig1' on page 85 undefined on input line 42.
+
+<Chapter5/Ch5Fig1.pdf, id=1133, 796.9775pt x 542.025pt>
+File: Chapter5/Ch5Fig1.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig1.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig1.pdf used on input line 46.
+(pdftex.def)             Requested size: 471.03539pt x 320.3461pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `VanEssen2013' on page 85 undefined on input l
+ine 59.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+
+LaTeX Warning: Reference `sec:Heritability' on page 85 undefined on input line 
+59.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ê in font cmr10!
+
+Package natbib Warning: Citation `Glasser2013' on page 85 undefined on input li
+ne 59.
+
+[85] [86 <./Chapter5/Ch5Fig1.pdf>]
+
+Package natbib Warning: Citation `Glasser2016' on page 87 undefined on input li
+ne 63.
+
+
+Package natbib Warning: Citation `Desikan2006' on page 87 undefined on input li
+ne 63.
+
+
+Package natbib Warning: Citation `Tournier2012' on page 87 undefined on input l
+ine 65.
+
+
+Package natbib Warning: Citation `Jenkinson2012' on page 87 undefined on input 
+line 65.
+
+
+Package natbib Warning: Citation `Tournier2010' on page 87 undefined on input l
+ine 65.
+
+
+Package natbib Warning: Citation `Smith2012' on page 87 undefined on input line
+ 65.
+
+
+Package natbib Warning: Citation `Smith2015a' on page 87 undefined on input lin
+e 65.
+
+
+Package natbib Warning: Citation `Jones2013' on page 87 undefined on input line
+ 67.
+
+
+Package natbib Warning: Citation `Sarwar2019' on page 87 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `Sotiropoulos2017' on page 87 undefined on inp
+ut line 68.
+
+
+Package natbib Warning: Citation `Betzel2018' on page 87 undefined on input lin
+e 68.
+
+
+Package natbib Warning: Citation `Roberts2016a' on page 87 undefined on input l
+ine 68.
+
+[87]
+
+LaTeX Warning: Reference `app:AppendixCh5_2' on page 88 undefined on input line
+ 70.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 88 undefined on input li
+ne 70.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 88 undefined on i
+nput line 70.
+
+[88]
+
+Package natbib Warning: Citation `Colizza2006' on page 89 undefined on input li
+ne 89.
+
+
+Package natbib Warning: Citation `Rubinov2010' on page 89 undefined on input li
+ne 89.
+
+
+Package natbib Warning: Citation `Opsahl2008' on page 89 undefined on input lin
+e 91.
+
+
+Package natbib Warning: Citation `Alstott2014' on page 89 undefined on input li
+ne 98.
+
+[89]
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 90 undefined on inp
+ut line 103.
+
+
+Package natbib Warning: Citation `Estrada2008' on page 90 undefined on input li
+ne 107.
+
+
+LaTeX Warning: Reference `Ch5Table1' on page 90 undefined on input line 116.
+
+[90]
+
+Package natbib Warning: Citation `Boker2011' on page 91 undefined on input line
+ 134.
+
+
+Package natbib Warning: Citation `Neale2016' on page 91 undefined on input line
+ 134.
+
+
+Package natbib Warning: Citation `Glasser2016' on page 91 undefined on input li
+ne 134.
+
+
+Package natbib Warning: Citation `Akaike1998' on page 91 undefined on input lin
+e 134.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Consortium2010' on page 91 undefined on input
+ line 140.
+
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ± in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[91]
+
+Package natbib Warning: Citation `Euesden2015' on page 92 undefined on input li
+ne 144.
+
+
+Package natbib Warning: Citation `Neale2010' on page 92 undefined on input line
+ 144.
+
+
+Package natbib Warning: Citation `Ripke2014a' on page 92 undefined on input lin
+e 144.
+
+
+Package natbib Warning: Citation `Ruderfer2018' on page 92 undefined on input l
+ine 144.
+
+
+Package natbib Warning: Citation `Savage2018' on page 92 undefined on input lin
+e 144.
+
+
+Package natbib Warning: Citation `AutismConsortium2017' on page 92 undefined on
+ input line 144.
+
+
+Package natbib Warning: Citation `Wray2018' on page 92 undefined on input line 
+144.
+
+
+Package natbib Warning: Citation `Ripke2014a' on page 92 undefined on input lin
+e 144.
+
+
+LaTeX Warning: Reference `app:AppendixCh5_2' on page 92 undefined on input line
+ 148.
+
+[92]
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 93 undefined on input 
+line 153.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 93 undefined on input 
+line 153.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 93 undefined on i
+nput line 155.
+
+
+Package natbib Warning: Citation `Arloth2015' on page 93 undefined on input lin
+e 155.
+
+
+Package natbib Warning: Citation `Miller2014a' on page 93 undefined on input li
+ne 155.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 93 undefined on i
+nput line 155.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 93 undefined on i
+nput line 155.
+
+
+LaTeX Warning: Reference `app:AppendixCh5_1' on page 93 undefined on input line
+ 155.
+
+[93]
+
+LaTeX Warning: Reference `fig:Ch5Fig1' on page 94 undefined on input line 160.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 94 undefined on i
+nput line 160.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig2' on page 94 undefined on input line 160.
+
+<Chapter5/Ch5Fig2.pdf, id=1231, 796.9775pt x 341.275pt>
+File: Chapter5/Ch5Fig2.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig2.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig2.pdf used on input line 164.
+(pdftex.def)             Requested size: 471.03539pt x 201.69939pt.
+ [94 <./Chapter5/Ch5Fig2.pdf>]
+
+Package natbib Warning: Citation `Fulcher2016' on page 95 undefined on input li
+ne 174.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig2' on page 95 undefined on input line 180.
+
+
+Package natbib Warning: Citation `Gillis2010' on page 95 undefined on input lin
+e 186.
+
+
+Package natbib Warning: Citation `Ashburner2000' on page 95 undefined on input 
+line 186.
+
+
+Package natbib Warning: Citation `Zoubarev2012' on page 95 undefined on input l
+ine 186.
+
+
+Package natbib Warning: Citation `Benjamini1995' on page 95 undefined on input 
+line 186.
+
+
+LaTeX Warning: Reference `app:AppendixCh5_3' on page 95 undefined on input line
+ 190.
+
+
+Package natbib Warning: Citation `Glasser2016' on page 95 undefined on input li
+ne 190.
+
+
+LaTeX Warning: Reference `app:AppendixCh5_2' on page 95 undefined on input line
+ 190.
+
+[95]
+
+Package natbib Warning: Citation `Glasser2016' on page 96 undefined on input li
+ne 194.
+
+
+LaTeX Warning: Reference `sec:DWI' on page 96 undefined on input line 194.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig3' on page 96 undefined on input line 194.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig3' on page 96 undefined on input line 196.
+
+<Chapter5/Ch5Fig3.pdf, id=1263, 825.0825pt x 455.7025pt>
+File: Chapter5/Ch5Fig3.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig3.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig3.pdf used on input line 200.
+(pdftex.def)             Requested size: 471.03539pt x 260.16336pt.
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Package natbib Warning: Citation `Alstott2014' on page 96 undefined on input li
+ne 209.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig3' on page 96 undefined on input line 209.
+
+[96]
+
+LaTeX Warning: Reference `fig:Ch5Fig3' on page 97 undefined on input line 211.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 97 undefined on i
+nput line 211.
+
+
+Package natbib Warning: Citation `Fornito2019' on page 97 undefined on input li
+ne 211.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 97 undefined on input li
+ne 211.
+
+
+Package natbib Warning: Citation `Betzel2018' on page 97 undefined on input lin
+e 211.
+
+
+Package natbib Warning: Citation `Avena-Koenigsberger2017' on page 97 undefined
+ on input line 213.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig3' on page 97 undefined on input line 213.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 97 undefined on inp
+ut line 213.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 97 undefined on i
+nput line 213.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 97 undefined on input li
+ne 213.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 97 undefined on input li
+ne 213.
+
+[97 <./Chapter5/Ch5Fig3.pdf>]
+
+LaTeX Warning: Reference `sec:Heritability' on page 98 undefined on input line 
+217.
+
+
+Package natbib Warning: Citation `Akaike1998' on page 98 undefined on input lin
+e 217.
+
+<Chapter5/Ch5Fig4.pdf, id=1302, 963.6pt x 426.59375pt>
+File: Chapter5/Ch5Fig4.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig4.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig4.pdf used on input line 221.
+(pdftex.def)             Requested size: 471.03539pt x 208.53154pt.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig1' on page 98 undefined on input line 230.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig4' on page 98 undefined on input line 230.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig4' on page 98 undefined on input line 230.
+
+[98 <./Chapter5/Ch5Fig4.pdf>]
+
+LaTeX Warning: Reference `sec:DWI' on page 99 undefined on input line 234.
+
+
+LaTeX Warning: Reference `app:AppendixCh5_3' on page 99 undefined on input line
+ 234.
+
+
+LaTeX Warning: Reference `fig:Ch5SFig13' on page 99 undefined on input line 234
+.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig5' on page 99 undefined on input line 236.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig5' on page 99 undefined on input line 236.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig5' on page 99 undefined on input line 236.
+
+[99] <Chapter5/Ch5Fig5.pdf, id=1336, 711.65875pt x 541.02126pt>
+File: Chapter5/Ch5Fig5.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig5.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig5.pdf used on input line 240.
+(pdftex.def)             Requested size: 471.03539pt x 358.09053pt.
+
+
+Package natbib Warning: Citation `Savage2018' on page 100 undefined on input li
+ne 248.
+
+
+Package natbib Warning: Citation `Euesden2015' on page 100 undefined on input l
+ine 248.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig5' on page 100 undefined on input line 248.
+
+
+[100 <./Chapter5/Ch5Fig5.pdf>]
+
+LaTeX Warning: Reference `secGeneExpression' on page 101 undefined on input lin
+e 255.
+
+
+LaTeX Warning: Reference `fig:Ch5Fig6' on page 101 undefined on input line 255.
+
+
+
+LaTeX Warning: Reference `fig:Ch5Fig6' on page 101 undefined on input line 255.
+
+
+<Chapter5/Ch5Fig6.pdf, id=1371, 963.6pt x 426.59375pt>
+File: Chapter5/Ch5Fig6.pdf Graphic file (type pdf)
+
+<use Chapter5/Ch5Fig6.pdf>
+Package pdftex.def Info: Chapter5/Ch5Fig6.pdf used on input line 259.
+(pdftex.def)             Requested size: 471.03539pt x 208.53154pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `sec:CGE' on page 101 undefined on input line 268.
+
+
+LaTeX Warning: Reference `sec:enrichment' on page 101 undefined on input line 2
+68.
+
+
+LaTeX Warning: Reference `fig:Ch5SFig14' on page 101 undefined on input line 26
+8.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 101 undefined on input 
+line 268.
+
+
+Package natbib Warning: Citation `Collin2014' on page 101 undefined on input li
+ne 268.
+
+
+Package natbib Warning: Citation `Liang2013a' on page 101 undefined on input li
+ne 268.
+
+
+Package natbib Warning: Citation `Tomasi2013' on page 101 undefined on input li
+ne 268.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 101 undefined on input l
+ine 268.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 101 undefined on input l
+ine 268.
+
+[101]
+
+Package natbib Warning: Citation `VandenHeuvel2012' on page 102 undefined on in
+put line 272.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 102 undefined on input 
+line 272.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 102 undefined on input l
+ine 272.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 102 undefined on in
+put line 272.
+
+
+Package natbib Warning: Citation `Zamora-Lopez2010' on page 102 undefined on in
+put line 272.
+
+
+Package natbib Warning: Citation `VandenHeuvel2012' on page 102 undefined on in
+put line 272.
+
+
+Package natbib Warning: Citation `Colclough2017' on page 102 undefined on input
+ line 274.
+
+
+Package natbib Warning: Citation `Fornito2011' on page 102 undefined on input l
+ine 274.
+
+
+Package natbib Warning: Citation `Peper2007' on page 102 undefined on input lin
+e 274.
+
+
+Package natbib Warning: Citation `Roshchupkin2016' on page 102 undefined on inp
+ut line 274.
+
+
+Package natbib Warning: Citation `Shen2014' on page 102 undefined on input line
+ 274.
+
+
+Package natbib Warning: Citation `Sinclair2015' on page 102 undefined on input 
+line 274.
+
+
+Package natbib Warning: Citation `Sudre2017' on page 102 undefined on input lin
+e 274.
+
+
+Package natbib Warning: Citation `Thompson2001' on page 102 undefined on input 
+line 274.
+
+
+Package natbib Warning: Citation `Fornito2011' on page 102 undefined on input l
+ine 274.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013b' on page 102 undefined on i
+nput line 274.
+
+[102 <./Chapter5/Ch5Fig6.pdf>]
+
+Package natbib Warning: Citation `Harriger2012' on page 103 undefined on input 
+line 276.
+
+
+Package natbib Warning: Citation `Towlson2013' on page 103 undefined on input l
+ine 276.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 103 undefined on in
+put line 276.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013b' on page 103 undefined on i
+nput line 276.
+
+
+Package natbib Warning: Citation `Alloza2018' on page 103 undefined on input li
+ne 276.
+
+
+Package natbib Warning: Citation `Dezhina2018' on page 103 undefined on input l
+ine 276.
+
+
+Package natbib Warning: Citation `Liu2016a' on page 103 undefined on input line
+ 276.
+
+
+Package natbib Warning: Citation `Sadeh2018' on page 103 undefined on input lin
+e 276.
+
+
+Package natbib Warning: Citation `Wang2017' on page 103 undefined on input line
+ 276.
+
+
+Package natbib Warning: Citation `Reus2017' on page 103 undefined on input line
+ 276.
+
+
+Package natbib Warning: Citation `Liu2016a' on page 103 undefined on input line
+ 276.
+
+
+Package natbib Warning: Citation `Dezhina2018' on page 103 undefined on input l
+ine 276.
+
+
+Package natbib Warning: Citation `Sadeh2018' on page 103 undefined on input lin
+e 276.
+
+
+Package natbib Warning: Citation `Wang2017' on page 103 undefined on input line
+ 276.
+
+
+Package natbib Warning: Citation `Alloza2018' on page 103 undefined on input li
+ne 276.
+
+
+Package natbib Warning: Citation `Whalley2013' on page 103 undefined on input l
+ine 276.
+
+
+Package natbib Warning: Citation `Jansen2018' on page 103 undefined on input li
+ne 276.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 103 undefined on input l
+ine 278.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 103 undefined on 
+input line 278.
+
+
+Package natbib Warning: Citation `Cioli2014b' on page 103 undefined on input li
+ne 278.
+
+
+Package natbib Warning: Citation `Forest2017' on page 103 undefined on input li
+ne 278.
+
+
+Package natbib Warning: Citation `Goel2014' on page 103 undefined on input line
+ 278.
+
+
+Package natbib Warning: Citation `Richiardi2015' on page 103 undefined on input
+ line 278.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 103 undefined on input l
+ine 278.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 103 undefined on input l
+ine 278.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 103 undefined on 
+input line 278.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 103 undefined on input l
+ine 278.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 103 undefined on input l
+ine 278.
+
+
+Package natbib Warning: Citation `Liang2013a' on page 103 undefined on input li
+ne 278.
+
+
+Package natbib Warning: Citation `Tomasi2013' on page 103 undefined on input li
+ne 278.
+
+
+Package natbib Warning: Citation `Vaishnavi2010' on page 103 undefined on input
+ line 278.
+
+
+Package natbib Warning: Citation `Varkuti2011' on page 103 undefined on input l
+ine 278.
+
+
+Package natbib Warning: Citation `Crossley2014' on page 103 undefined on input 
+line 278.
+
+
+Package natbib Warning: Citation `Fornito2015' on page 103 undefined on input l
+ine 278.
+
+
+Package natbib Warning: Citation `Scholtens2014' on page 103 undefined on input
+ line 278.
+
+
+Package natbib Warning: Citation `Lein2017' on page 103 undefined on input line
+ 278.
+
+[103]
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 104 undefined on 
+input line 280.
+
+
+Package natbib Warning: Citation `Fornito2019' on page 104 undefined on input l
+ine 280.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2018' on page 104 undefined on 
+input line 280.
+
+
+Package natbib Warning: Citation `Burt2018' on page 104 undefined on input line
+ 280.
+
+
+Package natbib Warning: Citation `Fornito2019' on page 104 undefined on input l
+ine 280.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 104 undefined on input l
+ine 280.
+
+
+Package natbib Warning: Citation `Fulcher2019' on page 104 undefined on input l
+ine 280.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 104 undefined on input l
+ine 280.
+
+
+Package natbib Warning: Citation `Burt2018' on page 104 undefined on input line
+ 280.
+
+
+Package natbib Warning: Citation `Romero-Garcia2018' on page 104 undefined on i
+nput line 280.
+
+
+Package natbib Warning: Citation `Whitaker2016a' on page 104 undefined on input
+ line 280.
+
+
+Package natbib Warning: Citation `Vasa2018' on page 104 undefined on input line
+ 280.
+
+
+Package natbib Warning: Citation `Vertes2016b' on page 104 undefined on input l
+ine 280.
+
+) [104] [105]
+\openout2 = `Chapter6/Chapter6.aux'.
+
+ (./Chapter6/Chapter6.tex
+Chapter 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 2.
+
+
+Package natbib Warning: Citation `Buckner2009' on page 106 undefined on input l
+ine 8.
+
+
+Package natbib Warning: Citation `Bassett2009a' on page 106 undefined on input 
+line 8.
+
+
+Package natbib Warning: Citation `Crossley2014' on page 106 undefined on input 
+line 8.
+
+
+Package natbib Warning: Citation `Fornito2015' on page 106 undefined on input l
+ine 8.
+
+
+Package natbib Warning: Citation `VandenHeuvel2016' on page 106 undefined on in
+put line 8.
+
+
+Package natbib Warning: Citation `Bullmore2012' on page 106 undefined on input 
+line 8.
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 106 undefined on input l
+ine 14.
+
+[106
+
+
+
+
+]
+
+Package natbib Warning: Citation `Beul2017' on page 107 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Scholtens2014' on page 107 undefined on input
+ line 16.
+
+
+Package natbib Warning: Citation `Scholtens2014' on page 107 undefined on input
+ line 16.
+
+
+Package natbib Warning: Citation `Barbas' on page 107 undefined on input line 1
+6.
+
+
+Package natbib Warning: Citation `Barbas2015' on page 107 undefined on input li
+ne 16.
+
+[107]
+
+Package natbib Warning: Citation `Bullmore2012' on page 108 undefined on input 
+line 22.
+
+
+Package natbib Warning: Citation `Oldham2018' on page 108 undefined on input li
+ne 24.
+
+
+Package natbib Warning: Citation `Varier2011' on page 108 undefined on input li
+ne 24.
+
+
+Package natbib Warning: Citation `Ball2014' on page 108 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Ball2014' on page 108 undefined on input line
+ 24.
+
+
+Package natbib Warning: Citation `Batalle2017' on page 108 undefined on input l
+ine 24.
+
+
+Package natbib Warning: Citation `Baker2015a' on page 108 undefined on input li
+ne 24.
+
+
+Package natbib Warning: Citation `Oldham2018' on page 108 undefined on input li
+ne 24.
+
+
+Package natbib Warning: Citation `Harriger2012' on page 108 undefined on input 
+line 27.
+
+
+Package natbib Warning: Citation `VandenHeuvel2011' on page 108 undefined on in
+put line 27.
+
+
+Package natbib Warning: Citation `VandenHeuvel2013b' on page 108 undefined on i
+nput line 27.
+
+[108]
+
+Package natbib Warning: Citation `Harris2010' on page 109 undefined on input li
+ne 31.
+
+
+Package natbib Warning: Citation `Hawrylycz2012' on page 109 undefined on input
+ line 31.
+
+
+Package natbib Warning: Citation `Lein2007a' on page 109 undefined on input lin
+e 31.
+
+
+Package natbib Warning: Citation `Keil2018' on page 109 undefined on input line
+ 31.
+
+
+Package natbib Warning: Citation `Harris2010' on page 109 undefined on input li
+ne 35.
+
+
+Package natbib Warning: Citation `Cao2017' on page 109 undefined on input line 
+35.
+
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 109 undefined on 
+input line 37.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 109 undefined on input
+ line 37.
+
+
+Package natbib Warning: Citation `Tasic2016' on page 109 undefined on input lin
+e 37.
+
+
+Package natbib Warning: Citation `Lein2017' on page 109 undefined on input line
+ 37.
+
+
+Package natbib Warning: Citation `Colantuoni2011' on page 109 undefined on inpu
+t line 37.
+
+[109]
+
+Package natbib Warning: Citation `Jones2013' on page 110 undefined on input lin
+e 39.
+
+
+Package natbib Warning: Citation `Sotiropoulos2017' on page 110 undefined on in
+put line 39.
+
+
+Package natbib Warning: Citation `Jones2010' on page 110 undefined on input lin
+e 39.
+
+
+Package natbib Warning: Citation `Jeurissen2001' on page 110 undefined on input
+ line 39.
+
+
+Package natbib Warning: Citation `Tournier2010' on page 110 undefined on input 
+line 39.
+
+
+Package natbib Warning: Citation `Zalesky2016' on page 110 undefined on input l
+ine 39.
+
+
+Package natbib Warning: Citation `Jones2013' on page 110 undefined on input lin
+e 39.
+
+
+Package natbib Warning: Citation `Takahashi2002' on page 110 undefined on input
+ line 39.
+
+
+Package natbib Warning: Citation `Bouhrara2016' on page 110 undefined on input 
+line 39.
+
+
+Package natbib Warning: Citation `Zhang2012' on page 110 undefined on input lin
+e 39.
+
+[110]) [111] (./appendix/appendixCh2.tex
+Appendix A.
+
+Package natbib Warning: Citation `Harris2010' on page 112 undefined on input li
+ne 10.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+LaTeX Warning: Reference `eq:rphi' on page 112 undefined on input line 32.
+
+
+Package natbib Warning: Citation `Kaufman2006' on page 112 undefined on input l
+ine 34.
+
+
+LaTeX Warning: Reference `fig:Ch2S2_Fig' on page 112 undefined on input line 41
+.
+
+
+LaTeX Warning: Reference `fig:Ch2S2_Fig' on page 112 undefined on input line 42
+.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no à in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no à in font cmr10!
+
+LaTeX Warning: Reference `fig:Ch2S2_Fig' on page 112 undefined on input line 45
+.
+
+
+LaTeX Warning: Reference `fig:Ch2S2_Fig' on page 112 undefined on input line 45
+.
+
+[112
+
+
+
+]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [113]
+
+LaTeX Warning: Reference `fig:Ch2S3_Fig' on page 114 undefined on input line 69
+.
+
+
+LaTeX Warning: Reference `eq:CBinomialProbability' on page 114 undefined on inp
+ut line 69.
+
+[114] <Chapter2/Ch2S1fig.pdf, id=1470, 516.4896pt x 623.2083pt>
+File: Chapter2/Ch2S1fig.pdf Graphic file (type pdf)
+
+<use Chapter2/Ch2S1fig.pdf>
+Package pdftex.def Info: Chapter2/Ch2S1fig.pdf used on input line 82.
+(pdftex.def)             Requested size: 282.6241pt x 341.0254pt.
+
+<Chapter2/Ch2S2fig.pdf, id=1471, 526.48697pt x 438.49821pt>
+File: Chapter2/Ch2S2fig.pdf Graphic file (type pdf)
+
+<use Chapter2/Ch2S2fig.pdf>
+Package pdftex.def Info: Chapter2/Ch2S2fig.pdf used on input line 101.
+(pdftex.def)             Requested size: 471.03539pt x 392.32298pt.
+
+
+LaTeX Warning: Reference `app:AppendixCh2_3' on page 115 undefined on input lin
+e 109.
+
+
+LaTeX Warning: Reference `app:AppendixCh2_3' on page 115 undefined on input lin
+e 109.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter2/Ch2S3fig.pdf, id=1472, 526.48697pt x 313.53134pt>
+File: Chapter2/Ch2S3fig.pdf Graphic file (type pdf)
+
+<use Chapter2/Ch2S3fig.pdf>
+Package pdftex.def Info: Chapter2/Ch2S3fig.pdf used on input line 116.
+(pdftex.def)             Requested size: 471.03539pt x 280.5155pt.
+
+
+LaTeX Warning: Reference `app:AppendixCh2_3' on page 115 undefined on input lin
+e 123.
+
+
+LaTeX Warning: Reference `fig:Ch2Fig5' on page 115 undefined on input line 123.
+
+
+
+LaTeX Warning: Reference `app:AppendixCh2_3' on page 115 undefined on input lin
+e 123.
+
+
+LaTeX Warning: Reference `fig:Ch2Fig5' on page 115 undefined on input line 123.
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter2/Ch2S4fig.pdf, id=1473, 463.85295pt x 213.79875pt>
+File: Chapter2/Ch2S4fig.pdf Graphic file (type pdf)
+
+<use Chapter2/Ch2S4fig.pdf>
+Package pdftex.def Info: Chapter2/Ch2S4fig.pdf used on input line 131.
+(pdftex.def)             Requested size: 471.03539pt x 217.1127pt.
+
+
+LaTeX Warning: Reference `fig:Ch2Fig4' on page 115 undefined on input line 137.
+
+
+
+LaTeX Warning: Reference `fig:Ch2Fig4' on page 115 undefined on input line 137.
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter2/Ch2S5fig.pdf, id=1474, 502.7583pt x 336.65775pt>
+File: Chapter2/Ch2S5fig.pdf Graphic file (type pdf)
+
+<use Chapter2/Ch2S5fig.pdf>
+Package pdftex.def Info: Chapter2/Ch2S5fig.pdf used on input line 144.
+(pdftex.def)             Requested size: 471.03539pt x 315.4155pt.
+
+
+Package natbib Warning: Citation `Alstott2014' on page 115 undefined on input l
+ine 156.
+
+
+Package natbib Warning: Citation `Alstott2014' on page 115 undefined on input l
+ine 156.
+
+
+Package natbib Warning: Citation `Alstott2014' on page 115 undefined on input l
+ine 156.
+
+
+Package natbib Warning: Citation `Alstott2014' on page 115 undefined on input l
+ine 156.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter2/Ch2S6fig.pdf, id=1475, 424.82713pt x 253.78815pt>
+File: Chapter2/Ch2S6fig.pdf Graphic file (type pdf)
+
+<use Chapter2/Ch2S6fig.pdf>
+Package pdftex.def Info: Chapter2/Ch2S6fig.pdf used on input line 162.
+(pdftex.def)             Requested size: 471.03539pt x 281.39835pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter2/Ch2S1Tab.pdf, id=1476, 569.12625pt x 341.275pt>
+File: Chapter2/Ch2S1Tab.pdf Graphic file (type pdf)
+
+<use Chapter2/Ch2S1Tab.pdf>
+Package pdftex.def Info: Chapter2/Ch2S1Tab.pdf used on input line 171.
+(pdftex.def)             Requested size: 471.03539pt x 282.46663pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter2/Ch2S2Tab.pdf, id=1479, 569.12625pt x 255.95625pt>
+File: Chapter2/Ch2S2Tab.pdf Graphic file (type pdf)
+
+<use Chapter2/Ch2S2Tab.pdf>
+Package pdftex.def Info: Chapter2/Ch2S2Tab.pdf used on input line 178.
+(pdftex.def)             Requested size: 471.03539pt x 211.84998pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter2/Ch2S3Tab.pdf, id=1480, 569.12625pt x 213.79875pt>
+File: Chapter2/Ch2S3Tab.pdf Graphic file (type pdf)
+
+<use Chapter2/Ch2S3Tab.pdf>
+Package pdftex.def Info: Chapter2/Ch2S3Tab.pdf used on input line 185.
+(pdftex.def)             Requested size: 471.03539pt x 176.95703pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./appendix/appendixCh4.tex [115 <./Chapter2/Ch2S1fig.pdf>] [116 <./Chapter2/
+Ch2S2fig.pdf>] [117 <./Chapter2/Ch2S3fig.pdf>] [118 <./Chapter2/Ch2S4fig.pdf>]
+[119 <./Chapter2/Ch2S5fig.pdf>] [120 <./Chapter2/Ch2S6fig.pdf>] [121 <./Chapter
+2/Ch2S1Tab.pdf> <./Chapter2/Ch2S2Tab.pdf>] [122 <./Chapter2/Ch2S3Tab.pdf>]
+Appendix B.
+
+Overfull \hbox (2.12529pt too wide) in paragraph at lines 2--2
+|\OT1/cmr/bx/n/24.88 Linking brain-wide gene ex-pres-sion and
+ []
+
+
+Package natbib Warning: Citation `AHBAdoc' on page 123 undefined on input line 
+10.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+LaTeX Warning: Reference `app:AppendixCh4_7' on page 123 undefined on input lin
+e 11.
+
+[123
+
+]
+
+Package natbib Warning: Citation `Wang2009' on page 124 undefined on input line
+ 13.
+
+
+Package natbib Warning: Citation `AHBAdoc' on page 124 undefined on input line 
+15.
+
+
+Package natbib Warning: Citation `Gillis2010' on page 124 undefined on input li
+ne 22.
+
+
+Package natbib Warning: Citation `Zoubarev2012' on page 124 undefined on input 
+line 23.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+[124]
+Missing character: There is no ‚ in font cmbx10!
+Missing character: There is no Ä in font cmbx10!
+Missing character: There is no ì in font cmbx10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+[125]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+
+
+Package natbib Warning: Citation `Quackenbush2002a' on page 126 undefined on in
+put line 45.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig4' on page 126 undefined on input line 45.
+
+
+[126]
+
+LaTeX Warning: Reference `fig:Ch4Fig4' on page 127 undefined on input line 47.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig1' on page 127 undefined on input line 47.
+
+
+
+LaTeX Warning: Reference `Table2' on page 127 undefined on input line 49.
+
+
+Package natbib Warning: Citation `Hawrylycz2015' on page 127 undefined on input
+ line 50.
+
+[127]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ <Chapter4/TableS4.pdf, id=1669, 569.12625pt x 142.5325pt>
+File: Chapter4/TableS4.pdf Graphic file (type pdf)
+
+<use Chapter4/TableS4.pdf>
+Package pdftex.def Info: Chapter4/TableS4.pdf used on input line 61.
+(pdftex.def)             Requested size: 471.03539pt x 117.97134pt.
+ [128 <./Chapter4/TableS4.pdf>]
+
+Package natbib Warning: Citation `Glasser2016' on page 129 undefined on input l
+ine 72.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Package natbib Warning: Citation `Dijkstra1959' on page 129 undefined on input 
+line 72.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig9' on page 129 undefined on input line 80.
+
+
+
+Package natbib Warning: Citation `Fulcher2016' on page 129 undefined on input l
+ine 80.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig9' on page 129 undefined on input line 80.
+
+
+
+Package natbib Warning: Citation `Anderson2018' on page 129 undefined on input 
+line 80.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig9' on page 129 undefined on input line 80.
+
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig9' on page 129 undefined on input line 80.
+
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig9' on page 129 undefined on input line 80.
+
+
+[129]
+Overfull \hbox (4.73135pt too wide) in paragraph at lines 86--88
+[]$\OT1/cmtt/m/n/10.95 http : / / api . brain-[]map . org / api / v2 / data / q
+uery . xml ? criteria = model :: Probe ,[] rma :: criteria ,[]
+ []
+
+
+Overfull \hbox (9.83029pt too wide) in paragraph at lines 86--88
+\OT1/cmtt/m/n/10.95 products[id$eq2 ] ,[]rma :: include ,[] gene ,[] predicted 
+_ sequence ,[] rma :: options[only$eq % 27probes .
+ []
+
+
+Overfull \hbox (23.47742pt too wide) in paragraph at lines 86--88
+\OT1/cmtt/m/n/10.95 name ,[] probes . type ,[] probes . ncbi _ accession _ numb
+er ,[] probes . gi ,[] genes . entrez _ id ,[] genes . acronym ,[]
+ []
+
+
+Overfull \hbox (30.10045pt too wide) in paragraph at lines 86--88
+\OT1/cmtt/m/n/10.95 sequences . sequence _ length ,[] sequences . sequence _ da
+ta % 27 ] ,[][num _ rows$eq10000 ] [start _ row$eq0]$[] 
+ []
+
+[130] <Chapter4/FigureS1.pdf, id=1721, 569.12625pt x 170.6375pt>
+File: Chapter4/FigureS1.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS1.pdf>
+Package pdftex.def Info: Chapter4/FigureS1.pdf used on input line 94.
+(pdftex.def)             Requested size: 471.03539pt x 141.2333pt.
+
+
+LaTeX Warning: Reference `Table2' on page 131 undefined on input line 98.
+
+
+LaTeX Warning: Reference `Table2' on page 131 undefined on input line 98.
+
+<Chapter4/FigureS2.pdf, id=1722, 569.12625pt x 241.90375pt>
+File: Chapter4/FigureS2.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS2.pdf>
+Package pdftex.def Info: Chapter4/FigureS2.pdf used on input line 104.
+(pdftex.def)             Requested size: 471.03539pt x 200.219pt.
+
+
+LaTeX Warning: Reference `eqn:eq2' on page 131 undefined on input line 108.
+
+
+LaTeX Warning: Reference `eqn:eq2' on page 131 undefined on input line 108.
+
+<Chapter4/FigureS3.pdf, id=1723, 569.12625pt x 233.87375pt>
+File: Chapter4/FigureS3.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS3.pdf>
+Package pdftex.def Info: Chapter4/FigureS3.pdf used on input line 114.
+(pdftex.def)             Requested size: 471.03539pt x 193.57271pt.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig1' on page 131 undefined on input line 116
+.
+
+
+LaTeX Warning: Reference `fig:Ch4Sfig1' on page 131 undefined on input line 116
+.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter4/FigureS4.pdf, id=1724, 569.12625pt x 227.85126pt>
+File: Chapter4/FigureS4.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS4.pdf>
+Package pdftex.def Info: Chapter4/FigureS4.pdf used on input line 122.
+(pdftex.def)             Requested size: 471.03539pt x 188.58803pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter4/FigureS5.pdf, id=1725, 569.12625pt x 255.95625pt>
+File: Chapter4/FigureS5.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS5.pdf>
+Package pdftex.def Info: Chapter4/FigureS5.pdf used on input line 130.
+(pdftex.def)             Requested size: 471.03539pt x 211.84998pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter4/FigureS6.pdf, id=1726, 569.12625pt x 341.275pt>
+File: Chapter4/FigureS6.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS6.pdf>
+Package pdftex.def Info: Chapter4/FigureS6.pdf used on input line 139.
+(pdftex.def)             Requested size: 471.03539pt x 282.46663pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter4/FigureS7.pdf, id=1727, 569.12625pt x 313.17pt>
+File: Chapter4/FigureS7.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS7.pdf>
+Package pdftex.def Info: Chapter4/FigureS7.pdf used on input line 146.
+(pdftex.def)             Requested size: 471.03539pt x 259.20467pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter4/FigureS8.pdf, id=1728, 569.12625pt x 497.86pt>
+File: Chapter4/FigureS8.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS8.pdf>
+Package pdftex.def Info: Chapter4/FigureS8.pdf used on input line 154.
+(pdftex.def)             Requested size: 471.03539pt x 412.06898pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter4/FigureS9.pdf, id=1729, 569.12625pt x 370.38374pt>
+File: Chapter4/FigureS9.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS9.pdf>
+Package pdftex.def Info: Chapter4/FigureS9.pdf used on input line 164.
+(pdftex.def)             Requested size: 471.03539pt x 306.55937pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter4/FigureS10.pdf, id=1730, 569.12625pt x 412.54124pt>
+File: Chapter4/FigureS10.pdf Graphic file (type pdf)
+
+<use Chapter4/FigureS10.pdf>
+Package pdftex.def Info: Chapter4/FigureS10.pdf used on input line 178.
+(pdftex.def)             Requested size: 471.03539pt x 341.45233pt.
+
+
+Package natbib Warning: Citation `Desikan2006' on page 131 undefined on input l
+ine 180.
+
+
+Package natbib Warning: Citation `Glasser2016' on page 131 undefined on input l
+ine 180.
+
+
+Package natbib Warning: Citation `Desikan2006' on page 131 undefined on input l
+ine 180.
+
+
+Package natbib Warning: Citation `Glasser2016' on page 131 undefined on input l
+ine 180.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./appendix/appendixCh5.tex [131 <./Chapter4/FigureS1.pdf> <./Chapter4/Figure
+S2.pdf>] [132 <./Chapter4/FigureS3.pdf> <./Chapter4/FigureS4.pdf>] [133 <./Chap
+ter4/FigureS5.pdf> <./Chapter4/FigureS6.pdf>] [134 <./Chapter4/FigureS7.pdf>]
+[135 <./Chapter4/FigureS8.pdf>] [136 <./Chapter4/FigureS9.pdf>] [137 <./Chapter
+4/FigureS10.pdf>]
+Appendix C.
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 138 undefined on 
+input line 9.
+
+
+Package natbib Warning: Citation `Arloth2015' on page 138 undefined on input li
+ne 12.
+
+
+Package natbib Warning: Citation `Miller2014a' on page 138 undefined on input l
+ine 15.
+
+[138
+
+]
+
+Package natbib Warning: Citation `Arnatkeviciute2019' on page 139 undefined on 
+input line 23.
+
+[139]
+
+LaTeX Warning: Reference `fig:Ch5SFig1' on page 140 undefined on input line 36.
+
+
+
+LaTeX Warning: Reference `fig:Ch5SFig2' on page 140 undefined on input line 36.
+
+
+
+LaTeX Warning: Reference `fig:Ch5SFig1' on page 140 undefined on input line 36.
+
+
+<Chapter5/SFigure1.pdf, id=2377, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure1.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure1.pdf>
+Package pdftex.def Info: Chapter5/SFigure1.pdf used on input line 40.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+
+<Chapter5/SFigure2.pdf, id=2378, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure2.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure2.pdf>
+Package pdftex.def Info: Chapter5/SFigure2.pdf used on input line 49.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[140 <./Chapter5/SFigure1.pdf>] [141 <./Chapter5/SFigure2.pdf>]
+
+LaTeX Warning: Reference `fig:Ch5SFig3' on page 142 undefined on input line 57.
+
+
+<Chapter5/SFigure3.pdf, id=2454, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure3.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure3.pdf>
+Package pdftex.def Info: Chapter5/SFigure3.pdf used on input line 61.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+ [142
+
+ <./Chapter5/SFigure3.pdf>]
+
+LaTeX Warning: Reference `fig:Ch5SFig4' on page 143 undefined on input line 69.
+
+
+<Chapter5/SFigure4.pdf, id=2489, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure4.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure4.pdf>
+Package pdftex.def Info: Chapter5/SFigure4.pdf used on input line 73.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+ [143
+
+ <./Chapter5/SFigure4.pdf>]
+
+LaTeX Warning: Reference `fig:Ch5SFig5' on page 144 undefined on input line 81.
+
+
+
+LaTeX Warning: Reference `fig:Ch5SFig6' on page 144 undefined on input line 81.
+
+
+
+LaTeX Warning: Reference `fig:Ch5SFig9' on page 144 undefined on input line 81.
+
+
+
+LaTeX Warning: Reference `fig:Ch5SFig7' on page 144 undefined on input line 81.
+
+
+
+LaTeX Warning: Reference `fig:Ch5SFig8' on page 144 undefined on input line 81.
+
+
+
+LaTeX Warning: Reference `fig:Ch5SFig10' on page 144 undefined on input line 81
+.
+
+<Chapter5/SFigure5.pdf, id=2527, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure5.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure5.pdf>
+Package pdftex.def Info: Chapter5/SFigure5.pdf used on input line 85.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+
+<Chapter5/SFigure6.pdf, id=2528, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure6.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure6.pdf>
+Package pdftex.def Info: Chapter5/SFigure6.pdf used on input line 94.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter5/SFigure9.pdf, id=2529, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure9.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure9.pdf>
+Package pdftex.def Info: Chapter5/SFigure9.pdf used on input line 103.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter5/SFigure7.pdf, id=2530, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure7.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure7.pdf>
+Package pdftex.def Info: Chapter5/SFigure7.pdf used on input line 112.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter5/SFigure8.pdf, id=2531, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure8.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure8.pdf>
+Package pdftex.def Info: Chapter5/SFigure8.pdf used on input line 121.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter5/SFigure10.pdf, id=2532, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure10.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure10.pdf>
+Package pdftex.def Info: Chapter5/SFigure10.pdf used on input line 130.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[144
+
+ <./Chapter5/SFigure5.pdf>]
+
+LaTeX Warning: Text page 145 contains only floats.
+
+[145 <./Chapter5/SFigure6.pdf> <./Chapter5/SFigure9.pdf>]
+
+LaTeX Warning: Text page 146 contains only floats.
+
+[146 <./Chapter5/SFigure7.pdf> <./Chapter5/SFigure8.pdf>] [147 <./Chapter5/SFig
+ure10.pdf>]
+
+LaTeX Warning: Reference `fig:Ch5SFig11' on page 148 undefined on input line 13
+9.
+
+
+LaTeX Warning: Reference `fig:Ch5SFig12' on page 148 undefined on input line 13
+9.
+
+
+LaTeX Warning: Reference `fig:Ch5SFig11' on page 148 undefined on input line 13
+9.
+
+<Chapter5/SFigure11.pdf, id=2742, 511.9125pt x 341.275pt>
+File: Chapter5/SFigure11.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure11.pdf>
+Package pdftex.def Info: Chapter5/SFigure11.pdf used on input line 143.
+(pdftex.def)             Requested size: 376.82974pt x 251.22206pt.
+
+<Chapter5/SFigure12.pdf, id=2743, 963.6pt x 456.70625pt>
+File: Chapter5/SFigure12.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure12.pdf>
+Package pdftex.def Info: Chapter5/SFigure12.pdf used on input line 152.
+(pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[148
+
+ <./Chapter5/SFigure11.pdf>] [149 <./Chapter5/SFigure12.pdf>]
+<Chapter5/SFigure13.pdf, id=2810, 963.6pt x 313.17pt>
+File: Chapter5/SFigure13.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure13.pdf>
+Package pdftex.def Info: Chapter5/SFigure13.pdf used on input line 165.
+(pdftex.def)             Requested size: 400.38295pt x 130.1208pt.
+
+<Chapter5/SFigure14.pdf, id=2811, 739.76375pt x 711.65875pt>
+File: Chapter5/SFigure14.pdf Graphic file (type pdf)
+
+<use Chapter5/SFigure14.pdf>
+Package pdftex.def Info: Chapter5/SFigure14.pdf used on input line 173.
+(pdftex.def)             Requested size: 353.27654pt x 339.85487pt.
+) [150
+
+ <./Chapter5/SFigure13.pdf> <./Chapter5/SFigure14.pdf>] (./Thesis.bbl [151
+
+
+]
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.85 \newblock }
+                } 2017; \hspace{0pt}.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+l.85 \newblock }}
+                  2017; \hspace{0pt}.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[152] [153] [154] [155] [156]
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no ü in font cmr10!
+ [157] [158] [159] [160] [161]
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+ [162]
+Missing character: There is no … in font cmr10!
+Missing character: There is no õ in font cmr10!
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no ´ in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no ó in font cmr10!
+ [163]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no Å in font cmr10!
+
+[164] [165]
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no É in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no É in font cmr10!
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no £ in font cmr10!
+ [166] [167]
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no É in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no É in font cmr10!
+Missing character: There is no » in font cmr10!
+Missing character: There is no õ in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no É in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no É in font cmr10!
+Missing character: There is no » in font cmr10!
+Missing character: There is no õ in font cmr10!
+ [168] [169] [170] [171] [172] [173]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+ [174] [175]
+[176]
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no Ü in font cmr10!
+Missing character: There is no ≈ in font cmr10!
+Missing character: There is no ´ in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no ó in font cmr10!
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.2179 \newblock }
+                  } 2018; \hspace{0pt}.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+l.2179 \newblock }}
+                    2018; \hspace{0pt}.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[177] [178] [179] [180] [181]
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.2629 \newblock }
+                  } 2017; \hspace{0pt}.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+l.2629 \newblock }}
+                    2017; \hspace{0pt}.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no † in font cmr10!
+[182] [183] [184] [185] [186]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no î in font cmr10!
+ [187]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [188] [189] [190] [191]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+ [192] [193]
+[194] [195] [196] [197] [198])
+
+Package natbib Warning: There were undefined citations.
+
+[199]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
+ (./Thesis.aux (./Chapter1/Chapter1.aux) (./Chapter2/Chapter2.aux)
+(./Chapter3/Chapter3.aux) (./Chapter4/Chapter4.aux) (./Chapter5/Chapter5.aux)
+(./Chapter6/Chapter6.aux)
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
+
+
+Package rerunfilecheck Warning: File `Thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Thesis.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  FED7A983216F31E44B0716E063073365;5948.
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.74pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 426 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 42168 strings out of 493089
+ 872283 string characters out of 6134843
+ 844469 words of memory out of 5000000
+ 43914 multiletter control sequences out of 15000+600000
+ 32586 words of font info for 231 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,17n,111p,10390b,2402s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced bu
+t does not exist, replaced by a fixed one
+
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/local/texlive/2015/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2015/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Thesis.pdf (208 pages, 159933641 bytes).
+PDF statistics:
+ 3752 PDF objects out of 4296 (max. 8388607)
+ 2821 compressed objects within 29 object streams
+ 806 named destinations out of 1000 (max. 500000)
+ 35666 words of extra memory for PDF output out of 35830 (max. 10000000)
 

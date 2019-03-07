@@ -1,87 +1,87 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The brain as a network}{2}{section.1.1}
-\contentsline {section}{\numberline {1.2}Topological organisation of the brain}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}The role of brain network hubs}{5}{section.1.3}
+\contentsline {section}{\numberline {1.2}Topological organisation of the brain}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}The role of brain network hubs}{4}{section.1.3}
 \contentsline {section}{\numberline {1.4}Genetic markers of brain connectivity}{6}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Heritability}{7}{subsection.1.4.1}
-\contentsline {subsection}{\numberline {1.4.2}Structural DNA variation}{8}{subsection.1.4.2}
-\contentsline {subsection}{\numberline {1.4.3}Gene expression}{9}{subsection.1.4.3}
-\contentsline {section}{\numberline {1.5}Interim summary}{11}{section.1.5}
-\contentsline {section}{\numberline {1.6}Aims and overview of the thesis}{11}{section.1.6}
-\contentsline {chapter}{\numberline {2}Hub connectivity and gene expression in \textit {C.elegans}}{13}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{15}{section.2.1}
-\contentsline {section}{\numberline {2.2}Materials and methods}{17}{section.2.2}
-\contentsline {paragraph}{Degree.}{19}{section.2.2}
-\contentsline {paragraph}{Rich-club organization.}{20}{section.2.2}
-\contentsline {paragraph}{Modularity.}{20}{equation.2.2.2}
-\contentsline {section}{\numberline {2.3}Results}{25}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Spatial dependency}{25}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Hub connectivity}{27}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Correlated gene expression and connectivity}{29}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Potential drivers of elevated correlated gene expression between hubs}{30}{subsection.2.3.4}
-\contentsline {paragraph}{Interneurons.}{30}{figure.caption.8}
-\contentsline {paragraph}{Modular organization.}{32}{figure.caption.9}
-\contentsline {paragraph}{Lineage distance.}{33}{figure.caption.9}
-\contentsline {paragraph}{Birth time.}{34}{figure.caption.10}
-\contentsline {paragraph}{Neurochemistry.}{35}{figure.caption.10}
-\contentsline {paragraph}{Anatomical location.}{35}{figure.caption.10}
-\contentsline {paragraph}{Functional class.}{35}{figure.caption.10}
-\contentsline {subsection}{\numberline {2.3.5}Genes driving correlated gene expression patterns}{36}{subsection.2.3.5}
-\contentsline {section}{\numberline {2.4}Discussion}{38}{section.2.4}
-\contentsline {chapter}{\numberline {3}Transcriptional signatures of hub \\connectivity in neural networks}{44}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{45}{section.3.1}
-\contentsline {section}{\numberline {3.2}Characterizing gene expression across the entire brain}{47}{section.3.2}
-\contentsline {section}{\numberline {3.3}Hubs in brain networks}{50}{section.3.3}
-\contentsline {section}{\numberline {3.4}The molecular correlates of hub connectivity}{53}{section.3.4}
-\contentsline {section}{\numberline {3.5}Conclusions and further directions}{58}{section.3.5}
-\contentsline {chapter}{\numberline {4}Linking brain-wide gene expression and neuroimaging data}{60}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{61}{section.4.1}
-\contentsline {section}{\numberline {4.2}Measuring gene expression}{63}{section.4.2}
-\contentsline {section}{\numberline {4.3}A general workflow for processing brain-wide transcriptomic data}{65}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Step 1. Probe-to-gene re-annotation}{67}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Step 2. Data filtering}{68}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Step 3. Probe selection}{70}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Step 4. Assigning samples to brain regions}{73}{subsection.4.3.4}
-\contentsline {subsection}{\numberline {4.3.5}Step 6. Gene filtering}{80}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Step 7. Accounting for spatial effects}{80}{subsection.4.3.6}
-\contentsline {section}{\numberline {4.4}Conclusions}{84}{section.4.4}
-\contentsline {chapter}{\numberline {5}Genetic markers of hub connectivity in the human brain}{86}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{87}{section.5.1}
-\contentsline {section}{\numberline {5.2}Materials and methods}{91}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Network analysis}{94}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Heritability analysis}{96}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Genotype data}{97}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Polygenic score calculation}{98}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}PGS correlation}{98}{subsection.5.2.5}
-\contentsline {subsection}{\numberline {5.2.6}Gene expression}{99}{subsection.5.2.6}
-\contentsline {subsection}{\numberline {5.2.7}Transcriptional coupling}{99}{subsection.5.2.7}
-\contentsline {subsection}{\numberline {5.2.8}Enrichment analysis}{101}{subsection.5.2.8}
-\contentsline {section}{\numberline {5.3}Results}{101}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Rich club organisation of the human brain}{102}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Heritability}{103}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Polygenic variation}{105}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Transcriptional coupling}{107}{subsection.5.3.4}
-\contentsline {section}{\numberline {5.4}Discussion}{108}{section.5.4}
-\contentsline {section}{\numberline {5.5}Conclusions}{111}{section.5.5}
-\contentsline {chapter}{\numberline {6}General discussion and concluding \\ remarks}{112}{chapter.6}
-\contentsline {section}{\numberline {6.1}General discussion}{112}{section.6.1}
-\contentsline {section}{\numberline {6.2}Limitations and future directions}{115}{section.6.2}
-\contentsline {section}{\numberline {6.3}Conclusions}{117}{section.6.3}
-\contentsline {chapter}{\numberline {A}Hub connectivity and gene expression in \textit {C.elegans}}{118}{appendix.A}
-\contentsline {section}{\numberline {A.1}Expression annotations at WormBase}{118}{section.A.1}
-\contentsline {section}{\numberline {A.2}Sensitivity of correlated gene expression measures}{119}{section.A.2}
-\contentsline {section}{\numberline {A.3}Correlated gene expression matching index}{119}{section.A.3}
-\contentsline {section}{\numberline {A.4}Supplementary figures}{121}{section.A.4}
-\contentsline {chapter}{\numberline {B}Linking brain-wide gene expression and neuroimaging data}{129}{appendix.B}
-\contentsline {section}{\numberline {B.1}Details on AHBA}{129}{section.B.1}
-\contentsline {section}{\numberline {B.2}Intensity-based filtering and RNA-seq}{130}{section.B.2}
-\contentsline {section}{\numberline {B.3}Differences between probe selection methods}{133}{section.B.3}
-\contentsline {section}{\numberline {B.4}Sample assignment}{134}{section.B.4}
-\contentsline {section}{\numberline {B.5}Evaluating distances between samples}{134}{section.B.5}
-\contentsline {section}{\numberline {B.6}Spatial relationship between CGE and distance}{135}{section.B.6}
-\contentsline {section}{\numberline {B.7}API: probe sequences}{136}{section.B.7}
-\contentsline {section}{\numberline {B.8}Supplementary figures}{137}{section.B.8}
-\contentsline {chapter}{\numberline {C}Genetic markers of hub connectivity in the human brain}{144}{appendix.C}
-\contentsline {section}{\numberline {C.1}Processing gene expression data}{144}{section.C.1}
-\contentsline {section}{\numberline {C.2}Robustness to data processing decisions}{146}{section.C.2}
-\contentsline {section}{\numberline {C.3}Gene enrichment results and rich-club organisation}{156}{section.C.3}
+\contentsline {subsection}{\numberline {1.4.1}Heritability}{6}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Structural DNA variation}{7}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Gene expression}{8}{subsection.1.4.3}
+\contentsline {section}{\numberline {1.5}Interim summary}{9}{section.1.5}
+\contentsline {section}{\numberline {1.6}Aims and overview of the thesis}{10}{section.1.6}
+\contentsline {chapter}{\numberline {2}Hub connectivity and gene expression in \textit {C.elegans}}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}Materials and methods}{16}{section.2.2}
+\contentsline {paragraph}{Degree.}{18}{section.2.2}
+\contentsline {paragraph}{Rich-club organization.}{18}{section.2.2}
+\contentsline {paragraph}{Modularity.}{19}{equation.2.2.2}
+\contentsline {section}{\numberline {2.3}Results}{23}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Spatial dependency}{23}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Hub connectivity}{25}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Correlated gene expression and connectivity}{27}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Potential drivers of elevated correlated gene expression between hubs}{28}{subsection.2.3.4}
+\contentsline {paragraph}{Interneurons.}{28}{figure.caption.8}
+\contentsline {paragraph}{Modular organization.}{30}{figure.caption.9}
+\contentsline {paragraph}{Lineage distance.}{31}{figure.caption.9}
+\contentsline {paragraph}{Birth time.}{32}{figure.caption.10}
+\contentsline {paragraph}{Neurochemistry.}{33}{figure.caption.10}
+\contentsline {paragraph}{Anatomical location.}{33}{figure.caption.10}
+\contentsline {paragraph}{Functional class.}{33}{figure.caption.10}
+\contentsline {subsection}{\numberline {2.3.5}Genes driving correlated gene expression patterns}{34}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Discussion}{36}{section.2.4}
+\contentsline {chapter}{\numberline {3}Transcriptional signatures of hub \\connectivity in neural networks}{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{42}{section.3.1}
+\contentsline {section}{\numberline {3.2}Characterizing gene expression across the entire brain}{44}{section.3.2}
+\contentsline {section}{\numberline {3.3}Hubs in brain networks}{46}{section.3.3}
+\contentsline {section}{\numberline {3.4}The molecular correlates of hub connectivity}{48}{section.3.4}
+\contentsline {section}{\numberline {3.5}Conclusions and further directions}{54}{section.3.5}
+\contentsline {chapter}{\numberline {4}Linking brain-wide gene expression and neuroimaging data}{56}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{57}{section.4.1}
+\contentsline {section}{\numberline {4.2}Measuring gene expression}{59}{section.4.2}
+\contentsline {section}{\numberline {4.3}A general workflow for processing brain-wide transcriptomic data}{60}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Step 1. Probe-to-gene re-annotation}{62}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Step 2. Data filtering}{64}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Step 3. Probe selection}{65}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Step 4. Assigning samples to brain regions}{69}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Step 6. Gene filtering}{75}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Step 7. Accounting for spatial effects}{76}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}Conclusions}{79}{section.4.4}
+\contentsline {chapter}{\numberline {5}Genetic markers of hub connectivity in the human brain}{81}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{82}{section.5.1}
+\contentsline {section}{\numberline {5.2}Materials and methods}{85}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Network analysis}{89}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Heritability analysis}{90}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Genotype data}{91}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Polygenic score calculation}{92}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}PGS correlation}{93}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Gene expression}{93}{subsection.5.2.6}
+\contentsline {subsection}{\numberline {5.2.7}Transcriptional coupling}{94}{subsection.5.2.7}
+\contentsline {subsection}{\numberline {5.2.8}Enrichment analysis}{95}{subsection.5.2.8}
+\contentsline {section}{\numberline {5.3}Results}{96}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Rich club organisation of the human brain}{96}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Heritability}{98}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Polygenic variation}{99}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Transcriptional coupling}{101}{subsection.5.3.4}
+\contentsline {section}{\numberline {5.4}Discussion}{102}{section.5.4}
+\contentsline {section}{\numberline {5.5}Conclusions}{104}{section.5.5}
+\contentsline {chapter}{\numberline {6}General discussion and concluding \\ remarks}{106}{chapter.6}
+\contentsline {section}{\numberline {6.1}General discussion}{106}{section.6.1}
+\contentsline {section}{\numberline {6.2}Limitations and future directions}{109}{section.6.2}
+\contentsline {section}{\numberline {6.3}Conclusions}{111}{section.6.3}
+\contentsline {chapter}{\numberline {A}Hub connectivity and gene expression in \textit {C.elegans}}{112}{appendix.A}
+\contentsline {section}{\numberline {A.1}Expression annotations at WormBase}{112}{section.A.1}
+\contentsline {section}{\numberline {A.2}Sensitivity of correlated gene expression measures}{113}{section.A.2}
+\contentsline {section}{\numberline {A.3}Correlated gene expression matching index}{113}{section.A.3}
+\contentsline {section}{\numberline {A.4}Supplementary figures}{115}{section.A.4}
+\contentsline {chapter}{\numberline {B}Linking brain-wide gene expression and neuroimaging data}{123}{appendix.B}
+\contentsline {section}{\numberline {B.1}Details on AHBA}{123}{section.B.1}
+\contentsline {section}{\numberline {B.2}Intensity-based filtering and RNA-seq}{124}{section.B.2}
+\contentsline {section}{\numberline {B.3}Differences between probe selection methods}{127}{section.B.3}
+\contentsline {section}{\numberline {B.4}Sample assignment}{128}{section.B.4}
+\contentsline {section}{\numberline {B.5}Evaluating distances between samples}{128}{section.B.5}
+\contentsline {section}{\numberline {B.6}Spatial relationship between CGE and distance}{129}{section.B.6}
+\contentsline {section}{\numberline {B.7}API: probe sequences}{130}{section.B.7}
+\contentsline {section}{\numberline {B.8}Supplementary figures}{131}{section.B.8}
+\contentsline {chapter}{\numberline {C}Genetic markers of hub connectivity in the human brain}{138}{appendix.C}
+\contentsline {section}{\numberline {C.1}Processing gene expression data}{138}{section.C.1}
+\contentsline {section}{\numberline {C.2}Robustness to data processing decisions}{140}{section.C.2}
+\contentsline {section}{\numberline {C.3}Gene enrichment results and rich-club organisation}{150}{section.C.3}
