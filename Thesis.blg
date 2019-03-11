@@ -7,51 +7,52 @@ A level-1 auxiliary file: Chapter3/Chapter3.aux
 A level-1 auxiliary file: Chapter4/Chapter4.aux
 A level-1 auxiliary file: Chapter5/Chapter5.aux
 A level-1 auxiliary file: Chapter6/Chapter6.aux
-The style file: complex_vancouver.bst
-Reallocated field_info (elt_size=4) to 15224 items from 5000.
+The style file: thesisBSTnew.bst
+Reallocated field_info (elt_size=4) to 16928 items from 5000.
 Database file #1: libraryFINAL.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--missing institution in Jeurissen2001
 You've used 426 entries,
-            2994 wiz_defined-function locations,
-            3156 strings with 139413 characters,
-and the built_in function-call counts, 1162843 in all, are:
-= -- 133204
-> -- 34247
-< -- 100
-+ -- 12800
-- -- 12364
-* -- 88813
-:= -- 124462
-add.period$ -- 1279
+            3050 wiz_defined-function locations,
+            3889 strings with 186728 characters,
+and the built_in function-call counts, 357292 in all, are:
+= -- 28079
+> -- 24252
+< -- 107
++ -- 17474
+- -- 6532
+* -- 26135
+:= -- 49188
+add.period$ -- 1282
 call.type$ -- 426
-change.case$ -- 5826
-chr.to.int$ -- 439
+change.case$ -- 4303
+chr.to.int$ -- 427
 cite$ -- 427
-duplicate$ -- 127535
-empty$ -- 77166
-format.name$ -- 13722
-if$ -- 237248
+duplicate$ -- 21582
+empty$ -- 20852
+format.name$ -- 7887
+if$ -- 70100
 int.to.chr$ -- 12
 int.to.str$ -- 1
-missing$ -- 6646
-newline$ -- 2134
-num.names$ -- 1706
-pop$ -- 65817
+missing$ -- 5107
+newline$ -- 2140
+num.names$ -- 1704
+pop$ -- 12864
 preamble$ -- 1
-purify$ -- 5824
+purify$ -- 3881
 quote$ -- 0
-skip$ -- 9065
+skip$ -- 14862
 stack$ -- 0
-substring$ -- 171877
-swap$ -- 13824
-text.length$ -- 2
+substring$ -- 13974
+swap$ -- 12333
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 3813
 warning$ -- 1
-while$ -- 6539
+while$ -- 2000
 width$ -- 0
-write$ -- 5523
+write$ -- 5532
 (There was 1 warning)

@@ -43,7 +43,7 @@
 \contentsline {subsection}{\numberline {4.3.3}Step 3. Probe selection}{70}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Step 4. Assigning samples to brain regions}{73}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}Step 6. Gene filtering}{80}{subsection.4.3.5}
-\contentsline {subsection}{\numberline {4.3.6}Step 7. Accounting for spatial effects}{81}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.6}Step 7. Accounting for spatial effects}{80}{subsection.4.3.6}
 \contentsline {section}{\numberline {4.4}Conclusions}{84}{section.4.4}
 \contentsline {chapter}{\numberline {5}Genetic markers of hub connectivity in the human brain}{86}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction}{87}{section.5.1}
@@ -58,7 +58,7 @@
 \contentsline {subsection}{\numberline {5.2.8}Enrichment analysis}{101}{subsection.5.2.8}
 \contentsline {section}{\numberline {5.3}Results}{101}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Rich club organisation of the human brain}{102}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Heritability}{104}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.2}Heritability}{103}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Polygenic variation}{105}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Transcriptional coupling}{107}{subsection.5.3.4}
 \contentsline {section}{\numberline {5.4}Discussion}{108}{section.5.4}
