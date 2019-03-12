@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  11 MAR 2019 18:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  12 MAR 2019 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1414,15 +1414,11 @@ Package pdftex.def Info: logoMonash.jpg used on input line 6.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 12.
+(Font)              size <20.74> substituted on input line 15.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <20> not available
-(Font)              size <20.74> substituted on input line 12.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 12.
+(Font)              size <20.74> substituted on input line 15.
 
 [1
 
@@ -2595,9 +2591,6 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.74pt have occurred.
 
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  )
 (\end occurred inside a group at level 1)
@@ -2605,10 +2598,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
 ### simple group (level 1) entered at line 426 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41633 strings out of 493089
- 857973 string characters out of 6134843
- 951315 words of memory out of 5000000
- 43363 multiletter control sequences out of 15000+600000
+ 41631 strings out of 493089
+ 857944 string characters out of 6134843
+ 951248 words of memory out of 5000000
+ 43361 multiletter control sequences out of 15000+600000
  32961 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,17n,77p,10390b,1935s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2642,7 +2635,7 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (203 pages, 160008925 bytes).
+Output written on Thesis.pdf (203 pages, 160010384 bytes).
 PDF statistics:
  6874 PDF objects out of 7423 (max. 8388607)
  5873 compressed objects within 59 object streams

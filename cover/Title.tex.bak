@@ -9,7 +9,12 @@
 \vspace{\stretch{1}}
 \parbox{150mm}{\fontsize{20}{20}\bf\centering 
 
-             \textsc{Genetics of brain network hubs}}
+\noindent
+{\color[RGB]{0, 77, 153} \rule{\linewidth}{0.5mm} }
+Genetics of brain network hubs}
+\noindent
+{\color[RGB]{0, 77, 153} \rule{\linewidth}{0.5mm} }
+              
               
 \fontsize{16}{16}
 \vspace{\stretch{2}}
