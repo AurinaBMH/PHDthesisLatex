@@ -80,13 +80,11 @@ Alstott J., Panzarasa P., Rubinov M., Bullmore E.T., and V{\'{e}}rtes P.E.
 \newblock {A unifying framework for measuring weighted rich clubs}.
 \newblock \emph{Sci. Rep.}, 4, 1--5, 2014.
 
-\bibitem[{{Altun, ZF and Herndon, LA and Wolkow, CA and Crocker, C and Lints, R
-  and Hall, DH}(2017)}]{WormAtlas}
-{Altun, ZF and Herndon, LA and Wolkow, CA and Crocker, C and Lints, R and Hall,
-  DH}.
-\newblock {WormAtlas}.
+\bibitem[{Altun et~al.(2017)Altun, Herndon, Wolkow, Crocker, Lints, and
+  Hall}]{WormAtlas}
+Altun Z., Herndon L., Wolkow C., Crocker C., Lints R., and Hall D.
+\newblock {WormAtlas, available from: http://www.wormatlas.org}.
 \newblock 2017.
-\newblock \urlprefix\url{http://www.wormatlas.org}.
 
 \bibitem[{Andersen et~al.(1992)Andersen, Korbo, and Pakkenberg}]{Andersen1992}
 Andersen B.B., Korbo L., and Pakkenberg B.

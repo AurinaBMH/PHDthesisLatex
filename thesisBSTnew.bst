@@ -1384,7 +1384,7 @@ FUNCTION {sort.format.names}
       format.name$ 't :=
       nameptr #1 >
         {
-          nameptr #7
+          nameptr #5
           #1 + =
           numnames #0
           #10 +
