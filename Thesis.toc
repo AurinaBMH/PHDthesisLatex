@@ -37,7 +37,7 @@
 \contentsline {chapter}{\numberline {4}Linking brain-wide gene expression and neuroimaging data}{59}{chapter.4}
 \contentsline {section}{\numberline {4.1}Introduction}{60}{section.4.1}
 \contentsline {section}{\numberline {4.2}Measuring gene expression}{62}{section.4.2}
-\contentsline {section}{\numberline {4.3}A general workflow for processing brain-wide transcriptomic data}{64}{section.4.3}
+\contentsline {section}{\numberline {4.3}A general workflow for processing brain-wide \\transcriptomic data}{64}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Step 1. Probe-to-gene re-annotation}{66}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Step 2. Data filtering}{67}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}Step 3. Probe selection}{69}{subsection.4.3.3}
