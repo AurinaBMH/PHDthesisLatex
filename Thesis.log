@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  13 MAR 2019 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.2.3)  13 MAR 2019 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1634,7 +1634,13 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [45] [46] [47]
+
+Overfull \hbox (184.06905pt too wide) in paragraph at lines 37--40
+\OT1/cmr/m/n/10.95 (-20) nodes, which is dis-pro-por-tion-ately con-cen-trated 
+on a small num-ber of net-work hubs [].
+ []
+
+[45] [46] [47]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -1686,7 +1692,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-<Chapter3/Ch3Fig3.pdf, id=2639, 682.55pt x 455.7025pt>
+<Chapter3/Ch3Fig3.pdf, id=2640, 682.55pt x 455.7025pt>
 File: Chapter3/Ch3Fig3.pdf Graphic file (type pdf)
 
 <use Chapter3/Ch3Fig3.pdf>
@@ -1706,7 +1712,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
 [54] [55 <./Chapter3/Ch3Fig3.pdf>]
-<Chapter3/Ch3Fig4.pdf, id=2739, 916.42375pt x 370.38374pt>
+<Chapter3/Ch3Fig4.pdf, id=2738, 916.42375pt x 370.38374pt>
 File: Chapter3/Ch3Fig4.pdf Graphic file (type pdf)
 
 <use Chapter3/Ch3Fig4.pdf>
@@ -1729,7 +1735,7 @@ Overfull \hbox (2.12529pt too wide) in paragraph at lines 2--2
 
 
 ] [60] [61] [62] [63]
-<Chapter4/Ch4Fig1.pdf, id=3046, 735.74875pt x 711.65875pt>
+<Chapter4/Ch4Fig1.pdf, id=3043, 735.74875pt x 711.65875pt>
 File: Chapter4/Ch4Fig1.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig1.pdf>
@@ -1740,7 +1746,7 @@ Package pdftex.def Info: Chapter4/Ch4Fig1.pdf used on input line 65.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [64] [65 <./Chapter4/Ch4Fig1.pdf>]
-<Chapter4/Ch4Fig2.pdf, id=3149, 569.05505pt x 227.76433pt>
+<Chapter4/Ch4Fig2.pdf, id=3146, 569.05505pt x 227.76433pt>
 File: Chapter4/Ch4Fig2.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig2.pdf>
@@ -1757,7 +1763,7 @@ Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
  [67] [68]
-<Chapter4/Ch4Fig3.pdf, id=3238, 569.12625pt x 156.585pt>
+<Chapter4/Ch4Fig3.pdf, id=3235, 569.12625pt x 156.585pt>
 File: Chapter4/Ch4Fig3.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig3.pdf>
@@ -1797,7 +1803,7 @@ Missing character: There is no â in font cmr9!
 Missing character: There is no € in font cmr9!
 Missing character: There is no ™ in font cmr9!
  [70]
-<Chapter4/Ch4Fig4.pdf, id=3335, 569.12625pt x 170.6375pt>
+<Chapter4/Ch4Fig4.pdf, id=3332, 569.12625pt x 170.6375pt>
 File: Chapter4/Ch4Fig4.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig4.pdf>
@@ -1828,7 +1834,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [71 <./Chapter4/Ch4Fig4.pdf>] [72]
-<Chapter4/Ch4Fig5.pdf, id=3478, 569.12625pt x 170.6375pt>
+<Chapter4/Ch4Fig5.pdf, id=3475, 569.12625pt x 170.6375pt>
 File: Chapter4/Ch4Fig5.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig5.pdf>
@@ -1846,7 +1852,7 @@ Missing character: There is no ™ in font cmr10!
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[75] <Chapter4/Ch4Fig6.pdf, id=3582, 569.12625pt x 255.95625pt>
+[75] <Chapter4/Ch4Fig6.pdf, id=3579, 569.12625pt x 255.95625pt>
 File: Chapter4/Ch4Fig6.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig6.pdf>
@@ -1860,7 +1866,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 [76] [77 <./Chapter4/Ch4Fig6.pdf>] [78] [79]
-<Chapter4/Ch4Fig7.pdf, id=3787, 569.12625pt x 341.275pt>
+<Chapter4/Ch4Fig7.pdf, id=3784, 569.12625pt x 341.275pt>
 File: Chapter4/Ch4Fig7.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig7.pdf>
@@ -1871,14 +1877,14 @@ Package pdftex.def Info: Chapter4/Ch4Fig7.pdf used on input line 313.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [80] [81 <./Chapter4/Ch4Fig7.pdf>]
-<Chapter4/Ch4Fig8.pdf, id=3866, 569.12625pt x 227.85126pt>
+<Chapter4/Ch4Fig8.pdf, id=3863, 569.12625pt x 227.85126pt>
 File: Chapter4/Ch4Fig8.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig8.pdf>
 Package pdftex.def Info: Chapter4/Ch4Fig8.pdf used on input line 327.
 (pdftex.def)             Requested size: 471.03539pt x 188.58803pt.
  [82 <./Chapter4/Ch4Fig8.pdf>]
-<Chapter4/Ch4Fig9.pdf, id=3923, 569.12625pt x 511.9125pt>
+<Chapter4/Ch4Fig9.pdf, id=3920, 569.12625pt x 511.9125pt>
 File: Chapter4/Ch4Fig9.pdf Graphic file (type pdf)
 
 <use Chapter4/Ch4Fig9.pdf>
@@ -1912,7 +1918,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [88] [89]
-<Chapter5/Ch5Fig1.pdf, id=4228, 796.9775pt x 542.025pt>
+<Chapter5/Ch5Fig1.pdf, id=4225, 796.9775pt x 542.025pt>
 File: Chapter5/Ch5Fig1.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig1.pdf>
@@ -1959,14 +1965,14 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
  [96] [97] [98]
-<Chapter5/Ch5Fig2.pdf, id=4441, 796.9775pt x 341.275pt>
+<Chapter5/Ch5Fig2.pdf, id=4438, 796.9775pt x 341.275pt>
 File: Chapter5/Ch5Fig2.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig2.pdf>
 Package pdftex.def Info: Chapter5/Ch5Fig2.pdf used on input line 164.
 (pdftex.def)             Requested size: 471.03539pt x 201.69939pt.
  [99 <./Chapter5/Ch5Fig2.pdf>] [100]
-<Chapter5/Ch5Fig3.pdf, id=4490, 825.0825pt x 455.7025pt>
+<Chapter5/Ch5Fig3.pdf, id=4487, 825.0825pt x 455.7025pt>
 File: Chapter5/Ch5Fig3.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig3.pdf>
@@ -1983,14 +1989,14 @@ Missing character: There is no ™ in font cmr10!
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [101] [102 <./Chapter5/Ch5Fig3.pdf>]
-<Chapter5/Ch5Fig4.pdf, id=4555, 963.6pt x 426.59375pt>
+<Chapter5/Ch5Fig4.pdf, id=4552, 963.6pt x 426.59375pt>
 File: Chapter5/Ch5Fig4.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig4.pdf>
 Package pdftex.def Info: Chapter5/Ch5Fig4.pdf used on input line 221.
 (pdftex.def)             Requested size: 471.03539pt x 208.53154pt.
  [103 <./Chapter5/Ch5Fig4.pdf>]
-<Chapter5/Ch5Fig5.pdf, id=4592, 711.65875pt x 541.02126pt>
+<Chapter5/Ch5Fig5.pdf, id=4589, 711.65875pt x 541.02126pt>
 File: Chapter5/Ch5Fig5.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig5.pdf>
@@ -2001,7 +2007,7 @@ Package pdftex.def Info: Chapter5/Ch5Fig5.pdf used on input line 240.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [104] [105 <./Chapter5/Ch5Fig5.pdf>]
-<Chapter5/Ch5Fig6.pdf, id=4641, 963.6pt x 426.59375pt>
+<Chapter5/Ch5Fig6.pdf, id=4638, 963.6pt x 426.59375pt>
 File: Chapter5/Ch5Fig6.pdf Graphic file (type pdf)
 
 <use Chapter5/Ch5Fig6.pdf>
@@ -2116,14 +2122,14 @@ Missing character: There is no ˜ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [118] [119] <Chapter2/Ch2S1fig.pdf, id=5001, 516.4896pt x 623.2083pt>
+ [118] [119] <Chapter2/Ch2S1fig.pdf, id=4998, 516.4896pt x 623.2083pt>
 File: Chapter2/Ch2S1fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S1fig.pdf>
 Package pdftex.def Info: Chapter2/Ch2S1fig.pdf used on input line 82.
 (pdftex.def)             Requested size: 282.6241pt x 341.0254pt.
 
-<Chapter2/Ch2S2fig.pdf, id=5002, 526.48697pt x 438.49821pt>
+<Chapter2/Ch2S2fig.pdf, id=4999, 526.48697pt x 438.49821pt>
 File: Chapter2/Ch2S2fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S2fig.pdf>
@@ -2133,7 +2139,7 @@ Package pdftex.def Info: Chapter2/Ch2S2fig.pdf used on input line 101.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S3fig.pdf, id=5005, 526.48697pt x 313.53134pt>
+<Chapter2/Ch2S3fig.pdf, id=5002, 526.48697pt x 313.53134pt>
 File: Chapter2/Ch2S3fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S3fig.pdf>
@@ -2143,7 +2149,7 @@ Package pdftex.def Info: Chapter2/Ch2S3fig.pdf used on input line 116.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S4fig.pdf, id=5010, 463.85295pt x 213.79875pt>
+<Chapter2/Ch2S4fig.pdf, id=5007, 463.85295pt x 213.79875pt>
 File: Chapter2/Ch2S4fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S4fig.pdf>
@@ -2153,7 +2159,7 @@ Package pdftex.def Info: Chapter2/Ch2S4fig.pdf used on input line 131.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S5fig.pdf, id=5013, 502.7583pt x 336.65775pt>
+<Chapter2/Ch2S5fig.pdf, id=5010, 502.7583pt x 336.65775pt>
 File: Chapter2/Ch2S5fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S5fig.pdf>
@@ -2163,7 +2169,7 @@ Package pdftex.def Info: Chapter2/Ch2S5fig.pdf used on input line 144.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S6fig.pdf, id=5022, 424.82713pt x 253.78815pt>
+<Chapter2/Ch2S6fig.pdf, id=5019, 424.82713pt x 253.78815pt>
 File: Chapter2/Ch2S6fig.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S6fig.pdf>
@@ -2173,7 +2179,7 @@ Package pdftex.def Info: Chapter2/Ch2S6fig.pdf used on input line 162.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S1Tab.pdf, id=5023, 569.12625pt x 341.275pt>
+<Chapter2/Ch2S1Tab.pdf, id=5020, 569.12625pt x 341.275pt>
 File: Chapter2/Ch2S1Tab.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S1Tab.pdf>
@@ -2183,7 +2189,7 @@ Package pdftex.def Info: Chapter2/Ch2S1Tab.pdf used on input line 171.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S2Tab.pdf, id=5026, 569.12625pt x 255.95625pt>
+<Chapter2/Ch2S2Tab.pdf, id=5023, 569.12625pt x 255.95625pt>
 File: Chapter2/Ch2S2Tab.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S2Tab.pdf>
@@ -2193,7 +2199,7 @@ Package pdftex.def Info: Chapter2/Ch2S2Tab.pdf used on input line 178.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/Ch2S3Tab.pdf, id=5027, 569.12625pt x 213.79875pt>
+<Chapter2/Ch2S3Tab.pdf, id=5024, 569.12625pt x 213.79875pt>
 File: Chapter2/Ch2S3Tab.pdf Graphic file (type pdf)
 
 <use Chapter2/Ch2S3Tab.pdf>
@@ -2248,7 +2254,7 @@ Missing character: There is no ” in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- <Chapter4/TableS4.pdf, id=5225, 569.12625pt x 142.5325pt>
+ <Chapter4/TableS4.pdf, id=5222, 569.12625pt x 142.5325pt>
 File: Chapter4/TableS4.pdf Graphic file (type pdf)
 
 <use Chapter4/TableS4.pdf>
@@ -2282,21 +2288,21 @@ Overfull \hbox (30.10045pt too wide) in paragraph at lines 86--88
 ta % 27 ] ,[][num _ rows$eq10000 ] [start _ row$eq0]$[] 
  []
 
-[135] <Chapter4/FigureS1.pdf, id=5285, 569.12625pt x 170.6375pt>
+[135] <Chapter4/FigureS1.pdf, id=5282, 569.12625pt x 170.6375pt>
 File: Chapter4/FigureS1.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS1.pdf>
 Package pdftex.def Info: Chapter4/FigureS1.pdf used on input line 94.
 (pdftex.def)             Requested size: 471.03539pt x 141.2333pt.
 
-<Chapter4/FigureS2.pdf, id=5288, 569.12625pt x 241.90375pt>
+<Chapter4/FigureS2.pdf, id=5285, 569.12625pt x 241.90375pt>
 File: Chapter4/FigureS2.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS2.pdf>
 Package pdftex.def Info: Chapter4/FigureS2.pdf used on input line 104.
 (pdftex.def)             Requested size: 471.03539pt x 200.219pt.
 
-<Chapter4/FigureS3.pdf, id=5291, 569.12625pt x 233.87375pt>
+<Chapter4/FigureS3.pdf, id=5288, 569.12625pt x 233.87375pt>
 File: Chapter4/FigureS3.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS3.pdf>
@@ -2306,7 +2312,7 @@ Package pdftex.def Info: Chapter4/FigureS3.pdf used on input line 114.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS4.pdf, id=5294, 569.12625pt x 227.85126pt>
+<Chapter4/FigureS4.pdf, id=5291, 569.12625pt x 227.85126pt>
 File: Chapter4/FigureS4.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS4.pdf>
@@ -2316,7 +2322,7 @@ Package pdftex.def Info: Chapter4/FigureS4.pdf used on input line 122.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS5.pdf, id=5295, 569.12625pt x 255.95625pt>
+<Chapter4/FigureS5.pdf, id=5292, 569.12625pt x 255.95625pt>
 File: Chapter4/FigureS5.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS5.pdf>
@@ -2326,7 +2332,7 @@ Package pdftex.def Info: Chapter4/FigureS5.pdf used on input line 130.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS6.pdf, id=5296, 569.12625pt x 341.275pt>
+<Chapter4/FigureS6.pdf, id=5293, 569.12625pt x 341.275pt>
 File: Chapter4/FigureS6.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS6.pdf>
@@ -2336,7 +2342,7 @@ Package pdftex.def Info: Chapter4/FigureS6.pdf used on input line 139.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS7.pdf, id=5297, 569.12625pt x 313.17pt>
+<Chapter4/FigureS7.pdf, id=5294, 569.12625pt x 313.17pt>
 File: Chapter4/FigureS7.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS7.pdf>
@@ -2346,7 +2352,7 @@ Package pdftex.def Info: Chapter4/FigureS7.pdf used on input line 146.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS8.pdf, id=5298, 569.12625pt x 497.86pt>
+<Chapter4/FigureS8.pdf, id=5295, 569.12625pt x 497.86pt>
 File: Chapter4/FigureS8.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS8.pdf>
@@ -2356,7 +2362,7 @@ Package pdftex.def Info: Chapter4/FigureS8.pdf used on input line 154.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS9.pdf, id=5299, 569.12625pt x 370.38374pt>
+<Chapter4/FigureS9.pdf, id=5296, 569.12625pt x 370.38374pt>
 File: Chapter4/FigureS9.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS9.pdf>
@@ -2366,7 +2372,7 @@ Package pdftex.def Info: Chapter4/FigureS9.pdf used on input line 164.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter4/FigureS10.pdf, id=5300, 569.12625pt x 412.54124pt>
+<Chapter4/FigureS10.pdf, id=5297, 569.12625pt x 412.54124pt>
 File: Chapter4/FigureS10.pdf Graphic file (type pdf)
 
 <use Chapter4/FigureS10.pdf>
@@ -2384,14 +2390,14 @@ ter4/FigureS5.pdf> <./Chapter4/FigureS6.pdf>] [139 <./Chapter4/FigureS7.pdf>]
 Appendix C.
 [143
 
-] [144] <Chapter5/SFigure1.pdf, id=5954, 963.6pt x 456.70625pt>
+] [144] <Chapter5/SFigure1.pdf, id=5951, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure1.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure1.pdf>
 Package pdftex.def Info: Chapter5/SFigure1.pdf used on input line 40.
 (pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
 
-<Chapter5/SFigure2.pdf, id=5955, 963.6pt x 456.70625pt>
+<Chapter5/SFigure2.pdf, id=5952, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure2.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure2.pdf>
@@ -2402,7 +2408,7 @@ Package pdftex.def Info: Chapter5/SFigure2.pdf used on input line 49.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [145 <./Chapter5/SFigure1.pdf>] [146 <./Chapter5/SFigure2.pdf>]
-<Chapter5/SFigure3.pdf, id=6032, 963.6pt x 456.70625pt>
+<Chapter5/SFigure3.pdf, id=6029, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure3.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure3.pdf>
@@ -2411,7 +2417,7 @@ Package pdftex.def Info: Chapter5/SFigure3.pdf used on input line 61.
  [147
 
  <./Chapter5/SFigure3.pdf>]
-<Chapter5/SFigure4.pdf, id=6067, 963.6pt x 456.70625pt>
+<Chapter5/SFigure4.pdf, id=6064, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure4.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure4.pdf>
@@ -2420,14 +2426,14 @@ Package pdftex.def Info: Chapter5/SFigure4.pdf used on input line 73.
  [148
 
  <./Chapter5/SFigure4.pdf>]
-<Chapter5/SFigure5.pdf, id=6111, 963.6pt x 456.70625pt>
+<Chapter5/SFigure5.pdf, id=6108, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure5.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure5.pdf>
 Package pdftex.def Info: Chapter5/SFigure5.pdf used on input line 85.
 (pdftex.def)             Requested size: 471.03539pt x 223.25142pt.
 
-<Chapter5/SFigure6.pdf, id=6112, 963.6pt x 456.70625pt>
+<Chapter5/SFigure6.pdf, id=6109, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure6.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure6.pdf>
@@ -2437,7 +2443,7 @@ Package pdftex.def Info: Chapter5/SFigure6.pdf used on input line 94.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter5/SFigure9.pdf, id=6113, 963.6pt x 456.70625pt>
+<Chapter5/SFigure9.pdf, id=6110, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure9.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure9.pdf>
@@ -2447,7 +2453,7 @@ Package pdftex.def Info: Chapter5/SFigure9.pdf used on input line 103.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter5/SFigure7.pdf, id=6114, 963.6pt x 456.70625pt>
+<Chapter5/SFigure7.pdf, id=6111, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure7.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure7.pdf>
@@ -2457,7 +2463,7 @@ Package pdftex.def Info: Chapter5/SFigure7.pdf used on input line 112.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter5/SFigure8.pdf, id=6115, 963.6pt x 456.70625pt>
+<Chapter5/SFigure8.pdf, id=6112, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure8.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure8.pdf>
@@ -2467,7 +2473,7 @@ Package pdftex.def Info: Chapter5/SFigure8.pdf used on input line 121.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter5/SFigure10.pdf, id=6116, 963.6pt x 456.70625pt>
+<Chapter5/SFigure10.pdf, id=6113, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure10.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure10.pdf>
@@ -2488,14 +2494,14 @@ LaTeX Warning: Text page 150 contains only floats.
 LaTeX Warning: Text page 151 contains only floats.
 
 [151 <./Chapter5/SFigure7.pdf> <./Chapter5/SFigure8.pdf>] [152 <./Chapter5/SFig
-ure10.pdf>] <Chapter5/SFigure11.pdf, id=6330, 511.9125pt x 341.275pt>
+ure10.pdf>] <Chapter5/SFigure11.pdf, id=6327, 511.9125pt x 341.275pt>
 File: Chapter5/SFigure11.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure11.pdf>
 Package pdftex.def Info: Chapter5/SFigure11.pdf used on input line 143.
 (pdftex.def)             Requested size: 376.82974pt x 251.22206pt.
 
-<Chapter5/SFigure12.pdf, id=6331, 963.6pt x 456.70625pt>
+<Chapter5/SFigure12.pdf, id=6328, 963.6pt x 456.70625pt>
 File: Chapter5/SFigure12.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure12.pdf>
@@ -2508,14 +2514,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [153
 
  <./Chapter5/SFigure11.pdf>] [154 <./Chapter5/SFigure12.pdf>]
-<Chapter5/SFigure13.pdf, id=6397, 963.6pt x 313.17pt>
+<Chapter5/SFigure13.pdf, id=6394, 963.6pt x 313.17pt>
 File: Chapter5/SFigure13.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure13.pdf>
 Package pdftex.def Info: Chapter5/SFigure13.pdf used on input line 165.
 (pdftex.def)             Requested size: 400.38295pt x 130.1208pt.
 
-<Chapter5/SFigure14.pdf, id=6398, 739.76375pt x 711.65875pt>
+<Chapter5/SFigure14.pdf, id=6395, 739.76375pt x 711.65875pt>
 File: Chapter5/SFigure14.pdf Graphic file (type pdf)
 
 <use Chapter5/SFigure14.pdf>
@@ -2584,7 +2590,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: FED7A983216F31E44B0716E063073365;5948.
+(rerunfilecheck)             Checksum: 05423E68FEF55211E01A0BA5EEB77FDF;5948.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2599,7 +2605,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
 Here is how much of TeX's memory you used:
  41628 strings out of 493089
  857918 string characters out of 6134843
- 951116 words of memory out of 5000000
+ 950107 words of memory out of 5000000
  43361 multiletter control sequences out of 15000+600000
  32853 words of font info for 233 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2634,10 +2640,10 @@ nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (202 pages, 160009762 bytes).
+Output written on Thesis.pdf (202 pages, 160009806 bytes).
 PDF statistics:
- 6858 PDF objects out of 7423 (max. 8388607)
- 5858 compressed objects within 59 object streams
+ 6855 PDF objects out of 7423 (max. 8388607)
+ 5855 compressed objects within 59 object streams
  802 named destinations out of 1000 (max. 500000)
  36282 words of extra memory for PDF output out of 42996 (max. 10000000)
 
