@@ -72,16 +72,16 @@
 \contentsline {section}{\numberline {A.2}Sensitivity of correlated gene expression measures}{118}{section.A.2}
 \contentsline {section}{\numberline {A.3}Correlated gene expression matching index}{118}{section.A.3}
 \contentsline {section}{\numberline {A.4}Supplementary figures}{120}{section.A.4}
-\contentsline {chapter}{\numberline {B}Linking brain-wide gene expression and neuroimaging data}{128}{appendix.B}
-\contentsline {section}{\numberline {B.1}Details on AHBA}{128}{section.B.1}
-\contentsline {section}{\numberline {B.2}Intensity-based filtering and RNA-seq}{129}{section.B.2}
-\contentsline {section}{\numberline {B.3}Differences between probe selection methods}{132}{section.B.3}
-\contentsline {section}{\numberline {B.4}Sample assignment}{133}{section.B.4}
-\contentsline {section}{\numberline {B.5}Evaluating distances between samples}{133}{section.B.5}
-\contentsline {section}{\numberline {B.6}Spatial relationship between CGE and distance}{134}{section.B.6}
-\contentsline {section}{\numberline {B.7}API: probe sequences}{135}{section.B.7}
-\contentsline {section}{\numberline {B.8}Supplementary figures}{136}{section.B.8}
-\contentsline {chapter}{\numberline {C}Genetic markers of hub connectivity in the human brain}{143}{appendix.C}
-\contentsline {section}{\numberline {C.1}Processing gene expression data}{143}{section.C.1}
-\contentsline {section}{\numberline {C.2}Robustness to data processing decisions}{145}{section.C.2}
-\contentsline {section}{\numberline {C.3}Gene enrichment results and rich-club organisation}{155}{section.C.3}
+\contentsline {chapter}{\numberline {B}Linking brain-wide gene expression and neuroimaging data}{129}{appendix.B}
+\contentsline {section}{\numberline {B.1}Details on AHBA}{129}{section.B.1}
+\contentsline {section}{\numberline {B.2}Intensity-based filtering and RNA-seq}{130}{section.B.2}
+\contentsline {section}{\numberline {B.3}Differences between probe selection methods}{133}{section.B.3}
+\contentsline {section}{\numberline {B.4}Sample assignment}{134}{section.B.4}
+\contentsline {section}{\numberline {B.5}Evaluating distances between samples}{134}{section.B.5}
+\contentsline {section}{\numberline {B.6}Spatial relationship between CGE and distance}{135}{section.B.6}
+\contentsline {section}{\numberline {B.7}API: probe sequences}{136}{section.B.7}
+\contentsline {section}{\numberline {B.8}Supplementary figures}{137}{section.B.8}
+\contentsline {chapter}{\numberline {C}Genetic markers of hub connectivity in the human brain}{144}{appendix.C}
+\contentsline {section}{\numberline {C.1}Processing gene expression data}{144}{section.C.1}
+\contentsline {section}{\numberline {C.2}Robustness to data processing decisions}{146}{section.C.2}
+\contentsline {section}{\numberline {C.3}Gene enrichment results and rich-club organisation}{156}{section.C.3}
