@@ -2,51 +2,59 @@
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
-\providecommand{\eprint}[2][]{\url{#2}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
 
 \bibitem[{Acevedo-Triana et~al.(2017)Acevedo-Triana, Le{\'{o}}n, Cardenas, and
   Cardenas}]{Acevedo-Triana2017}
-Acevedo-Triana C.A., Le{\'{o}}n L.A., Cardenas F.P., and Cardenas F.P.
+Acevedo-Triana C.A., Le{\'{o}}n L.A., Cardenas F.P., Cardenas F.P.
 \newblock {Comparing the expression of genes related to serotonin (5-HT) in
   C57BL/6J mice and humans based on data available at the Allen Mouse Brain
   Atlas and Allen Human Brain Atlas}.
 \newblock \emph{Neurol. Res. Int.}, 2017, 1--14, 2017.
+\newblock \doi{10.1155/2017/7138926}.
 
 \bibitem[{Achacoso and Yamamoto(1992)}]{Achacoso1992}
-Achacoso T.B. and Yamamoto W.S.
+Achacoso T.B., Yamamoto W.S.
 \newblock {AY's neuroanatomy of C. elegans for computation}.
 \newblock CRC Press, 1992.
 
 \bibitem[{Achard et~al.(2012)Achard, Delon-Martin, V{\'{e}}rtes, Renard,
   Schenck, Schneider, Heinrich, Kremer, and Bullmore}]{Achard2012}
 Achard S., Delon-Martin C., V{\'{e}}rtes P.E., Renard F., Schenck M., Schneider
-  F., Heinrich C., Kremer S., and Bullmore E.T.
+  F., Heinrich C., Kremer S., Bullmore E.T.
 \newblock {Hubs of brain functional networks are radically reorganized in
   comatose patients}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 109(50), 20608--20613, 2012.
+\newblock \doi{10.1073/pnas.1208933109}.
 
 \bibitem[{Achard et~al.(2006)Achard, Salvador, Whitcher, Suckling, and
   Bullmore}]{Achard2006}
-Achard S., Salvador R., Whitcher B., Suckling J., and Bullmore E.
+Achard S., Salvador R., Whitcher B., Suckling J., Bullmore E.
 \newblock {A resilient, low-frequency, small-world human brain functional
   network with highly connected association cortical hubs}.
 \newblock \emph{J. Neurosci.}, 26(1), 63--72, 2006.
+\newblock \doi{10.1523/JNEUROSCI.3874-05.2006}.
 
 \bibitem[{Adelstein et~al.(2011)Adelstein, Shehzad, Mennes, DeYoung, Zuo,
-  Kelly, Margulies et~al.}]{Adelstein2011}
+  Kelly, Margulies, Bloomfield, Gray, Castellanos et~al.}]{Adelstein2011}
 Adelstein J.S., Shehzad Z., Mennes M., DeYoung C.G., Zuo X.N., Kelly C.,
-  Margulies D.S., et~al.
+  Margulies D.S., Bloomfield A., Gray J.R., Castellanos F.X., et~al.
 \newblock {Personality is reflected in the brain's intrinsic functional
   architecture}.
 \newblock \emph{PLOS One}, 6(11), e27633, 2011.
+\newblock \doi{10.1371/journal.pone.0027633}.
 
 \bibitem[{Agosta et~al.(2013)Agosta, Sala, Valsasina, Meani, Canu, Magnani,
-  Cappa et~al.}]{Agosta2013}
+  Cappa, Scola, Quatto, Horsfield et~al.}]{Agosta2013}
 Agosta F., Sala S., Valsasina P., Meani A., Canu E., Magnani G., Cappa S.F.,
-  et~al.
+  Scola E., Quatto P., Horsfield M.A., et~al.
 \newblock {Brain network connectivity assessed using graph theory in
   frontotemporal dementia}.
 \newblock \emph{Neurology}, 81(2), 134--143, 2013.
+\newblock \doi{10.1212/WNL.0b013e31829a33f8}.
 
 \bibitem[{Akaike(1998)}]{Akaike1998}
 Akaike H.
@@ -55,9 +63,10 @@ Akaike H.
 \newblock Springer, New York, NY, 1998.
 
 \bibitem[{Albert et~al.(2000)Albert, Jeong, and Barab{\'{a}}si}]{Albert2000}
-Albert R., Jeong H., and Barab{\'{a}}si A.L.
+Albert R., Jeong H., Barab{\'{a}}si A.L.
 \newblock {Error and attack tolerance of complex networks}.
 \newblock \emph{Nature}, 406(6794), 378--382, 2000.
+\newblock \doi{10.1038/35019019}.
 
 \bibitem[{{Allen Human Brain Atlas}(2013)}]{AHBAdoc}
 {Allen Human Brain Atlas}.
@@ -67,129 +76,146 @@ Albert R., Jeong H., and Barab{\'{a}}si A.L.
   \urlprefix\url{http://help.brain-map.org/display/humanbrain/Documentation}.
 
 \bibitem[{Alloza et~al.(2018)Alloza, Cox, {Blesa C{\'{a}}bez}, Redmond,
-  Whalley, Ritchie, {Mu{\~{n}}oz Maniega} et~al.}]{Alloza2018}
+  Whalley, Ritchie, {Mu{\~{n}}oz Maniega}, {Vald{\'{e}}s Hern{\'{a}}ndez},
+  Tucker-Drob, Lawrie et~al.}]{Alloza2018}
 Alloza C., Cox S., {Blesa C{\'{a}}bez} M., Redmond P., Whalley H., Ritchie S.,
-  {Mu{\~{n}}oz Maniega} S., et~al.
+  {Mu{\~{n}}oz Maniega} S., {Vald{\'{e}}s Hern{\'{a}}ndez} M.d.C., Tucker-Drob
+  E., Lawrie S., et~al.
 \newblock {Polygenic risk score for schizophrenia and structural brain
   connectivity in older age: a longitudinal connectome and tractography study}.
 \newblock \emph{Neuroimage}, 183, 884--896, 2018.
+\newblock \doi{10.1016/j.neuroimage.2018.08.075}.
 
 \bibitem[{Alstott et~al.(2014)Alstott, Panzarasa, Rubinov, Bullmore, and
   V{\'{e}}rtes}]{Alstott2014}
-Alstott J., Panzarasa P., Rubinov M., Bullmore E.T., and V{\'{e}}rtes P.E.
+Alstott J., Panzarasa P., Rubinov M., Bullmore E.T., V{\'{e}}rtes P.E.
 \newblock {A unifying framework for measuring weighted rich clubs}.
 \newblock \emph{Sci. Rep.}, 4, 1--5, 2014.
+\newblock \doi{10.1038/srep07258}.
 
 \bibitem[{Altun et~al.(2017)Altun, Herndon, Wolkow, Crocker, Lints, and
   Hall}]{WormAtlas}
-Altun Z., Herndon L., Wolkow C., Crocker C., Lints R., and Hall D.
+Altun Z., Herndon L., Wolkow C., Crocker C., Lints R., Hall D.
 \newblock {WormAtlas, available from: http://www.wormatlas.org}.
 \newblock 2017.
 
 \bibitem[{Andersen et~al.(1992)Andersen, Korbo, and Pakkenberg}]{Andersen1992}
-Andersen B.B., Korbo L., and Pakkenberg B.
+Andersen B.B., Korbo L., Pakkenberg B.
 \newblock {A quantitative study of the human cerebellum with unbiased
   stereological techniques}.
 \newblock \emph{J. Comp. Neurol.}, 326(4), 549--560, 1992.
+\newblock \doi{10.1002/cne.903260405}.
 
 \bibitem[{Anderson et~al.(2018)Anderson, Krienen, Choi, Reinen, Yeo, and
   Holmes}]{Anderson2018}
-Anderson K.M., Krienen F.M., Choi E.Y., Reinen J.M., Yeo B.T.T., and Holmes
-  A.J.
+Anderson K.M., Krienen F.M., Choi E.Y., Reinen J.M., Yeo B.T.T., Holmes A.J.
 \newblock {Gene expression links functional networks across cortex and
   striatum}.
 \newblock \emph{Nat. Commun.}, 9(1), 1428, 2018.
+\newblock \doi{10.1038/s41467-018-03811-x}.
 
 \bibitem[{Arloth et~al.(2015)Arloth, Bader, R{\"{o}}h, and
   Altmann}]{Arloth2015}
-Arloth J., Bader D.M., R{\"{o}}h S., and Altmann A.
+Arloth J., Bader D.M., R{\"{o}}h S., Altmann A.
 \newblock {Re-Annotator: annotation pipeline for microarray probe sequences}.
 \newblock \emph{PLOS One}, 10(10), e0139516, 2015.
+\newblock \doi{10.1371/journal.pone.0139516}.
 
 \bibitem[{Arnatkevi\u{c}i\={u}t\.{e} et~al.(2019)Arnatkevi\u{c}i\={u}t\.{e},
   Fulcher, and Fornito}]{Arnatkeviciute2019}
-Arnatkevi\u{c}i\={u}t\.{e} A., Fulcher B.D., and Fornito A.
+Arnatkevi\u{c}i\={u}t\.{e} A., Fulcher B.D., Fornito A.
 \newblock {A practical guide to linking brain-wide gene expression and
   neuroimaging data}.
 \newblock \emph{Neuroimage}, 2019.
+\newblock \doi{10.1016/J.NEUROIMAGE.2019.01.011}.
 
 \bibitem[{Arnatkevi\u{c}i\={u}t\.{e} et~al.(2018)Arnatkevi\u{c}i\={u}t\.{e},
   Fulcher, Pocock, and Fornito}]{Arnatkeviciute2018}
-Arnatkevi\u{c}i\={u}t\.{e} A., Fulcher B.D., Pocock R., and Fornito A.
+Arnatkevi\u{c}i\={u}t\.{e} A., Fulcher B.D., Pocock R., Fornito A.
 \newblock {Hub connectivity, neuronal diversity, and gene expression in the
   Caenorhabditis elegans connectome}.
 \newblock \emph{PLOS Comput. Biol.}, 14(2), e1005989, 2018.
+\newblock \doi{10.1371/journal.pcbi.1005989}.
 
 \bibitem[{Arslan(2015)}]{Arslan2015}
 Arslan A.
 \newblock {Genes, brains, and behavior: imaging genetics for neuropsychiatric
   disorders}.
 \newblock \emph{J. Neuropsychiatry Clin. Neurosci.}, 27(2), 81--92, 2015.
+\newblock \doi{10.1176/appi.neuropsych.13080185}.
 
 \bibitem[{Ashburner et~al.(2000)Ashburner, Ball, Blake, Botstein, Butler,
-  Cherry, Davis et~al.}]{Ashburner2000}
+  Cherry, Davis, Dolinski, Dwight, Eppig et~al.}]{Ashburner2000}
 Ashburner M., Ball C.A., Blake J.A., Botstein D., Butler H., Cherry J.M., Davis
-  A.P., et~al.
+  A.P., Dolinski K., Dwight S.S., Eppig J.T., et~al.
 \newblock {Gene Ontology: tool for the unification of biology}.
 \newblock \emph{Nat. Genet.}, 25(1), 25--29, 2000.
+\newblock \doi{10.1038/75556}.
 
 \bibitem[{Avena-Koenigsberger et~al.(2017)Avena-Koenigsberger, Misic, and
   Sporns}]{Avena-Koenigsberger2017}
-Avena-Koenigsberger A., Misic B., and Sporns O.
+Avena-Koenigsberger A., Misic B., Sporns O.
 \newblock {Communication dynamics in complex brain networks}.
 \newblock \emph{Nat. Rev. Neurosci.}, 19(1), 17--33, 2017.
+\newblock \doi{10.1038/nrn.2017.149}.
 
 \bibitem[{Ayoub et~al.(2011)Ayoub, Oh, Xie, Leng, Cotney, Dominguez, Noonan,
   and Rakic}]{Ayoub2011}
-Ayoub A.E., Oh S., Xie Y., Leng J., Cotney J., Dominguez M.H., Noonan J.P., and
+Ayoub A.E., Oh S., Xie Y., Leng J., Cotney J., Dominguez M.H., Noonan J.P.,
   Rakic P.
 \newblock {Transcriptional programs in transient embryonic zones of the
   cerebral cortex defined by high-resolution mRNA sequencing}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 108(36), 14950--14955, 2011.
+\newblock \doi{10.1073/pnas.1112213108}.
 
 \bibitem[{Azulay et~al.(2016)Azulay, Itskovits, and Zaslaver}]{Azulay2016}
-Azulay A., Itskovits E., and Zaslaver A.
+Azulay A., Itskovits E., Zaslaver A.
 \newblock {The C. elegans connectome consists of homogenous circuits with
   defined functional roles}.
 \newblock \emph{PLOS Comput. Biol.}, 12(9), e1005021, 2016.
+\newblock \doi{10.1371/journal.pcbi.1005021}.
 
 \bibitem[{Baare et~al.(2001)Baare, {Hulshoff Pol}, Boomsma, Posthuma, de~Geus,
   Schnack, van Haren, van Oel, and Kahn}]{Baare2001}
 Baare W.F., {Hulshoff Pol} H.E., Boomsma D.I., Posthuma D., de~Geus E.J.,
-  Schnack H.G., van Haren N.E., van Oel C.J., and Kahn R.S.
+  Schnack H.G., van Haren N.E., van Oel C.J., Kahn R.S.
 \newblock {Quantitative genetic modeling of variation in human brain
   morphology}.
 \newblock \emph{Cereb. Cortex}, 11(9), 816--824, 2001.
+\newblock \doi{10.1093/cercor/11.9.816}.
 
 \bibitem[{Baker et~al.(2015)Baker, Lubman, Y{\"{u}}cel, Allen, Whittle,
-  Fulcher, Zalesky et~al.}]{Baker2015a}
+  Fulcher, Zalesky, Fornito, Yucel, Allen et~al.}]{Baker2015a}
 Baker S.T.E., Lubman D.I., Y{\"{u}}cel M., Allen N.B., Whittle S., Fulcher
-  B.D., Zalesky A., et~al.
+  B.D., Zalesky A., Fornito A., Yucel M., Allen N.B., et~al.
 \newblock {Developmental changes in brain network hub connectivity in late
   adolescence}.
 \newblock \emph{J. Neurosci.}, 35(24), 9078--9087, 2015.
+\newblock \doi{10.1523/jneurosci.5043-14.2015}.
 
-\bibitem[{Bakken et~al.(2016)Bakken, Miller, Ding, Sunkin, Smith, Ng, Szafer
-  et~al.}]{Bakken2016}
+\bibitem[{Bakken et~al.(2016)Bakken, Miller, Ding, Sunkin, Smith, Ng, Szafer,
+  Dalley, Royall, Lemon et~al.}]{Bakken2016}
 Bakken T.E., Miller J.A., Ding S.L., Sunkin S.M., Smith K.A., Ng L., Szafer A.,
-  et~al.
+  Dalley R.A., Royall J.J., Lemon T., et~al.
 \newblock {A comprehensive transcriptional map of primate brain development}.
 \newblock \emph{Nature}, 535(7612), 367--375, 2016.
+\newblock \doi{10.1038/nature18637}.
 
 \bibitem[{Ball et~al.(2014)Ball, Aljabar, Zebari, Tusor, Arichi, Merchant,
-  Robinson et~al.}]{Ball2014}
+  Robinson, Ogundipe, Rueckert, Edwards et~al.}]{Ball2014}
 Ball G., Aljabar P., Zebari S., Tusor N., Arichi T., Merchant N., Robinson
-  E.C., et~al.
+  E.C., Ogundipe E., Rueckert D., Edwards A.D., et~al.
 \newblock {Rich-club organization of the newborn human brain}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 111(20), 7456--61, 2014.
+\newblock \doi{10.1073/pnas.1324118111}.
 
 \bibitem[{Barab\'{a}si and P\'{o}sfai(2016)}]{Barabasi2016}
-Barab\'{a}si A.L. and P\'{o}sfai M.
+Barab\'{a}si A.L., P\'{o}sfai M.
 \newblock {Network science}.
 \newblock Cambridge University Pres, 2016.
 
 \bibitem[{Baran et~al.(1999)Baran, Aronoff, and Garriga}]{Baran1999}
-Baran R., Aronoff R., and Garriga G.
+Baran R., Aronoff R., Garriga G.
 \newblock {The C. elegans homeodomain gene unc-42 regulates chemosensory and
   glutamate receptor expression}.
 \newblock \emph{Development}, 126(10), 2241--51, 1999.
@@ -199,235 +225,271 @@ Barbas H.
 \newblock {General cortical and special prefrontal connections: principles from
   structure to function}.
 \newblock \emph{Annu. Rev. Neurosci.}, 38(1), 269--289, 2015.
+\newblock \doi{10.1146/annurev-neuro-071714-033936}.
 
 \bibitem[{Barbas and Rempel-Clower(1997)}]{Barbas}
-Barbas H. and Rempel-Clower N.
+Barbas H., Rempel-Clower N.
 \newblock {Cortical structure predicts the pattern of corticocortical
   connections}.
 \newblock \emph{Cereb. Cortex}, 7(7), 635--46, 1997.
 
 \bibitem[{Baruch et~al.(2008)Baruch, Itzkovitz, Golan-Mashiach, Shapiro, and
   Segal}]{Baruch2008}
-Baruch L., Itzkovitz S., Golan-Mashiach M., Shapiro E., and Segal E.
+Baruch L., Itzkovitz S., Golan-Mashiach M., Shapiro E., Segal E.
 \newblock {Using expression profiles of Caenorhabditis elegans neurons to
   identify genes that mediate synaptic connectivity}.
 \newblock \emph{PLOS Comput. Biol.}, 4(7), 1--10, 2008.
+\newblock \doi{10.1371/journal.pcbi.1000120}.
 
 \bibitem[{Bassett and Bullmore(2006)}]{Bassett2006}
-Bassett D.S. and Bullmore E.
+Bassett D.S., Bullmore E.
 \newblock {Small-world brain networks}.
 \newblock \emph{Neurosci.}, 12(6), 512--23, 2006.
+\newblock \doi{10.1177/1073858406293182}.
 
 \bibitem[{Bassett and Bullmore(2009)}]{Bassett2009a}
-Bassett D.S. and Bullmore E.T.
+Bassett D.S., Bullmore E.T.
 \newblock {Human brain networks in health and disease}.
 \newblock \emph{Curr. Opin. Neurol.}, 22(4), 340--347, 2009.
+\newblock \doi{10.1097/WCO.0b013e32832d93dd}.
 
 \bibitem[{Bassett and Bullmore(2017)}]{Bassett2017}
-Bassett D.S. and Bullmore E.T.
+Bassett D.S., Bullmore E.T.
 \newblock {Small-world brain networks revisited}.
 \newblock \emph{Neurosci.}, 23(5), 499--516, 2017.
+\newblock \doi{10.1177/1073858416667720}.
 
 \bibitem[{Bassett et~al.(2010)Bassett, Greenfield, Meyer-Lindenberg,
   Weinberger, Moore, and Bullmore}]{Bassett2010}
 Bassett D.S., Greenfield D.L., Meyer-Lindenberg A., Weinberger D.R., Moore
-  S.W., and Bullmore E.T.
+  S.W., Bullmore E.T.
 \newblock {Efficient physical embedding of topologically complex information
   processing networks in brains and computer circuits}.
 \newblock \emph{PLOS Comput. Biol.}, 6(4), e1000748, 2010.
+\newblock \doi{10.1371/journal.pcbi.1000748}.
 
 \bibitem[{Batalle et~al.(2017)Batalle, Hughes, Zhang, Tournier, Tusor, Aljabar,
-  Wali et~al.}]{Batalle2017}
+  Wali, Alexander, Hajnal, Nosarti et~al.}]{Batalle2017}
 Batalle D., Hughes E.J., Zhang H., Tournier J.D., Tusor N., Aljabar P., Wali
-  L., et~al.
+  L., Alexander D.C., Hajnal J.V., Nosarti C., et~al.
 \newblock {Early development of structural networks and the impact of
   prematurity on brain connectivity}.
 \newblock \emph{Neuroimage}, 149, 379--392, 2017.
+\newblock \doi{10.1016/j.neuroimage.2017.01.065}.
 
 \bibitem[{Belgard et~al.(2011)Belgard, Marques, Oliver, Abaan, Sirey,
   Hoerder-Suabedissen, Garc{\'{i}}a-Moreno, Moln{\'{a}}r, Margulies, and
   Ponting}]{Belgard2011}
 Belgard T., Marques A., Oliver P., Abaan H.O., Sirey T., Hoerder-Suabedissen
-  A., Garc{\'{i}}a-Moreno F., Moln{\'{a}}r Z., Margulies E., and Ponting C.
+  A., Garc{\'{i}}a-Moreno F., Moln{\'{a}}r Z., Margulies E., Ponting C.
 \newblock {A transcriptomic atlas of mouse neocortical layers}.
 \newblock \emph{Neuron}, 71(4), 605--616, 2011.
+\newblock \doi{10.1016/j.neuron.2011.06.039}.
 
 \bibitem[{Benjamini and Hochberg(1995)}]{Benjamini1995}
-Benjamini Y. and Hochberg Y.
+Benjamini Y., Hochberg Y.
 \newblock {Controlling the false discovery rate: a practical and powerful
   approach to multiple testing}.
 \newblock \emph{J. R. Stat. Soc. Ser. B}, 57(1), 289--300, 1995.
 
 \bibitem[{Berchtold et~al.(2008)Berchtold, Cribbs, Coleman, Rogers, Head, Kim,
-  Beach et~al.}]{Berchtold2008}
+  Beach, Miller, Troncoso, Trojanowski et~al.}]{Berchtold2008}
 Berchtold N.C., Cribbs D.H., Coleman P.D., Rogers J., Head E., Kim R., Beach
-  T., et~al.
+  T., Miller C., Troncoso J., Trojanowski J.Q., et~al.
 \newblock {Gene expression changes in the course of normal brain aging are
   sexually dimorphic}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 105(40), 15605--10, 2008.
+\newblock \doi{10.1073/pnas.0806883105}.
 
 \bibitem[{Betzel et~al.(2016)Betzel, Avena-Koenigsberger, Go{\~{n}}i, He,
-  de~Reus, Griffa, V{\'{e}}rtes et~al.}]{Betzel2016}
+  de~Reus, Griffa, V{\'{e}}rtes, Mi{\v{s}}ic, Thiran, Hagmann
+  et~al.}]{Betzel2016}
 Betzel R.F., Avena-Koenigsberger A., Go{\~{n}}i J., He Y., de~Reus M.A., Griffa
-  A., V{\'{e}}rtes P.E., et~al.
+  A., V{\'{e}}rtes P.E., Mi{\v{s}}ic B., Thiran J.P., Hagmann P., et~al.
 \newblock {Generative models of the human connectome}.
 \newblock \emph{Neuroimage}, 124, 1054--1064, 2016.
+\newblock \doi{10.1016/j.neuroimage.2015.09.041}.
 
 \bibitem[{Betzel and Bassett(2017)}]{Betzel2017}
-Betzel R.F. and Bassett D.S.
+Betzel R.F., Bassett D.S.
 \newblock {Multi-scale brain networks}.
 \newblock \emph{Neuroimage}, 160, 73--83, 2017.
+\newblock \doi{10.1016/J.NEUROIMAGE.2016.11.006}.
 
 \bibitem[{Betzel and Bassett(2018)}]{Betzel2018}
-Betzel R.F. and Bassett D.S.
+Betzel R.F., Bassett D.S.
 \newblock {Specificity and robustness of long-distance connections in weighted,
   interareal connectomes}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 115(21), E4880--E4889, 2018.
+\newblock \doi{10.1073/pnas.1720186115}.
 
 \bibitem[{Beul et~al.(2017)Beul, Barbas, and Hilgetag}]{Beul2017}
-Beul S.F., Barbas H., and Hilgetag C.C.
+Beul S.F., Barbas H., Hilgetag C.C.
 \newblock {A predictive structural model of the primate connectome}.
 \newblock \emph{Sci. Rep.}, 7(1), 43176, 2017.
+\newblock \doi{10.1038/srep43176}.
 
 \bibitem[{Birdsill et~al.(2011)Birdsill, Walker, Lue, Sue, and
   Beach}]{Birdsill2011}
-Birdsill A.C., Walker D.G., Lue L., Sue L.I., and Beach T.G.
+Birdsill A.C., Walker D.G., Lue L., Sue L.I., Beach T.G.
 \newblock {Postmortem interval effect on RNA and gene expression in human brain
   tissue}.
 \newblock \emph{Cell Tissue Bank.}, 12(4), 311--318, 2011.
+\newblock \doi{10.1007/s10561-010-9210-8}.
 
 \bibitem[{Blondel et~al.(2008)Blondel, Guillaume, Lambiotte, and
   Lefebvre}]{Blondel2008}
-Blondel V.D., Guillaume J.L., Lambiotte R., and Lefebvre E.
+Blondel V.D., Guillaume J.L., Lambiotte R., Lefebvre E.
 \newblock {Fast unfolding of communities in large networks}.
 \newblock \emph{J. Stat. Mech. Theory Exp.}, 2008(10), P10008, 2008.
+\newblock \doi{10.1088/1742-5468/2008/10/P10008}.
 
 \bibitem[{Bohlken et~al.(2014)Bohlken, Mandl, Brouwer, van~den Heuvel, Hedman,
   Kahn, and {Hulshoff Pol}}]{Bohlken2014}
 Bohlken M.M., Mandl R.C., Brouwer R.M., van~den Heuvel M.P., Hedman A.M., Kahn
-  R.S., and {Hulshoff Pol} H.E.
+  R.S., {Hulshoff Pol} H.E.
 \newblock {Heritability of structural brain network topology: a DTI study of
   156 twins}.
 \newblock \emph{Hum. Brain Mapp.}, 35(10), 5295--5305, 2014.
+\newblock \doi{10.1002/hbm.22550}.
 
-\bibitem[{Boker et~al.(2011)Boker, Neale, Maes, Wilde, Spiegel, Brick, Spies
-  et~al.}]{Boker2011}
-Boker S., Neale M., Maes H., Wilde M., Spiegel M., Brick T., Spies J., et~al.
+\bibitem[{Boker et~al.(2011)Boker, Neale, Maes, Wilde, Spiegel, Brick, Spies,
+  Estabrook, Kenny, Bates et~al.}]{Boker2011}
+Boker S., Neale M., Maes H., Wilde M., Spiegel M., Brick T., Spies J.,
+  Estabrook R., Kenny S., Bates T., et~al.
 \newblock {OpenMx: an open source extended structural equation modeling
   framework}.
 \newblock \emph{Psychometrika}, 76(2), 306--317, 2011.
+\newblock \doi{10.1007/s11336-010-9200-6}.
 
 \bibitem[{Bota et~al.(2015)Bota, Sporns, and Swanson}]{Bota2015}
-Bota M., Sporns O., and Swanson L.W.
+Bota M., Sporns O., Swanson L.W.
 \newblock {Architecture of the cerebral cortical association connectome
   underlying cognition}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 112(16), E2093--E2101, 2015.
+\newblock \doi{10.1073/pnas.1504394112}.
 
 \bibitem[{Bouhrara and Spencer(2016)}]{Bouhrara2016}
-Bouhrara M. and Spencer R.G.
+Bouhrara M., Spencer R.G.
 \newblock {Improved determination of the myelin water fraction in human brain
   using magnetic resonance imaging through Bayesian analysis of mcDESPOT}.
 \newblock \emph{Neuroimage}, 127, 456--471, 2016.
+\newblock \doi{10.1016/j.neuroimage.2015.10.034}.
 
 \bibitem[{Braskie et~al.(2012)Braskie, Jahanshad, Stein, Barysheva, Johnson,
-  McMahon, de~Zubicaray et~al.}]{Braskie2012}
+  McMahon, de~Zubicaray, Martin, Wright, Ringman et~al.}]{Braskie2012}
 Braskie M.N., Jahanshad N., Stein J.L., Barysheva M., Johnson K., McMahon K.L.,
-  de~Zubicaray G.I., et~al.
+  de~Zubicaray G.I., Martin N.G., Wright M.J., Ringman J.M., et~al.
 \newblock {Relationship of a variant in the NTRK1 gene to white matter
   microstructure in young adults}.
 \newblock \emph{J. Neurosci.}, 32(17), 5964--72, 2012.
+\newblock \doi{10.1523/JNEUROSCI.5561-11.2012}.
 
 \bibitem[{Brown et~al.(2011)Brown, Terashima, Burggren, Ercoli, Miller, Small,
   and Bookheimer}]{Brown2011}
 Brown J.A., Terashima K.H., Burggren A.C., Ercoli L.M., Miller K.J., Small
-  G.W., and Bookheimer S.Y.
+  G.W., Bookheimer S.Y.
 \newblock {Brain network local interconnectivity loss in aging APOE-4 allele
   carriers}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 108(51), 20760--20765, 2011.
+\newblock \doi{10.1073/pnas.1109038108}.
 
 \bibitem[{Bruder et~al.(2008)Bruder, Piotrowski, Gijsbers, Andersson, Erickson,
-  {Diaz de St{\aa}hl}, Menzel et~al.}]{Bruder2008}
+  {Diaz de St{\aa}hl}, Menzel, Sandgren, von Tell, Poplawski
+  et~al.}]{Bruder2008}
 Bruder C.E., Piotrowski A., Gijsbers A.A., Andersson R., Erickson S., {Diaz de
-  St{\aa}hl} T., Menzel U., et~al.
+  St{\aa}hl} T., Menzel U., Sandgren J., von Tell D., Poplawski A., et~al.
 \newblock {Phenotypically concordant and discordant monozygotic twins display
   different DNA copy-number-variation profiles}.
 \newblock \emph{Am. J. Hum. Genet.}, 82(3), 763--771, 2008.
+\newblock \doi{10.1016/j.ajhg.2007.12.011}.
 
 \bibitem[{Buckner et~al.(2009)Buckner, Sepulcre, Talukdar, Krienen, Liu,
   Hedden, Andrews-Hanna, Sperling, and Johnson}]{Buckner2009}
 Buckner R.L., Sepulcre J., Talukdar T., Krienen F.M., Liu H., Hedden T.,
-  Andrews-Hanna J.R., Sperling R.A., and Johnson K.A.
+  Andrews-Hanna J.R., Sperling R.A., Johnson K.A.
 \newblock {Cortical hubs revealed by intrinsic functional connectivity:
   mapping, assessment of stability, and relation to Alzheimer's disease}.
 \newblock \emph{J. Neurosci.}, 29(6), 1860--73, 2009.
+\newblock \doi{10.1523/JNEUROSCI.5062-08.2009}.
 
 \bibitem[{Bullmore et~al.(1997)Bullmore, Frangou, and Murray}]{Bullmore1997}
-Bullmore E., Frangou S., and Murray R.
+Bullmore E., Frangou S., Murray R.
 \newblock {The dysplastic net hypothesis: an integration of developmental and
   dysconnectivity theories of schizophrenia}.
 \newblock \emph{Schizophr. Res.}, 28(2-3), 143--156, 1997.
+\newblock \doi{10.1016/S0920-9964(97)00114-X}.
 
 \bibitem[{Bullmore and Sporns(2009)}]{Bullmore2009}
-Bullmore E. and Sporns O.
+Bullmore E., Sporns O.
 \newblock {Complex brain networks: graph theoretical analysis of structural and
   functional systems}.
 \newblock \emph{Nat. Rev. Neurosci.}, 10, 186--198, 2009.
+\newblock \doi{10.1038/nrn2575}.
 
 \bibitem[{Bullmore and Sporns(2012)}]{Bullmore2012}
-Bullmore E. and Sporns O.
+Bullmore E., Sporns O.
 \newblock {The economy of brain network organization}.
 \newblock \emph{Nat. Rev. Neurosci.}, 13(5), 336--49, 2012.
+\newblock \doi{10.1038/nrn3214}.
 
 \bibitem[{Burt et~al.(2017)Burt, Demirtas, Eckner, Navejar, Ji, Martin,
   Bernacchia, Anticevic, and Murray}]{Burt2017}
 Burt J.B., Demirtas M., Eckner W.J., Navejar N.M., Ji J.L., Martin W.J.,
-  Bernacchia A., Anticevic A., and Murray J.D.
+  Bernacchia A., Anticevic A., Murray J.D.
 \newblock {Hierarchy of transcriptomic specialization across human cortex
   captured by myelin map topography}.
 \newblock \emph{bioRxiv}, p. 199703, 2017.
+\newblock \doi{10.1101/199703}.
 
 \bibitem[{Burt et~al.(2018)Burt, Demirtaş, Eckner, Navejar, Ji, Martin,
   Bernacchia, Anticevic, and Murray}]{Burt2018}
 Burt J.B., Demirtaş M., Eckner W.J., Navejar N.M., Ji J.L., Martin W.J.,
-  Bernacchia A., Anticevic A., and Murray J.D.
+  Bernacchia A., Anticevic A., Murray J.D.
 \newblock {Hierarchy of transcriptomic specialization across human cortex
   captured by structural neuroimaging topography}.
 \newblock \emph{Nat. Neurosci.}, 21(9), 1251--1259, 2018.
+\newblock \doi{10.1038/s41593-018-0195-0}.
 
 \bibitem[{Bush and Moore(2012)}]{Bush2012}
-Bush W.S. and Moore J.H.
+Bush W.S., Moore J.H.
 \newblock {Chapter 11: Genome-wide association studies}.
 \newblock \emph{PLOS Comput. Biol.}, 8(12), e1002822, 2012.
+\newblock \doi{10.1371/journal.pcbi.1002822}.
 
 \bibitem[{Buzs{\'{a}}ki and Draguhn(2004)}]{Buzsaki2004}
-Buzs{\'{a}}ki G. and Draguhn A.
+Buzs{\'{a}}ki G., Draguhn A.
 \newblock {Neuronal oscillations in cortical networks}.
 \newblock \emph{Science}, 304(5679), 1926--9, 2004.
+\newblock \doi{10.1126/science.1099745}.
 
 \bibitem[{Buzs{\'{a}}ki et~al.(2004)Buzs{\'{a}}ki, Geisler, Henze, and
   Wang}]{Buzsaki2004a}
-Buzs{\'{a}}ki G., Geisler C., Henze D.A., and Wang X.J.
+Buzs{\'{a}}ki G., Geisler C., Henze D.A., Wang X.J.
 \newblock {Interneuron Diversity series: Circuit complexity and axon wiring
   economy of cortical interneurons}.
 \newblock \emph{Trends Neurosci.}, 27(4), 186--193, 2004.
+\newblock \doi{10.1016/j.tins.2004.02.007}.
 
-\bibitem[{Cao et~al.(2017)Cao, Packer, Ramani, Cusanovich, Huynh, Daza, Qiu
-  et~al.}]{Cao2017}
-Cao J., Packer J.S., Ramani V., Cusanovich D.A., Huynh C., Daza R., Qiu X.,
-  et~al.
+\bibitem[{Cao et~al.(2017)Cao, Packer, Ramani, Cusanovich, Huynh, Daza, Qiu,
+  Lee, Furlan, Steemers et~al.}]{Cao2017}
+Cao J., Packer J.S., Ramani V., Cusanovich D.A., Huynh C., Daza R., Qiu X., Lee
+  C., Furlan S.N., Steemers F.J., et~al.
 \newblock {Comprehensive single-cell transcriptional profiling of a
   multicellular organism}.
 \newblock \emph{Science}, 357(6352), 661--667, 2017.
+\newblock \doi{10.1126/science.aam8940}.
 
 \bibitem[{Cao et~al.(2016)Cao, Huang, Peng, Dong, and He}]{Cao2016}
-Cao M., Huang H., Peng Y., Dong Q., and He Y.
+Cao M., Huang H., Peng Y., Dong Q., He Y.
 \newblock {Toward developmental connectomics of the human brain}.
 \newblock \emph{Front. Neuroanat.}, 10, 25, 2016.
+\newblock \doi{10.3389/fnana.2016.00025}.
 
 \bibitem[{Cassata et~al.(2000)Cassata, Kagoshima, Andachi, Kohara,
   D{\"{u}}rrenberger, Hall, and B{\"{u}}rglin}]{Cassata2000}
 Cassata G., Kagoshima H., Andachi Y., Kohara Y., D{\"{u}}rrenberger M.B., Hall
-  D.H., and B{\"{u}}rglin T.R.
+  D.H., B{\"{u}}rglin T.R.
 \newblock {The LIM homeobox gene ceh-14 confers thermosensory function to the
   AFD neurons in Caenorhabditis elegans}.
 \newblock \emph{Neuron}, 25(3), 587--97, 2000.
@@ -436,18 +498,21 @@ Cassata G., Kagoshima H., Andachi Y., Kohara Y., D{\"{u}}rrenberger M.B., Hall
 Charney E.
 \newblock {Genes, behavior, and behavior genetics}.
 \newblock \emph{Wiley Interdiscip. Rev. Cogn. Sci.}, 8(1-2), e1405, 2017.
+\newblock \doi{10.1002/wcs.1405}.
 
 \bibitem[{Chen et~al.(2006)Chen, Hall, and Chklovskii}]{Chen2006}
-Chen B.L., Hall D.H., and Chklovskii D.B.
+Chen B.L., Hall D.H., Chklovskii D.B.
 \newblock {Wiring optimization can relate neuronal structure and function}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 103(12), 4723--4728, 2006.
+\newblock \doi{10.1073/pnas.0506806103}.
 
 \bibitem[{Chen et~al.(2016)Chen, Chu, Zhang, Zhu, Kong, Huang, and
   Cai}]{Chen2016}
-Chen L., Chu C., Zhang Y.H., Zhu C., Kong X., Huang T., and Cai Y.D.
+Chen L., Chu C., Zhang Y.H., Zhu C., Kong X., Huang T., Cai Y.D.
 \newblock {Analysis of gene expression profiles in the human brain stem,
   cerebellum and cerebral cortex}.
 \newblock \emph{PLOS One}, 11(7), e0159395, 2016.
+\newblock \doi{10.1371/journal.pone.0159395}.
 
 \bibitem[{Cherniak(1994)}]{Cherniak1994}
 Cherniak C.
@@ -455,981 +520,1122 @@ Cherniak C.
 \newblock \emph{J. Neurosci.}, 14(4), 2418--27, 1994.
 
 \bibitem[{Cherniak et~al.(1999)Cherniak, Changizi, and Kang}]{Cherniak1999}
-Cherniak C., Changizi M., and Kang D.
+Cherniak C., Changizi M., Kang D.
 \newblock {Large-scale optimization of neuron arbors}.
 \newblock \emph{Phys. Rev. E.}, 59, 6001--9, 1999.
 
 \bibitem[{Cherniak et~al.(2004)Cherniak, Mokhtarzada, Rodriguez-Esteban, and
   Changizi}]{Cherniak2004}
-Cherniak C., Mokhtarzada Z., Rodriguez-Esteban R., and Changizi K.
+Cherniak C., Mokhtarzada Z., Rodriguez-Esteban R., Changizi K.
 \newblock {Global optimization of cerebral cortex layout}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 101(4), 1081--6, 2004.
+\newblock \doi{10.1073/pnas.0305212101}.
 
 \bibitem[{Chiang et~al.(2011{\natexlab{a}})Chiang, Lin, Chuang, Chang, Hsieh,
-  Yeh, Shih et~al.}]{Chiang2011a}
+  Yeh, Shih, Wu, Wang, Chen et~al.}]{Chiang2011a}
 Chiang A.S., Lin C.Y., Chuang C.C., Chang H.M., Hsieh C.H., Yeh C.W., Shih
-  C.T., et~al.
+  C.T., Wu J.J., Wang G.T., Chen Y.C., et~al.
 \newblock {Three-dimensional reconstruction of brain-wide wiring networks in
   drosophila at single-cell resolution}.
 \newblock \emph{Curr. Biol.}, 21(1), 1--11, 2011{\natexlab{a}}.
+\newblock \doi{10.1016/j.cub.2010.11.056}.
 
 \bibitem[{Chiang et~al.(2009)Chiang, Barysheva, Shattuck, Lee, Madsen,
-  Avedissian, Klunder et~al.}]{Chiang2009}
+  Avedissian, Klunder, Toga, McMahon, de~Zubicaray et~al.}]{Chiang2009}
 Chiang M.C., Barysheva M., Shattuck D.W., Lee A.D., Madsen S.K., Avedissian C.,
-  Klunder A.D., et~al.
+  Klunder A.D., Toga A.W., McMahon K.L., de~Zubicaray G.I., et~al.
 \newblock {Genetics of brain fiber architecture and intellectual performance}.
 \newblock \emph{J. Neurosci.}, 29(7), 2212--24, 2009.
+\newblock \doi{10.1523/JNEUROSCI.4184-08.2009}.
 
 \bibitem[{Chiang et~al.(2011{\natexlab{b}})Chiang, Barysheva, Toga, Medland,
-  Hansell, James, McMahon et~al.}]{Chiang2011}
+  Hansell, James, McMahon, de~Zubicaray, Martin, Wright et~al.}]{Chiang2011}
 Chiang M.C., Barysheva M., Toga A.W., Medland S.E., Hansell N.K., James M.R.,
-  McMahon K.L., et~al.
+  McMahon K.L., de~Zubicaray G.I., Martin N.G., Wright M.J., et~al.
 \newblock {BDNF gene effects on brain circuitry replicated in 455 twins}.
 \newblock \emph{Neuroimage}, 55(2), 448--54, 2011{\natexlab{b}}.
+\newblock \doi{10.1016/j.neuroimage.2010.12.053}.
 
 \bibitem[{Chklovskii et~al.(2002)Chklovskii, Schikorski, and
   Stevens}]{Chklovskii2002}
-Chklovskii D.B., Schikorski T., and Stevens C.F.
+Chklovskii D.B., Schikorski T., Stevens C.F.
 \newblock {Wiring optimization in cortical circuits}.
 \newblock \emph{Neuron}, 34(3), 341--347, 2002.
+\newblock \doi{10.1016/S0896-6273(02)00679-7}.
 
 \bibitem[{Choe et~al.(2004)Choe, McCormick, and W}]{Choe2004}
-Choe Y., McCormick B., and W K.
+Choe Y., McCormick B., W K.
 \newblock {Network connectivity analysis on the temporally augmented C. elegans
   web: a pilot study}.
 \newblock \emph{Soc. Neurosci. Abstr.}, 30, 921.9, 2004.
 
 \bibitem[{Choi and Kim(2007)}]{Choi2007}
-Choi J.K. and Kim S.C.
+Choi J.K., Kim S.C.
 \newblock {Environmental effects on gene expression phenotype have regional
   biases in the human genome}.
 \newblock \emph{Genetics}, 175(4), 1607--13, 2007.
+\newblock \doi{10.1534/genetics.106.069047}.
 
 \bibitem[{Choi et~al.(2015)Choi, Taylor, Chatzigeorgiou, Hu, Schafer, and
   Kaplan}]{Choi2015}
-Choi S., Taylor K.P., Chatzigeorgiou M., Hu Z., Schafer W.R., and Kaplan J.M.
+Choi S., Taylor K.P., Chatzigeorgiou M., Hu Z., Schafer W.R., Kaplan J.M.
 \newblock {Sensory neurons arouse C. elegans locomotion via both glutamate and
   neuropeptide release}.
 \newblock \emph{PLOS Genet.}, 11(7), e1005359, 2015.
+\newblock \doi{10.1371/journal.pgen.1005359}.
 
 \bibitem[{Ciceri et~al.(2013)Ciceri, Dehorter, Sols, Huang, Maravall, and
   Mar{\'{i}}n}]{Ciceri2013}
-Ciceri G., Dehorter N., Sols I., Huang Z.J., Maravall M., and Mar{\'{i}}n O.
+Ciceri G., Dehorter N., Sols I., Huang Z.J., Maravall M., Mar{\'{i}}n O.
 \newblock {Lineage-specific laminar organization of cortical GABAergic
   interneurons}.
 \newblock \emph{Nat. Neurosci.}, 16(9), 1199--1210, 2013.
+\newblock \doi{10.1038/nn.3485}.
 
 \bibitem[{Cioli et~al.(2014)Cioli, Abdi, Beaton, Burnod, and
   Mesmoudi}]{Cioli2014b}
-Cioli C., Abdi H., Beaton D., Burnod Y., and Mesmoudi S.
+Cioli C., Abdi H., Beaton D., Burnod Y., Mesmoudi S.
 \newblock {Differences in human cortical gene expression match the temporal
   properties of large-scale functional networks}.
 \newblock \emph{PLOS One}, 9(12), e115913, 2014.
+\newblock \doi{10.1371/journal.pone.0115913}.
 
-\bibitem[{Ciric et~al.(2017)Ciric, Wolf, Power, Roalf, Baum, Ruparel, Shinohara
-  et~al.}]{Ciric2017}
+\bibitem[{Ciric et~al.(2017)Ciric, Wolf, Power, Roalf, Baum, Ruparel,
+  Shinohara, Elliott, Eickhoff, Davatzikos et~al.}]{Ciric2017}
 Ciric R., Wolf D.H., Power J.D., Roalf D.R., Baum G.L., Ruparel K., Shinohara
-  R.T., et~al.
+  R.T., Elliott M.A., Eickhoff S.B., Davatzikos C., et~al.
 \newblock {Benchmarking of participant-level confound regression strategies for
   the control of motion artifact in studies of functional connectivity}.
 \newblock \emph{Neuroimage}, 154, 174--187, 2017.
+\newblock \doi{10.1016/J.NEUROIMAGE.2017.03.020}.
 
 \bibitem[{Colantuoni et~al.(2011)Colantuoni, Lipska, Ye, Hyde, Tao, Leek,
-  Colantuoni et~al.}]{Colantuoni2011}
+  Colantuoni, Elkahloun, Herman, Weinberger et~al.}]{Colantuoni2011}
 Colantuoni C., Lipska B.K., Ye T., Hyde T.M., Tao R., Leek J.T., Colantuoni
-  E.A., et~al.
+  E.A., Elkahloun A.G., Herman M.M., Weinberger D.R., et~al.
 \newblock {Temporal dynamics and genetic control of transcription in the human
   prefrontal cortex}.
 \newblock \emph{Nature}, 478, 519--23, 2011.
+\newblock \doi{10.1038/nature10524}.
 
 \bibitem[{Colclough et~al.(2017)Colclough, Smith, Nichols, Winkler,
   Sotiropoulos, Glasser, {Van Essen}, and Woolrich}]{Colclough2017}
 Colclough G.L., Smith S.M., Nichols T.E., Winkler A.M., Sotiropoulos S.N.,
-  Glasser M.F., {Van Essen} D.C., and Woolrich M.W.
+  Glasser M.F., {Van Essen} D.C., Woolrich M.W.
 \newblock {The heritability of multi-modal connectivity in human brain
   activity}.
 \newblock \emph{Elife}, 6, e20178, 2017.
+\newblock \doi{10.7554/eLife.20178}.
 
 \bibitem[{Cole et~al.(2012)Cole, Yarkoni, Repovs, Anticevic, and
   Braver}]{Cole2012}
-Cole M.W., Yarkoni T., Repovs G., Anticevic A., and Braver T.S.
+Cole M.W., Yarkoni T., Repovs G., Anticevic A., Braver T.S.
 \newblock {Global connectivity of prefrontal cortex predicts cognitive control
   and intelligence}.
 \newblock \emph{J. Neurosci.}, 32(26), 8988--99, 2012.
+\newblock \doi{10.1523/JNEUROSCI.0536-12.2012}.
 
 \bibitem[{Cole(2009)}]{Cole2009}
 Cole S.W.
 \newblock {Social regulation of human gene expression}.
 \newblock \emph{Curr. Dir. Psychol. Sci.}, 18(3), 132--137, 2009.
+\newblock \doi{10.1111/j.1467-8721.2009.01623.x}.
 
 \bibitem[{Colizza et~al.(2006)Colizza, Flammini, Serrano, and
   Vespignani}]{Colizza2006}
-Colizza V., Flammini A., Serrano M.A., and Vespignani A.
+Colizza V., Flammini A., Serrano M.A., Vespignani A.
 \newblock {Detecting rich-club ordering in complex networks}.
 \newblock \emph{Nat. Phys.}, 2(2), 110--115, 2006.
+\newblock \doi{10.1038/nphys209}.
 
 \bibitem[{Collin et~al.(2014)Collin, Sporns, Mandl, and van~den
   Heuvel}]{Collin2014}
-Collin G., Sporns O., Mandl R.C.W., and van~den Heuvel M.P.
+Collin G., Sporns O., Mandl R.C.W., van~den Heuvel M.P.
 \newblock {Structural and functional aspects relating to cost and benefit of
   rich club organization in the human cerebral cortex}.
 \newblock \emph{Cereb. Cortex}, 24(9), 2258--67, 2014.
+\newblock \doi{10.1093/cercor/bht064}.
 
 \bibitem[{Consortium(2010)}]{Consortium2010}
 Consortium T.I.H..
 \newblock {Integrating common and rare genetic variation in diverse human
   populations}.
 \newblock \emph{Nature}, 467(7311), 52--58, 2010.
+\newblock \doi{10.1038/nature09298}.
 
 \bibitem[{Corsello and Piro(2010)}]{Corsello2010}
-Corsello G. and Piro E.
+Corsello G., Piro E.
 \newblock {The world of twins: an update}.
 \newblock \emph{J. Matern. Neonatal Med.}, 23(sup3), 59--62, 2010.
+\newblock \doi{10.3109/14767058.2010.508218}.
 
 \bibitem[{Crossley et~al.(2016)Crossley, Fox, and Bullmore}]{Crossley2016a}
-Crossley N.A., Fox P.T., and Bullmore E.T.
+Crossley N.A., Fox P.T., Bullmore E.T.
 \newblock {Meta-connectomics: human brain network and connectivity
   meta-analyses}.
 \newblock \emph{Psychol. Med.}, 46(5), 897--907, 2016.
+\newblock \doi{10.1017/S0033291715002895}.
 
 \bibitem[{Crossley et~al.(2014)Crossley, Mechelli, Scott, Carletti, Fox,
   McGuire, and Bullmore}]{Crossley2014}
-Crossley N.A., Mechelli A., Scott J., Carletti F., Fox P.T., McGuire P., and
+Crossley N.A., Mechelli A., Scott J., Carletti F., Fox P.T., McGuire P.,
   Bullmore E.T.
 \newblock {The hubs of the human connectome are generally implicated in the
   anatomy of brain disorders}.
 \newblock \emph{Brain}, 137(Pt 8), 2382--95, 2014.
+\newblock \doi{10.1093/brain/awu132}.
 
 \bibitem[{Crossley et~al.(2013)Crossley, Mechelli, V{\'{e}}rtes, Winton-Brown,
   Patel, Ginestet, McGuire, and Bullmore}]{Crossley2013}
 Crossley N.A., Mechelli A., V{\'{e}}rtes P.E., Winton-Brown T.T., Patel A.X.,
-  Ginestet C.E., McGuire P., and Bullmore E.T.
+  Ginestet C.E., McGuire P., Bullmore E.T.
 \newblock {Cognitive relevance of the community structure of the human brain
   functional coactivation network}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 110(28), 11583--11588, 2013.
+\newblock \doi{10.1073/pnas.1220826110}.
 
 \bibitem[{Cui et~al.(2007)Cui, Yu, Purisima, Wang, Li, Schwarz, Ott, Rulicke,
   Liberski, and Julius}]{Cui2007}
 Cui Q., Yu Z., Purisima E.O., Wang E., Li X., Schwarz P., Ott D., Rulicke T.,
-  Liberski P., and Julius C.
+  Liberski P., Julius C.
 \newblock {MicroRNA regulation and interspecific variation of gene expression}.
 \newblock \emph{Trends Genet.}, 23(8), 372--375, 2007.
+\newblock \doi{10.1016/j.tig.2007.04.003}.
 
 \bibitem[{Darmanis et~al.(2015)Darmanis, Sloan, Zhang, Enge, Caneda, Shuer,
   {Hayden Gephart}, Barres, and Quake}]{Darmanis2015}
 Darmanis S., Sloan S.A., Zhang Y., Enge M., Caneda C., Shuer L.M., {Hayden
-  Gephart} M.G., Barres B.A., and Quake S.R.
+  Gephart} M.G., Barres B.A., Quake S.R.
 \newblock {A survey of human brain transcriptome diversity at the single cell
   level}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 112(23), 7285--90, 2015.
+\newblock \doi{10.1073/pnas.1507125112}.
 
 \bibitem[{de~Haan et~al.(2012)de~Haan, Mott, van Straaten, Scheltens, and
   Stam}]{DeHaan2012}
-de~Haan W., Mott K., van Straaten E.C.W., Scheltens P., and Stam C.J.
+de~Haan W., Mott K., van Straaten E.C.W., Scheltens P., Stam C.J.
 \newblock {Activity dependent degeneration explains hub vulnerability in
   Alzheimer's disease}.
 \newblock \emph{PLOS Comput. Biol.}, 8(8), e1002582, 2012.
+\newblock \doi{10.1371/journal.pcbi.1002582}.
 
 \bibitem[{de~Reus and van~den Heuvel(2013)}]{DeReus2013b}
-de~Reus M.A. and van~den Heuvel M.P.
+de~Reus M.A., van~den Heuvel M.P.
 \newblock {Rich club organization and intermodule communication in the cat
   connectome}.
 \newblock \emph{J. Neurosci.}, 33(32), 12929--12939, 2013.
+\newblock \doi{10.1523/JNEUROSCI.1448-13.2013}.
 
 \bibitem[{de~Reus and van~den Heuvel(2014)}]{DeReus2014}
-de~Reus M.A. and van~den Heuvel M.P.
+de~Reus M.A., van~den Heuvel M.P.
 \newblock {Simulated rich club lesioning in brain networks: a scaffold for
   communication and integration?}
 \newblock \emph{Front. Hum. Neurosci.}, 8, 647, 2014.
+\newblock \doi{10.3389/fnhum.2014.00647}.
 
 \bibitem[{{De Robertis} and Bennett(1955)}]{DeRobertis1955}
-{De Robertis} E.D. and Bennett H.S.
+{De Robertis} E.D., Bennett H.S.
 \newblock {Some features of the submicroscopic morphology of synapses in frog
   and earthworm}.
 \newblock \emph{J. Biophys. Biochem. Cytol.}, 1(1), 47--58, 1955.
+\newblock \doi{10.1083/JCB.1.1.47}.
 
 \bibitem[{Demesmaeker et~al.(2017)Demesmaeker, {Van De Ville}, and
   Preti}]{Demesmaeker2017}
-Demesmaeker R., {Van De Ville} D., and Preti M.G.
+Demesmaeker R., {Van De Ville} D., Preti M.G.
 \newblock {Guiding network analysis using graph slepians: an illustration for
   the C. elegans connectome}.
 \newblock In Wavelets Sparsity XVII, volume 10394, p.~69. SPIE, 2017.
 
 \bibitem[{Dennis et~al.(2011)Dennis, Jahanshad, Rudie, Brown, Johnson, McMahon,
-  de~Zubicaray et~al.}]{Dennis2011}
+  de~Zubicaray, Montgomery, Martin, Wright et~al.}]{Dennis2011}
 Dennis E.L., Jahanshad N., Rudie J.D., Brown J.A., Johnson K., McMahon K.L.,
-  de~Zubicaray G.I., et~al.
+  de~Zubicaray G.I., Montgomery G., Martin N.G., Wright M.J., et~al.
 \newblock {Altered structural brain connectivity in healthy carriers of the
   autism risk gene, CNTNAP2}.
 \newblock \emph{Brain Connect.}, 1(6), 447--459, 2011.
+\newblock \doi{10.1089/brain.2011.0064}.
 
 \bibitem[{Dennis et~al.(2013)Dennis, Jahanshad, Toga, McMahon, de~Zubicaray,
   Hickie, Wright, and Thompson}]{Dennis2013}
 Dennis E.L., Jahanshad N., Toga A.W., McMahon K.L., de~Zubicaray G.I., Hickie
-  I., Wright M.J., and Thompson P.M.
+  I., Wright M.J., Thompson P.M.
 \newblock {Development of the rich club in brain connectivity networks from 438
   adolescents and adults aged 12 to 30}.
 \newblock \emph{Proc./IEEE Int. Symp. Biomed. Imaging}, pp. 624--627, 2013.
+\newblock \doi{10.1109/ISBI.2013.6556552}.
 
 \bibitem[{Desikan et~al.(2006)Desikan, S{\'{e}}gonne, Fischl, Quinn, Dickerson,
-  Blacker, Buckner et~al.}]{Desikan2006}
+  Blacker, Buckner, Dale, Maguire, Hyman et~al.}]{Desikan2006}
 Desikan R.S., S{\'{e}}gonne F., Fischl B., Quinn B.T., Dickerson B.C., Blacker
-  D., Buckner R.L., et~al.
+  D., Buckner R.L., Dale A.M., Maguire R.P., Hyman B.T., et~al.
 \newblock {An automated labeling system for subdividing the human cerebral
   cortex on MRI scans into gyral based regions of interest}.
 \newblock \emph{Neuroimage}, 31(3), 968--980, 2006.
+\newblock \doi{10.1016/j.neuroimage.2006.01.021}.
 
 \bibitem[{Dezhina et~al.(2018)Dezhina, Ranlund, Kyriakopoulos, Williams, and
   Dima}]{Dezhina2018}
-Dezhina Z., Ranlund S., Kyriakopoulos M., Williams S.C.R., and Dima D.
+Dezhina Z., Ranlund S., Kyriakopoulos M., Williams S.C.R., Dima D.
 \newblock {A systematic review of associations between functional MRI activity
   and polygenic risk for schizophrenia and bipolar disorder}.
 \newblock \emph{Brain Imaging Behav.}, 2018.
+\newblock \doi{10.1007/s11682-018-9879-z}.
 
 \bibitem[{Dijkstra(1959)}]{Dijkstra1959}
 Dijkstra E.W.
 \newblock {A note on two problems in connexion with graphs}.
 \newblock \emph{Numer. Math.}, 1(1), 269--271, 1959.
+\newblock \doi{10.1007/BF01386390}.
 
 \bibitem[{Dudbridge(2013)}]{Dudbridge2013}
 Dudbridge F.
 \newblock {Power and predictive accuracy of polygenic risk scores}.
 \newblock \emph{PLoS Genet.}, 9(3), e1003348, 2013.
+\newblock \doi{10.1371/journal.pgen.1003348}.
 
 \bibitem[{Ehaideb et~al.(2016)Ehaideb, Wignall, Kasuya, Evans, Iyengar,
   Koerselman, Lilienthal, Bassuk, Kitamoto, and Manak}]{Ehaideb2016}
 Ehaideb S.N., Wignall E.A., Kasuya J., Evans W.H., Iyengar A., Koerselman H.L.,
-  Lilienthal A.J., Bassuk A.G., Kitamoto T., and Manak J.R.
+  Lilienthal A.J., Bassuk A.G., Kitamoto T., Manak J.R.
 \newblock {Mutation of orthologous prickle genes causes a similar epilepsy
   syndrome in flies and humans}.
 \newblock \emph{Ann. Clin. Transl. Neurol.}, 3(9), 695, 2016.
+\newblock \doi{10.1002/acn3.334}.
 
 \bibitem[{Eising et~al.(2016)Eising, Huisman, Mahfouz, Vijfhuizen, Anttila,
-  Winsvold, Kurth et~al.}]{Eising2016}
+  Winsvold, Kurth, Ikram, Freilinger, Kaprio et~al.}]{Eising2016}
 Eising E., Huisman S.M., Mahfouz A., Vijfhuizen L.S., Anttila V., Winsvold
-  B.S., Kurth T., et~al.
+  B.S., Kurth T., Ikram M.A., Freilinger T., Kaprio J., et~al.
 \newblock {Gene co-expression analysis identifies brain regions and cell types
   involved in migraine pathophysiology: a GWAS-based study using the Allen
   Human Brain Atlas}.
 \newblock \emph{Hum. Genet.}, 135(4), 425--439, 2016.
+\newblock \doi{10.1007/s00439-016-1638-x}.
 
 \bibitem[{Elliott et~al.(2018)Elliott, Sharp, Alfaro-Almagro, Shi, Miller,
   Douaud, Marchini, and Smith}]{Elliott2018}
 Elliott L., Sharp K., Alfaro-Almagro F., Shi S., Miller K., Douaud G., Marchini
-  J., and Smith S.
+  J., Smith S.
 \newblock {Genome-wide association studies of brain structure and function in
   the UK Biobank}.
 \newblock \emph{bioRxiv}, p. 178806, 2018.
+\newblock \doi{10.1101/178806}.
 
 \bibitem[{Ercsey-Ravasz et~al.(2013)Ercsey-Ravasz, Markov, Lamy, {Van Essen},
   Knoblauch, Toroczkai, and Kennedy}]{Ercsey-Ravasz2013}
 Ercsey-Ravasz M., Markov N., Lamy C., {Van Essen} D., Knoblauch K., Toroczkai
-  Z., and Kennedy H.
+  Z., Kennedy H.
 \newblock {A predictive network model of cerebral cortical connectivity based
   on a distance rule}.
 \newblock \emph{Neuron}, 80(1), 184--197, 2013.
+\newblock \doi{10.1016/J.NEURON.2013.07.036}.
 
 \bibitem[{Estrada and Hatano(2008)}]{Estrada2008}
-Estrada E. and Hatano N.
+Estrada E., Hatano N.
 \newblock {Communicability in complex networks}.
 \newblock \emph{Phys. Rev. E}, 77(3), 036111, 2008.
+\newblock \doi{10.1103/PhysRevE.77.036111}.
 
 \bibitem[{Euesden et~al.(2015)Euesden, Lewis, and O'Reilly}]{Euesden2015}
-Euesden J., Lewis C.M., and O'Reilly P.F.
+Euesden J., Lewis C.M., O'Reilly P.F.
 \newblock {PRSice: polygenic risk score software}.
 \newblock \emph{Bioinformatics}, 31(9), 1466--8, 2015.
+\newblock \doi{10.1093/bioinformatics/btu848}.
 
 \bibitem[{Fakhry and Ji(2015)}]{Fakhry2015a}
-Fakhry A. and Ji S.
+Fakhry A., Ji S.
 \newblock {High-resolution prediction of mouse brain connectivity using gene
   expression patterns}.
 \newblock \emph{Methods}, 73, 71--8, 2015.
+\newblock \doi{10.1016/j.ymeth.2014.07.011}.
 
 \bibitem[{Fakhry et~al.(2015)Fakhry, Zeng, Peng, and Ji}]{Fakhry2015}
-Fakhry A., Zeng T., Peng H., and Ji S.
+Fakhry A., Zeng T., Peng H., Ji S.
 \newblock {Global analysis of gene expression and projection target
   correlations in the mouse brain}.
 \newblock \emph{Brain informatics}, 2(2), 107--117, 2015.
+\newblock \doi{10.1007/s40708-015-0014-2}.
 
-\bibitem[{Fare et~al.(2003)Fare, Coffey, Dai, He, Kessler, Kilian, Koch
-  et~al.}]{Fare2003}
+\bibitem[{Fare et~al.(2003)Fare, Coffey, Dai, He, Kessler, Kilian, Koch,
+  LeProust, Marton, Meyer et~al.}]{Fare2003}
 Fare T.L., Coffey E.M., Dai H., He Y.D., Kessler D.A., Kilian K.A., Koch J.E.,
-  et~al.
+  LeProust E., Marton M.J., Meyer M.R., et~al.
 \newblock {Effects of atmospheric ozone on microarray data quality}.
 \newblock \emph{Anal. Chem.}, 75(17), 4672--5, 2003.
 
 \bibitem[{Felleman and {Van Essen}(1991)}]{Felleman}
-Felleman D.J. and {Van Essen} D.C.
+Felleman D.J., {Van Essen} D.C.
 \newblock {Distributed hierarchical processing in the primate cerebral cortex}.
 \newblock \emph{Cereb. Cortex}, 1(1), 1--47, 1991.
 
 \bibitem[{Ferrari et~al.(2014)Ferrari, Hernandez, Nalls, Rohrer, Ramasamy,
-  Kwok, Dobson-Stone et~al.}]{Ferrari2014}
+  Kwok, Dobson-Stone, Brooks, Schofield, Halliday et~al.}]{Ferrari2014}
 Ferrari R., Hernandez D.G., Nalls M.A., Rohrer J.D., Ramasamy A., Kwok J.B.J.,
-  Dobson-Stone C., et~al.
+  Dobson-Stone C., Brooks W.S., Schofield P.R., Halliday G.M., et~al.
 \newblock {Frontotemporal dementia and its subtypes: a genome-wide association
   study}.
 \newblock \emph{Lancet Neurol.}, 13(7), 686--699, 2014.
+\newblock \doi{10.1016/S1474-4422(14)70065-1}.
 
 \bibitem[{Fertuzinhos et~al.(2014)Fertuzinhos, Li, Kawasawa, Ivic, Franjic,
   Singh, Crair, and {\v{S}}estan}]{Fertuzinhos2014}
 Fertuzinhos S., Li M., Kawasawa Y., Ivic V., Franjic D., Singh D., Crair M.,
-  and {\v{S}}estan N.
+  {\v{S}}estan N.
 \newblock {Laminar and Temporal Expression Dynamics of Coding and Noncoding
   RNAs in the Mouse Neocortex}.
 \newblock \emph{Cell Rep.}, 6(5), 938--950, 2014.
+\newblock \doi{10.1016/j.celrep.2014.01.036}.
 
 \bibitem[{Filippini et~al.(2009)Filippini, Rao, Wetten, Gibson, Borrie, Guzman,
-  Kertesz et~al.}]{Filippini2009}
+  Kertesz, Loy-English, Williams, Nichols et~al.}]{Filippini2009}
 Filippini N., Rao A., Wetten S., Gibson R.A., Borrie M., Guzman D., Kertesz A.,
-  et~al.
+  Loy-English I., Williams J., Nichols T., et~al.
 \newblock {Anatomically-distinct genetic associations of APOE ɛ4 allele load
   with regional cortical atrophy in Alzheimer's disease}.
 \newblock \emph{Neuroimage}, 44(3), 724--728, 2009.
+\newblock \doi{10.1016/j.neuroimage.2008.10.003}.
 
 \bibitem[{Forest et~al.(2017)Forest, Iturria-Medina, Goldman, Kleinman, Lovato,
   {Oros Klein}, Evans, Ciampi, Labbe, and Greenwood}]{Forest2017}
 Forest M., Iturria-Medina Y., Goldman J.S., Kleinman C.L., Lovato A., {Oros
-  Klein} K., Evans A., Ciampi A., Labbe A., and Greenwood C.M.
+  Klein} K., Evans A., Ciampi A., Labbe A., Greenwood C.M.
 \newblock {Gene networks show associations with seed region connectivity}.
 \newblock \emph{Hum. Brain Mapp.}, 38(6), 3126--3140, 2017.
+\newblock \doi{10.1002/hbm.23579}.
 
 \bibitem[{Fornito et~al.(2019)Fornito, Arnatkevi\u{c}i\={u}t\.{e}, and
   Fulcher}]{Fornito2019}
-Fornito A., Arnatkevi\u{c}i\={u}t\.{e} A., and Fulcher B.D.
+Fornito A., Arnatkevi\u{c}i\={u}t\.{e} A., Fulcher B.D.
 \newblock {Bridging the gap between connectome and transcriptome}.
 \newblock \emph{Trends Cogn. Sci.}, 23(1), 34--50, 2019.
+\newblock \doi{10.1016/J.TICS.2018.10.005}.
 
 \bibitem[{Fornito et~al.(2011)Fornito, Zalesky, Bassett, Meunier,
-  Ellison-Wright, Yucel, Wood et~al.}]{Fornito2011}
+  Ellison-Wright, Yucel, Wood, Shaw, O'Connor, Nertney et~al.}]{Fornito2011}
 Fornito A., Zalesky A., Bassett D.S., Meunier D., Ellison-Wright I., Yucel M.,
-  Wood S.J., et~al.
+  Wood S.J., Shaw K., O'Connor J., Nertney D., et~al.
 \newblock {Genetic influences on cost-efficient organization of human cortical
   functional networks}.
 \newblock \emph{J. Neurosci.}, 31(9), 3261--3270, 2011.
+\newblock \doi{10.1523/JNEUROSCI.4858-10.2011}.
 
 \bibitem[{Fornito et~al.(2013)Fornito, Zalesky, and Breakspear}]{Fornito2013}
-Fornito A., Zalesky A., and Breakspear M.
+Fornito A., Zalesky A., Breakspear M.
 \newblock {Graph analysis of the human connectome: promise, progress, and
   pitfalls}.
 \newblock \emph{Neuroimage}, 80, 426--444, 2013.
+\newblock \doi{10.1016/j.neuroimage.2013.04.087}.
 
 \bibitem[{Fornito et~al.(2015)Fornito, Zalesky, and Breakspear}]{Fornito2015}
-Fornito A., Zalesky A., and Breakspear M.
+Fornito A., Zalesky A., Breakspear M.
 \newblock {The connectomics of brain disorders}.
 \newblock \emph{Nat. Rev. Neurosci.}, 16(3), 159--172, 2015.
+\newblock \doi{10.1038/nrn3901}.
 
 \bibitem[{Fornito et~al.(2016)Fornito, Zalesky, and Bullmore}]{Fornito2016}
-Fornito A., Zalesky A., and Bullmore E.
+Fornito A., Zalesky A., Bullmore E.
 \newblock {Fundamentals of brain network analysis}.
 \newblock Academic Press, 2016.
 
 \bibitem[{Fornito et~al.(2012)Fornito, Zalesky, Pantelis, and
   Bullmore}]{Fornito2012a}
-Fornito A., Zalesky A., Pantelis C., and Bullmore E.T.
+Fornito A., Zalesky A., Pantelis C., Bullmore E.T.
 \newblock {Schizophrenia, neuroimaging and connectomics}.
 \newblock \emph{Neuroimage}, 62(4), 2296--2314, 2012.
+\newblock \doi{10.1016/J.NEUROIMAGE.2011.12.090}.
 
 \bibitem[{Franke et~al.(2016)Franke, Stein, Ripke, Anttila, Hibar, van Hulzen,
-  Arias-Vasquez et~al.}]{Franke2016}
+  Arias-Vasquez, Smoller, Nichols, Neale et~al.}]{Franke2016}
 Franke B., Stein J.L., Ripke S., Anttila V., Hibar D.P., van Hulzen K.J.E.,
-  Arias-Vasquez A., et~al.
+  Arias-Vasquez A., Smoller J.W., Nichols T.E., Neale M.C., et~al.
 \newblock {Genetic influences on schizophrenia and subcortical brain volumes:
   large-scale proof of concept}.
 \newblock \emph{Nat. Neurosci.}, 19(3), 420--431, 2016.
+\newblock \doi{10.1038/nn.4228}.
 
 \bibitem[{Fraser et~al.(2005)Fraser, Khaitovich, Plotkin, P{\"{a}}{\"{a}}bo,
   and Eisen}]{Fraser2005}
-Fraser H.B., Khaitovich P., Plotkin J.B., P{\"{a}}{\"{a}}bo S., and Eisen M.B.
+Fraser H.B., Khaitovich P., Plotkin J.B., P{\"{a}}{\"{a}}bo S., Eisen M.B.
 \newblock {Aging and gene expression in the primate brain}.
 \newblock \emph{PLOS Biol.}, 3(9), e274, 2005.
+\newblock \doi{10.1371/journal.pbio.0030274}.
 
 \bibitem[{French and Paus(2015)}]{French2015}
-French L. and Paus T.
+French L., Paus T.
 \newblock {A FreeSurfer view of the cortical transcriptome generated from the
   Allen Human Brain Atlas}.
 \newblock \emph{Front. Neurosci.}, 9, 323, 2015.
+\newblock \doi{10.3389/fnins.2015.00323}.
 
 \bibitem[{French and Pavlidis(2011)}]{French2011}
-French L. and Pavlidis P.
+French L., Pavlidis P.
 \newblock {Relationships between gene expression and brain wiring in the adult
   rodent brain}.
 \newblock \emph{PLoS Comput. Biol.}, 7(1), e1001049, 2011.
+\newblock \doi{10.1371/journal.pcbi.1001049}.
 
 \bibitem[{Friston(1994)}]{Friston1994}
 Friston K.J.
 \newblock {Functional and effective connectivity in neuroimaging: a synthesis}.
 \newblock \emph{Hum. Brain Mapp.}, 2(1-2), 56--78, 1994.
+\newblock \doi{10.1002/hbm.460020107}.
 
-\bibitem[{Fu et~al.(2015)Fu, Ma, Hamilton, Liang, Hou, Ma, Hu et~al.}]{Fu2015}
-Fu Y., Ma Z., Hamilton C., Liang Z., Hou X., Ma X., Hu X., et~al.
+\bibitem[{Fu et~al.(2015)Fu, Ma, Hamilton, Liang, Hou, Ma, Hu, He, Deng, Wang
+  et~al.}]{Fu2015}
+Fu Y., Ma Z., Hamilton C., Liang Z., Hou X., Ma X., Hu X., He Q., Deng W., Wang
+  Y., et~al.
 \newblock {Genetic influences on resting-state functional networks: a twin
   study}.
 \newblock \emph{Hum. Brain Mapp.}, 36(10), 3959--3972, 2015.
+\newblock \doi{10.1002/hbm.22890}.
 
 \bibitem[{Fulcher and Fornito(2016)}]{Fulcher2016}
-Fulcher B.D. and Fornito A.
+Fulcher B.D., Fornito A.
 \newblock {A transcriptional signature of hub connectivity in the mouse
   connectome}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 113(5), 1513302113, 2016.
+\newblock \doi{10.1073/pnas.1513302113}.
 
 \bibitem[{Fulcher et~al.(2013)Fulcher, Little, and Jones}]{Fulcher2013}
-Fulcher B.D., Little M.A., and Jones N.S.
+Fulcher B.D., Little M.A., Jones N.S.
 \newblock {Highly comparative time-series analysis: the empirical structure of
   time series and their methods}.
 \newblock \emph{J. R. Soc. Interface}, 10(83), 20130048, 2013.
+\newblock \doi{10.1098/rsif.2013.0048}.
 
 \bibitem[{Fulcher et~al.(2019)Fulcher, Murray, Zerbi, and Wang}]{Fulcher2019}
-Fulcher B.D., Murray J.D., Zerbi V., and Wang X.J.
+Fulcher B.D., Murray J.D., Zerbi V., Wang X.J.
 \newblock {Multimodal gradients across mouse cortex}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 116(10), 4689--4695, 2019.
+\newblock \doi{10.1073/pnas.1814144116}.
 
 \bibitem[{F{\"{u}}rth et~al.(2018)F{\"{u}}rth, Vaissière, Tzortzi, Xuan,
-  M{\"{a}}rtin, Lazaridis, Spigolon et~al.}]{Furth2018}
+  M{\"{a}}rtin, Lazaridis, Spigolon, Fisone, Tomer, Deisseroth
+  et~al.}]{Furth2018}
 F{\"{u}}rth D., Vaissière T., Tzortzi O., Xuan Y., M{\"{a}}rtin A., Lazaridis
-  I., Spigolon G., et~al.
+  I., Spigolon G., Fisone G., Tomer R., Deisseroth K., et~al.
 \newblock {An interactive framework for whole-brain maps at cellular
   resolution}.
 \newblock \emph{Nat. Neurosci.}, 21(1), 139--149, 2018.
+\newblock \doi{10.1038/s41593-017-0027-7}.
 
 \bibitem[{Futcher et~al.(1999)Futcher, Latter, Monardo, McLaughlin, and
   Garrels}]{Futcher1999}
-Futcher B., Latter G.I., Monardo P., McLaughlin C.S., and Garrels J.I.
+Futcher B., Latter G.I., Monardo P., McLaughlin C.S., Garrels J.I.
 \newblock {A sampling of the yeast proteome}.
 \newblock \emph{Mol. Cell. Biol.}, 19(11), 7357--68, 1999.
 
 \bibitem[{Garriga et~al.(1999)Garriga, Forrester, Dell, and
   Perens}]{Garriga1999}
-Garriga G., Forrester W.C., Dell M., and Perens E.
+Garriga G., Forrester W.C., Dell M., Perens E.
 \newblock {A C. elegans Ror receptor tyrosine kinase regulates cell motility
   and asymmetric cell division}.
 \newblock \emph{Nature}, 400(6747), 881--885, 1999.
+\newblock \doi{10.1038/23722}.
 
 \bibitem[{Gillis et~al.(2010)Gillis, Mistry, and Pavlidis}]{Gillis2010}
-Gillis J., Mistry M., and Pavlidis P.
+Gillis J., Mistry M., Pavlidis P.
 \newblock {Gene function analysis in complex data sets using ErmineJ}.
 \newblock \emph{Nat. Protoc.}, 5(6), 1148--59, 2010.
+\newblock \doi{10.1038/nprot.2010.78}.
 
 \bibitem[{Glahn et~al.(2010)Glahn, Winkler, Kochunov, Almasy, Duggirala,
-  Carless, Curran et~al.}]{Glahn2010}
+  Carless, Curran, Olvera, Laird, Smith et~al.}]{Glahn2010}
 Glahn D.C., Winkler A.M., Kochunov P., Almasy L., Duggirala R., Carless M.A.,
-  Curran J.C., et~al.
+  Curran J.C., Olvera R.L., Laird A.R., Smith S.M., et~al.
 \newblock {Genetic control over the resting brain}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 107(3), 1223--1228, 2010.
+\newblock \doi{10.1073/pnas.0909969107}.
 
 \bibitem[{Glass et~al.(2013)Glass, Vi{\~{n}}uela, Davies, Ramasamy, Parts,
-  Knowles, Brown et~al.}]{Glass2013}
+  Knowles, Brown, Hedman, Small, Buil et~al.}]{Glass2013}
 Glass D., Vi{\~{n}}uela A., Davies M.N., Ramasamy A., Parts L., Knowles D.,
-  Brown A.A., et~al.
+  Brown A.A., Hedman A.K., Small K.S., Buil A., et~al.
 \newblock {Gene expression changes with age in skin, adipose tissue, blood and
   brain}.
 \newblock \emph{Genome Biol.}, 14(7), R75, 2013.
+\newblock \doi{10.1186/gb-2013-14-7-r75}.
 
 \bibitem[{Glasser et~al.(2016)Glasser, Coalson, Robinson, Hacker, Harwell,
-  Yacoub, Ugurbil et~al.}]{Glasser2016}
+  Yacoub, Ugurbil, Andersson, Beckmann, Jenkinson et~al.}]{Glasser2016}
 Glasser M.F., Coalson T.S., Robinson E.C., Hacker C.D., Harwell J., Yacoub E.,
-  Ugurbil K., et~al.
+  Ugurbil K., Andersson J., Beckmann C.F., Jenkinson M., et~al.
 \newblock {A multi-modal parcellation of human cerebral cortex}.
 \newblock \emph{Nature}, 536(7615), 171--178, 2016.
+\newblock \doi{10.1038/nature18933}.
 
 \bibitem[{Glasser et~al.(2013)Glasser, Sotiropoulos, Wilson, Coalson, Fischl,
-  Andersson, Xu et~al.}]{Glasser2013}
+  Andersson, Xu, Jbabdi, Webster, Polimeni et~al.}]{Glasser2013}
 Glasser M.F., Sotiropoulos S.N., Wilson J.A., Coalson T.S., Fischl B.,
-  Andersson J.L., Xu J., et~al.
+  Andersson J.L., Xu J., Jbabdi S., Webster M., Polimeni J.R., et~al.
 \newblock {The minimal preprocessing pipelines for the Human Connectome
   Project}.
 \newblock \emph{Neuroimage}, 80, 105--124, 2013.
+\newblock \doi{10.1016/j.neuroimage.2013.04.127}.
 
 \bibitem[{Goel et~al.(2014)Goel, Kuceyeski, LoCastro, and Raj}]{Goel2014}
-Goel P., Kuceyeski A., LoCastro E., and Raj A.
+Goel P., Kuceyeski A., LoCastro E., Raj A.
 \newblock {Spatial patterns of genome-wide expression profiles reflect anatomic
   and fiber connectivity architecture of healthy human brain}.
 \newblock \emph{Hum. Brain Mapp.}, 35(8), 4204--4218, 2014.
+\newblock \doi{10.1002/hbm.22471}.
 
 \bibitem[{Gong et~al.(2009)Gong, He, Concha, Lebel, Gross, Evans, and
   Beaulieu}]{Gong2009}
-Gong G., He Y., Concha L., Lebel C., Gross D.W., Evans A.C., and Beaulieu C.
+Gong G., He Y., Concha L., Lebel C., Gross D.W., Evans A.C., Beaulieu C.
 \newblock {Mapping anatomical connectivity patterns of human cerebral cortex
   using in vivo diffusion tensor imaging tractography}.
 \newblock \emph{Cereb. Cortex}, 19(3), 524--536, 2009.
+\newblock \doi{10.1093/cercor/bhn102}.
 
 \bibitem[{Go{\~{n}}i et~al.(2014)Go{\~{n}}i, van~den Heuvel,
   Avena-Koenigsberger, {Velez de Mendizabal}, Betzel, Griffa, Hagmann,
   Corominas-Murtra, Thiran, and Sporns}]{Goni2014}
 Go{\~{n}}i J., van~den Heuvel M.P., Avena-Koenigsberger A., {Velez de
   Mendizabal} N., Betzel R.F., Griffa A., Hagmann P., Corominas-Murtra B.,
-  Thiran J.P., and Sporns O.
+  Thiran J.P., Sporns O.
 \newblock {Resting-brain functional connectivity predicted by analytic measures
   of network communication}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 111(2), 833--8, 2014.
+\newblock \doi{10.1073/pnas.1315529111}.
 
 \bibitem[{Gorgolewski et~al.(2015)Gorgolewski, Varoquaux, Rivera, Schwarz,
-  Ghosh, Maumet, Sochat et~al.}]{Gorgolewski2015}
+  Ghosh, Maumet, Sochat, Nichols, Poldrack, Poline et~al.}]{Gorgolewski2015}
 Gorgolewski K.J., Varoquaux G., Rivera G., Schwarz Y., Ghosh S.S., Maumet C.,
-  Sochat V.V., et~al.
+  Sochat V.V., Nichols T.E., Poldrack R.A., Poline J.B., et~al.
 \newblock {NeuroVault.org: a web-based repository for collecting and sharing
   unthresholded statistical maps of the human brain}.
 \newblock \emph{Front. Neuroinform.}, 9, 8, 2015.
+\newblock \doi{10.3389/fninf.2015.00008}.
 
 \bibitem[{Goulas et~al.(2017)Goulas, Uylings, and Hilgetag}]{Goulas2017}
-Goulas A., Uylings H.B.M., and Hilgetag C.C.
+Goulas A., Uylings H.B.M., Hilgetag C.C.
 \newblock {Principles of ipsilateral and contralateral cortico-cortical
   connectivity in the mouse}.
 \newblock \emph{Brain Struct. Funct.}, 222(3), 1281--1295, 2017.
+\newblock \doi{10.1007/s00429-016-1277-y}.
 
 \bibitem[{Goyal et~al.(2014)Goyal, Hawrylycz, Miller, Snyder, and
   Raichle}]{Goyal2014}
-Goyal M.S., Hawrylycz M., Miller J.A., Snyder A.Z., and Raichle M.E.
+Goyal M.S., Hawrylycz M., Miller J.A., Snyder A.Z., Raichle M.E.
 \newblock {Aerobic glycolysis in the human brain is associated with development
   and neotenous gene expression}.
 \newblock \emph{Cell Metab.}, 19(1), 49--57, 2014.
+\newblock \doi{10.1016/j.cmet.2013.11.020}.
 
 \bibitem[{Gratton et~al.(2012)Gratton, Nomura, P{\'{e}}rez, and
   D'Esposito}]{Gratton2012}
-Gratton C., Nomura E.M., P{\'{e}}rez F., and D'Esposito M.
+Gratton C., Nomura E.M., P{\'{e}}rez F., D'Esposito M.
 \newblock {Focal brain lesions to critical locations cause widespread
   disruption of the modular organization of the brain}.
 \newblock \emph{J. Cogn. Neurosci.}, 24(6), 1275--1285, 2012.
+\newblock \doi{10.1162/jocn_a_00222}.
 
 \bibitem[{Greenbaum et~al.(2003)Greenbaum, Colangelo, Williams, and
   Gerstein}]{Greenbaum2003}
-Greenbaum D., Colangelo C., Williams K., and Gerstein M.
+Greenbaum D., Colangelo C., Williams K., Gerstein M.
 \newblock {Comparing protein abundance and mRNA expression levels on a genomic
   scale}.
 \newblock \emph{Genome Biol.}, 4(9), 117, 2003.
+\newblock \doi{10.1186/gb-2003-4-9-117}.
 
 \bibitem[{Gryglewski et~al.(2018)Gryglewski, Seiger, James, Godbersen,
-  Komorowski, Unterholzner, Michenthaler et~al.}]{Gryglewski2018}
+  Komorowski, Unterholzner, Michenthaler, Hahn, Wadsak, Mitterhauser
+  et~al.}]{Gryglewski2018}
 Gryglewski G., Seiger R., James G.M., Godbersen G.M., Komorowski A.,
-  Unterholzner J., Michenthaler P., et~al.
+  Unterholzner J., Michenthaler P., Hahn A., Wadsak W., Mitterhauser M., et~al.
 \newblock {Spatial analysis and high resolution mapping of the human
   whole-brain transcriptome for integrative analysis in neuroimaging}.
 \newblock \emph{Neuroimage}, 176, 259--267, 2018.
+\newblock \doi{10.1016/j.neuroimage.2018.04.068}.
 
 \bibitem[{Guimer{\`{a}} and {Nunes Amaral}(2005)}]{Guimera2005}
-Guimer{\`{a}} R. and {Nunes Amaral} L.A.
+Guimer{\`{a}} R., {Nunes Amaral} L.A.
 \newblock {Functional cartography of complex metabolic networks}.
 \newblock \emph{Nature}, 433(7028), 895--900, 2005.
+\newblock \doi{10.1038/nature03288}.
 
 \bibitem[{G\v{a}m\v{a}nu\c{t} et~al.(2018)G\v{a}m\v{a}nu\c{t}, Kennedy,
   Toroczkai, Ercsey-Ravasz, {Van Essen}, Knoblauch, and
   Burkhalter}]{Gamanut2018}
 G\v{a}m\v{a}nu\c{t} R., Kennedy H., Toroczkai Z., Ercsey-Ravasz M., {Van Essen}
-  D.C., Knoblauch K., and Burkhalter A.
+  D.C., Knoblauch K., Burkhalter A.
 \newblock {The mouse cortical connectome, characterized by an ultra-dense
   cortical graph, maintains specificity by distinct connectivity profiles}.
 \newblock \emph{Neuron}, 97(3), 698--715.e10, 2018.
+\newblock \doi{10.1016/J.NEURON.2017.12.037}.
 
 \bibitem[{Gygi et~al.(1999)Gygi, Rochon, Franza, and Aebersold}]{Gygi1999}
-Gygi S.P., Rochon Y., Franza B.R., and Aebersold R.
+Gygi S.P., Rochon Y., Franza B.R., Aebersold R.
 \newblock {Correlation between protein and mRNA abundance in yeast}.
 \newblock \emph{Mol. Cell. Biol.}, 19(3), 1720--30, 1999.
 
 \bibitem[{Hackstadt and Hess(2009)}]{Hackstadt2009}
-Hackstadt A.J. and Hess A.M.
+Hackstadt A.J., Hess A.M.
 \newblock {Filtering for increased power for microarray data analysis}.
 \newblock \emph{BMC Bioinformatics}, 10(1), 11, 2009.
+\newblock \doi{10.1186/1471-2105-10-11}.
 
 \bibitem[{Hagmann et~al.(2008)Hagmann, Cammoun, Gigandet, Meuli, Honey, Wedeen,
   and Sporns}]{Hagmann2008}
-Hagmann P., Cammoun L., Gigandet X., Meuli R., Honey C.J., Wedeen V.J., and
-  Sporns O.
+Hagmann P., Cammoun L., Gigandet X., Meuli R., Honey C.J., Wedeen V.J., Sporns
+  O.
 \newblock {Mapping the structural core of human cerebral cortex}.
 \newblock \emph{PLOS Biol.}, 6(7), e159, 2008.
+\newblock \doi{10.1371/journal.pbio.0060159}.
 
 \bibitem[{Harriger et~al.(2012)Harriger, van~den Heuvel, and
   Sporns}]{Harriger2012}
-Harriger L., van~den Heuvel M.P., and Sporns O.
+Harriger L., van~den Heuvel M.P., Sporns O.
 \newblock {Rich club organization of macaque cerebral cortex and its role in
   network communication}.
 \newblock \emph{PLoS One}, 7(9), e46497, 2012.
+\newblock \doi{10.1371/journal.pone.0046497}.
 
 \bibitem[{Harris et~al.(2010)Harris, Antoshechkin, Bieri, Blasiar, Chan, Chen,
-  {De La Cruz} et~al.}]{Harris2010}
+  {De La Cruz}, Davis, Duesbury, Fang et~al.}]{Harris2010}
 Harris T.W., Antoshechkin I., Bieri T., Blasiar D., Chan J., Chen W.J., {De La
-  Cruz} N., et~al.
+  Cruz} N., Davis P., Duesbury M., Fang R., et~al.
 \newblock {WormBase: a comprehensive resource for nematode research}.
 \newblock \emph{Nucleic Acids Res.}, 38(suppl{\_}1), D463--D467, 2010.
+\newblock \doi{10.1093/nar/gkp952}.
 
 \bibitem[{Hashimoto et~al.(2015)Hashimoto, Ohi, Yamamori, Yasuda, Fujimoto,
   Umeda-Yano, Watanabe, Fukunaga, and Takeda}]{Hashimoto2015}
 Hashimoto R., Ohi K., Yamamori H., Yasuda Y., Fujimoto M., Umeda-Yano S.,
-  Watanabe Y., Fukunaga M., and Takeda M.
+  Watanabe Y., Fukunaga M., Takeda M.
 \newblock {Imaging genetics and psychiatric disorders}.
 \newblock \emph{Curr. Mol. Med.}, 15(2), 168--75, 2015.
 
 \bibitem[{Hawrylycz et~al.(2015)Hawrylycz, Miller, Menon, Feng, Dolbeare,
-  Guillozet-Bongaarts, Jegga et~al.}]{Hawrylycz2015}
+  Guillozet-Bongaarts, Jegga, Aronow, Lee, Bernard et~al.}]{Hawrylycz2015}
 Hawrylycz M., Miller J.A., Menon V., Feng D., Dolbeare T., Guillozet-Bongaarts
-  A.L., Jegga A.G., et~al.
+  A.L., Jegga A.G., Aronow B.J., Lee C.K., Bernard A., et~al.
 \newblock {Canonical genetic signatures of the adult human brain}.
 \newblock \emph{Nat. Neurosci.}, 18(12), 1832--1844, 2015.
+\newblock \doi{10.1038/nn.4171}.
 
 \bibitem[{Hawrylycz et~al.(2012)Hawrylycz, Lein, Guillozet-Bongaarts, Shen, Ng,
-  Miller, van~de Lagemaat et~al.}]{Hawrylycz2012}
+  Miller, van~de Lagemaat, Smith, Ebbert, Riley et~al.}]{Hawrylycz2012}
 Hawrylycz M.J., Lein E.S., Guillozet-Bongaarts A.L., Shen E.H., Ng L., Miller
-  J.A., van~de Lagemaat L.N., et~al.
+  J.A., van~de Lagemaat L.N., Smith K.A., Ebbert A., Riley Z.L., et~al.
 \newblock {An anatomically comprehensive atlas of the adult human brain
   transcriptome}.
 \newblock \emph{Nature}, 489(7416), 391--9, 2012.
+\newblock \doi{10.1038/nature11405}.
 
 \bibitem[{Hecker et~al.(2017)Hecker, Seemann, Silahtaroglu, Ruzzo, and
   Gorodkin}]{Hecker2017}
-Hecker N., Seemann S.E., Silahtaroglu A., Ruzzo W.L., and Gorodkin J.
+Hecker N., Seemann S.E., Silahtaroglu A., Ruzzo W.L., Gorodkin J.
 \newblock {Associating transcription factors and conserved RNA structures with
   gene regulation in the human brain}.
 \newblock \emph{Sci. Rep.}, 7(1), 1--16, 2017.
+\newblock \doi{10.1038/s41598-017-06200-4}.
 
 \bibitem[{Henderson and Robinson(2014)}]{Henderson2014}
-Henderson J.a. and Robinson P.a.
+Henderson J.a., Robinson P.a.
 \newblock {Relations between the geometry of cortical gyrification and
   white-matter network architecture}.
 \newblock \emph{Brain Connect.}, 4(2), 112--30, 2014.
+\newblock \doi{10.1089/brain.2013.0183}.
 
 \bibitem[{Herv{\'{e}}(2010)}]{Herve2010}
 Herv{\'{e}} A.
 \newblock {Partial least squares regression and projection on latent structure
   regression (PLS Regression)}.
 \newblock \emph{Wiley Interdiscip. Rev. Comput. Stat.}, 2(1), 97--106, 2010.
+\newblock \doi{10.1002/wics.51}.
 
 \bibitem[{Hildebrand et~al.(2017)Hildebrand, Cicconet, Torres, Choi, Quan,
-  Moon, Wetzel et~al.}]{Hildebrand2017}
+  Moon, Wetzel, {Scott Champion}, Graham, Randlett et~al.}]{Hildebrand2017}
 Hildebrand D.G.C., Cicconet M., Torres R.M., Choi W., Quan T.M., Moon J.,
-  Wetzel A.W., et~al.
+  Wetzel A.W., {Scott Champion} A., Graham B.J., Randlett O., et~al.
 \newblock {Whole-brain serial-section electron microscopy in larval zebrafish}.
 \newblock \emph{Nature}, 545(7654), 345--349, 2017.
+\newblock \doi{10.1038/nature22356}.
 
 \bibitem[{Hilgetag and Kaiser(2004)}]{Hilgetag2004}
-Hilgetag C.C. and Kaiser M.
+Hilgetag C.C., Kaiser M.
 \newblock {Clustered organization of cortical connectivity}.
 \newblock \emph{Neuroinformatics}, 2(3), 353--360, 2004.
+\newblock \doi{10.1385/NI:2:3:353}.
 
 \bibitem[{Hobert(2003)}]{Hobert2003}
 Hobert O.
 \newblock {Behavioral plasticity in C. elegans: paradigms, circuits, genes}.
 \newblock \emph{J Neurobiol}, 54, 203--223, 2003.
+\newblock \doi{10.1002/neu.10168}.
 
 \bibitem[{Hoffmann et~al.(2010)Hoffmann, Segbert, Helbig, and
   Bossinger}]{Hoffmann2010}
-Hoffmann M., Segbert C., Helbig G., and Bossinger O.
+Hoffmann M., Segbert C., Helbig G., Bossinger O.
 \newblock {Intestinal tube formation in Caenorhabditis elegans requires vang-1
   and egl-15 signaling}.
 \newblock \emph{Dev. Biol.}, 339(2), 268--279, 2010.
+\newblock \doi{10.1016/j.ydbio.2009.12.002}.
 
 \bibitem[{H{\"{o}}glinger et~al.(2011)H{\"{o}}glinger, Melhem, Dickson,
-  Sleiman, Wang, Klei, Rademakers et~al.}]{Hoglinger2011}
+  Sleiman, Wang, Klei, Rademakers, de~Silva, Litvan, Riley
+  et~al.}]{Hoglinger2011}
 H{\"{o}}glinger G.U., Melhem N.M., Dickson D.W., Sleiman P.M.A., Wang L.S.,
-  Klei L., Rademakers R., et~al.
+  Klei L., Rademakers R., de~Silva R., Litvan I., Riley D.E., et~al.
 \newblock {Identification of common variants influencing risk of the tauopathy
   progressive supranuclear palsy}.
 \newblock \emph{Nat. Genet.}, 43(7), 699--705, 2011.
+\newblock \doi{10.1038/ng.859}.
 
 \bibitem[{Horv{\'{a}}t et~al.(2016)Horv{\'{a}}t, Gămănuț, Ercsey-Ravasz,
   Magrou, Gămănuț, {Van Essen}, Burkhalter, Knoblauch, Toroczkai, and
   Kennedy}]{Horvat2016}
 Horv{\'{a}}t S., Gămănuț R., Ercsey-Ravasz M., Magrou L., Gămănuț B.,
-  {Van Essen} D.C., Burkhalter A., Knoblauch K., Toroczkai Z., and Kennedy H.
+  {Van Essen} D.C., Burkhalter A., Knoblauch K., Toroczkai Z., Kennedy H.
 \newblock {Spatial embedding and wiring cost constrain the functional layout of
   the cortical network of rodents and primates}.
 \newblock \emph{PLOS Biol.}, 14(7), e1002512, 2016.
+\newblock \doi{10.1371/journal.pbio.1002512}.
 
 \bibitem[{Hu and Wang(2017)}]{Hu2017}
-Hu G. and Wang G.Z.
+Hu G., Wang G.Z.
 \newblock {Decoding nervous system by single-cell RNA sequencing}.
 \newblock \emph{Quant. Biol.}, 5(3), 210--214, 2017.
+\newblock \doi{10.1007/s40484-017-0116-3}.
 
 \bibitem[{Hutchison et~al.(2004)Hutchison, Stallings, McGeary, and
   Bryan}]{Hutchison2004}
-Hutchison K.E., Stallings M., McGeary J., and Bryan A.
+Hutchison K.E., Stallings M., McGeary J., Bryan A.
 \newblock {Population stratification in the candidate gene study: fatal threat
   or red herring?}
 \newblock \emph{Psychol. Bull.}, 130(1), 66--79, 2004.
+\newblock \doi{10.1037/0033-2909.130.1.66}.
 
 \bibitem[{Hwang et~al.(2013)Hwang, Hallquist, and Luna}]{Hwang2013}
-Hwang K., Hallquist M.N., and Luna B.
+Hwang K., Hallquist M.N., Luna B.
 \newblock {The development of hub architecture in the human functional brain
   network}.
 \newblock \emph{Cereb. Cortex}, 23(10), 2380--2393, 2013.
+\newblock \doi{10.1093/cercor/bhs227}.
 
 \bibitem[{Ikeda et~al.(2008)Ikeda, Duan, Matsuki, Kunitomo, Hutter, Hedgecock,
   and Iino}]{Ikeda2008}
-Ikeda D.D., Duan Y., Matsuki M., Kunitomo H., Hutter H., Hedgecock E.M., and
-  Iino Y.
+Ikeda D.D., Duan Y., Matsuki M., Kunitomo H., Hutter H., Hedgecock E.M., Iino
+  Y.
 \newblock {CASY-1, an ortholog of calsyntenins/alcadeins, is essential for
   learning in Caenorhabditis elegans}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 105(13), 5260--5265, 2008.
+\newblock \doi{10.1073/pnas.0711894105}.
 
 \bibitem[{Irizarry et~al.(2009)Irizarry, Wang, Zhou, and Speed}]{Irizarry2009}
-Irizarry R.A., Wang C., Zhou Y., and Speed T.P.
+Irizarry R.A., Wang C., Zhou Y., Speed T.P.
 \newblock {Gene set enrichment analysis made simple}.
 \newblock \emph{Stat. Methods Med. Res.}, 18(6), 565--75, 2009.
+\newblock \doi{10.1177/0962280209351908}.
 
 \bibitem[{Jahanshad et~al.(2012{\natexlab{a}})Jahanshad, Hibar, Ryles, Toga,
-  McMahon, de~Zubicaray, Hansell et~al.}]{Jahanshad2012a}
+  McMahon, de~Zubicaray, Hansell, Montgomery, Martin, Wright
+  et~al.}]{Jahanshad2012a}
 Jahanshad N., Hibar D.P., Ryles A., Toga A.W., McMahon K.L., de~Zubicaray G.I.,
-  Hansell N.K., et~al.
+  Hansell N.K., Montgomery G.W., Martin N.G., Wright M.J., et~al.
 \newblock {Discovery of genes that affect human brain connectivity: a
   genome-wide analysis of the connectome}.
 \newblock \emph{Proc./IEEE Int. Symp. Biomed. Imaging}, p. 542,
   2012{\natexlab{a}}.
+\newblock \doi{10.1109/ISBI.2012.6235605}.
 
 \bibitem[{Jahanshad et~al.(2012{\natexlab{b}})Jahanshad, Kohannim, Hibar,
-  Stein, McMahon, de~Zubicaray, Medland et~al.}]{Jahanshad2012b}
+  Stein, McMahon, de~Zubicaray, Medland, Montgomery, Whitfield, Martin
+  et~al.}]{Jahanshad2012b}
 Jahanshad N., Kohannim O., Hibar D.P., Stein J.L., McMahon K.L., de~Zubicaray
-  G.I., Medland S.E., et~al.
+  G.I., Medland S.E., Montgomery G.W., Whitfield J.B., Martin N.G., et~al.
 \newblock {Brain structure in healthy adults is related to serum transferrin
   and the H63D polymorphism in the HFE gene}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 109(14), E851--9, 2012{\natexlab{b}}.
+\newblock \doi{10.1073/pnas.1105543109}.
 
 \bibitem[{Jahanshad et~al.(2013)Jahanshad, Rajagopalan, Hua, Hibar, Nir, Toga,
-  Jack et~al.}]{Jahanshad2013}
+  Jack, Saykin, Green, Weiner et~al.}]{Jahanshad2013}
 Jahanshad N., Rajagopalan P., Hua X., Hibar D.P., Nir T.M., Toga A.W., Jack
-  C.R., et~al.
+  C.R., Saykin A.J., Green R.C., Weiner M.W., et~al.
 \newblock {Genome-wide scan of healthy human connectome discovers SPON1 gene
   variant influencing dementia severity}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 110(12), 4768--73, 2013.
+\newblock \doi{10.1073/pnas.1216206110}.
 
 \bibitem[{Jaksik et~al.(2015)Jaksik, Iwanaszko, Rzeszowska-Wolny, and
   Kimmel}]{Jaksik2015}
-Jaksik R., Iwanaszko M., Rzeszowska-Wolny J., and Kimmel M.
+Jaksik R., Iwanaszko M., Rzeszowska-Wolny J., Kimmel M.
 \newblock {Microarray experiments and factors which affect their reliability}.
 \newblock \emph{Biol. Direct}, 10, 46, 2015.
+\newblock \doi{10.1186/s13062-015-0077-2}.
 
 \bibitem[{Jansen et~al.(2015)Jansen, Mous, White, Posthuma, and
   Polderman}]{Jansen2015}
-Jansen A.G., Mous S.E., White T., Posthuma D., and Polderman T.J.C.
+Jansen A.G., Mous S.E., White T., Posthuma D., Polderman T.J.C.
 \newblock {What twin studies tell us about the heritability of brain
   development, morphology, and function: a review}.
 \newblock \emph{Neuropsychol. Rev.}, 25(1), 27--46, 2015.
+\newblock \doi{10.1007/s11065-015-9278-9}.
 
 \bibitem[{Jansen et~al.(2018)Jansen, Muetzel, Polderman, Jaddoe, Verhulst,
   van~der Lugt, Tiemeier, Posthuma, and White}]{Jansen2018}
 Jansen P.R., Muetzel R.L., Polderman T.J.C., Jaddoe V.W., Verhulst F.C.,
-  van~der Lugt A., Tiemeier H., Posthuma D., and White T.
+  van~der Lugt A., Tiemeier H., Posthuma D., White T.
 \newblock {Polygenic scores for neuropsychiatric traits and white matter
   microstructure in the pediatric population}.
 \newblock \emph{Biol. Psychiatry Cogn. Neurosci. Neuroimaging}, 4(3), 2018.
+\newblock \doi{10.1016/j.bpsc.2018.07.010}.
 
 \bibitem[{Jbabdi and Johansen-Berg(2011)}]{Jbabdi2011}
-Jbabdi S. and Johansen-Berg H.
+Jbabdi S., Johansen-Berg H.
 \newblock {Tractography: where do we go from here?}
 \newblock \emph{Brain Connect.}, 1(3), 169--183, 2011.
+\newblock \doi{10.1089/brain.2011.0033}.
 
 \bibitem[{Jenkinson et~al.(2012)Jenkinson, Beckmann, Behrens, Woolrich, and
   Smith}]{Jenkinson2012}
-Jenkinson M., Beckmann C.F., Behrens T.E., Woolrich M.W., and Smith S.M.
+Jenkinson M., Beckmann C.F., Behrens T.E., Woolrich M.W., Smith S.M.
 \newblock {FSL}.
 \newblock \emph{Neuroimage}, 62(2), 782--790, 2012.
+\newblock \doi{10.1016/J.NEUROIMAGE.2011.09.015}.
 
 \bibitem[{Jeurissen et~al.(2001)Jeurissen, Leemans, Tournier, Jones, and
   Sijbers}]{Jeurissen2001}
-Jeurissen B., Leemans A., Tournier J.D., Jones D.K., and Sijbers J.
+Jeurissen B., Leemans A., Tournier J.D., Jones D.K., Sijbers J.
 \newblock {Estimating the number of fiber orientations in diffusion MRI voxels:
   a constrained spherical deconvolution study}.
 \newblock Technical Report~5, 2001.
 
 \bibitem[{Ji et~al.(2014)Ji, Fakhry, and Deng}]{Ji2014}
-Ji S., Fakhry A., and Deng H.
+Ji S., Fakhry A., Deng H.
 \newblock {Integrative analysis of the connectivity and gene expression atlases
   in the mouse brain}.
 \newblock \emph{Neuroimage}, 84, 245--253, 2014.
+\newblock \doi{10.1016/j.neuroimage.2013.08.049}.
 
 \bibitem[{Johnson et~al.(2010)Johnson, Badea, Brandenburg, Cofer, Fubara, Liu,
   and Nissanov}]{Johnson2010}
-Johnson G.A., Badea A., Brandenburg J., Cofer G., Fubara B., Liu S., and
-  Nissanov J.
+Johnson G.A., Badea A., Brandenburg J., Cofer G., Fubara B., Liu S., Nissanov
+  J.
 \newblock {Waxholm Space: An image-based reference for coordinating mouse brain
   research}.
 \newblock \emph{Neuroimage}, 53(2), 365--372, 2010.
+\newblock \doi{10.1016/j.neuroimage.2010.06.067}.
 
 \bibitem[{Johnson et~al.(2009)Johnson, Kawasawa, Mason, Krsnik, Coppola,
   Bogdanovi{\'{c}}, Geschwind, Mane, State, and {\v{S}}estan}]{Johnson2009}
 Johnson M.B., Kawasawa Y.I., Mason C.E., Krsnik {\v{Z}}., Coppola G.,
-  Bogdanovi{\'{c}} D., Geschwind D.H., Mane S.M., State M.W., and {\v{S}}estan
-  N.
+  Bogdanovi{\'{c}} D., Geschwind D.H., Mane S.M., State M.W., {\v{S}}estan N.
 \newblock {Functional and evolutionary insights into human brain development
   through global transcriptome analysis}.
 \newblock \emph{Neuron}, 62(4), 494--509, 2009.
+\newblock \doi{10.1016/j.neuron.2009.03.027}.
 
 \bibitem[{Johnson et~al.(2015)Johnson, Wang, Atabay, Murphy, Doan, Hecht, and
   Walsh}]{Johnson2015a}
-Johnson M.B., Wang P.P., Atabay K.D., Murphy E.A., Doan R.N., Hecht J.L., and
-  Walsh C.A.
+Johnson M.B., Wang P.P., Atabay K.D., Murphy E.A., Doan R.N., Hecht J.L., Walsh
+  C.A.
 \newblock {Single-cell analysis reveals transcriptional heterogeneity of neural
   progenitors in human cortex}.
 \newblock \emph{Nat. Neurosci.}, 18(5), 637--646, 2015.
+\newblock \doi{10.1038/nn.3980}.
 
 \bibitem[{Jones(2010)}]{Jones2010}
 Jones D.K.
 \newblock {Challenges and limitations of quantifying brain connectivity in vivo
   with diffusion MRI}.
 \newblock \emph{Imaging Med.}, 2(3), 341--355, 2010.
+\newblock \doi{10.2217/iim.10.21}.
 
 \bibitem[{Jones et~al.(2013)Jones, Kn{\"{o}}sche, and Turner}]{Jones2013}
-Jones D.K., Kn{\"{o}}sche T.R., and Turner R.
+Jones D.K., Kn{\"{o}}sche T.R., Turner R.
 \newblock {White matter integrity, fiber count, and other fallacies: the do's
   and don'ts of diffusion MRI}.
 \newblock \emph{Neuroimage}, 73, 239--54, 2013.
+\newblock \doi{10.1016/j.neuroimage.2012.06.081}.
 
 \bibitem[{Joseph(2002)}]{Joseph2002}
 Joseph J.
 \newblock {Twin studies in psychiatry and psychology: science or
   pseudoscience?}
 \newblock \emph{Psychiatr. Q.}, 73(1), 71--82, 2002.
+\newblock \doi{10.1023/A:1012896802713}.
 
 \bibitem[{Kaiser and Hilgetag(2006)}]{Kaiser2006}
-Kaiser M. and Hilgetag C.C.
+Kaiser M., Hilgetag C.C.
 \newblock {Nonoptimal component placement, but short processing paths, due to
   long-distance projections in neural systems}.
 \newblock \emph{PLOS Comput. Biol.}, 2(7), e95, 2006.
+\newblock \doi{10.1371/journal.pcbi.0020095}.
 
 \bibitem[{Kanehisa and Goto(2000)}]{Kanehisa2000}
-Kanehisa M. and Goto S.
+Kanehisa M., Goto S.
 \newblock {KEGG: kyoto encyclopedia of genes and genomes}.
 \newblock \emph{Nucleic Acids Res.}, 28(1), 27--30, 2000.
 
-\bibitem[{Kang et~al.(2011)Kang, Kawasawa, Cheng, Zhu, Xu, Li, Sousa
-  et~al.}]{Kang2011}
-Kang H.J., Kawasawa Y.I., Cheng F., Zhu Y., Xu X., Li M., Sousa A.M.M., et~al.
+\bibitem[{Kang et~al.(2011)Kang, Kawasawa, Cheng, Zhu, Xu, Li, Sousa, Pletikos,
+  Meyer, Sedmak et~al.}]{Kang2011}
+Kang H.J., Kawasawa Y.I., Cheng F., Zhu Y., Xu X., Li M., Sousa A.M.M.,
+  Pletikos M., Meyer K.A., Sedmak G., et~al.
 \newblock {Spatio-temporal transcriptome of the human brain}.
 \newblock \emph{Nature}, 478(7370), 483--9, 2011.
+\newblock \doi{10.1038/nature10523}.
 
 \bibitem[{Kashtan et~al.(2004)Kashtan, Itzkovitz, Milo, and Alon}]{Kashtan2004}
-Kashtan N., Itzkovitz S., Milo R., and Alon U.
+Kashtan N., Itzkovitz S., Milo R., Alon U.
 \newblock {Topological generalizations of network motifs}.
 \newblock \emph{Phys. Rev. E}, 70(3), 031909, 2004.
+\newblock \doi{10.1103/PhysRevE.70.031909}.
 
 \bibitem[{Kaufman et~al.(2006)Kaufman, Dror, Meilijson, and
   Ruppin}]{Kaufman2006}
-Kaufman A., Dror G., Meilijson I., and Ruppin E.
+Kaufman A., Dror G., Meilijson I., Ruppin E.
 \newblock {Gene expression of Caenorhabditis elegans neurons carries
   information on their synaptic connectivity}.
 \newblock \emph{PLOS Comput. Biol.}, 2(12), e167, 2006.
+\newblock \doi{10.1371/journal.pcbi.0020167}.
 
 \bibitem[{Keil et~al.(2018)Keil, Qalieh, and Kwan}]{Keil2018}
-Keil J.M., Qalieh A., and Kwan K.Y.
+Keil J.M., Qalieh A., Kwan K.Y.
 \newblock {Brain transcriptome databases: a user's guide}.
 \newblock \emph{J. Neurosci.}, 10, 1930--17, 2018.
+\newblock \doi{10.1523/JNEUROSCI.1930-17.2018}.
 
 \bibitem[{Keo et~al.(2017)Keo, Aziz, Dzyubachyk, van~der Grond, van Roon-Mom,
   Lelieveldt, Reinders, and Mahfouz}]{Keo2017}
 Keo A., Aziz N.A., Dzyubachyk O., van~der Grond J., van Roon-Mom W.M.C.,
-  Lelieveldt B.P.F., Reinders M.J.T., and Mahfouz A.
+  Lelieveldt B.P.F., Reinders M.J.T., Mahfouz A.
 \newblock {Co-expression patterns between ATN1 and ATXN2 coincide with brain
   regions affected in Huntington's disease}.
 \newblock \emph{Front. Mol. Neurosci.}, 10, 1--13, 2017.
+\newblock \doi{10.3389/fnmol.2017.00399}.
 
 \bibitem[{Kim and Kaiser(2014)}]{Kim2014a}
-Kim J.S. and Kaiser M.
+Kim J.S., Kaiser M.
 \newblock {From Caenorhabditis elegans to the human connectome: a specific
   modular organization increases metabolic, functional and developmental
   efficiency}.
 \newblock \emph{Philos. Trans. R. Soc. B}, 369(1653), 2014.
+\newblock \doi{10.1098/rstb.2013.0529}.
 
 \bibitem[{Kim et~al.(2016)Kim, Kim, Kralik, and Jeong}]{Kim2016}
-Kim S., Kim H., Kralik J.D., and Jeong J.
+Kim S., Kim H., Kralik J.D., Jeong J.
 \newblock {Vulnerability-based critical neurons, synapses, and pathways in the
   Caenorhabditis elegans connectome}.
 \newblock \emph{PLOS Comput. Biol.}, 12(8), e1005084, 2016.
+\newblock \doi{10.1371/journal.pcbi.1005084}.
 
 \bibitem[{Kirsch and Chechik(2016)}]{Kirsch2016a}
-Kirsch L. and Chechik G.
+Kirsch L., Chechik G.
 \newblock {On expression patterns and developmental origin of human brain
   regions}.
 \newblock \emph{PLOS Comput. Biol.}, 12(8), 1--25, 2016.
+\newblock \doi{10.1371/journal.pcbi.1005064}.
 
 \bibitem[{Klauser et~al.(2016)Klauser, Baker, Cropley, Bousman, Fornito, and
   Cocchi}]{Klauser2016}
-Klauser P., Baker S.T., Cropley V.L., Bousman C., Fornito A., and Cocchi L.
+Klauser P., Baker S.T., Cropley V.L., Bousman C., Fornito A., Cocchi L.
 \newblock {White matter disruptions in schizophrenia are spatially widespread
   and topologically converge on brain network hubs}.
 \newblock \emph{Schizophr. Bull.}, 43(2), 425–435, 2016.
+\newblock \doi{10.1093/schbul/sbw100}.
 
 \bibitem[{Klyachko and Stevens(2003)}]{Klyachko2003}
-Klyachko V.A. and Stevens C.F.
+Klyachko V.A., Stevens C.F.
 \newblock {Connectivity optimization and the positioning of cortical areas}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 100(13), 7937--41, 2003.
+\newblock \doi{10.1073/pnas.0932745100}.
 
 \bibitem[{Komorowski et~al.(2016)Komorowski, James, Philippe, Gryglewski,
-  Bauer, Hienert, Spies et~al.}]{Komorowski2016}
+  Bauer, Hienert, Spies, Kautzky, Vanicek, Hahn et~al.}]{Komorowski2016}
 Komorowski A., James G.M., Philippe C., Gryglewski G., Bauer A., Hienert M.,
-  Spies M., et~al.
+  Spies M., Kautzky A., Vanicek T., Hahn A., et~al.
 \newblock {Association of protein distribution and gene expression revealed by
   PET and post-mortem quantification in the serotonergic system of the human
   brain}.
 \newblock \emph{Cereb. Cortex}, 27(1), 117--130, 2016.
+\newblock \doi{10.1093/cercor/bhw355}.
 
 \bibitem[{Kouri et~al.(2015)Kouri, Ross, Dombroski, Younkin, Serie,
-  Soto-Ortolaza, Baker et~al.}]{Kouri2015}
+  Soto-Ortolaza, Baker, Finch, Yoon, Kim et~al.}]{Kouri2015}
 Kouri N., Ross O.A., Dombroski B., Younkin C.S., Serie D.J., Soto-Ortolaza A.,
-  Baker M., et~al.
+  Baker M., Finch N.C.A., Yoon H., Kim J., et~al.
 \newblock {Genome-wide association study of corticobasal degeneration
   identifies risk variants shared with progressive supranuclear palsy}.
 \newblock \emph{Nat. Commun.}, 6(1), 7247, 2015.
+\newblock \doi{10.1038/ncomms8247}.
 
 \bibitem[{Krebs et~al.(2014)Krebs, Lewin, Kilpatrick, and
   Goldstein}]{Krebs2014}
-Krebs J.E., Lewin B., Kilpatrick S.T., and Goldstein E.S.
+Krebs J.E., Lewin B., Kilpatrick S.T., Goldstein E.S.
 \newblock {Lewin's genes XI}.
 \newblock Jones {\&} Bartlett Learning, Burlington Mass., 11th ed. edition,
   2014.
 
 \bibitem[{Krienen et~al.(2016)Krienen, Yeo, Ge, Buckner, and
   Sherwood}]{Krienen2016}
-Krienen F.M., Yeo B.T.T., Ge T., Buckner R.L., and Sherwood C.C.
+Krienen F.M., Yeo B.T.T., Ge T., Buckner R.L., Sherwood C.C.
 \newblock {Transcriptional profiles of supragranular-enriched genes associate
   with corticocortical network architecture in the human brain}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 113(4), E469--78, 2016.
+\newblock \doi{10.1073/pnas.1510903113}.
 
 \bibitem[{Kukurba and Montgomery(2015)}]{Kukurba2015}
-Kukurba K.R. and Montgomery S.B.
+Kukurba K.R., Montgomery S.B.
 \newblock {RNA sequencing and analysis}.
 \newblock \emph{Cold Spring Harb. Protoc.}, 2015(11), 951--69, 2015.
+\newblock \doi{10.1101/pdb.top084970}.
 
 \bibitem[{Kumar et~al.(2013)Kumar, Gibbs, Beilina, Dillman, Kumaran, Trabzuni,
-  Ryten et~al.}]{Kumar2013}
+  Ryten, Walker, Smith, Traynor et~al.}]{Kumar2013}
 Kumar A., Gibbs J.R., Beilina A., Dillman A., Kumaran R., Trabzuni D., Ryten
-  M., et~al.
+  M., Walker R., Smith C., Traynor B.J., et~al.
 \newblock {Age-associated changes in gene expression in human brain and
   isolated neurons}.
 \newblock \emph{Neurobiol. Aging}, 34(4), 1199--209, 2013.
+\newblock \doi{10.1016/j.neurobiolaging.2012.10.021}.
 
 \bibitem[{Lancichinetti et~al.(2012)Lancichinetti, Fortunato, Thomson, Brenner,
   and Moon}]{Lancichinetti2012}
-Lancichinetti A., Fortunato S., Thomson J.N., Brenner S., and Moon S.
+Lancichinetti A., Fortunato S., Thomson J.N., Brenner S., Moon S.
 \newblock {Consensus clustering in complex networks}.
 \newblock \emph{Sci. Rep.}, 2, 547--579, 2012.
+\newblock \doi{10.1038/srep00336}.
 
 \bibitem[{Laughlin and Sejnowski(2003)}]{Laughlin2003}
-Laughlin S.B. and Sejnowski T.J.
+Laughlin S.B., Sejnowski T.J.
 \newblock {Communication in neuronal networks}.
 \newblock \emph{Science}, 301(5641), 1870--4, 2003.
+\newblock \doi{10.1126/science.1089662}.
 
 \bibitem[{Laureys et~al.(2004)Laureys, Owen, and Schiff}]{Laureys2004}
-Laureys S., Owen A.M., and Schiff N.D.
+Laureys S., Owen A.M., Schiff N.D.
 \newblock {Brain function in coma, vegetative state, and related disorders}.
 \newblock \emph{Lancet Neurol.}, 3(9), 537--546, 2004.
+\newblock \doi{10.1016/S1474-4422(04)00852-X}.
 
 \bibitem[{Lee et~al.(2017)Lee, Hagenauer, Absher, Morrison, Bale, Myers,
   Watson, Akil, Schatzberg, and Lyons}]{Lee2017a}
 Lee A.G., Hagenauer M., Absher D., Morrison K.E., Bale T.L., Myers R.M., Watson
-  S.J., Akil H., Schatzberg A.F., and Lyons D.M.
+  S.J., Akil H., Schatzberg A.F., Lyons D.M.
 \newblock {Stress amplifies sex differences in primate prefrontal profiles of
   gene expression}.
 \newblock \emph{Biol. Sex Differ.}, 8(1), 36, 2017.
+\newblock \doi{10.1186/s13293-017-0157-3}.
 
 \bibitem[{Lein et~al.(2017)Lein, Borm, and Linnarsson}]{Lein2017}
-Lein E., Borm L.E., and Linnarsson S.
+Lein E., Borm L.E., Linnarsson S.
 \newblock {The promise of spatial transcriptomics for neuroscience in the era
   of molecular cell typing}.
 \newblock \emph{Science}, 358(6359), 64--69, 2017.
+\newblock \doi{10.1126/science.aan6827}.
 
-\bibitem[{Lein et~al.(2007)Lein, Hawrylycz, Ao, Ayres, Bensinger, Bernard, Boe
-  et~al.}]{Lein2007a}
+\bibitem[{Lein et~al.(2007)Lein, Hawrylycz, Ao, Ayres, Bensinger, Bernard, Boe,
+  Boguski, Brockway, Byrnes et~al.}]{Lein2007a}
 Lein E.S., Hawrylycz M.J., Ao N., Ayres M., Bensinger A., Bernard A., Boe A.F.,
-  et~al.
+  Boguski M.S., Brockway K.S., Byrnes E.J., et~al.
 \newblock {Genome-wide atlas of gene expression in the adult mouse brain}.
 \newblock \emph{Nature}, 445(7124), 168--176, 2007.
+\newblock \doi{10.1038/nature05453}.
 
 \bibitem[{Lennie(2003)}]{Lennie2003}
 Lennie P.
@@ -1437,137 +1643,158 @@ Lennie P.
 \newblock \emph{Curr. Biol.}, 13(6), 493--7, 2003.
 
 \bibitem[{Leung-Hagesteijn et~al.(1992)Leung-Hagesteijn, Spence, Stern, Zhou,
-  Su, Hedgecock, Culotti et~al.}]{Leung-Hagesteijn1992}
+  Su, Hedgecock, Culotti, Hu, Silbiger, Levy et~al.}]{Leung-Hagesteijn1992}
 Leung-Hagesteijn C., Spence A.M., Stern B.D., Zhou Y., Su M.W., Hedgecock E.M.,
-  Culotti J.G., et~al.
+  Culotti J.G., Hu S., Silbiger S., Levy R., et~al.
 \newblock {UNC-5, a transmembrane protein with immunoglobulin and
   thrombospondin type 1 domains, guides cell and pioneer axon migrations in C.
   elegans}.
 \newblock \emph{Cell}, 71(2), 289--299, 1992.
+\newblock \doi{10.1016/0092-8674(92)90357-I}.
 
 \bibitem[{Levy and Reyes(2012)}]{Levy2012}
-Levy R.B. and Reyes A.D.
+Levy R.B., Reyes A.D.
 \newblock {Spatial profile of excitatory and inhibitory synaptic connectivity
   in mouse primary auditory cortex}.
 \newblock \emph{J. Neurosci.}, 32(16), 5609--5619, 2012.
+\newblock \doi{10.1523/JNEUROSCI.5158-11.2012}.
 
 \bibitem[{Li et~al.(2009)Li, Liu, Li, Qin, Li, Yu, and Jiang}]{Li2009}
-Li Y., Liu Y., Li J., Qin W., Li K., Yu C., and Jiang T.
+Li Y., Liu Y., Li J., Qin W., Li K., Yu C., Jiang T.
 \newblock {Brain anatomical network and intelligence}.
 \newblock \emph{PLOS Comput. Biol.}, 5(5), e1000395, 2009.
+\newblock \doi{10.1371/journal.pcbi.1000395}.
 
 \bibitem[{Li et~al.(2012)Li, Lu, Cheng, Ge, Xu, Shi, and Dan}]{Li2012}
-Li Y., Lu H., Cheng P.l., Ge S., Xu H., Shi S.H., and Dan Y.
+Li Y., Lu H., Cheng P.l., Ge S., Xu H., Shi S.H., Dan Y.
 \newblock {Clonally related visual cortical neurons show similar stimulus
   feature selectivity}.
 \newblock \emph{Nature}, 486(7401), 118, 2012.
+\newblock \doi{10.1038/nature11110}.
 
 \bibitem[{Liang et~al.(2017)Liang, Hsu, Lu, Sumiyoshi, He, and
   Yang}]{Liang2017}
-Liang X., Hsu L.M., Lu H., Sumiyoshi A., He Y., and Yang Y.
+Liang X., Hsu L.M., Lu H., Sumiyoshi A., He Y., Yang Y.
 \newblock {The rich-club organization in rat functional brain network to
   balance between communication cost and efficiency}.
 \newblock \emph{Cereb. Cortex}, 28(3), 924--935, 2017.
+\newblock \doi{10.1093/cercor/bhw416}.
 
 \bibitem[{Liang et~al.(2013)Liang, Zou, He, and Yang}]{Liang2013a}
-Liang X., Zou Q., He Y., and Yang Y.
+Liang X., Zou Q., He Y., Yang Y.
 \newblock {Coupling of functional connectivity and regional cerebral blood flow
   reveals a physiological basis for network hubs of the human brain}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 110(5), 1929--34, 2013.
+\newblock \doi{10.1073/pnas.1214900110}.
 
 \bibitem[{Lichtman and Denk(2011)}]{Lichtman2011}
-Lichtman J.W. and Denk W.
+Lichtman J.W., Denk W.
 \newblock {The big and the small: challenges of imaging the brain's circuits}.
 \newblock \emph{Science}, 334(6056), 618--623, 2011.
+\newblock \doi{10.1126/science.1209168}.
 
 \bibitem[{Liu et~al.(2016{\natexlab{a}})Liu, Zhang, Cui, Qin, Tao, Li, Yu, and
   Jiang}]{Liu2016a}
-Liu B., Zhang X., Cui Y., Qin W., Tao Y., Li J., Yu C., and Jiang T.
+Liu B., Zhang X., Cui Y., Qin W., Tao Y., Li J., Yu C., Jiang T.
 \newblock {Polygenic risk for schizophrenia influences cortical gyrification in
   2 independent general populations}.
 \newblock \emph{Schizophr. Bull.}, 43(3), sbw051, 2016{\natexlab{a}}.
+\newblock \doi{10.1093/schbul/sbw051}.
 
 \bibitem[{Liu et~al.(2010)Liu, Bebu, and Li}]{Liu2010}
-Liu H., Bebu I., and Li X.
+Liu H., Bebu I., Li X.
 \newblock {Microarray probes and probe sets}.
 \newblock \emph{Front. Biosci. (Elite Ed).}, 2, 325--38, 2010.
+\newblock \doi{10.1016/j.biotechadv.2011.08.021.Secreted}.
 
 \bibitem[{Liu et~al.(2016{\natexlab{b}})Liu, Beyer, and Aebersold}]{Liu2016}
-Liu Y., Beyer A., and Aebersold R.
+Liu Y., Beyer A., Aebersold R.
 \newblock {On the dependency of cellular protein levels on mRNA abundance}.
 \newblock \emph{Cell}, 165(3), 535--550, 2016{\natexlab{b}}.
+\newblock \doi{10.1016/j.cell.2016.03.014}.
 
 \bibitem[{Liu et~al.(2017)Liu, Rolls, Zhang, Yang, Du, Gong, Cheng, Wang,
   Ugurbil, and Feng}]{Liu2017}
 Liu Z., Rolls E.T., Zhang J., Yang M., Du J., Gong W., Cheng W., Wang H.,
-  Ugurbil K., and Feng J.
+  Ugurbil K., Feng J.
 \newblock {The functional and genetic associations of neuroimaging data: a
   toolbox}.
 \newblock \emph{bioRxiv}, p. 178640, 2017.
+\newblock \doi{10.1101/178640}.
 
 \bibitem[{Luo et~al.(2018)Luo, Callaway, and Svoboda}]{Luo2018}
-Luo L., Callaway E.M., and Svoboda K.
+Luo L., Callaway E.M., Svoboda K.
 \newblock {Genetic dissection of neural circuits: a decade of progress}.
 \newblock \emph{Neuron}, 98(2), 256--281, 2018.
+\newblock \doi{10.1016/j.neuron.2018.03.040}.
 
 \bibitem[{Mancarci et~al.(2017)Mancarci, Toker, Tripathy, Li, Rocco, Sibille,
   and Pavlidis}]{Mancarci2017}
-Mancarci B.O., Toker L., Tripathy S.J., Li B., Rocco B., Sibille E., and
-  Pavlidis P.
+Mancarci B.O., Toker L., Tripathy S.J., Li B., Rocco B., Sibille E., Pavlidis
+  P.
 \newblock {Cross-laboratory analysis of brain cell type transcriptomes with
   applications to interpretation of bulk tissue data}.
 \newblock \emph{eneuro}, 4(6), ENEURO.0212--17.2017, 2017.
+\newblock \doi{10.1523/ENEURO.0212-17.2017}.
 
 \bibitem[{Margineantu et~al.(2007)Margineantu, Emerson, Diaz, and
   Hockenbery}]{Margineantu2007}
-Margineantu D.H., Emerson C.B., Diaz D., and Hockenbery D.M.
+Margineantu D.H., Emerson C.B., Diaz D., Hockenbery D.M.
 \newblock {Hsp90 inhibition decreases mitochondrial protein turnover}.
 \newblock \emph{PLOS One}, 2(10), e1066, 2007.
+\newblock \doi{10.1371/journal.pone.0001066}.
 
 \bibitem[{Markett et~al.(2017)Markett, de~Reus, Reuter, Montag, Weber,
   Schoene-Bake, and van~den Heuvel}]{Markett2017}
 Markett S., de~Reus M.A., Reuter M., Montag C., Weber B., Schoene-Bake J.C.,
-  and van~den Heuvel M.P.
+  van~den Heuvel M.P.
 \newblock {Variation on the dopamine D2 receptor gene (DRD2) is associated with
   basal ganglia-to-frontal structural connectivity}.
 \newblock \emph{Neuroimage}, 155, 473--479, 2017.
+\newblock \doi{10.1016/j.neuroimage.2017.04.005}.
 
 \bibitem[{Markov et~al.(2013{\natexlab{a}})Markov, Ercsey-Ravasz, Lamy,
-  {Ribeiro Gomes}, Magrou, Misery, Giroud et~al.}]{Markov2013a}
+  {Ribeiro Gomes}, Magrou, Misery, Giroud, Barone, Dehay, Toroczkai
+  et~al.}]{Markov2013a}
 Markov N.T., Ercsey-Ravasz M., Lamy C., {Ribeiro Gomes} A.R., Magrou L., Misery
-  P., Giroud P., et~al.
+  P., Giroud P., Barone P., Dehay C., Toroczkai Z., et~al.
 \newblock {The role of long-range connections on the specificity of the macaque
   interareal cortical network}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 110(13), 5187--5192,
   2013{\natexlab{a}}.
+\newblock \doi{10.1073/pnas.1218972110}.
 
 \bibitem[{Markov et~al.(2013{\natexlab{b}})Markov, Ercsey-Ravasz, {Van Essen},
   Knoblauch, Toroczkai, and Kennedy}]{Markov2013}
 Markov N.T., Ercsey-Ravasz M., {Van Essen} D.C., Knoblauch K., Toroczkai Z.,
-  and Kennedy H.
+  Kennedy H.
 \newblock {Cortical high-density counterstream architectures}.
 \newblock \emph{Science}, 342(6158), 2013{\natexlab{b}}.
+\newblock \doi{10.1126/science.1238406}.
 
 \bibitem[{Markov et~al.(2014)Markov, Ercsey-Ravasz, {Ribeiro Gomes}, Lamy,
-  Magrou, Vezoli, Misery et~al.}]{Markov2014}
+  Magrou, Vezoli, Misery, Falchier, Quilodran, Gariel et~al.}]{Markov2014}
 Markov N.T., Ercsey-Ravasz M.M., {Ribeiro Gomes} A.R., Lamy C., Magrou L.,
-  Vezoli J., Misery P., et~al.
+  Vezoli J., Misery P., Falchier A., Quilodran R., Gariel M.A., et~al.
 \newblock {A weighted and directed interareal connectivity matrix for macaque
   cerebral cortex}.
 \newblock \emph{Cereb. Cortex}, 24(1), 17--36, 2014.
+\newblock \doi{10.1093/cercor/bhs270}.
 
 \bibitem[{Maslov and Sneppen(2002)}]{Maslov2002}
-Maslov S. and Sneppen K.
+Maslov S., Sneppen K.
 \newblock {Specificity and stability in topology of protein networks}.
 \newblock \emph{Science}, 296(5569), 910--913, 2002.
+\newblock \doi{10.1126/science.1065103}.
 
 \bibitem[{McColgan et~al.(2018)McColgan, Gregory, Seunarine, Razi, Papoutsi,
-  Johnson, Durr et~al.}]{McColgan2018}
+  Johnson, Durr, Roos, Leavitt, Holmans et~al.}]{McColgan2018}
 McColgan P., Gregory S., Seunarine K.K., Razi A., Papoutsi M., Johnson E., Durr
-  A., et~al.
+  A., Roos R.A., Leavitt B.R., Holmans P., et~al.
 \newblock {Brain regions showing white matter loss in Huntington's disease are
   enriched for synaptic and metabolic genes}.
 \newblock \emph{Biol. Psychiatry}, 83(5), 456--465, 2018.
+\newblock \doi{10.1016/J.BIOPSYCH.2017.10.019}.
 
 \bibitem[{Mesulam(1998)}]{Mesulam1998}
 Mesulam M.M.
@@ -1575,384 +1802,439 @@ Mesulam M.M.
 \newblock \emph{Brain}, 121 (Pt6), 1013--52, 1998.
 
 \bibitem[{Meunier et~al.(2010)Meunier, Lambiotte, and Bullmore}]{Meunier2010a}
-Meunier D., Lambiotte R., and Bullmore E.T.
+Meunier D., Lambiotte R., Bullmore E.T.
 \newblock {Modular and hierarchically modular organization of brain networks}.
 \newblock \emph{Front. Neurosci.}, 4, 200, 2010.
+\newblock \doi{10.3389/fnins.2010.00200}.
 
 \bibitem[{Meunier et~al.(2009)Meunier, Lambiotte, Fornito, Ersche, and
   Bullmore}]{Meunier2009}
-Meunier D., Lambiotte R., Fornito A., Ersche K.D., and Bullmore E.T.
+Meunier D., Lambiotte R., Fornito A., Ersche K.D., Bullmore E.T.
 \newblock {Hierarchical modularity in human brain functional networks}.
 \newblock \emph{Front. Neuroinform.}, 3, 37, 2009.
+\newblock \doi{10.3389/neuro.11.037.2009}.
 
 \bibitem[{Mexal et~al.(2006)Mexal, Berger, Adams, Ross, Freedman, and
   Leonard}]{Mexal2006}
-Mexal S., Berger R., Adams C., Ross R., Freedman R., and Leonard S.
+Mexal S., Berger R., Adams C., Ross R., Freedman R., Leonard S.
 \newblock {Brain pH has a significant impact on human postmortem hippocampal
   gene expression profiles}.
 \newblock \emph{Brain Res.}, 1106(1), 1--11, 2006.
+\newblock \doi{10.1016/j.brainres.2006.05.043}.
 
 \bibitem[{Meyer and Damasio(2009)}]{Meyer2009a}
-Meyer K. and Damasio A.
+Meyer K., Damasio A.
 \newblock {Convergence and divergence in a neural architecture for recognition
   and memory}.
 \newblock \emph{Trends Neurosci.}, 32(7), 376--382, 2009.
+\newblock \doi{10.1016/J.TINS.2009.04.002}.
 
 \bibitem[{Meyer-Lindenberg and Weinberger(2006)}]{Meyer-Lindenberg2006a}
-Meyer-Lindenberg A. and Weinberger D.R.
+Meyer-Lindenberg A., Weinberger D.R.
 \newblock {Intermediate phenotypes and genetic mechanisms of psychiatric
   disorders}.
 \newblock \emph{Nat. Rev. Neurosci.}, 7(10), 818--827, 2006.
+\newblock \doi{10.1038/nrn1993}.
 
 \bibitem[{Miller et~al.(2011)Miller, Cai, Langfelder, Geschwind, Kurian,
   Salomon, and Horvath}]{Miller2011}
 Miller J.A., Cai C., Langfelder P., Geschwind D.H., Kurian S.M., Salomon D.R.,
-  and Horvath S.
+  Horvath S.
 \newblock {Strategies for aggregating gene expression data: the collapseRows R
   function}.
 \newblock \emph{BMC Bioinformatics}, 12(1), 322, 2011.
+\newblock \doi{10.1186/1471-2105-12-322}.
 
 \bibitem[{Miller et~al.(2014{\natexlab{a}})Miller, Ding, Sunkin, Smith, Ng,
-  Szafer, Ebbert et~al.}]{Miller2014}
+  Szafer, Ebbert, Riley, Royall, Aiona et~al.}]{Miller2014}
 Miller J.A., Ding S.L., Sunkin S.M., Smith K.A., Ng L., Szafer A., Ebbert A.,
-  et~al.
+  Riley Z.L., Royall J.J., Aiona K., et~al.
 \newblock {Transcriptional landscape of the prenatal human brain}.
 \newblock \emph{Nature}, 508(7495), 199--206, 2014{\natexlab{a}}.
+\newblock \doi{10.1038/nature13185}.
 
 \bibitem[{Miller et~al.(2014{\natexlab{b}})Miller, Menon, Goldy, Kaykas, Lee,
   Smith, Shen, Phillips, Lein, and Hawrylycz}]{Miller2014a}
 Miller J.A., Menon V., Goldy J., Kaykas A., Lee C.K., Smith K.A., Shen E.H.,
-  Phillips J.W., Lein E.S., and Hawrylycz M.J.
+  Phillips J.W., Lein E.S., Hawrylycz M.J.
 \newblock {Improving reliability and absolute quantification of human brain
   microarray data by filtering and scaling probes using RNA-Seq}.
 \newblock \emph{BMC Genomics}, 15(1), 154, 2014{\natexlab{b}}.
+\newblock \doi{10.1186/1471-2164-15-154}.
 
 \bibitem[{Mills et~al.(2018)Mills, Grayson, Shunmugavel, Miranda-Dominguez,
   Feczko, Earl, Neve, and Fair}]{Mills2018}
 Mills B.D., Grayson D.S., Shunmugavel A., Miranda-Dominguez O., Feczko E., Earl
-  E., Neve K.A., and Fair D.A.
+  E., Neve K.A., Fair D.A.
 \newblock {Correlated gene expression and anatomical communication support
   synchronized brain activity in the mouse functional connectome}.
 \newblock \emph{J. Neurosci.}, 38(25), 5774--5787, 2018.
+\newblock \doi{10.1523/JNEUROSCI.2910-17.2018}.
 
 \bibitem[{Mi{\v{s}}i{\'{c}} et~al.(2015)Mi{\v{s}}i{\'{c}}, Betzel, Nematzadeh,
   Go{\~{n}}i, Griffa, Hagmann, Flammini, Ahn, and Sporns}]{Misic2015a}
 Mi{\v{s}}i{\'{c}} B., Betzel R., Nematzadeh A., Go{\~{n}}i J., Griffa A.,
-  Hagmann P., Flammini A., Ahn Y.Y., and Sporns O.
+  Hagmann P., Flammini A., Ahn Y.Y., Sporns O.
 \newblock {Cooperative and competitive spreading dynamics on the human
   connectome}.
 \newblock \emph{Neuron}, 86(6), 1518--1529, 2015.
+\newblock \doi{10.1016/J.NEURON.2015.05.035}.
 
 \bibitem[{Mi{\v{s}}i{\'{c}} et~al.(2016)Mi{\v{s}}i{\'{c}}, Betzel, de~Reus,
   van~den Heuvel, Berman, McIntosh, and Sporns}]{Misic2016}
 Mi{\v{s}}i{\'{c}} B., Betzel R.F., de~Reus M.A., van~den Heuvel M.P., Berman
-  M.G., McIntosh A.R., and Sporns O.
+  M.G., McIntosh A.R., Sporns O.
 \newblock {Network-level structure-function relationships in numan neocortex}.
 \newblock \emph{Cereb. Cortex}, 26(7), 3285--96, 2016.
+\newblock \doi{10.1093/cercor/bhw089}.
 
 \bibitem[{Mi{\v{s}}i{\'{c}} et~al.(2014)Mi{\v{s}}i{\'{c}}, Sporns, and
   McIntosh}]{Misic2014}
-Mi{\v{s}}i{\'{c}} B., Sporns O., and McIntosh A.R.
+Mi{\v{s}}i{\'{c}} B., Sporns O., McIntosh A.R.
 \newblock {Communication efficiency and congestion of signal traffic in
   large-scale brain networks}.
 \newblock \emph{PLOS Comput. Biol.}, 10(1), e1003427, 2014.
+\newblock \doi{10.1371/journal.pcbi.1003427}.
 
 \bibitem[{Mortazavi et~al.(2008)Mortazavi, Williams, McCue, Schaeffer, and
   Wold}]{Mortazavi2008}
-Mortazavi A., Williams B.A., McCue K., Schaeffer L., and Wold B.
+Mortazavi A., Williams B.A., McCue K., Schaeffer L., Wold B.
 \newblock {Mapping and quantifying mammalian transcriptomes by RNA-Seq}.
 \newblock \emph{Nat. Methods}, 5(7), 621--628, 2008.
+\newblock \doi{10.1038/nmeth.1226}.
 
 \bibitem[{Mu{\~{n}}oz et~al.(2009)Mu{\~{n}}oz, Hyde, and Hariri}]{Munoz2009}
-Mu{\~{n}}oz K.E., Hyde L.W., and Hariri A.R.
+Mu{\~{n}}oz K.E., Hyde L.W., Hariri A.R.
 \newblock {Imaging genetics}.
 \newblock \emph{J. Am. Acad. Child Adolesc. Psychiatry}, 48(4), 356--61, 2009.
+\newblock \doi{10.1097/CHI.0b013e31819aad07}.
 
 \bibitem[{Myers et~al.(2007)Myers, Gibbs, Webster, Rohrer, Zhao, Marlowe,
-  Kaleem et~al.}]{Myers2007}
+  Kaleem, Leung, Bryden, Nath et~al.}]{Myers2007}
 Myers A.J., Gibbs J.R., Webster J.A., Rohrer K., Zhao A., Marlowe L., Kaleem
-  M., et~al.
+  M., Leung D., Bryden L., Nath P., et~al.
 \newblock {A survey of genetic human cortical gene expression}.
 \newblock \emph{Nat. Genet.}, 39(12), 1494--1499, 2007.
+\newblock \doi{10.1038/ng.2007.16}.
 
 \bibitem[{Myers et~al.(2015)Myers, Bartlett, Machiraju, and
   Bohland}]{Myers2015a}
-Myers E.M., Bartlett C.W., Machiraju R., and Bohland J.W.
+Myers E.M., Bartlett C.W., Machiraju R., Bohland J.W.
 \newblock {An integrative analysis of regional gene expression profiles in the
   human brain}.
 \newblock \emph{Methods}, 73, 54--70, 2015.
+\newblock \doi{10.1016/j.ymeth.2014.12.010}.
 
 \bibitem[{Naumova et~al.(2012)Naumova, Palejev, Vlasova, Lee, Rychkov, Babich,
   {M. Vaccarino}, and Grigorenko}]{Naumova2012}
 Naumova O.Y., Palejev D., Vlasova N.V., Lee M., Rychkov S.Y., Babich O.N., {M.
-  Vaccarino} F., and Grigorenko E.L.
+  Vaccarino} F., Grigorenko E.L.
 \newblock {Age-related changes of gene expression in the neocortex: preliminary
   data on RNA-Seq of the transcriptome in three functionally distinct cortical
   areas}.
 \newblock \emph{Dev. Psychopathol.}, 24(04), 1427--1442, 2012.
+\newblock \doi{10.1017/S0954579412000818}.
 
 \bibitem[{Neale et~al.(2010)Neale, Medland, Ripke, Asherson, Franke, Lesch,
-  Faraone et~al.}]{Neale2010}
+  Faraone, Nguyen, Sch{\"{a}}fer, Holmans et~al.}]{Neale2010}
 Neale B.M., Medland S.E., Ripke S., Asherson P., Franke B., Lesch K.P., Faraone
-  S.V., et~al.
+  S.V., Nguyen T.T., Sch{\"{a}}fer H., Holmans P., et~al.
 \newblock {Meta-analysis of genome-wide association studies of
   attention-deficit/hyperactivity disorder}.
 \newblock \emph{J. Am. Acad. Child Adolesc. Psychiatry}, 49(9), 884--897, 2010.
+\newblock \doi{10.1016/j.jaac.2010.06.008}.
 
 \bibitem[{Neale et~al.(2016)Neale, Hunter, Pritikin, Zahery, Brick,
   Kirkpatrick, Estabrook, Bates, Maes, and Boker}]{Neale2016}
 Neale M.C., Hunter M.D., Pritikin J.N., Zahery M., Brick T.R., Kirkpatrick
-  R.M., Estabrook R., Bates T.C., Maes H.H., and Boker S.M.
+  R.M., Estabrook R., Bates T.C., Maes H.H., Boker S.M.
 \newblock {OpenMx 2.0: extended structural equation and statistical modeling}.
 \newblock \emph{Psychometrika}, 81(2), 535--549, 2016.
+\newblock \doi{10.1007/s11336-014-9435-8}.
 
 \bibitem[{Negi and Guda(2017)}]{Negi2017}
-Negi S.K. and Guda C.
+Negi S.K., Guda C.
 \newblock {Global gene expression profiling of healthy human brain and its
   application in studying neurological disorders}.
 \newblock \emph{Sci. Rep.}, 7(1), 897, 2017.
+\newblock \doi{10.1038/s41598-017-00952-9}.
 
 \bibitem[{Noori et~al.(2017)Noori, Sch{\"{o}}ttler, Ercsey-Ravasz, Cosa-Linan,
   Varga, Toroczkai, and Spanagel}]{Noori2017}
 Noori H.R., Sch{\"{o}}ttler J., Ercsey-Ravasz M., Cosa-Linan A., Varga M.,
-  Toroczkai Z., and Spanagel R.
+  Toroczkai Z., Spanagel R.
 \newblock {A multiscale cerebral neurochemical connectome of the rat brain}.
 \newblock \emph{PLOS Biol.}, 15(7), e2002612, 2017.
+\newblock \doi{10.1371/journal.pbio.2002612}.
 
-\bibitem[{Oh et~al.(2014)Oh, Harris, Ng, Winslow, Cain, Mihalas, Wang
-  et~al.}]{Oh2014}
-Oh S.W., Harris J.A., Ng L., Winslow B., Cain N., Mihalas S., Wang Q., et~al.
+\bibitem[{Oh et~al.(2014)Oh, Harris, Ng, Winslow, Cain, Mihalas, Wang, Lau,
+  Kuan, Henry et~al.}]{Oh2014}
+Oh S.W., Harris J.A., Ng L., Winslow B., Cain N., Mihalas S., Wang Q., Lau C.,
+  Kuan L., Henry A.M., et~al.
 \newblock {A mesoscale connectome of the mouse brain}.
 \newblock \emph{Nature}, 508(7495), 207--214, 2014.
+\newblock \doi{10.1038/nature13186}.
 
 \bibitem[{Ohyama et~al.(2015)Ohyama, Schneider-Mizell, Fetter, Aleman,
-  Franconville, Rivera-Alba, Mensh et~al.}]{Ohyama2015}
+  Franconville, Rivera-Alba, Mensh, Branson, Simpson, Truman
+  et~al.}]{Ohyama2015}
 Ohyama T., Schneider-Mizell C.M., Fetter R.D., Aleman J.V., Franconville R.,
-  Rivera-Alba M., Mensh B.D., et~al.
+  Rivera-Alba M., Mensh B.D., Branson K.M., Simpson J.H., Truman J.W., et~al.
 \newblock {A multilevel multimodal circuit enhances action selection in
   Drosophila}.
 \newblock \emph{Nature}, 520(7549), 633--639, 2015.
+\newblock \doi{10.1038/nature14297}.
 
 \bibitem[{Okoniewski and Miller(2006)}]{Okoniewski2006}
-Okoniewski M.J. and Miller C.J.
+Okoniewski M.J., Miller C.J.
 \newblock {Hybridization interactions between probesets in short oligo
   microarrays lead to spurious correlations}.
 \newblock \emph{BMC Bioinformatics}, 7(1), 276, 2006.
+\newblock \doi{10.1186/1471-2105-7-276}.
 
 \bibitem[{Oldham and Fornito(2018)}]{Oldham2018}
-Oldham S. and Fornito A.
+Oldham S., Fornito A.
 \newblock {The development of brain network hubs}.
 \newblock \emph{Dev. Cogn. Neurosci.}, 2018.
+\newblock \doi{10.1016/J.DCN.2018.12.005}.
 
 \bibitem[{Oldham et~al.(2018)Oldham, Fulcher, Parkes,
   Arnatkevi\u{c}i\={u}t\.{e}, Suo, and Fornito}]{Oldham}
-Oldham S., Fulcher B., Parkes L., Arnatkevi\u{c}i\={u}t\.{e} A., Suo C., and
+Oldham S., Fulcher B., Parkes L., Arnatkevi\u{c}i\={u}t\.{e} A., Suo C.,
   Fornito A.
 \newblock {Consistency and differences between centrality metrics across
   distinct classes of networks}.
 \newblock \emph{arXiv}, 2018.
 
 \bibitem[{O'Leary et~al.(2016)O'Leary, Wright, Brister, Ciufo, Haddad, McVeigh,
-  Rajput et~al.}]{OLeary2016}
+  Rajput, Robbertse, Smith-White, Ako-Adjei et~al.}]{OLeary2016}
 O'Leary N.A., Wright M.W., Brister J.R., Ciufo S., Haddad D., McVeigh R.,
-  Rajput B., et~al.
+  Rajput B., Robbertse B., Smith-White B., Ako-Adjei D., et~al.
 \newblock {Reference sequence (RefSeq) database at NCBI: current status,
   taxonomic expansion, and functional annotation}.
 \newblock \emph{Nucleic Acids Res.}, 44(D1), D733--D745, 2016.
+\newblock \doi{10.1093/nar/gkv1189}.
 
 \bibitem[{Opsahl et~al.(2008)Opsahl, Colizza, Panzarasa, and
   Ramasco}]{Opsahl2008}
-Opsahl T., Colizza V., Panzarasa P., and Ramasco J.J.
+Opsahl T., Colizza V., Panzarasa P., Ramasco J.J.
 \newblock {Prominence and control: the weighted rich-club effect}.
 \newblock \emph{Phys. Rev. Lett.}, 101(16), 168702, 2008.
+\newblock \doi{10.1103/PhysRevLett.101.168702}.
 
 \bibitem[{Paemka et~al.(2013)Paemka, Mahajan, Skeie, Sowers, Ehaideb,
-  Gonzalez-Alegre, Sasaoka et~al.}]{Paemka2013}
+  Gonzalez-Alegre, Sasaoka, Tao, Miyagi, Ueno et~al.}]{Paemka2013}
 Paemka L., Mahajan V.B., Skeie J.M., Sowers L.P., Ehaideb S.N., Gonzalez-Alegre
-  P., Sasaoka T., et~al.
+  P., Sasaoka T., Tao H., Miyagi A., Ueno N., et~al.
 \newblock {PRICKLE1 interaction with SYNAPSIN I reveals a role in autism
   spectrum disorders}.
 \newblock \emph{PLoS One}, 8(12), 2013.
+\newblock \doi{10.1371/journal.pone.0080737}.
 
 \bibitem[{Pan et~al.(2010)Pan, Chatterjee, and Sinha}]{Pan2010}
-Pan R.K., Chatterjee N., and Sinha S.
+Pan R.K., Chatterjee N., Sinha S.
 \newblock {Mesoscopic organization reveals the constraints governing
   Caenorhabditis elegans nervous system}.
 \newblock \emph{PLOS One}, 5(2), e9240, 2010.
+\newblock \doi{10.1371/journal.pone.0009240}.
 
 \bibitem[{Pantazatos and Li(2017)}]{Pantazatos2017}
-Pantazatos S.P. and Li X.
+Pantazatos S.P., Li X.
 \newblock {Commentary: brain networks. Correlated gene expression supports
   synchronous activity in brain networks. Science 348, 1241–4}.
 \newblock \emph{Front. Neurosci.}, 11, 412, 2017.
+\newblock \doi{10.3389/fnins.2017.00412}.
 
 \bibitem[{Papiol et~al.(2014)Papiol, Mitjans, Assogna, Piras, Hammer,
   Caltagirone, Arias, Ehrenreich, and Spalletta}]{Papiol2014}
 Papiol S., Mitjans M., Assogna F., Piras F., Hammer C., Caltagirone C., Arias
-  B., Ehrenreich H., and Spalletta G.
+  B., Ehrenreich H., Spalletta G.
 \newblock {Polygenic determinants of white matter volume derived from GWAS lack
   reproducibility in a replicate sample}.
 \newblock \emph{Transl. Psychiatry}, 4(2), e362--e362, 2014.
+\newblock \doi{10.1038/tp.2013.126}.
 
 \bibitem[{Parkes et~al.(2018)Parkes, Fulcher, Y{\"{u}}cel, and
   Fornito}]{Parkes2018}
-Parkes L., Fulcher B., Y{\"{u}}cel M., and Fornito A.
+Parkes L., Fulcher B., Y{\"{u}}cel M., Fornito A.
 \newblock {An evaluation of the efficacy, reliability, and sensitivity of
   motion correction strategies for resting-state functional MRI}.
 \newblock \emph{Neuroimage}, 171, 415--436, 2018.
+\newblock \doi{10.1016/J.NEUROIMAGE.2017.12.073}.
 
 \bibitem[{Parkes et~al.(2017)Parkes, Fulcher, Y{\"{u}}cel, and
   Fornito}]{Parkes2017}
-Parkes L., Fulcher B.D., Y{\"{u}}cel M., and Fornito A.
+Parkes L., Fulcher B.D., Y{\"{u}}cel M., Fornito A.
 \newblock {Transcriptional signatures of connectomic subregions of the human
   striatum}.
 \newblock \emph{Genes, Brain Behav.}, 16(7), 647--663, 2017.
+\newblock \doi{10.1111/gbb.12386}.
 
 \bibitem[{Paus et~al.(2008)Paus, Keshavan, and Giedd}]{Paus2008}
-Paus T., Keshavan M., and Giedd J.N.
+Paus T., Keshavan M., Giedd J.N.
 \newblock {Why do many psychiatric disorders emerge during adolescence?}
 \newblock \emph{Nat. Rev. Neurosci.}, 9(12), 947--957, 2008.
+\newblock \doi{10.1038/nrn2513}.
 
 \bibitem[{Pavlovic et~al.(2014)Pavlovic, V{\'{e}}rtes, Bullmore, Schafer, and
   Nichols}]{Pavlovic2014}
-Pavlovic D.M., V{\'{e}}rtes P.E., Bullmore E.T., Schafer W.R., and Nichols T.E.
+Pavlovic D.M., V{\'{e}}rtes P.E., Bullmore E.T., Schafer W.R., Nichols T.E.
 \newblock {Stochastic blockmodeling of the modules and core of the
   Caenorhabditis elegans connectome}.
 \newblock \emph{PLOS One}, 9(7), e97584, 2014.
+\newblock \doi{10.1371/journal.pone.0097584}.
 
 \bibitem[{Pelvig et~al.(2008)Pelvig, Pakkenberg, Stark, and
   Pakkenberg}]{Pelvig2008}
-Pelvig D., Pakkenberg H., Stark A., and Pakkenberg B.
+Pelvig D., Pakkenberg H., Stark A., Pakkenberg B.
 \newblock {Neocortical glial cell numbers in human brains}.
 \newblock \emph{Neurobiol. Aging}, 29(11), 1754--1762, 2008.
+\newblock \doi{10.1016/j.neurobiolaging.2007.04.013}.
 
 \bibitem[{Peper et~al.(2007)Peper, Brouwer, Boomsma, Kahn, and {Hulshoff
   Pol}}]{Peper2007}
-Peper J.S., Brouwer R.M., Boomsma D.I., Kahn R.S., and {Hulshoff Pol} H.E.
+Peper J.S., Brouwer R.M., Boomsma D.I., Kahn R.S., {Hulshoff Pol} H.E.
 \newblock {Genetic influences on human brain structure: a review of brain
   imaging studies in twins}.
 \newblock \emph{Hum. Brain Mapp.}, 28(6), 464--73, 2007.
+\newblock \doi{10.1002/hbm.20398}.
 
 \bibitem[{Pereira et~al.(2015)Pereira, Kratsios, Serrano-Saiz, Sheftel, Mayo,
-  Hall, White et~al.}]{Pereira2015}
+  Hall, White, LeBoeuf, Garcia, Alon et~al.}]{Pereira2015}
 Pereira L., Kratsios P., Serrano-Saiz E., Sheftel H., Mayo A.E., Hall D.H.,
-  White J.G., et~al.
+  White J.G., LeBoeuf B., Garcia L.R., Alon U., et~al.
 \newblock {A cellular and regulatory map of the cholinergic nervous system of
   C. elegans}.
 \newblock \emph{Elife}, 4, 299--325, 2015.
+\newblock \doi{10.7554/eLife.12432}.
 
 \bibitem[{Picardi et~al.(2017)Picardi, Horner, and Pesole}]{Picardi2017}
-Picardi E., Horner D.S., and Pesole G.
+Picardi E., Horner D.S., Pesole G.
 \newblock {Single-cell transcriptomics reveals specific RNA editing signatures
   in the human brain}.
 \newblock \emph{RNA}, 23(6), 860--865, 2017.
+\newblock \doi{10.1261/rna.058271.116}.
 
 \bibitem[{Poulin et~al.(2016)Poulin, Tasic, Hjerling-Leffler, Trimarchi, and
   Awatramani}]{Poulin2016}
-Poulin J.F., Tasic B., Hjerling-Leffler J., Trimarchi J.M., and Awatramani R.
+Poulin J.F., Tasic B., Hjerling-Leffler J., Trimarchi J.M., Awatramani R.
 \newblock {Disentangling neural cell diversity using single-cell
   transcriptomics}.
 \newblock \emph{Nat. Neurosci.}, 19(9), 1131--1141, 2016.
+\newblock \doi{10.1038/nn.4366}.
 
-\bibitem[{Power et~al.(2011)Power, Cohen, Nelson, Wig, Barnes, Church, Vogel
-  et~al.}]{Power2011}
+\bibitem[{Power et~al.(2011)Power, Cohen, Nelson, Wig, Barnes, Church, Vogel,
+  Laumann, Miezin, Schlaggar et~al.}]{Power2011}
 Power J.D., Cohen A.L., Nelson S.M., Wig G.S., Barnes K.A., Church J.A., Vogel
-  A.C., et~al.
+  A.C., Laumann T.O., Miezin F.M., Schlaggar B.L., et~al.
 \newblock {Functional network organization of the human brain}.
 \newblock \emph{Neuron}, 72(4), 665--78, 2011.
+\newblock \doi{10.1016/j.neuron.2011.09.006}.
 
 \bibitem[{Power et~al.(2017)Power, Plitt, Laumann, and Martin}]{Power2017}
-Power J.D., Plitt M., Laumann T.O., and Martin A.
+Power J.D., Plitt M., Laumann T.O., Martin A.
 \newblock {Sources and implications of whole-brain fMRI signals in humans}.
 \newblock \emph{Neuroimage}, 146, 609--625, 2017.
+\newblock \doi{10.1016/j.neuroimage.2016.09.038}.
 
 \bibitem[{Power et~al.(2015)Power, Schlaggar, and Petersen}]{Power2015a}
-Power J.D., Schlaggar B.L., and Petersen S.E.
+Power J.D., Schlaggar B.L., Petersen S.E.
 \newblock {Recent progress and outstanding issues in motion correction in
   resting state fMRI}.
 \newblock \emph{Neuroimage}, 105, 536--551, 2015.
+\newblock \doi{10.1016/J.NEUROIMAGE.2014.10.044}.
 
 \bibitem[{Prasad et~al.(2008)Prasad, Karakuzu, Reed, and Cameron}]{Prasad2008}
-Prasad B., Karakuzu O., Reed R.R., and Cameron S.
+Prasad B., Karakuzu O., Reed R.R., Cameron S.
 \newblock {unc-3-dependent repression of specific motor neuron fates in
   Caenorhabditis elegans}.
 \newblock \emph{Dev. Biol.}, 323(2), 207--15, 2008.
+\newblock \doi{10.1016/j.ydbio.2008.08.029}.
 
 \bibitem[{Quackenbush(2002)}]{Quackenbush2002a}
 Quackenbush J.
 \newblock {Microarray data normalization and transformation}.
 \newblock \emph{Nat. Genet.}, 32, 496--501, 2002.
+\newblock \doi{10.1038/ng1032}.
 
 \bibitem[{Rakowski et~al.(2013)Rakowski, Srinivasan, Sternberg, and
   Karbowski}]{Rakowski2013}
-Rakowski F., Srinivasan J., Sternberg P.W., and Karbowski J.
+Rakowski F., Srinivasan J., Sternberg P.W., Karbowski J.
 \newblock {Synaptic polarity of the interneuron circuit controlling C. elegans
   locomotion}.
 \newblock \emph{Front. Comput. Neurosci.}, 7, 128, 2013.
+\newblock \doi{10.3389/fncom.2013.00128}.
 
 \bibitem[{{Ram\'{o}n y Cajal}(1995)}]{RamonyCajal1995}
 {Ram\'{o}n y Cajal} S.
 \newblock {Histology of the nervous system of man and vertebrates}.
 \newblock Oxford University Press, 1995.
 
-\bibitem[{Reus et~al.(2017)Reus, Shen, Gibson, Wigmore, Ligthart, Adams, Davies
-  et~al.}]{Reus2017}
+\bibitem[{Reus et~al.(2017)Reus, Shen, Gibson, Wigmore, Ligthart, Adams,
+  Davies, Cox, Hagenaars, Bastin et~al.}]{Reus2017}
 Reus L.M., Shen X., Gibson J., Wigmore E., Ligthart L., Adams M.J., Davies G.,
-  et~al.
+  Cox S.R., Hagenaars S.P., Bastin M.E., et~al.
 \newblock {Association of polygenic risk for major psychiatric illness with
   subcortical volumes and white matter integrity in UK Biobank}.
 \newblock \emph{Sci. Rep.}, 7(1), 42140, 2017.
+\newblock \doi{10.1038/srep42140}.
 
 \bibitem[{{Rhee, Y} et~al.(2008){Rhee, Y}, Wood, Dolinski, and
   Draghici}]{Rhee2008}
-{Rhee, Y} S., Wood V., Dolinski K., and Draghici S.
+{Rhee, Y} S., Wood V., Dolinski K., Draghici S.
 \newblock {Use and misuse of the gene ontology annotations}.
 \newblock \emph{Nat. Rev. Genet.}, 9(7), 509--515, 2008.
+\newblock \doi{10.1038/nrg2363}.
 
 \bibitem[{Richiardi et~al.(2017)Richiardi, Altmann, and
   Greicius}]{Richiardi2017}
-Richiardi J., Altmann A., and Greicius M.
+Richiardi J., Altmann A., Greicius M.
 \newblock {Distance is not everything in imaging genomics of functional
   networks: reply to a commentary on correlated gene expression supports
   synchronous activity in brain networks}.
 \newblock \emph{bioRxiv}, 2017.
 
 \bibitem[{Richiardi et~al.(2015)Richiardi, Altmann, Milazzo, Chang,
-  Chakravarty, Banaschewski, Barker et~al.}]{Richiardi2015}
+  Chakravarty, Banaschewski, Barker, Bokde, Bromberg, Buchel
+  et~al.}]{Richiardi2015}
 Richiardi J., Altmann A., Milazzo A.C., Chang C., Chakravarty M.M.,
-  Banaschewski T., Barker G.J., et~al.
+  Banaschewski T., Barker G.J., Bokde A.L.W., Bromberg U., Buchel C., et~al.
 \newblock {Correlated gene expression supports synchronous activity in brain
   networks}.
 \newblock \emph{Science}, 348(6240), 1241--1244, 2015.
+\newblock \doi{10.1126/science.1255905}.
 
 \bibitem[{Riddle et~al.(1997)Riddle, Blumenthal, Meyer, and
   Priess}]{Riddle1997}
-Riddle D.L., Blumenthal T., Meyer B.J., and Priess J.R.
+Riddle D.L., Blumenthal T., Meyer B.J., Priess J.R.
 \newblock {C. elegans II}.
 \newblock 1997.
 
-\bibitem[{Ripke et~al.(2014)Ripke, Neale, Corvin, Walters, Farh, Holmans, Lee
-  et~al.}]{Ripke2014a}
+\bibitem[{Ripke et~al.(2014)Ripke, Neale, Corvin, Walters, Farh, Holmans, Lee,
+  Bulik-Sullivan, Collier, Huang et~al.}]{Ripke2014a}
 Ripke S., Neale B.M., Corvin A., Walters J.T.R., Farh K.H., Holmans P.A., Lee
-  P., et~al.
+  P., Bulik-Sullivan B., Collier D.A., Huang H., et~al.
 \newblock {Biological insights from 108 schizophrenia-associated genetic loci}.
 \newblock \emph{Nature}, 511(7510), 421--427, 2014.
+\newblock \doi{10.1038/nature13595}.
 
 \bibitem[{Ritchie et~al.(2015)Ritchie, Phipson, Wu, Hu, Law, Shi, and
   Smyth}]{Ritchie2015}
-Ritchie M.E., Phipson B., Wu D., Hu Y., Law C.W., Shi W., and Smyth G.K.
+Ritchie M.E., Phipson B., Wu D., Hu Y., Law C.W., Shi W., Smyth G.K.
 \newblock {limma powers differential expression analyses for RNA-sequencing and
   microarray studies}.
 \newblock \emph{Nucleic Acids Res.}, 43(7), e47--e47, 2015.
+\newblock \doi{10.1093/nar/gkv007}.
 
 \bibitem[{Rittman et~al.(2016)Rittman, Rubinov, V{\'{e}}rtes, Patel, Ginestet,
   Ghosh, Barker, Spillantini, Bullmore, and Rowe}]{Rittman2016}
 Rittman T., Rubinov M., V{\'{e}}rtes P.E., Patel A.X., Ginestet C.E., Ghosh
-  B.C., Barker R.A., Spillantini M.G., Bullmore E.T., and Rowe J.B.
+  B.C., Barker R.A., Spillantini M.G., Bullmore E.T., Rowe J.B.
 \newblock {Regional expression of the MAPT gene is associated with loss of hubs
   in brain networks and cognitive impairment in Parkinson disease and
   progressive supranuclear palsy}.
 \newblock \emph{Neurobiol. Aging}, 48, 153--160, 2016.
+\newblock \doi{10.1016/j.neurobiolaging.2016.09.001}.
 
 \bibitem[{{Rittman, T}(2017)}]{Rittman2017}
 {Rittman, T}.
@@ -1964,134 +2246,153 @@ Rittman T., Rubinov M., V{\'{e}}rtes P.E., Patel A.X., Ginestet C.E., Ghosh
   Takemura, Scheffer, Meinertzhagen, Chklovskii, de Polavieja, and
   de~Polavieja}]{Rivera-Alba2011}
 Rivera-Alba M., Vitaladevuni S., Mishchenko Y., Lu Z., Takemura S.y., Scheffer
-  L., Meinertzhagen I., Chklovskii D., de Polavieja G., and de~Polavieja G.G.
+  L., Meinertzhagen I., Chklovskii D., de Polavieja G., de~Polavieja G.G.
 \newblock {Wiring economy and volume exclusion determine neuronal placement in
   the Drosophila brain}.
 \newblock \emph{Curr. Biol.}, 21(23), 2000--2005, 2011.
+\newblock \doi{10.1016/j.cub.2011.10.022}.
 
 \bibitem[{Rizzo et~al.(2016)Rizzo, Veronese, Expert, Turkheimer, and
   Bertoldo}]{Rizzo2016}
-Rizzo G., Veronese M., Expert P., Turkheimer F.E., and Bertoldo A.
+Rizzo G., Veronese M., Expert P., Turkheimer F.E., Bertoldo A.
 \newblock {MENGA: a new Comprehensive tool for the integration of neuroimaging
   data and the Allen Human Brain Transcriptome Atlas}.
 \newblock \emph{PLOS One}, 11(2), e0148744, 2016.
+\newblock \doi{10.1371/journal.pone.0148744}.
 
 \bibitem[{Roberts et~al.(2016{\natexlab{a}})Roberts, Perry, Lord, Roberts,
   Mitchell, Smith, Calamante, and Breakspear}]{Roberts2016}
 Roberts J.A., Perry A., Lord A.R., Roberts G., Mitchell P.B., Smith R.E.,
-  Calamante F., and Breakspear M.
+  Calamante F., Breakspear M.
 \newblock {The contribution of geometry to the human connectome}.
 \newblock \emph{Neuroimage}, 124(Pt A), 379--93, 2016{\natexlab{a}}.
+\newblock \doi{10.1016/j.neuroimage.2015.09.009}.
 
 \bibitem[{Roberts et~al.(2016{\natexlab{b}})Roberts, Perry, Roberts, Mitchell,
   and Breakspear}]{Roberts2016a}
-Roberts J.A., Perry A., Roberts G., Mitchell P.B., and Breakspear M.
+Roberts J.A., Perry A., Roberts G., Mitchell P.B., Breakspear M.
 \newblock {Consistency-based thresholding of the human connectome}.
 \newblock \emph{Neuroimage}, 145(Pt A), 118--129, 2016{\natexlab{b}}.
+\newblock \doi{10.1016/j.neuroimage.2016.09.053}.
 
 \bibitem[{Romero-Garcia et~al.(2018{\natexlab{a}})Romero-Garcia, Warrier,
   Bullmore, Baron-Cohen, and Bethlehem}]{Romero-Garcia2018a}
-Romero-Garcia R., Warrier V., Bullmore E.T., Baron-Cohen S., and Bethlehem R.A.
+Romero-Garcia R., Warrier V., Bullmore E.T., Baron-Cohen S., Bethlehem R.A.
 \newblock {Synaptic and transcriptionally downregulated genes are associated
   with cortical thickness differences in autism}.
 \newblock \emph{Mol. Psychiatry}, pp. 1--12, 2018{\natexlab{a}}.
+\newblock \doi{10.1038/s41380-018-0023-7}.
 
 \bibitem[{Romero-Garcia et~al.(2018{\natexlab{b}})Romero-Garcia, Whitaker,
-  V{\'{a}}{\v{s}}a, Seidlitz, Shinn, Fonagy, Dolan et~al.}]{Romero-Garcia2018}
+  V{\'{a}}{\v{s}}a, Seidlitz, Shinn, Fonagy, Dolan, Jones, Goodyer, Bullmore
+  et~al.}]{Romero-Garcia2018}
 Romero-Garcia R., Whitaker K.J., V{\'{a}}{\v{s}}a F., Seidlitz J., Shinn M.,
-  Fonagy P., Dolan R.J., et~al.
+  Fonagy P., Dolan R.J., Jones P.B., Goodyer I.M., Bullmore E.T., et~al.
 \newblock {Structural covariance networks are coupled to expression of genes
   enriched in supragranular layers of the human cortex}.
 \newblock \emph{Neuroimage}, 171, 256--267, 2018{\natexlab{b}}.
+\newblock \doi{10.1016/J.NEUROIMAGE.2017.12.060}.
 
 \bibitem[{Romme et~al.(2017)Romme, de~Reus, Ophoff, Kahn, and van~den
   Heuvel}]{Romme2017}
-Romme I.A.C., de~Reus M.A., Ophoff R.A., Kahn R.S., and van~den Heuvel M.P.
+Romme I.A.C., de~Reus M.A., Ophoff R.A., Kahn R.S., van~den Heuvel M.P.
 \newblock {Connectome disconnectivity and cortical gene expression in patients
   with schizophrenia}.
 \newblock \emph{Biol. Psychiatry}, 81(6), 495--502, 2017.
+\newblock \doi{10.1016/j.biopsych.2016.07.012}.
 
 \bibitem[{Roshchupkin et~al.(2016)Roshchupkin, Gutman, Vernooij, Jahanshad,
-  Martin, Hofman, McMahon et~al.}]{Roshchupkin2016}
+  Martin, Hofman, McMahon, van~der Lee, van Duijn, de~Zubicaray
+  et~al.}]{Roshchupkin2016}
 Roshchupkin G.V., Gutman B.A., Vernooij M.W., Jahanshad N., Martin N.G., Hofman
-  A., McMahon K.L., et~al.
+  A., McMahon K.L., van~der Lee S.J., van Duijn C.M., de~Zubicaray G.I., et~al.
 \newblock {Heritability of the shape of subcortical brain structures in the
   general population}.
 \newblock \emph{Nat. Commun.}, 7, 13738, 2016.
+\newblock \doi{10.1038/ncomms13738}.
 
 \bibitem[{Royce et~al.(2007)Royce, Rozowsky, and Gerstein}]{Royce2007}
-Royce T.E., Rozowsky J.S., and Gerstein M.B.
+Royce T.E., Rozowsky J.S., Gerstein M.B.
 \newblock {Toward a universal microarray: prediction of gene expression through
   nearest-neighbor probe sequence identification}.
 \newblock \emph{Nucleic Acids Res.}, 35(15), e99, 2007.
+\newblock \doi{10.1093/nar/gkm549}.
 
 \bibitem[{Rubinov and Sporns(2010)}]{Rubinov2010}
-Rubinov M. and Sporns O.
+Rubinov M., Sporns O.
 \newblock {Complex network measures of brain connectivity: uses and
   interpretations}.
 \newblock \emph{Neuroimage}, 52(3), 1059--1069, 2010.
+\newblock \doi{10.1016/j.neuroimage.2009.10.003}.
 
 \bibitem[{Rubinov et~al.(2015)Rubinov, Ypma, Watson, and
   Bullmore}]{Rubinov2015c}
-Rubinov M., Ypma R.J.F., Watson C., and Bullmore E.T.
+Rubinov M., Ypma R.J.F., Watson C., Bullmore E.T.
 \newblock {Wiring cost and topological participation of the mouse brain
   connectome}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 112(32), 10032--10037, 2015.
+\newblock \doi{10.1073/pnas.1420315112}.
 
 \bibitem[{Ruderfer et~al.(2018)Ruderfer, Ripke, McQuillin, Boocock, Stahl,
-  Pavlides, Mullins et~al.}]{Ruderfer2018}
+  Pavlides, Mullins, Charney, Ori, Loohuis et~al.}]{Ruderfer2018}
 Ruderfer D.M., Ripke S., McQuillin A., Boocock J., Stahl E.A., Pavlides J.M.W.,
-  Mullins N., et~al.
+  Mullins N., Charney A.W., Ori A.P., Loohuis L.M.O., et~al.
 \newblock {Genomic dissection of bipolar disorder and schizophrenia, including
   28 subphenotypes}.
 \newblock \emph{Cell}, 173(7), 1705--1715.e16, 2018.
+\newblock \doi{10.1016/J.CELL.2018.05.046}.
 
 \bibitem[{Sadeh et~al.(2018)Sadeh, Spielberg, Logue, Hayes, Wolf, McGlinchey,
   Milberg, Schichman, Stone, and Miller}]{Sadeh2018}
 Sadeh N., Spielberg J.M., Logue M.W., Hayes J.P., Wolf E.J., McGlinchey R.E.,
-  Milberg W.P., Schichman S.A., Stone A., and Miller M.W.
+  Milberg W.P., Schichman S.A., Stone A., Miller M.W.
 \newblock {Linking genes, circuits, and behavior: network connectivity as a
   novel endophenotype of externalizing}.
 \newblock \emph{Psychol. Med.}, pp. 1--9, 2018.
+\newblock \doi{10.1017/S0033291718002672}.
 
 \bibitem[{Sarafi-Reinach et~al.(2001)Sarafi-Reinach, Melkman, Hobert, and
   Sengupta}]{Sarafi-Reinach2001}
-Sarafi-Reinach T.R., Melkman T., Hobert O., and Sengupta P.
+Sarafi-Reinach T.R., Melkman T., Hobert O., Sengupta P.
 \newblock {The lin-11 LIM homeobox gene specifies olfactory and chemosensory
   neuron fates in C. elegans.}
 \newblock \emph{Development}, 128(17), 3269--81, 2001.
 
 \bibitem[{Sarwar et~al.(2019)Sarwar, Ramamohanarao, and Zalesky}]{Sarwar2019}
-Sarwar T., Ramamohanarao K., and Zalesky A.
+Sarwar T., Ramamohanarao K., Zalesky A.
 \newblock {Mapping connectomes with diffusion MRI: deterministic or
   probabilistic tractography?}
 \newblock \emph{Magn. Reson. Med.}, 81(2), 1368--1384, 2019.
+\newblock \doi{10.1002/mrm.27471}.
 
 \bibitem[{Satake et~al.(2009)Satake, Nakabayashi, Mizuta, Hirota, Ito, Kubo,
-  Kawaguchi et~al.}]{Satake2009}
+  Kawaguchi, Tsunoda, Watanabe, Takeda et~al.}]{Satake2009}
 Satake W., Nakabayashi Y., Mizuta I., Hirota Y., Ito C., Kubo M., Kawaguchi T.,
-  et~al.
+  Tsunoda T., Watanabe M., Takeda A., et~al.
 \newblock {Genome-wide association study identifies common variants at four
   loci as genetic risk factors for Parkinson's disease}.
 \newblock \emph{Nat. Genet.}, 41(12), 1303--1307, 2009.
+\newblock \doi{10.1038/ng.485}.
 
 \bibitem[{Savage et~al.(2018)Savage, Jansen, Stringer, Watanabe, Bryois,
-  de~Leeuw, Nagel et~al.}]{Savage2018}
+  de~Leeuw, Nagel, Awasthi, Barr, Coleman et~al.}]{Savage2018}
 Savage J.E., Jansen P.R., Stringer S., Watanabe K., Bryois J., de~Leeuw C.A.,
-  Nagel M., et~al.
+  Nagel M., Awasthi S., Barr P.B., Coleman J.R.I., et~al.
 \newblock {Genome-wide association meta-analysis in 269,867 individuals
   identifies new genetic and functional links to intelligence}.
 \newblock \emph{Nat. Genet.}, 50(7), 912--919, 2018.
+\newblock \doi{10.1038/s41588-018-0152-6}.
 
 \bibitem[{Scannell et~al.(1999)Scannell, Burns, Hilgetag, O'Neil, and
   Young}]{Scannell1999}
-Scannell J., Burns G., Hilgetag C., O'Neil M., and Young M.
+Scannell J., Burns G., Hilgetag C., O'Neil M., Young M.
 \newblock {The connectional organization of the cortico-thalamic system of the
   cat}.
 \newblock \emph{Cereb. Cortex}, 9(3), 277--299, 1999.
+\newblock \doi{10.1093/cercor/9.3.277}.
 
 \bibitem[{Scannell et~al.(1995)Scannell, Blakemore, and Young}]{Scannell1995}
-Scannell J.W., Blakemore C., and Young M.P.
+Scannell J.W., Blakemore C., Young M.P.
 \newblock {Analysis of connectivity in the cat cerebral cortex}.
 \newblock \emph{J. Neurosci.}, 15(2), 1463--83, 1995.
 
@@ -2102,283 +2403,327 @@ Scherer A.
 \newblock J. Wiley, 2009.
 
 \bibitem[{Schmid et~al.(2006)Schmid, Schwarz, and Hutter}]{Schmid2006}
-Schmid C., Schwarz V., and Hutter H.
+Schmid C., Schwarz V., Hutter H.
 \newblock {AST-1, a novel ETS-box transcription factor, controls axon guidance
   and pharynx development in C. elegans}.
 \newblock \emph{Dev. Biol.}, 293(2), 403--413, 2006.
+\newblock \doi{10.1016/j.ydbio.2006.02.042}.
 
 \bibitem[{Scholtens et~al.(2014)Scholtens, Schmidt, de~Reus, and van~den
   Heuvel}]{Scholtens2014}
-Scholtens L.H., Schmidt R., de~Reus M.A., and van~den Heuvel M.P.
+Scholtens L.H., Schmidt R., de~Reus M.A., van~den Heuvel M.P.
 \newblock {Linking macroscale graph analytical organization to microscale
   neuroarchitectonics in the macaque connectome}.
 \newblock \emph{J. Neurosci.}, 34(36), 12192--205, 2014.
+\newblock \doi{10.1523/JNEUROSCI.0752-14.2014}.
 
 \bibitem[{Schr{\"{o}}ter et~al.(2017)Schr{\"{o}}ter, Paulsen, and
   Bullmore}]{Schroter2017}
-Schr{\"{o}}ter M., Paulsen O., and Bullmore E.T.
+Schr{\"{o}}ter M., Paulsen O., Bullmore E.T.
 \newblock {Micro-connectomics: probing the organization of neuronal networks at
   the cellular scale}.
 \newblock \emph{Nat. Rev. Neurosci.}, 18(3), 131--146, 2017.
+\newblock \doi{10.1038/nrn.2016.182}.
 
 \bibitem[{Schulze and Downward(2001)}]{Schulze2001}
-Schulze A. and Downward J.
+Schulze A., Downward J.
 \newblock {Navigating gene expression using microarrays — a technology
   review}.
 \newblock \emph{Nat. Cell Biol.}, 3(8), E190--E195, 2001.
+\newblock \doi{10.1038/35087138}.
 
 \bibitem[{Schwanh{\"{a}}usser et~al.(2011)Schwanh{\"{a}}usser, Busse, Li,
   Dittmar, Schuchhardt, Wolf, Chen, and Selbach}]{Schwanhausser2011}
 Schwanh{\"{a}}usser B., Busse D., Li N., Dittmar G., Schuchhardt J., Wolf J.,
-  Chen W., and Selbach M.
+  Chen W., Selbach M.
 \newblock {Global quantification of mammalian gene expression control}.
 \newblock \emph{Nature}, 473, 337, 2011.
 
 \bibitem[{Seguin et~al.(2018)Seguin, van~den Heuvel, and Zalesky}]{Seguin2018}
-Seguin C., van~den Heuvel M.P., and Zalesky A.
+Seguin C., van~den Heuvel M.P., Zalesky A.
 \newblock {Navigation of brain networks}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, p. 201801351, 2018.
+\newblock \doi{10.1073/pnas.1801351115}.
 
 \bibitem[{Seidlitz et~al.(2018)Seidlitz, V{\'{a}}{\v{s}}a, Shinn,
-  Romero-Garcia, Whitaker, V{\'{e}}rtes, Wagstyl et~al.}]{Seidlitz2018}
+  Romero-Garcia, Whitaker, V{\'{e}}rtes, Wagstyl, {Kirkpatrick Reardon},
+  Clasen, Liu et~al.}]{Seidlitz2018}
 Seidlitz J., V{\'{a}}{\v{s}}a F., Shinn M., Romero-Garcia R., Whitaker K.J.,
-  V{\'{e}}rtes P.E., Wagstyl K., et~al.
+  V{\'{e}}rtes P.E., Wagstyl K., {Kirkpatrick Reardon} P., Clasen L., Liu S.,
+  et~al.
 \newblock {Morphometric similarity networks detect microscale cortical
   organization and predict inter-individual cognitive variation}.
 \newblock \emph{Neuron}, 97(1), 231--247.e7, 2018.
+\newblock \doi{10.1016/j.neuron.2017.11.039}.
 
 \bibitem[{Senden et~al.(2014)Senden, Deco, de~Reus, Goebel, and van~den
   Heuvel}]{Senden2014}
-Senden M., Deco G., de~Reus M.A., Goebel R., and van~den Heuvel M.P.
+Senden M., Deco G., de~Reus M.A., Goebel R., van~den Heuvel M.P.
 \newblock {Rich club organization supports a diverse set of functional network
   configurations}.
 \newblock \emph{Neuroimage}, 96, 174--182, 2014.
+\newblock \doi{10.1016/j.neuroimage.2014.03.066}.
 
 \bibitem[{Shaham and Bargmann(2002)}]{Shaham2002a}
-Shaham S. and Bargmann C.I.
+Shaham S., Bargmann C.I.
 \newblock {Control of neuronal subtype identity by the C. elegans ARID protein
   CFI-1}.
 \newblock \emph{Genes Dev.}, 16(8), 972--83, 2002.
+\newblock \doi{10.1101/gad.976002}.
 
 \bibitem[{Shanahan et~al.(2013)Shanahan, Bingman, Shimizu, Wild, and
   G{\"{u}}nt{\"{u}}rk{\"{u}}n}]{Shanahan2013}
-Shanahan M., Bingman V.P., Shimizu T., Wild M., and G{\"{u}}nt{\"{u}}rk{\"{u}}n
-  O.
+Shanahan M., Bingman V.P., Shimizu T., Wild M., G{\"{u}}nt{\"{u}}rk{\"{u}}n O.
 \newblock {Large-scale network organization in the avian forebrain: a
   connectivity matrix and theoretical analysis}.
 \newblock \emph{Front. Comput. Neurosci.}, 7, 89, 2013.
+\newblock \doi{10.3389/fncom.2013.00089}.
 
 \bibitem[{Shen et~al.(2012)Shen, Overly, and Jones}]{Shen2012}
-Shen E.H., Overly C.C., and Jones A.R.
+Shen E.H., Overly C.C., Jones A.R.
 \newblock {The Allen Human Brain Atlas: comprehensive gene expression mapping
   of the human brain}.
 \newblock \emph{Trends Neurosci.}, 35(12), 711--4, 2012.
+\newblock \doi{10.1016/j.tins.2012.09.005}.
 
 \bibitem[{Shen et~al.(2014)Shen, Rose, Fripp, McMahon, de~Zubicaray, Martin,
   Thompson, Wright, and Salvado}]{Shen2014}
 Shen K.K., Rose S., Fripp J., McMahon K.L., de~Zubicaray G.I., Martin N.G.,
-  Thompson P.M., Wright M.J., and Salvado O.
+  Thompson P.M., Wright M.J., Salvado O.
 \newblock {Investigating brain connectivity heritability in a twin study using
   diffusion imaging data}.
 \newblock \emph{Neuroimage}, 100, 628--641, 2014.
+\newblock \doi{10.1016/J.NEUROIMAGE.2014.06.041}.
 
 \bibitem[{Shih et~al.(2015)Shih, Sporns, Yuan, Su, Lin, Chuang, Wang, Lo,
   Greenspan, and Chiang}]{Shih2015}
 Shih C.T., Sporns O., Yuan S.L., Su T.S., Lin Y.J., Chuang C.C., Wang T.Y., Lo
-  C.C., Greenspan R., and Chiang A.S.
+  C.C., Greenspan R., Chiang A.S.
 \newblock {Connectomics-based analysis of information flow in the Drosophila
   brain}.
 \newblock \emph{Curr. Biol.}, 25(10), 1249--1258, 2015.
+\newblock \doi{10.1016/j.cub.2015.03.021}.
 
 \bibitem[{Shin et~al.(2017)Shin, French, Xu, Leonard, Perron, Pike, Richer,
   Veillette, Pausova, and Paus}]{Shin2017}
 Shin J., French L., Xu T., Leonard G., Perron M., Pike G.B., Richer L.,
-  Veillette S., Pausova Z., and Paus T.
+  Veillette S., Pausova Z., Paus T.
 \newblock {Cell-specific gene-expression profiles and cortical thickness in the
   human brain}.
 \newblock \emph{Cereb. Cortex}, 28(9), 1--11, 2017.
+\newblock \doi{10.1093/cercor/bhx197}.
 
 \bibitem[{Sim{\'{o}}n-S{\'{a}}nchez et~al.(2009)Sim{\'{o}}n-S{\'{a}}nchez,
-  Schulte, Bras, Sharma, Gibbs, Berg, Paisan-Ruiz et~al.}]{Simon-Sanchez2009}
+  Schulte, Bras, Sharma, Gibbs, Berg, Paisan-Ruiz, Lichtner, Scholz, Hernandez
+  et~al.}]{Simon-Sanchez2009}
 Sim{\'{o}}n-S{\'{a}}nchez J., Schulte C., Bras J.M., Sharma M., Gibbs J.R.,
-  Berg D., Paisan-Ruiz C., et~al.
+  Berg D., Paisan-Ruiz C., Lichtner P., Scholz S.W., Hernandez D.G., et~al.
 \newblock {Genome-wide association study reveals genetic risk underlying
   Parkinson's disease}.
 \newblock \emph{Nat. Genet.}, 41(12), 1308--1312, 2009.
+\newblock \doi{10.1038/ng.487}.
 
 \bibitem[{Sinclair et~al.(2015)Sinclair, Hansell, Blokland, Martin, Thompson,
   Breakspear, de~Zubicaray, Wright, and McMahon}]{Sinclair2015}
 Sinclair B., Hansell N.K., Blokland G.A.M., Martin N.G., Thompson P.M.,
-  Breakspear M., de~Zubicaray G.I., Wright M.J., and McMahon K.L.
+  Breakspear M., de~Zubicaray G.I., Wright M.J., McMahon K.L.
 \newblock {Heritability of the network architecture of intrinsic brain
   functional connectivity}.
 \newblock \emph{Neuroimage}, 121, 243--52, 2015.
+\newblock \doi{10.1016/j.neuroimage.2015.07.048}.
 
 \bibitem[{Smit et~al.(2008)Smit, Stam, Posthuma, Boomsma, and
   de~Geus}]{Smit2008}
-Smit D.J.A., Stam C.J., Posthuma D., Boomsma D.I., and de~Geus E.J.C.
+Smit D.J.A., Stam C.J., Posthuma D., Boomsma D.I., de~Geus E.J.C.
 \newblock {Heritability of “small-world” networks in the brain: a graph
   theoretical analysis of resting-state EEG functional connectivity}.
 \newblock \emph{Hum. Brain Mapp.}, 29(12), 1368--1378, 2008.
+\newblock \doi{10.1002/hbm.20468}.
 
 \bibitem[{Smith et~al.(2012)Smith, Tournier, Calamante, and
   Connelly}]{Smith2012}
-Smith R.E., Tournier J.D., Calamante F., and Connelly A.
+Smith R.E., Tournier J.D., Calamante F., Connelly A.
 \newblock {Anatomically-constrained tractography: improved diffusion MRI
   streamlines tractography through effective use of anatomical information}.
 \newblock \emph{Neuroimage}, 62(3), 1924--38, 2012.
+\newblock \doi{10.1016/j.neuroimage.2012.06.005}.
 
 \bibitem[{Smith et~al.(2015)Smith, Tournier, Calamante, and
   Connelly}]{Smith2015a}
-Smith R.E., Tournier J.D., Calamante F., and Connelly A.
+Smith R.E., Tournier J.D., Calamante F., Connelly A.
 \newblock {SIFT2: Enabling dense quantitative assessment of brain white matter
   connectivity using streamlines tractography}.
 \newblock \emph{Neuroimage}, 119, 338--51, 2015.
+\newblock \doi{10.1016/j.neuroimage.2015.06.092}.
 
 \bibitem[{Sotiropoulos and Zalesky(2017)}]{Sotiropoulos2017}
-Sotiropoulos S.N. and Zalesky A.
+Sotiropoulos S.N., Zalesky A.
 \newblock {Building connectomes using diffusion MRI: why, how and but}.
 \newblock \emph{NMR Biomed.}, p. e3752, 2017.
+\newblock \doi{10.1002/nbm.3752}.
 
-\bibitem[{Sowers et~al.(2013)Sowers, Loo, Wu, Campbell, Ulrich, Wu, Paemka
-  et~al.}]{Sowers2013}
-Sowers L.P., Loo L., Wu Y., Campbell E., Ulrich J.D., Wu S., Paemka L., et~al.
+\bibitem[{Sowers et~al.(2013)Sowers, Loo, Wu, Campbell, Ulrich, Wu, Paemka,
+  Wassink, Meyer, Bing et~al.}]{Sowers2013}
+Sowers L.P., Loo L., Wu Y., Campbell E., Ulrich J.D., Wu S., Paemka L., Wassink
+  T., Meyer K., Bing X., et~al.
 \newblock {Disruption of the non-canonical Wnt gene PRICKLE2 leads to
   autism-like behaviors with evidence for hippocampal synaptic dysfunction}.
 \newblock \emph{Mol. Psychiatry}, 18(10), 1077, 2013.
+\newblock \doi{10.1038/mp.2013.71}.
 
 \bibitem[{Spielman et~al.(2007)Spielman, Bastone, Burdick, Morley, Ewens, and
   Cheung}]{Spielman2007}
-Spielman R.S., Bastone L.A., Burdick J.T., Morley M., Ewens W.J., and Cheung
-  V.G.
+Spielman R.S., Bastone L.A., Burdick J.T., Morley M., Ewens W.J., Cheung V.G.
 \newblock {Common genetic variants account for differences in gene expression
   among ethnic groups}.
 \newblock \emph{Nat. Genet.}, 39(2), 226--31, 2007.
+\newblock \doi{10.1038/ng1955}.
 
 \bibitem[{Sporns(2011)}]{Sporns2011}
 Sporns O.
 \newblock {The non-random brain: efficiency, economy, and complex dynamics}.
 \newblock \emph{Front. Comput. Neurosci.}, 5, 5, 2011.
+\newblock \doi{10.3389/fncom.2011.00005}.
 
 \bibitem[{Sporns and Betzel(2016)}]{Sporns2016}
-Sporns O. and Betzel R.F.
+Sporns O., Betzel R.F.
 \newblock {Modular brain networks}.
 \newblock \emph{Annu. Rev. Psychol.}, 67(1), 613--640, 2016.
+\newblock \doi{10.1146/annurev-psych-122414-033634}.
 
 \bibitem[{Sporns et~al.(2007)Sporns, Honey, and K{\"{o}}tter}]{Sporns2007}
-Sporns O., Honey C.J., and K{\"{o}}tter R.
+Sporns O., Honey C.J., K{\"{o}}tter R.
 \newblock {Identification and classification of hubs in brain networks}.
 \newblock \emph{PLOS One}, 2(10), e1049, 2007.
+\newblock \doi{10.1371/journal.pone.0001049}.
 
 \bibitem[{Sporns et~al.(2005)Sporns, Tononi, and K{\"{o}}tter}]{Sporns2005}
-Sporns O., Tononi G., and K{\"{o}}tter R.
+Sporns O., Tononi G., K{\"{o}}tter R.
 \newblock {The Human Connectome: a structural description of the human brain}.
 \newblock \emph{PLOS Comput. Biol.}, 1(4), e42, 2005.
+\newblock \doi{10.1371/journal.pcbi.0010042}.
 
 \bibitem[{Sporns and Zwi(2004)}]{Sporns2004}
-Sporns O. and Zwi J.D.
+Sporns O., Zwi J.D.
 \newblock {The small world of the cerebral cortex}.
 \newblock \emph{Neuroinformatics}, 2(2), 145--62, 2004.
+\newblock \doi{10.1385/NI:2:2:145}.
 
 \bibitem[{Stam et~al.(2009)Stam, de~Haan, Daffertshofer, Jones, Manshanden,
-  {van Cappellen van Walsum}, Montez et~al.}]{Stam2009}
+  {van Cappellen van Walsum}, Montez, Verbunt, de~Munck, van Dijk
+  et~al.}]{Stam2009}
 Stam C.J., de~Haan W., Daffertshofer A., Jones B.F., Manshanden I., {van
-  Cappellen van Walsum} A.M., Montez T., et~al.
+  Cappellen van Walsum} A.M., Montez T., Verbunt J.P.A., de~Munck J.C., van
+  Dijk B.W., et~al.
 \newblock {Graph theoretical analysis of magnetoencephalographic functional
   connectivity in Alzheimer's disease}.
 \newblock \emph{Brain}, 132(1), 213--224, 2009.
+\newblock \doi{10.1093/brain/awn262}.
 
 \bibitem[{Starich et~al.(2001)Starich, Sheehan, Jadrich, and
   Shaw}]{Starich2001}
-Starich T., Sheehan M., Jadrich J., and Shaw J.
+Starich T., Sheehan M., Jadrich J., Shaw J.
 \newblock {Innexins in C. elegans}.
 \newblock \emph{Cell Commun. Adhes.}, 8(4-6), 311--314, 2001.
+\newblock \doi{10.3109/15419060109080744}.
 
 \bibitem[{Steger et~al.(2011)Steger, Berry, Haider, Horn, Wagner, Stocker, and
   Loy}]{Steger2011}
-Steger D., Berry D., Haider S., Horn M., Wagner M., Stocker R., and Loy A.
+Steger D., Berry D., Haider S., Horn M., Wagner M., Stocker R., Loy A.
 \newblock {Systematic spatial bias in DNA microarray hybridization is caused by
   probe spot position-dependent variability in lateral diffusion}.
 \newblock \emph{PLOS One}, 6(8), e23727, 2011.
+\newblock \doi{10.1371/journal.pone.0023727}.
 
 \bibitem[{Stephan et~al.(2001)Stephan, Kamper, Bozkurt, Burns, Young, and
   K{\"{o}}tter}]{Stephan2001}
-Stephan K.E., Kamper L., Bozkurt A., Burns G.A., Young M.P., and K{\"{o}}tter
-  R.
+Stephan K.E., Kamper L., Bozkurt A., Burns G.A., Young M.P., K{\"{o}}tter R.
 \newblock {Advanced database methodology for the Collation of Connectivity data
   on the Macaque brain (CoCoMac)}.
 \newblock \emph{Philos. Trans. R. Soc. Lond. B.}, 356(1412), 1159--86, 2001.
+\newblock \doi{10.1098/rstb.2001.0908}.
 
 \bibitem[{Subramanian et~al.(2005)Subramanian, Tamayo, Mootha, Mukherjee,
-  Ebert, Gillette, Paulovich et~al.}]{Subramanian2005}
+  Ebert, Gillette, Paulovich, Pomeroy, Golub, Lander et~al.}]{Subramanian2005}
 Subramanian A., Tamayo P., Mootha V.K., Mukherjee S., Ebert B.L., Gillette
-  M.A., Paulovich A., et~al.
+  M.A., Paulovich A., Pomeroy S.L., Golub T.R., Lander E.S., et~al.
 \newblock {Gene set enrichment analysis: a knowledge-based approach for
   interpreting genome-wide expression profiles}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 102(43), 15545--50, 2005.
+\newblock \doi{10.1073/pnas.0506580102}.
 
 \bibitem[{Sudre et~al.(2017)Sudre, Choudhuri, Szekely, Bonner, Goduni, Sharp,
   and Shaw}]{Sudre2017}
-Sudre G., Choudhuri S., Szekely E., Bonner T., Goduni E., Sharp W., and Shaw P.
+Sudre G., Choudhuri S., Szekely E., Bonner T., Goduni E., Sharp W., Shaw P.
 \newblock {Estimating the heritability of structural and functional brain
   connectivity in families affected by attention-deficit/hyperactivity
   disorder}.
 \newblock \emph{JAMA Psychiatry}, 74(1), 76, 2017.
+\newblock \doi{10.1001/jamapsychiatry.2016.3072}.
 
 \bibitem[{Sullivan(2007)}]{Sullivan2007}
 Sullivan P.F.
 \newblock {Spurious genetic associations}.
 \newblock \emph{Biol. Psychiatry}, 61(10), 1121--1126, 2007.
+\newblock \doi{10.1016/J.BIOPSYCH.2006.11.010}.
 
 \bibitem[{Sulston and Horvitz(1977)}]{Sulston1977}
-Sulston J.E. and Horvitz H.R.
+Sulston J.E., Horvitz H.R.
 \newblock {Post-embryonic cell lineages of the nematode, Caenorhabditis
   elegans}.
 \newblock \emph{Dev. Biol.}, 56(1), 110--56, 1977.
 
 \bibitem[{Sulston et~al.(1983)Sulston, Schierenberg, White, and
   Thomson}]{Sulston1983}
-Sulston J.E., Schierenberg E., White J.G., and Thomson J.N.
+Sulston J.E., Schierenberg E., White J.G., Thomson J.N.
 \newblock {The embryonic cell lineage of the nematode Caenorhabditis elegans}.
 \newblock \emph{Dev. Biol.}, 100(1), 64--119, 1983.
 
 \bibitem[{Szyma{\'{n}}ski and Barciszewski(2002)}]{Szymanski2002}
-Szyma{\'{n}}ski M. and Barciszewski J.
+Szyma{\'{n}}ski M., Barciszewski J.
 \newblock {Beyond the proteome: non-coding regulatory RNAs}.
 \newblock \emph{Genome Biol.}, 3(5), reviews0005, 2002.
+\newblock \doi{10.1186/gb-2002-3-5-reviews0005}.
 
 \bibitem[{Takahashi et~al.(2002)Takahashi, Hackney, Zhang, Wehrli, Wright,
   O'Brien, Uematsu, Wehrli, and Selzer}]{Takahashi2002}
 Takahashi M., Hackney D.B., Zhang G., Wehrli S.L., Wright A.C., O'Brien W.T.,
-  Uematsu H., Wehrli F.W., and Selzer M.E.
+  Uematsu H., Wehrli F.W., Selzer M.E.
 \newblock {Magnetic resonance microimaging of intraaxonal water diffusion in
   live excised lamprey spinal cord}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 99(25), 16192--6, 2002.
+\newblock \doi{10.1073/pnas.252249999}.
 
 \bibitem[{Tan et~al.(2013)Tan, French, and Pavlidis}]{Tan2013}
-Tan P.P.C., French L., and Pavlidis P.
+Tan P.P.C., French L., Pavlidis P.
 \newblock {Neuron-enriched gene expression patterns are regionally
   anti-correlated with oligodendrocyte-enriched patterns in the adult mouse and
   human brain}.
 \newblock \emph{Front. Neurosci.}, 7, 5, 2013.
+\newblock \doi{10.3389/fnins.2013.00005}.
 
-\bibitem[{Tang et~al.(2009)Tang, Barbacioru, Wang, Nordman, Lee, Xu, Wang
-  et~al.}]{Tang2009}
-Tang F., Barbacioru C., Wang Y., Nordman E., Lee C., Xu N., Wang X., et~al.
+\bibitem[{Tang et~al.(2009)Tang, Barbacioru, Wang, Nordman, Lee, Xu, Wang,
+  Bodeau, Tuch, Siddiqui et~al.}]{Tang2009}
+Tang F., Barbacioru C., Wang Y., Nordman E., Lee C., Xu N., Wang X., Bodeau J.,
+  Tuch B.B., Siddiqui A., et~al.
 \newblock {mRNA-Seq whole-transcriptome analysis of a single cell}.
 \newblock \emph{Nat. Methods}, 6(5), 377--382, 2009.
+\newblock \doi{10.1038/nmeth.1315}.
 
 \bibitem[{Tarca et~al.(2006)Tarca, Romero, and Draghici}]{Tarca2006}
-Tarca A.L., Romero R., and Draghici S.
+Tarca A.L., Romero R., Draghici S.
 \newblock {Analysis of microarray experiments of gene expression profiling}.
 \newblock \emph{Am. J. Obstet. Gynecol.}, 195(2), 373--88, 2006.
+\newblock \doi{10.1016/j.ajog.2006.07.001}.
 
-\bibitem[{Tasic et~al.(2016)Tasic, Menon, Nguyen, Kim, Jarsky, Yao, Levi
-  et~al.}]{Tasic2016}
-Tasic B., Menon V., Nguyen T.N., Kim T.K., Jarsky T., Yao Z., Levi B., et~al.
+\bibitem[{Tasic et~al.(2016)Tasic, Menon, Nguyen, Kim, Jarsky, Yao, Levi, Gray,
+  Sorensen, Dolbeare et~al.}]{Tasic2016}
+Tasic B., Menon V., Nguyen T.N., Kim T.K., Jarsky T., Yao Z., Levi B., Gray
+  L.T., Sorensen S.A., Dolbeare T., et~al.
 \newblock {Adult mouse cortical cell taxonomy revealed by single cell
   transcriptomics}.
 \newblock \emph{Nat. Neurosci.}, 19(2), 335--346, 2016.
+\newblock \doi{10.1038/nn.4216}.
 
 \bibitem[{{The Autism Spectrum Disorders Working Group of The Psychiatric
   Genomics Consortium}(2017)}]{AutismConsortium2017}
@@ -2388,14 +2733,16 @@ Tasic B., Menon V., Nguyen T.N., Kim T.K., Jarsky T., Yao Z., Levi B., et~al.
   spectrum disorder highlights a novel locus at 10q24.32 and a significant
   overlap with schizophrenia}.
 \newblock \emph{Mol. Autism}, 8(1), 21, 2017.
+\newblock \doi{10.1186/s13229-017-0137-9}.
 
 \bibitem[{Thomas et~al.(2014)Thomas, Ye, Irfanoglu, Modi, Saleem, Leopold, and
   Pierpaoli}]{Thomas2014}
-Thomas C., Ye F.Q., Irfanoglu M.O., Modi P., Saleem K.S., Leopold D.A., and
+Thomas C., Ye F.Q., Irfanoglu M.O., Modi P., Saleem K.S., Leopold D.A.,
   Pierpaoli C.
 \newblock {Anatomical accuracy of brain connections derived from diffusion MRI
   tractography is inherently limited}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 111(46), 16574--16579, 2014.
+\newblock \doi{10.1073/pnas.1405672111}.
 
 \bibitem[{Thompson(2001)}]{Thompson2001}
 Thompson P.M.
@@ -2404,461 +2751,533 @@ Thompson P.M.
 
 \bibitem[{Thompson et~al.(2013)Thompson, Ge, Glahn, Jahanshad, and
   Nichols}]{Thompson2013}
-Thompson P.M., Ge T., Glahn D.C., Jahanshad N., and Nichols T.E.
+Thompson P.M., Ge T., Glahn D.C., Jahanshad N., Nichols T.E.
 \newblock {Genetics of the connectome}.
 \newblock \emph{Neuroimage}, 80, 475--488, 2013.
+\newblock \doi{10.1016/j.neuroimage.2013.05.013}.
 
 \bibitem[{Thompson et~al.(2014)Thompson, Stein, Medland, Hibar, Vasquez,
-  Renteria, Toro et~al.}]{Thompson2014}
+  Renteria, Toro, Jahanshad, Schumann, Franke et~al.}]{Thompson2014}
 Thompson P.M., Stein J.L., Medland S.E., Hibar D.P., Vasquez A.A., Renteria
-  M.E., Toro R., et~al.
+  M.E., Toro R., Jahanshad N., Schumann G., Franke B., et~al.
 \newblock {The ENIGMA Consortium: large-scale collaborative analyses of
   neuroimaging and genetic data}.
 \newblock \emph{Brain Imaging Behav.}, 8(2), 153--82, 2014.
+\newblock \doi{10.1007/s11682-013-9269-5}.
 
 \bibitem[{Tomasi et~al.(2013)Tomasi, Wang, and Volkow}]{Tomasi2013}
-Tomasi D., Wang G.J., and Volkow N.D.
+Tomasi D., Wang G.J., Volkow N.D.
 \newblock {Energetic cost of brain functional connectivity}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 110(33), 13642--13647, 2013.
+\newblock \doi{10.1073/pnas.1303346110}.
 
 \bibitem[{Torkamani et~al.(2018)Torkamani, Wineinger, and
   Topol}]{Torkamani2018}
-Torkamani A., Wineinger N.E., and Topol E.J.
+Torkamani A., Wineinger N.E., Topol E.J.
 \newblock {The personal and clinical utility of polygenic risk scores}.
 \newblock \emph{Nat. Rev. Genet.}, 19(9), 581--590, 2018.
+\newblock \doi{10.1038/s41576-018-0018-x}.
 
 \bibitem[{Tournier et~al.(2010)Tournier, Calamante, and
   Connelly}]{Tournier2010}
-Tournier J.D., Calamante F., and Connelly A.
+Tournier J.D., Calamante F., Connelly A.
 \newblock {Improved probabilistic streamlines tractography by 2 nd order
   integration over fibre orientation distributions}.
 \newblock \emph{Ismrm}, 88(2003), 2010, 2010.
 
 \bibitem[{Tournier et~al.(2012)Tournier, Calamante, and
   Connelly}]{Tournier2012}
-Tournier J.D., Calamante F., and Connelly A.
+Tournier J.D., Calamante F., Connelly A.
 \newblock {MRtrix: diffusion tractography in crossing fiber regions}.
 \newblock \emph{Int. J. Imaging Syst. Technol.}, 22(1), 53--66, 2012.
+\newblock \doi{10.1002/ima.22005}.
 
 \bibitem[{Towlson et~al.(2013)Towlson, V{\'{e}}rtes, Ahnert, Schafer, and
   Bullmore}]{Towlson2013}
-Towlson E.K., V{\'{e}}rtes P.E., Ahnert S.E., Schafer W.R., and Bullmore E.T.
+Towlson E.K., V{\'{e}}rtes P.E., Ahnert S.E., Schafer W.R., Bullmore E.T.
 \newblock {The rich club of the C. elegans neuronal connectome}.
 \newblock \emph{J. Neurosci.}, 33(15), 6380--7, 2013.
+\newblock \doi{10.1523/JNEUROSCI.3784-12.2013}.
 
 \bibitem[{Trabzuni et~al.(2013)Trabzuni, Ramasamy, Imran, Walker, Smith, Weale,
   Hardy, Ryten, and Consortium}]{Trabzuni2013}
 Trabzuni D., Ramasamy A., Imran S., Walker R., Smith C., Weale M.E., Hardy J.,
-  Ryten M., and Consortium N.A.B.E.
+  Ryten M., Consortium N.A.B.E.
 \newblock {Widespread sex differences in gene expression and splicing in the
   adult human brain}.
 \newblock \emph{Nat. Commun.}, 4(1), 2771, 2013.
+\newblock \doi{10.1038/ncomms3771}.
 
 \bibitem[{Trachtenberg et~al.(2012)Trachtenberg, Filippini, Ebmeier, Smith,
   Karpe, and Mackay}]{Trachtenberg2012}
-Trachtenberg A.J., Filippini N., Ebmeier K.P., Smith S.M., Karpe F., and Mackay
+Trachtenberg A.J., Filippini N., Ebmeier K.P., Smith S.M., Karpe F., Mackay
   C.E.
 \newblock {The effects of APOE on the functional architecture of the resting
   brain}.
 \newblock \emph{Neuroimage}, 59(1), 565--572, 2012.
+\newblock \doi{10.1016/J.NEUROIMAGE.2011.07.059}.
 
 \bibitem[{Tsalik and Hobert(2003)}]{Tsalik2003}
-Tsalik E.L. and Hobert O.
+Tsalik E.L., Hobert O.
 \newblock {Functional mapping of neurons that control locomotory behavior in
   Caenorhabditis elegans}.
 \newblock \emph{J. Neurobiol.}, 56(2), 178--197, 2003.
+\newblock \doi{10.1002/neu.10245}.
 
 \bibitem[{Unger et~al.(2010)Unger, Nitta, Lee, and Grogan}]{Unger2010}
-Unger E.R., Nitta H., Lee D.R., and Grogan T.M.
+Unger E.R., Nitta H., Lee D.R., Grogan T.M.
 \newblock {In Situ Hybridization: principles and applications}.
 \newblock \emph{Mol. Diagnostics}, pp. 71--79, 2010.
+\newblock \doi{10.1016/B978-0-12-369428-7.00007-0}.
 
 \bibitem[{Vaishnavi et~al.(2010)Vaishnavi, Vlassenko, Rundle, Snyder, Mintun,
   and Raichle}]{Vaishnavi2010}
-Vaishnavi S.N., Vlassenko A.G., Rundle M.M., Snyder A.Z., Mintun M.A., and
-  Raichle M.E.
+Vaishnavi S.N., Vlassenko A.G., Rundle M.M., Snyder A.Z., Mintun M.A., Raichle
+  M.E.
 \newblock {Regional aerobic glycolysis in the human brain}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 107(41), 17757--62, 2010.
+\newblock \doi{10.1073/pnas.1010459107}.
 
 \bibitem[{van~den Heuvel et~al.(2018)van~den Heuvel, Turk, Manning, Hect,
   Hernandez-Andrade, Hassan, Romero, van~den Heuvel, and
   Thomason}]{VandenHeuvel2018}
 van~den Heuvel M.I., Turk E., Manning J.H., Hect J., Hernandez-Andrade E.,
-  Hassan S.S., Romero R., van~den Heuvel M.P., and Thomason M.E.
+  Hassan S.S., Romero R., van~den Heuvel M.P., Thomason M.E.
 \newblock {Hubs in the human fetal brain network}.
 \newblock \emph{Dev. Cogn. Neurosci.}, 30, 108--115, 2018.
+\newblock \doi{10.1016/j.dcn.2018.02.001}.
 
 \bibitem[{van~den Heuvel et~al.(2016{\natexlab{a}})van~den Heuvel, Bullmore,
   and Sporns}]{VandenHeuvel2016}
-van~den Heuvel M.P., Bullmore E.T., and Sporns O.
+van~den Heuvel M.P., Bullmore E.T., Sporns O.
 \newblock {Comparative Connectomics}.
 \newblock \emph{Trends Cogn. Sci.}, 20(5), 345--361, 2016{\natexlab{a}}.
+\newblock \doi{10.1016/j.tics.2016.03.001}.
 
 \bibitem[{van~den Heuvel and {Hulshoff Pol}(2010)}]{VandenHeuvel2010b}
-van~den Heuvel M.P. and {Hulshoff Pol} H.E.
+van~den Heuvel M.P., {Hulshoff Pol} H.E.
 \newblock {Exploring the brain network: a review on resting-state fMRI
   functional connectivity}.
 \newblock \emph{Eur. Neuropsychopharmacol.}, 20(8), 519--534, 2010.
+\newblock \doi{10.1016/J.EURONEURO.2010.03.008}.
 
 \bibitem[{van~den Heuvel et~al.(2012)van~den Heuvel, Kahn, Goni, and
   Sporns}]{VandenHeuvel2012}
-van~den Heuvel M.P., Kahn R.S., Goni J., and Sporns O.
+van~den Heuvel M.P., Kahn R.S., Goni J., Sporns O.
 \newblock {High-cost, high-capacity backbone for global brain communication}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 109(28), 11372--11377, 2012.
+\newblock \doi{10.1073/pnas.1203593109}.
 
 \bibitem[{van~den Heuvel et~al.(2010)van~den Heuvel, Mandl, Stam, Kahn, and
   {Hulshoff Pol}}]{VandenHeuvel2010}
-van~den Heuvel M.P., Mandl R.C.W., Stam C.J., Kahn R.S., and {Hulshoff Pol}
-  H.E.
+van~den Heuvel M.P., Mandl R.C.W., Stam C.J., Kahn R.S., {Hulshoff Pol} H.E.
 \newblock {Aberrant frontal and temporal complex network structure in
   schizophrenia: a graph theoretical analysis}.
 \newblock \emph{J. Neurosci.}, 30(47), 15915--26, 2010.
+\newblock \doi{10.1523/JNEUROSCI.2874-10.2010}.
 
 \bibitem[{van~den Heuvel et~al.(2016{\natexlab{b}})van~den Heuvel, Scholtens,
   and de~Reus}]{VandenHeuvel2016b}
-van~den Heuvel M.P., Scholtens L.H., and de~Reus M.A.
+van~den Heuvel M.P., Scholtens L.H., de~Reus M.A.
 \newblock {Topological organization of connectivity strength in the rat
   connectome}.
 \newblock \emph{Brain Struct. Funct.}, 221(3), 1719--1736, 2016{\natexlab{b}}.
+\newblock \doi{10.1007/s00429-015-0999-6}.
 
 \bibitem[{van~den Heuvel and Sporns(2011)}]{VandenHeuvel2011}
-van~den Heuvel M.P. and Sporns O.
+van~den Heuvel M.P., Sporns O.
 \newblock {Rich-club organization of the human connectome}.
 \newblock \emph{J. Neurosci.}, 31(44), 15775--15786, 2011.
+\newblock \doi{10.1523/JNEUROSCI.3539-11.2011}.
 
 \bibitem[{van~den Heuvel and Sporns(2013{\natexlab{a}})}]{VandenHeuvel2013a}
-van~den Heuvel M.P. and Sporns O.
+van~den Heuvel M.P., Sporns O.
 \newblock {An anatomical substrate for integration among functional networks in
   human cortex}.
 \newblock \emph{J. Neurosci.}, 33(36), 14489--14500, 2013{\natexlab{a}}.
+\newblock \doi{10.1523/JNEUROSCI.2128-13.2013}.
 
 \bibitem[{van~den Heuvel and Sporns(2013{\natexlab{b}})}]{VandenHeuvel2013b}
-van~den Heuvel M.P. and Sporns O.
+van~den Heuvel M.P., Sporns O.
 \newblock {Network hubs in the human brain}.
 \newblock \emph{Trends Cogn. Sci.}, 17(12), 683--696, 2013{\natexlab{b}}.
+\newblock \doi{10.1016/j.tics.2013.09.012}.
 
 \bibitem[{van~den Heuvel et~al.(2013{\natexlab{a}})van~den Heuvel, Sporns,
   Collin, Scheewe, Mandl, Cahn, Goni, Pol, and Kahn}]{VanDenHeuvel2013}
 van~den Heuvel M.P., Sporns O., Collin G., Scheewe T., Mandl R.C., Cahn W.,
-  Goni J., Pol H.E., and Kahn R.S.
+  Goni J., Pol H.E., Kahn R.S.
 \newblock {Abnormal rich club organization and functional brain dynamics in
   schizophrenia}.
 \newblock \emph{JAMA Psychiatry}, 70(8), 783--792, 2013{\natexlab{a}}.
+\newblock \doi{10.1001/jamapsychiatry.2013.1328}.
 
 \bibitem[{van~den Heuvel et~al.(2013{\natexlab{b}})van~den Heuvel, Sporns,
   Collin, Scheewe, Mandl, Cahn, Go{\~{n}}i, {Hulshoff Pol}, and
   Kahn}]{VandenHeuvel2013c}
 van~den Heuvel M.P., Sporns O., Collin G., Scheewe T., Mandl R.C.W., Cahn W.,
-  Go{\~{n}}i J., {Hulshoff Pol} H.E., and Kahn R.S.
+  Go{\~{n}}i J., {Hulshoff Pol} H.E., Kahn R.S.
 \newblock {Abnormal rich club organization and functional brain dynamics in
   schizophrenia}.
 \newblock \emph{JAMA Psychiatry}, 70(8), 783, 2013{\natexlab{b}}.
+\newblock \doi{10.1001/jamapsychiatry.2013.1328}.
 
 \bibitem[{van~den Heuvel et~al.(2009)van~den Heuvel, Stam, Kahn, and {Hulshoff
   Pol}}]{VandenHeuvel2009}
-van~den Heuvel M.P., Stam C.J., Kahn R.S., and {Hulshoff Pol} H.E.
+van~den Heuvel M.P., Stam C.J., Kahn R.S., {Hulshoff Pol} H.E.
 \newblock {Efficiency of functional brain networks and intellectual
   performance}.
 \newblock \emph{J. Neurosci.}, 29(23), 7619--7624, 2009.
+\newblock \doi{10.1523/JNEUROSCI.1443-09.2009}.
 
 \bibitem[{van~den Heuvel et~al.(2013{\natexlab{c}})van~den Heuvel, van Soelen,
   Stam, Kahn, and et~Al.}]{VandenHeuvel2013e}
-van~den Heuvel M.P., van Soelen I.L., Stam C.J., Kahn R.S., and et~Al. B.
+van~den Heuvel M.P., van Soelen I.L., Stam C.J., Kahn R.S., et~Al. B.
 \newblock {Genetic control of functional brain network efficiency in children}.
 \newblock \emph{Eur. Neuropsychopharmacol.}, 23(1), 19--23, 2013{\natexlab{c}}.
+\newblock \doi{10.1016/j.euroneuro.2012.06.007}.
 
 \bibitem[{{Van Essen} et~al.(2013){Van Essen}, Smith, Barch, Behrens, Yacoub,
   and Ugurbil}]{VanEssen2013}
-{Van Essen} D.C., Smith S.M., Barch D.M., Behrens T.E., Yacoub E., and Ugurbil
-  K.
+{Van Essen} D.C., Smith S.M., Barch D.M., Behrens T.E., Yacoub E., Ugurbil K.
 \newblock {The WU-Minn Human Connectome Project: an overview}.
 \newblock \emph{Neuroimage}, 80, 62--79, 2013.
+\newblock \doi{10.1016/j.neuroimage.2013.05.041}.
 
 \bibitem[{Varadan et~al.(2006)Varadan, Miller, and Anastassiou}]{Varadan2006}
-Varadan V., Miller D.M., and Anastassiou D.
+Varadan V., Miller D.M., Anastassiou D.
 \newblock {Computational inference of the molecular logic for synaptic
   connectivity in C. elegans}.
 \newblock \emph{Bioinformatics}, 22(14), e497--506, 2006.
+\newblock \doi{10.1093/bioinformatics/btl224}.
 
 \bibitem[{Varier et~al.(2011)Varier, Kaiser, Koh, Meuli, and
   Honey}]{Varier2011}
-Varier S., Kaiser M., Koh W., Meuli R., and Honey C.
+Varier S., Kaiser M., Koh W., Meuli R., Honey C.
 \newblock {Neural development features: spatio-temporal development of the
   Caenorhabditis elegans neuronal network}.
 \newblock \emph{PLOS Comput. Biol.}, 7(1), e1001044, 2011.
+\newblock \doi{10.1371/journal.pcbi.1001044}.
 
 \bibitem[{V{\'{a}}rkuti et~al.(2011)V{\'{a}}rkuti, Cavusoglu, Kullik,
-  Schiffler, Veit, Yilmaz, Rosenstiel et~al.}]{Varkuti2011}
+  Schiffler, Veit, Yilmaz, Rosenstiel, Braun, Uludag, Birbaumer
+  et~al.}]{Varkuti2011}
 V{\'{a}}rkuti B., Cavusoglu M., Kullik A., Schiffler B., Veit R., Yilmaz
-  {\"{O}}., Rosenstiel W., et~al.
+  {\"{O}}., Rosenstiel W., Braun C., Uludag K., Birbaumer N., et~al.
 \newblock {Quantifying the link between anatomical connectivity, gray matter
   volume and regional cerebral blood flow: an integrative MRI study}.
 \newblock \emph{PLOS One}, 6(4), e14801, 2011.
+\newblock \doi{10.1371/journal.pone.0014801}.
 
 \bibitem[{Varshney et~al.(2011)Varshney, Chen, Paniagua, Hall, and
   Chklovskii}]{Varshney2011}
-Varshney L.R., Chen B.L., Paniagua E., Hall D.H., and Chklovskii D.B.
+Varshney L.R., Chen B.L., Paniagua E., Hall D.H., Chklovskii D.B.
 \newblock {Structural properties of the Caenorhabditis elegans neuronal
   network}.
 \newblock \emph{PLOS Comput. Biol.}, 7(2), e1001066, 2011.
+\newblock \doi{10.1371/journal.pcbi.1001066}.
 
 \bibitem[{V{\'{a}}{\v{s}}a et~al.(2018)V{\'{a}}{\v{s}}a, Seidlitz,
-  Romero-Garcia, Whitaker, Rosenthal, V{\'{e}}rtes, Shinn et~al.}]{Vasa2018}
+  Romero-Garcia, Whitaker, Rosenthal, V{\'{e}}rtes, Shinn, Alexander-Bloch,
+  Fonagy, Dolan et~al.}]{Vasa2018}
 V{\'{a}}{\v{s}}a F., Seidlitz J., Romero-Garcia R., Whitaker K.J., Rosenthal
-  G., V{\'{e}}rtes P.E., Shinn M., et~al.
+  G., V{\'{e}}rtes P.E., Shinn M., Alexander-Bloch A., Fonagy P., Dolan R.J.,
+  et~al.
 \newblock {Adolescent tuning of association cortex in human structural brain
   networks}.
 \newblock \emph{Cereb. Cortex}, 28(1), 281--294, 2018.
+\newblock \doi{10.1093/cercor/bhx249}.
 
 \bibitem[{Veronese et~al.(2016)Veronese, Zanotti-Fregonara, Rizzo, Bertoldo,
   Innis, and Turkheimer}]{Veronese2016}
-Veronese M., Zanotti-Fregonara P., Rizzo G., Bertoldo A., Innis R.B., and
+Veronese M., Zanotti-Fregonara P., Rizzo G., Bertoldo A., Innis R.B.,
   Turkheimer F.E.
 \newblock {Measuring specific receptor binding of a PET radioligand in human
   brain without pharmacological blockade: the genomic plot}.
 \newblock \emph{Neuroimage}, 130, 1--12, 2016.
+\newblock \doi{10.1016/j.neuroimage.2016.01.058}.
 
 \bibitem[{V{\'{e}}rtes et~al.(2012)V{\'{e}}rtes, Alexander-Bloch, Gogtay,
   Giedd, Rapoport, and Bullmore}]{Vertes2012}
 V{\'{e}}rtes P.E., Alexander-Bloch A.F., Gogtay N., Giedd J.N., Rapoport J.L.,
-  and Bullmore E.T.
+  Bullmore E.T.
 \newblock {Simple models of human brain functional networks}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 109(15), 5868--73, 2012.
+\newblock \doi{10.1073/pnas.1111738109}.
 
 \bibitem[{V{\'{e}}rtes et~al.(2016)V{\'{e}}rtes, Rittman, Whitaker,
-  Romero-Garcia, V{\'{a}}{\v{s}}a, Kitzbichler, Wagstyl et~al.}]{Vertes2016b}
+  Romero-Garcia, V{\'{a}}{\v{s}}a, Kitzbichler, Wagstyl, Fonagy, Dolan, Jones
+  et~al.}]{Vertes2016b}
 V{\'{e}}rtes P.E., Rittman T., Whitaker K.J., Romero-Garcia R.,
-  V{\'{a}}{\v{s}}a F., Kitzbichler M.G., Wagstyl K., et~al.
+  V{\'{a}}{\v{s}}a F., Kitzbichler M.G., Wagstyl K., Fonagy P., Dolan R.J.,
+  Jones P.B., et~al.
 \newblock {Gene transcription profiles associated with inter-modular hubs and
   connection distance in human functional magnetic resonance imaging networks}.
 \newblock \emph{Philos. Trans. R. Soc. B}, 371(1705), 735--769, 2016.
+\newblock \doi{10.1098/rstb.2015.0362}.
 
 \bibitem[{Wang et~al.(2010)Wang, Dickson, Stolle, Krantz, Goldstein, and
   Hakonarson}]{Wang2010}
-Wang K., Dickson S.P., Stolle C.A., Krantz I.D., Goldstein D.B., and Hakonarson
-  H.
+Wang K., Dickson S.P., Stolle C.A., Krantz I.D., Goldstein D.B., Hakonarson H.
 \newblock {Interpretation of association signals and identification of causal
   variants from genome-wide association studies}.
 \newblock \emph{Am. J. Hum. Genet.}, 86(5), 730--42, 2010.
+\newblock \doi{10.1016/j.ajhg.2010.04.003}.
 
 \bibitem[{Wang et~al.(2017)Wang, Zhang, Li, Zhu, Liu, Qin, Li, Yu, Jiang, and
   Liu}]{Wang2017}
-Wang T., Zhang X., Li A., Zhu M., Liu S., Qin W., Li J., Yu C., Jiang T., and
-  Liu B.
+Wang T., Zhang X., Li A., Zhu M., Liu S., Qin W., Li J., Yu C., Jiang T., Liu
+  B.
 \newblock {Polygenic risk for five psychiatric disorders and cross-disorder and
   disorder-specific neural connectivity in two independent populations}.
 \newblock \emph{NeuroImage Clin.}, 14, 441--449, 2017.
+\newblock \doi{10.1016/j.nicl.2017.02.011}.
 
 \bibitem[{Wang and Kennedy(2016)}]{Wang2016}
-Wang X.J. and Kennedy H.
+Wang X.J., Kennedy H.
 \newblock {Brain structure and dynamics across scales: in search of rules}.
 \newblock \emph{Curr. Opin. Neurobiol.}, 37, 92--98, 2016.
+\newblock \doi{10.1016/j.conb.2015.12.010}.
 
 \bibitem[{Wang et~al.(2009)Wang, Gerstein, and Snyder}]{Wang2009}
-Wang Z., Gerstein M., and Snyder M.
+Wang Z., Gerstein M., Snyder M.
 \newblock {RNA-Seq: a revolutionary tool for transcriptomics}.
 \newblock \emph{Nat. Rev. Genet.}, 10(1), 57--63, 2009.
+\newblock \doi{10.1038/nrg2484}.
 
 \bibitem[{Wanner et~al.(2016)Wanner, Genoud, Masudi, Siksou, and
   Friedrich}]{Wanner2016}
-Wanner A.A., Genoud C., Masudi T., Siksou L., and Friedrich R.W.
+Wanner A.A., Genoud C., Masudi T., Siksou L., Friedrich R.W.
 \newblock {Dense EM-based reconstruction of the interglomerular projectome in
   the zebrafish olfactory bulb}.
 \newblock \emph{Nat. Neurosci.}, 19(6), 816--825, 2016.
+\newblock \doi{10.1038/nn.4290}.
 
 \bibitem[{Warrens(2008)}]{Warrens2008}
 Warrens M.J.
 \newblock {On association coefficients for 2x2 tables and properties that do
   not depend on the marginal distributions}.
 \newblock \emph{Psychometrika}, 73(4), 777--789, 2008.
+\newblock \doi{10.1007/s11336-008-9070-3}.
 
 \bibitem[{Watts and Strogatz(1998)}]{Watts1998}
-Watts D.J. and Strogatz S.H.
+Watts D.J., Strogatz S.H.
 \newblock {Collective dynamics of ``small-worl'' networks}.
 \newblock \emph{Nature}, 393(6684), 440--442, 1998.
+\newblock \doi{10.1038/30918}.
 
 \bibitem[{Wen and Chklovskii(2005)}]{Wen2005}
-Wen Q. and Chklovskii D.B.
+Wen Q., Chklovskii D.B.
 \newblock {Segregation of the brain into gray and white matter: a design
   minimizing conduction delays}.
 \newblock \emph{PLOS Comput. Biol.}, 1(7), e78, 2005.
+\newblock \doi{10.1371/journal.pcbi.0010078}.
 
 \bibitem[{Westlye et~al.(2011)Westlye, Lundervold, Rootwelt, Lundervold, and
   Westlye}]{Westlye2011}
-Westlye E.T., Lundervold A., Rootwelt H., Lundervold A.J., and Westlye L.T.
+Westlye E.T., Lundervold A., Rootwelt H., Lundervold A.J., Westlye L.T.
 \newblock {Increased hippocampal default mode synchronization during rest in
   middle-aged and elderly APOE $\epsilon$4 carriers: relationships with memory
   performance}.
 \newblock \emph{J. Neurosci.}, 31(21), 7775--83, 2011.
+\newblock \doi{10.1523/JNEUROSCI.1230-11.2011}.
 
 \bibitem[{Whalley et~al.(2013)Whalley, Sprooten, Hackett, Hall, Blackwood,
-  Glahn, Bastin et~al.}]{Whalley2013}
+  Glahn, Bastin, Hall, Lawrie, Sussmann et~al.}]{Whalley2013}
 Whalley H.C., Sprooten E., Hackett S., Hall L., Blackwood D.H., Glahn D.C.,
-  Bastin M., et~al.
+  Bastin M., Hall J., Lawrie S.M., Sussmann J.E., et~al.
 \newblock {Polygenic risk and white matter integrity in individuals at high
   risk of mood disorder}.
 \newblock \emph{Biol. Psychiatry}, 74(4), 280--6, 2013.
+\newblock \doi{10.1016/j.biopsych.2013.01.027}.
 
 \bibitem[{Whitaker et~al.(2016)Whitaker, V{\'{e}}rtes, Romero-Garcia,
-  V{\'{a}}{\v{s}}a, Moutoussis, Prabhu, Weiskopf et~al.}]{Whitaker2016a}
+  V{\'{a}}{\v{s}}a, Moutoussis, Prabhu, Weiskopf, Callaghan, Wagstyl, Rittman
+  et~al.}]{Whitaker2016a}
 Whitaker K.J., V{\'{e}}rtes P.E., Romero-Garcia R., V{\'{a}}{\v{s}}a F.,
-  Moutoussis M., Prabhu G., Weiskopf N., et~al.
+  Moutoussis M., Prabhu G., Weiskopf N., Callaghan M.F., Wagstyl K., Rittman
+  T., et~al.
 \newblock {Adolescence is associated with genomically patterned consolidation
   of the hubs of the human brain connectome}.
 \newblock \emph{Proc. Natl. Acad. Sci.}, 113(32), 9105--10, 2016.
+\newblock \doi{10.1073/pnas.1601745113}.
 
 \bibitem[{White et~al.(1986)White, Southgate, Thomson, and Brenner}]{White1986}
-White J.G., Southgate E., Thomson J.N., and Brenner S.
+White J.G., Southgate E., Thomson J.N., Brenner S.
 \newblock {The structure of the nervous system of the nematode Caenorhabditis
   elegans}.
 \newblock \emph{Philos. Trans. R. Soc. B}, 314(1165), 1--340, 1986.
+\newblock \doi{10.1098/rstb.1986.0056}.
 
 \bibitem[{Williams and Herrup(1988)}]{Williams1988}
-Williams R.W. and Herrup K.
+Williams R.W., Herrup K.
 \newblock {The Control of Neuron Number}.
 \newblock \emph{Annu. Rev. Neurosci.}, 11(1), 423--453, 1988.
+\newblock \doi{10.1146/annurev.ne.11.030188.002231}.
 
 \bibitem[{Wolf et~al.(2011)Wolf, Goldberg, Manor, Sharan, and
   Ruppin}]{Wolf2011}
-Wolf L., Goldberg C., Manor N., Sharan R., and Ruppin E.
+Wolf L., Goldberg C., Manor N., Sharan R., Ruppin E.
 \newblock {Gene expression in the rodent brain is associated with its regional
   connectivity}.
 \newblock \emph{PLOS Comput. Biol.}, 7(5), e1002040, 2011.
+\newblock \doi{10.1371/journal.pcbi.1002040}.
 
 \bibitem[{Wray et~al.(2018)Wray, Ripke, Mattheisen, Trzaskowski, Byrne,
-  Abdellaoui, Adams et~al.}]{Wray2018}
+  Abdellaoui, Adams, Agerbo, Air, Andlauer et~al.}]{Wray2018}
 Wray N.R., Ripke S., Mattheisen M., Trzaskowski M., Byrne E.M., Abdellaoui A.,
-  Adams M.J., et~al.
+  Adams M.J., Agerbo E., Air T.M., Andlauer T.M.F., et~al.
 \newblock {Genome-wide association analyses identify 44 risk variants and
   refine the genetic architecture of major depression}.
 \newblock \emph{Nat. Genet.}, 50(5), 668--681, 2018.
+\newblock \doi{10.1038/s41588-018-0090-3}.
 
 \bibitem[{Wright et~al.(2002)Wright, Sham, Murray, Weinberger, and
   Bullmore}]{Wright2002}
-Wright I.C., Sham P., Murray R.M., Weinberger D.R., and Bullmore E.T.
+Wright I.C., Sham P., Murray R.M., Weinberger D.R., Bullmore E.T.
 \newblock {Genetic contributions to regional variability in human brain
   structure: methods and preliminary results}.
 \newblock \emph{Neuroimage}, 17(1), 256--71, 2002.
 
 \bibitem[{Wu and Herman(2006)}]{Wu2006}
-Wu M. and Herman M.A.
+Wu M., Herman M.A.
 \newblock {A novel noncanonical Wnt pathway is involved in the regulation of
   the asymmetric B cell division in C. elegans}.
 \newblock \emph{Dev. Biol.}, 293(2), 316--329, 2006.
+\newblock \doi{10.1016/j.ydbio.2005.12.024}.
 
 \bibitem[{Yokoyama et~al.(2017)Yokoyama, Karch, Fan, Bonham, Kouri, Ross,
-  Rademakers et~al.}]{Yokoyama2017a}
+  Rademakers, Kim, Wang, H{\"{o}}glinger et~al.}]{Yokoyama2017a}
 Yokoyama J.S., Karch C.M., Fan C.C., Bonham L.W., Kouri N., Ross O.A.,
-  Rademakers R., et~al.
+  Rademakers R., Kim J., Wang Y., H{\"{o}}glinger G.U., et~al.
 \newblock {Shared genetic risk between corticobasal degeneration, progressive
   supranuclear palsy, and frontotemporal dementia}.
 \newblock \emph{Acta Neuropathol.}, 133(5), 825--837, 2017.
+\newblock \doi{10.1007/s00401-017-1693-y}.
 
 \bibitem[{Yu and Lin(2016)}]{Yu2016}
-Yu P. and Lin W.
+Yu P., Lin W.
 \newblock {Single-cell transcriptome study as big data}.
 \newblock \emph{Genomics. Proteomics Bioinformatics}, 14(1), 21--30, 2016.
+\newblock \doi{10.1016/j.gpb.2016.01.005}.
 
-\bibitem[{Yu et~al.(2012)Yu, He, Chen, Fu, Brown, Yao, Ma et~al.}]{Yu2012}
-Yu Y.C., He S., Chen S., Fu Y., Brown K.N., Yao X.H., Ma J., et~al.
+\bibitem[{Yu et~al.(2012)Yu, He, Chen, Fu, Brown, Yao, Ma, Gao, Sosinsky, Huang
+  et~al.}]{Yu2012}
+Yu Y.C., He S., Chen S., Fu Y., Brown K.N., Yao X.H., Ma J., Gao K.P., Sosinsky
+  G.E., Huang K., et~al.
 \newblock {Preferential electrical coupling regulates neocortical
   lineage-dependent microcircuit assembly}.
 \newblock \emph{Nature}, 486(7401), 113, 2012.
+\newblock \doi{10.1038/nature10958}.
 
 \bibitem[{Zalesky et~al.(2012)Zalesky, Fornito, and Bullmore}]{Zalesky2012}
-Zalesky A., Fornito A., and Bullmore E.
+Zalesky A., Fornito A., Bullmore E.
 \newblock {On the use of correlation as a measure of network connectivity}.
 \newblock \emph{Neuroimage}, 60(4), 2096--2106, 2012.
+\newblock \doi{10.1016/J.NEUROIMAGE.2012.02.001}.
 
 \bibitem[{Zalesky et~al.(2016)Zalesky, Fornito, Cocchi, Gollo, van~den Heuvel,
   and Breakspear}]{Zalesky2016}
-Zalesky A., Fornito A., Cocchi L., Gollo L.L., van~den Heuvel M.P., and
-  Breakspear M.
+Zalesky A., Fornito A., Cocchi L., Gollo L.L., van~den Heuvel M.P., Breakspear
+  M.
 \newblock {Connectome sensitivity or specificity: which is more important?}
 \newblock \emph{Neuroimage}, 142, 407--420, 2016.
+\newblock \doi{10.1016/j.neuroimage.2016.06.035}.
 
 \bibitem[{Zalesky et~al.(2011)Zalesky, Fornito, Seal, Cocchi, Westin, Bullmore,
   Egan, and Pantelis}]{Zalesky2011}
 Zalesky A., Fornito A., Seal M.L., Cocchi L., Westin C.F., Bullmore E.T., Egan
-  G.F., and Pantelis C.
+  G.F., Pantelis C.
 \newblock {Disrupted axonal fiber connectivity in schizophrenia}.
 \newblock \emph{Biol. Psychiatry}, 69(1), 80--89, 2011.
+\newblock \doi{10.1016/j.biopsych.2010.08.022}.
 
 \bibitem[{Zallen et~al.(1999)Zallen, Kirch, and Bargmann}]{Zallen1999}
-Zallen J.A., Kirch S.A., and Bargmann C.I.
+Zallen J.A., Kirch S.A., Bargmann C.I.
 \newblock {Genes required for axon pathfinding and extension in the C. elegans
   nerve ring}.
 \newblock \emph{Development}, 126(16), 3679--92, 1999.
 
 \bibitem[{Zamora-L{\'{o}}pez et~al.(2010)Zamora-L{\'{o}}pez, Zhou, and
   Kurths}]{Zamora-Lopez2010}
-Zamora-L{\'{o}}pez G., Zhou C., and Kurths J.
+Zamora-L{\'{o}}pez G., Zhou C., Kurths J.
 \newblock {Cortical hubs form a module for multisensory integration on top of
   the hierarchy of cortical networks}.
 \newblock \emph{Front. Neuroinform.}, 4, 1, 2010.
+\newblock \doi{10.3389/neuro.11.001.2010}.
 
 \bibitem[{Zhan et~al.(2015)Zhan, Jahanshad, Faskowitz, Zhu, Prasad, Martin,
   de~Zubicaray, McMahon, Wright, and Thompson}]{Zhan2015}
 Zhan L., Jahanshad N., Faskowitz J., Zhu D., Prasad G., Martin N.G.,
-  de~Zubicaray G.I., McMahon K.L., Wright M.J., and Thompson P.M.
+  de~Zubicaray G.I., McMahon K.L., Wright M.J., Thompson P.M.
 \newblock {Heritability of brain network topology in 853 twins and siblings}.
 \newblock \emph{Proc./IEEE Int. Symp. Biomed. Imaging}, p. 449, 2015.
+\newblock \doi{10.1109/ISBI.2015.7163908}.
 
 \bibitem[{Zhang et~al.(2012)Zhang, Schneider, Wheeler-Kingshott, and
   Alexander}]{Zhang2012}
-Zhang H., Schneider T., Wheeler-Kingshott C.A., and Alexander D.C.
+Zhang H., Schneider T., Wheeler-Kingshott C.A., Alexander D.C.
 \newblock {NODDI: Practical in vivo neurite orientation dispersion and density
   imaging of the human brain}.
 \newblock \emph{Neuroimage}, 61(4), 1000--1016, 2012.
+\newblock \doi{10.1016/j.neuroimage.2012.03.072}.
 
 \bibitem[{Zheng et~al.(1999)Zheng, Brockie, Mellem, Madsen, and
   Maricq}]{Zheng1999}
-Zheng Y., Brockie P.J., Mellem J.E., Madsen D.M., and Maricq A.V.
+Zheng Y., Brockie P.J., Mellem J.E., Madsen D.M., Maricq A.V.
 \newblock {Neuronal control of locomotion in C. elegans is modified by a
   dominant mutation in the GLR-1 ionotropic glutamate receptor}.
 \newblock \emph{Neuron}, 24(2), 347--361, 1999.
+\newblock \doi{10.1016/S0896-6273(00)80849-1}.
 
 \bibitem[{Zheng et~al.(2018)Zheng, Lauritzen, Perlman, Robinson, Nichols,
-  Milkie, Torrens et~al.}]{Zheng2018}
+  Milkie, Torrens, Price, Fisher, Sharifi et~al.}]{Zheng2018}
 Zheng Z., Lauritzen J.S., Perlman E., Robinson C.G., Nichols M., Milkie D.,
-  Torrens O., et~al.
+  Torrens O., Price J., Fisher C.B., Sharifi N., et~al.
 \newblock {A complete electron microscopy volume of the brain of adult
   Drosophila melanogaster}.
 \newblock \emph{Cell}, 174(3), 730--743.e22, 2018.
+\newblock \doi{10.1016/j.cell.2018.06.019}.
 
-\bibitem[{Zhong et~al.(2018)Zhong, Zhang, Fan, Wu, Yan, Dong, Zhang
-  et~al.}]{Zhong2018}
-Zhong S., Zhang S., Fan X., Wu Q., Yan L., Dong J., Zhang H., et~al.
+\bibitem[{Zhong et~al.(2018)Zhong, Zhang, Fan, Wu, Yan, Dong, Zhang, Li, Sun,
+  Pan et~al.}]{Zhong2018}
+Zhong S., Zhang S., Fan X., Wu Q., Yan L., Dong J., Zhang H., Li L., Sun L.,
+  Pan N., et~al.
 \newblock {A single-cell RNA-seq survey of the developmental landscape of the
   human prefrontal cortex}.
 \newblock \emph{Nature}, 555(7697), 524--528, 2018.
+\newblock \doi{10.1038/nature25980}.
 
 \bibitem[{Zhou et~al.(2012)Zhou, Gennatas, Kramer, Miller, and
   Seeley}]{Zhou2012}
-Zhou J., Gennatas E., Kramer J., Miller B., and Seeley W.
+Zhou J., Gennatas E., Kramer J., Miller B., Seeley W.
 \newblock {Predicting regional neurodegeneration from the healthy brain
   functional connectome}.
 \newblock \emph{Neuron}, 73(6), 1216--1227, 2012.
+\newblock \doi{10.1016/j.neuron.2012.03.004}.
 
 \bibitem[{Zhu et~al.(2017)Zhu, Wang, Yin, and Yang}]{Zhu2017}
-Zhu Y., Wang L., Yin Y., and Yang E.
+Zhu Y., Wang L., Yin Y., Yang E.
 \newblock {Systematic analysis of gene expression patterns associated with
   postmortem interval in human tissues}.
 \newblock \emph{Sci. Rep.}, 7(1), 5435, 2017.
+\newblock \doi{10.1038/s41598-017-05882-0}.
 
 \bibitem[{Zingg et~al.(2014)Zingg, Hintiryan, Gou, Song, Bay, Bienkowski,
-  Foster et~al.}]{Zingg2014}
+  Foster, Yamashita, Bowman, Toga et~al.}]{Zingg2014}
 Zingg B., Hintiryan H., Gou L., Song M., Bay M., Bienkowski M., Foster N.,
-  et~al.
+  Yamashita S., Bowman I., Toga A., et~al.
 \newblock {Neural networks of the mouse neocortex}.
 \newblock \emph{Cell}, 156(5), 1096--1111, 2014.
+\newblock \doi{10.1016/j.cell.2014.02.023}.
 
 \bibitem[{Zoubarev et~al.(2012)Zoubarev, Hamer, Keshav, {Luke Mccarthy},
-  Santos, Van~rossum, Mcdonald et~al.}]{Zoubarev2012}
+  Santos, Van~rossum, Mcdonald, Hall, Wan, Lim et~al.}]{Zoubarev2012}
 Zoubarev A., Hamer K.M., Keshav K.D., {Luke Mccarthy} E., Santos J.R.C.,
-  Van~rossum T., Mcdonald C., et~al.
+  Van~rossum T., Mcdonald C., Hall A., Wan X., Lim R., et~al.
 \newblock {Gemma: a resource for the reuse, sharing and meta-analysis of
   expression profiling data}.
 \newblock \emph{Bioinformatics}, 28(17), 2272--2273, 2012.
+\newblock \doi{10.1093/bioinformatics/bts430}.
 
 \end{thebibliography}

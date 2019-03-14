@@ -176,7 +176,7 @@
 
   \fancyhead[R]{}
 
-\bibliographystyle{thesisBSTnew}
+\bibliographystyle{thesisBSTAurina}
   \bibliography{libraryFINAL}
 
 \end{document} 

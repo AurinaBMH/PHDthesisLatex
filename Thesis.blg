@@ -7,8 +7,8 @@ A level-1 auxiliary file: Chapter3/Chapter3.aux
 A level-1 auxiliary file: Chapter4/Chapter4.aux
 A level-1 auxiliary file: Chapter5/Chapter5.aux
 A level-1 auxiliary file: Chapter6/Chapter6.aux
-The style file: thesisBSTnew.bst
-Reallocated field_info (elt_size=4) to 16928 items from 5000.
+The style file: thesisBSTAurina.bst
+Reallocated field_info (elt_size=4) to 16076 items from 5000.
 Database file #1: libraryFINAL.bib
 Reallocated str_pool (elt_size=1) to 130000 items from 65000.
 Reallocated str_pool (elt_size=1) to 195000 items from 130000.
@@ -16,38 +16,38 @@ Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Warning--empty journal in WormAtlas
 Warning--missing institution in Jeurissen2001
 You've used 426 entries,
-            3050 wiz_defined-function locations,
-            3889 strings with 186768 characters,
-and the built_in function-call counts, 352924 in all, are:
-= -- 27572
-> -- 23775
+            3015 wiz_defined-function locations,
+            3882 strings with 186866 characters,
+and the built_in function-call counts, 386196 in all, are:
+= -- 30188
+> -- 26846
 < -- 106
-+ -- 16985
-- -- 6369
-* -- 25820
-:= -- 48700
-add.period$ -- 1281
++ -- 25991
+- -- 7348
+* -- 27996
+:= -- 52384
+add.period$ -- 1668
 call.type$ -- 426
-change.case$ -- 4130
+change.case$ -- 4575
 chr.to.int$ -- 427
 cite$ -- 428
-duplicate$ -- 21599
-empty$ -- 20861
-format.name$ -- 7726
-if$ -- 69294
+duplicate$ -- 21707
+empty$ -- 21116
+format.name$ -- 8705
+if$ -- 74524
 int.to.chr$ -- 12
 int.to.str$ -- 1
-missing$ -- 5114
-newline$ -- 2139
+missing$ -- 5381
+newline$ -- 2528
 num.names$ -- 1704
-pop$ -- 12719
+pop$ -- 13044
 preamble$ -- 1
-purify$ -- 3708
+purify$ -- 4153
 quote$ -- 0
-skip$ -- 14349
+skip$ -- 16260
 stack$ -- 0
 substring$ -- 13974
-swap$ -- 12345
+swap$ -- 12568
 text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
@@ -55,5 +55,5 @@ type$ -- 3813
 warning$ -- 2
 while$ -- 2000
 width$ -- 0
-write$ -- 5530
+write$ -- 6306
 (There were 2 warnings)
