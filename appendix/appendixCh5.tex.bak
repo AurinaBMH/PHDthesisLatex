@@ -143,7 +143,7 @@ In the following section the main heritability and PGS correlation analyses are 
 \includegraphics[width=0.8\textwidth]{Chapter5/SFigure11.pdf}% This is a *.eps file
 \end{center}
 \caption{\textbf{Heritability: SC.}
-Top: The degree distribution of the representative group-level connectome. Bottom: Mean edge heritability for `rich' (hub -- hub), `feeder' (hub -- non-hub), `peripheral' (non-hub -- non-hub) connections as a function of degree threshold, \textit{k} used to define hubs. The mean heritability across all network links shown as a dotted black line. Circles indicate a statistically significant increase in heritability in a given link type compared to the rest of the network (one-sided Welch's $t$-test, $p < 0.05$). }
+Top: The degree distribution of the representative group-level connectome. Bottom: Mean edge heritability for `rich' (hub -- hub), `feeder' (hub -- nonhub), `peripheral' (nonhub -- nonhub) connections as a function of degree threshold, \textit{k} used to define hubs. The mean heritability across all network links shown as a dotted black line. Circles indicate a statistically significant increase in heritability in a given link type compared to the rest of the network (one-sided Welch's $t$-test, $p < 0.05$). }
 \label{fig:Ch5SFig11}
 \end{figure}
 
